@@ -1,0 +1,209 @@
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/ERBB-11-pc.ispl
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+1-1-1-1-1-1-1-1-0-0-0-0-0-0-1-1-0-0-1-0---------  1
+target attractor:
+1-1-1-1-1-1-1-1-0-0-0-0-0-0-1-1-0-0-1-0---------  1
+
+---------------------------------------------
+The source and the target are the same.
+The minimum number of perturbation is 0
+The BDD consisting of all reprogramming paths: 
+
+execution time = 0
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/ERBB-12-pc.ispl
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+1-1-1-1-1-1-1-1-0-0-0-0-0-0-1-1-0-0-1-0---------  1
+target attractor:
+0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+
+************** perturbation: 0 **************
+No solution.
+
+************** perturbation: 1 **************
+No solution.
+
+************** perturbation: 2 **************
+No solution.
+
+************** perturbation: 3 **************
+No solution.
+
+************** perturbation: 4 **************
+The minimum number of perturbation is 4
+
+execution time = 0.11
+
+======================== END SEQUENTIAL CONTROL ===============================
+
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/ERBB-13-pc.ispl
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+1-1-1-1-1-1-1-1-0-0-0-0-0-0-1-1-0-0-1-0---------  1
+target attractor:
+1-1-1-1-1-1-1-1-1-1-1-1-1-1-0-1-0-0-1-1---------  1
+
+************** perturbation: 0 **************
+No solution.
+
+************** perturbation: 1 **************
+The minimum number of perturbation is 1
+
+execution time = 0.03
+
+All the sequential reprogramming paths:
+STEP 1
+	path 1
+		from : 1-1-1-1-1-1-1-1-0-0-0-0-0-0-1-1-0-0-1-0---------  1
+		to   : 1-1-1-1-1-1-1-1-0-0-0-0-0-0-1-1-0-0-1-1---------  1
+		driver nodes: EGF 
+
+======================== END SEQUENTIAL CONTROL ===============================
+
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/ERBB-21-pc.ispl
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+target attractor:
+1-1-1-1-1-1-1-1-0-0-0-0-0-0-1-1-0-0-1-0---------  1
+
+************** perturbation: 0 **************
+No solution.
+
+************** perturbation: 1 **************
+No solution.
+
+************** perturbation: 2 **************
+The minimum number of perturbation is 2
+
+execution time = 0.07
+
+======================== END SEQUENTIAL CONTROL ===============================
+
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/ERBB-22-pc.ispl
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+target attractor:
+0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+
+---------------------------------------------
+The source and the target are the same.
+The minimum number of perturbation is 0
+The BDD consisting of all reprogramming paths: 
+
+execution time = 0
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/ERBB-23-pc.ispl
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+target attractor:
+1-1-1-1-1-1-1-1-1-1-1-1-1-1-0-1-0-0-1-1---------  1
+
+************** perturbation: 0 **************
+No solution.
+
+************** perturbation: 1 **************
+The minimum number of perturbation is 1
+
+execution time = 0.028
+
+All the sequential reprogramming paths:
+STEP 1
+	path 1
+		from : 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+		to   : 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1---------  1
+		driver nodes: EGF 
+
+======================== END SEQUENTIAL CONTROL ===============================
+
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/ERBB-31-pc.ispl
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+1-1-1-1-1-1-1-1-1-1-1-1-1-1-0-1-0-0-1-1---------  1
+target attractor:
+1-1-1-1-1-1-1-1-0-0-0-0-0-0-1-1-0-0-1-0---------  1
+
+************** perturbation: 0 **************
+No solution.
+
+************** perturbation: 1 **************
+No solution.
+
+************** perturbation: 2 **************
+The minimum number of perturbation is 2
+
+execution time = 0.099
+
+======================== END SEQUENTIAL CONTROL ===============================
+
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/ERBB-32-pc.ispl
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+1-1-1-1-1-1-1-1-1-1-1-1-1-1-0-1-0-0-1-1---------  1
+target attractor:
+0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+
+************** perturbation: 0 **************
+No solution.
+
+************** perturbation: 1 **************
+No solution.
+
+************** perturbation: 2 **************
+No solution.
+
+************** perturbation: 3 **************
+No solution.
+
+************** perturbation: 4 **************
+No solution.
+
+************** perturbation: 5 **************
+The minimum number of perturbation is 5
+
+execution time = 0.156
+
+======================== END SEQUENTIAL CONTROL ===============================
+
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/ERBB-33-pc.ispl
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+1-1-1-1-1-1-1-1-1-1-1-1-1-1-0-1-0-0-1-1---------  1
+target attractor:
+1-1-1-1-1-1-1-1-1-1-1-1-1-1-0-1-0-0-1-1---------  1
+
+---------------------------------------------
+The source and the target are the same.
+The minimum number of perturbation is 0
+The BDD consisting of all reprogramming paths: 
+
+execution time = 0

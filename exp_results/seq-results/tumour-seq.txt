@@ -1,0 +1,1027 @@
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/tumour-11-pc.ispl
+
+========= REMOVE UNDIRED ATTRACTORS =========
+
+attractors for the sequential control (0)
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+0-0-0-1-0-1-0-1-1-0-0-0-1-1-1-1-1-1-1-0-0-0-0-0-0-0-0-0-0-1-1-0---------  1
+target attractor:
+0-0-0-1-0-1-0-1-1-0-0-0-1-1-1-1-1-1-1-0-0-0-0-0-0-0-0-0-0-1-1-0---------  1
+
+---------------------------------------------
+The source and the target are the same.
+The minimum number of perturbation is 0
+The BDD consisting of all reprogramming paths: 
+
+execution time = 0
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/tumour-12-pc.ispl
+
+========= REMOVE UNDIRED ATTRACTORS =========
+
+attractors for the sequential control (0)
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+0-0-0-1-0-1-0-1-1-0-0-0-1-1-1-1-1-1-1-0-0-0-0-0-0-0-0-0-0-1-1-0---------  1
+target attractor:
+0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+
+************** perturbation: 0 **************
+No solution.
+
+************** perturbation: 1 **************
+No solution.
+
+************** perturbation: 2 **************
+No solution.
+
+************** perturbation: 3 **************
+No solution.
+
+************** perturbation: 4 **************
+The minimum number of perturbation is 4
+
+execution time = 18.465
+
+======================== END SEQUENTIAL CONTROL ===============================
+
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/tumour-13-pc.ispl
+
+========= REMOVE UNDIRED ATTRACTORS =========
+
+attractors for the sequential control (0)
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+0-0-0-1-0-1-0-1-1-0-0-0-1-1-1-1-1-1-1-0-0-0-0-0-0-0-0-0-0-1-1-0---------  1
+target attractor:
+0-0-0-1-0-1-0-0-1-0-0-0-1-1-1-1-1-1-1-0-0-0-0-0-0-0-0-0-0-1-1-0---------  1
+
+************** perturbation: 0 **************
+No solution.
+
+************** perturbation: 1 **************
+The minimum number of perturbation is 1
+
+execution time = 1.773
+
+All the sequential reprogramming paths:
+STEP 1
+	path 1
+		from : 0-0-0-1-0-1-0-1-1-0-0-0-1-1-1-1-1-1-1-0-0-0-0-0-0-0-0-0-0-1-1-0---------  1
+		to   : 0-0-0-1-0-1-0-0-1-0-0-0-1-1-1-1-1-1-1-0-0-0-0-0-0-0-0-0-0-1-1-0---------  1
+		driver nodes: DNAdamage 
+
+======================== END SEQUENTIAL CONTROL ===============================
+
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/tumour-14-pc.ispl
+
+========= REMOVE UNDIRED ATTRACTORS =========
+
+attractors for the sequential control (0)
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+0-0-0-1-0-1-0-1-1-0-0-0-1-1-1-1-1-1-1-0-0-0-0-0-0-0-0-0-0-1-1-0---------  1
+target attractor:
+1-1-1-1-0-1-1-1-1-1-0-0-1-1-1-1-1-1-1-0-1-0-1-0-0-0-0-0-0-1-1-1---------  1
+
+************** perturbation: 0 **************
+No solution.
+
+************** perturbation: 1 **************
+The minimum number of perturbation is 1
+
+execution time = 1.934
+
+All the sequential reprogramming paths:
+STEP 1
+	path 1
+		from : 0-0-0-1-0-1-0-1-1-0-0-0-1-1-1-1-1-1-1-0-0-0-0-0-0-0-0-0-0-1-1-0---------  1
+		to   : 0-0-0-1-0-1-1-1-1-0-0-0-1-1-1-1-1-1-1-0-0-0-0-0-0-0-0-0-0-1-1-0---------  1
+		driver nodes: ECMicroenv 
+
+======================== END SEQUENTIAL CONTROL ===============================
+
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/tumour-15-pc.ispl
+
+========= REMOVE UNDIRED ATTRACTORS =========
+
+attractors for the sequential control (0)
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+0-0-0-1-0-1-0-1-1-0-0-0-1-1-1-1-1-1-1-0-0-0-0-0-0-0-0-0-0-1-1-0---------  1
+target attractor:
+1-1-1-1-0-1-1-0-1-1-0-0-1-1-1-1-1-1-1-0-1-0-1-0-0-0-0-0-0-1-1-1---------  1
+
+************** perturbation: 0 **************
+No solution.
+
+************** perturbation: 1 **************
+No solution.
+
+************** perturbation: 2 **************
+The minimum number of perturbation is 2
+
+execution time = 0.763
+
+All the sequential reprogramming paths:
+STEP 1
+	path 1
+		from : 0-0-0-1-0-1-0-1-1-0-0-0-1-1-1-1-1-1-1-0-0-0-0-0-0-0-0-0-0-1-1-0---------  1
+		to   : 0-0-0-1-0-1-1-1-1-0-0-0-1-1-1-1-1-1-1-0-0-0-0-0-0-0-0-0-0-1-1-0---------  1
+		driver nodes: ECMicroenv 
+	path 2
+		from : 0-0-0-1-0-1-0-1-1-0-0-0-1-1-1-1-1-1-1-0-0-0-0-0-0-0-0-0-0-1-1-0---------  1
+		to   : 0-0-0-1-0-1-0-0-1-0-0-0-1-1-1-1-1-1-1-0-0-0-0-0-0-0-0-0-0-1-1-0---------  1
+		driver nodes: DNAdamage 
+STEP 2
+	path 1
+		from : 1-1-1-1-0-1-1-1-1-1-0-0-1-1-1-1-1-1-1-0-1-0-1-0-0-0-0-0-0-1-1-1---------  1
+		to   : 1-1-1-1-0-1-1-0-1-1-0-0-1-1-1-1-1-1-1-0-1-0-1-0-0-0-0-0-0-1-1-1---------  1
+		driver nodes: DNAdamage 
+	path 2
+		from : 0-0-0-1-0-1-0-0-1-0-0-0-1-1-1-1-1-1-1-0-0-0-0-0-0-0-0-0-0-1-1-0---------  1
+		to   : 0-0-0-1-0-1-1-0-1-0-0-0-1-1-1-1-1-1-1-0-0-0-0-0-0-0-0-0-0-1-1-0---------  1
+		driver nodes: ECMicroenv 
+	path 3
+		from : 1-1-1-1-0-1-1-1-1-1-0-0-1-1-1-1-1-1-1-0-0-0-0-0-0-0-0-0-0-1-1-1---------  1
+		to   : 1-1-1-1-0-1-1-0-1-1-0-0-1-1-1-1-1-1-1-0-0-0-0-0-0-0-0-0-0-1-1-1---------  1
+		driver nodes: DNAdamage 
+	path 4
+		from : 1-1-1-1-0-1-1-1-1-1-0-0-1-1-1-1-1-1-1-0-0-0-1-0-0-0-0-0-0-1-1-1---------  1
+		to   : 1-1-1-1-0-1-1-0-1-1-0-0-1-1-1-1-1-1-1-0-0-0-1-0-0-0-0-0-0-1-1-1---------  1
+		driver nodes: DNAdamage 
+	path 5
+		from : 0-1-1-1-0-1-1-1-1-1-0-0-1-1-1-1-1-1-1-0-1-0-1-0-0-0-0-0-0-1-1-1---------  1
+		to   : 0-1-1-1-0-1-1-0-1-1-0-0-1-1-1-1-1-1-1-0-1-0-1-0-0-0-0-0-0-1-1-1---------  1
+		driver nodes: DNAdamage 
+	path 6
+		from : 0-1-1-1-0-1-1-1-1-1-0-0-1-1-1-1-1-1-1-0-0-0-1-0-0-0-0-0-0-1-1-1---------  1
+		to   : 0-1-1-1-0-1-1-0-1-1-0-0-1-1-1-1-1-1-1-0-0-0-1-0-0-0-0-0-0-1-1-1---------  1
+		driver nodes: DNAdamage 
+	path 7
+		from : 0-1-1-1-0-1-1-1-1-1-0-0-1-1-1-1-1-1-1-0-0-0-0-0-0-0-0-0-0-1-1-1---------  1
+		to   : 0-1-1-1-0-1-1-0-1-1-0-0-1-1-1-1-1-1-1-0-0-0-0-0-0-0-0-0-0-1-1-1---------  1
+		driver nodes: DNAdamage 
+	path 8
+		from : 0-0-0-1-0-1-1-1-1-0-0-0-1-1-1-1-1-1-1-0-1-0-1-0-0-0-0-0-0-1-1-0---------  1
+		to   : 0-0-0-1-0-1-1-0-1-0-0-0-1-1-1-1-1-1-1-0-1-0-1-0-0-0-0-0-0-1-1-0---------  1
+		driver nodes: DNAdamage 
+	path 9
+		from : 0-0-0-1-0-1-1-1-1-1-0-0-1-1-1-1-1-1-1-0-0-0-0-0-0-0-0-0-0-1-1-0---------  1
+		to   : 0-0-0-1-0-1-1-0-1-1-0-0-1-1-1-1-1-1-1-0-0-0-0-0-0-0-0-0-0-1-1-0---------  1
+		driver nodes: DNAdamage 
+	path 10
+		from : 0-0-1-1-0-1-1-1-1-1-0-0-1-1-1-1-1-1-1-0-0-0-0-0-0-0-0-0-0-1-1-1---------  1
+		to   : 0-0-1-1-0-1-1-0-1-1-0-0-1-1-1-1-1-1-1-0-0-0-0-0-0-0-0-0-0-1-1-1---------  1
+		driver nodes: DNAdamage 
+	path 11
+		from : 0-0-0-1-0-1-1-1-1-0-0-0-1-1-1-1-1-1-1-0-0-0-0-0-0-0-0-0-0-1-1-0---------  1
+		to   : 0-0-0-1-0-1-1-0-1-0-0-0-1-1-1-1-1-1-1-0-0-0-0-0-0-0-0-0-0-1-1-0---------  1
+		driver nodes: DNAdamage 
+	path 12
+		from : 0-0-0-1-0-1-1-1-1-1-0-0-1-1-1-1-1-1-1-0-0-0-0-0-0-0-0-0-0-1-1-1---------  1
+		to   : 0-0-0-1-0-1-1-0-1-1-0-0-1-1-1-1-1-1-1-0-0-0-0-0-0-0-0-0-0-1-1-1---------  1
+		driver nodes: DNAdamage 
+	path 13
+		from : 0-0-0-1-0-1-1-1-1-1-0-0-1-1-1-1-1-1-1-0-0-0-1-0-0-0-0-0-0-1-1-0---------  1
+		to   : 0-0-0-1-0-1-1-0-1-1-0-0-1-1-1-1-1-1-1-0-0-0-1-0-0-0-0-0-0-1-1-0---------  1
+		driver nodes: DNAdamage 
+	path 14
+		from : 0-0-0-1-0-1-1-1-1-1-0-0-1-1-1-1-1-1-1-0-1-0-1-0-0-0-0-0-0-1-1-0---------  1
+		to   : 0-0-0-1-0-1-1-0-1-1-0-0-1-1-1-1-1-1-1-0-1-0-1-0-0-0-0-0-0-1-1-0---------  1
+		driver nodes: DNAdamage 
+	path 15
+		from : 0-0-1-1-0-1-1-1-1-1-0-0-1-1-1-1-1-1-1-0-1-0-1-0-0-0-0-0-0-1-1-1---------  1
+		to   : 0-0-1-1-0-1-1-0-1-1-0-0-1-1-1-1-1-1-1-0-1-0-1-0-0-0-0-0-0-1-1-1---------  1
+		driver nodes: DNAdamage 
+	path 16
+		from : 0-0-0-1-0-1-1-1-1-0-0-0-1-1-1-1-1-1-1-0-0-0-1-0-0-0-0-0-0-1-1-0---------  1
+		to   : 0-0-0-1-0-1-1-0-1-0-0-0-1-1-1-1-1-1-1-0-0-0-1-0-0-0-0-0-0-1-1-0---------  1
+		driver nodes: DNAdamage 
+	path 17
+		from : 0-0-0-1-0-1-1-1-1-1-0-0-1-1-1-1-1-1-1-0-1-0-1-0-0-0-0-0-0-1-1-1---------  1
+		to   : 0-0-0-1-0-1-1-0-1-1-0-0-1-1-1-1-1-1-1-0-1-0-1-0-0-0-0-0-0-1-1-1---------  1
+		driver nodes: DNAdamage 
+	path 18
+		from : 0-0-1-1-0-1-1-1-1-1-0-0-1-1-1-1-1-1-1-0-0-0-1-0-0-0-0-0-0-1-1-1---------  1
+		to   : 0-0-1-1-0-1-1-0-1-1-0-0-1-1-1-1-1-1-1-0-0-0-1-0-0-0-0-0-0-1-1-1---------  1
+		driver nodes: DNAdamage 
+	path 19
+		from : 0-0-0-1-0-1-1-1-1-1-0-0-1-1-1-1-1-1-1-0-0-0-1-0-0-0-0-0-0-1-1-1---------  1
+		to   : 0-0-0-1-0-1-1-0-1-1-0-0-1-1-1-1-1-1-1-0-0-0-1-0-0-0-0-0-0-1-1-1---------  1
+		driver nodes: DNAdamage 
+
+======================== END SEQUENTIAL CONTROL ===============================
+
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/tumour-21-pc.ispl
+
+========= REMOVE UNDIRED ATTRACTORS =========
+
+attractors for the sequential control (0)
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+target attractor:
+0-0-0-1-0-1-0-1-1-0-0-0-1-1-1-1-1-1-1-0-0-0-0-0-0-0-0-0-0-1-1-0---------  1
+
+************** perturbation: 0 **************
+No solution.
+
+************** perturbation: 1 **************
+No solution.
+
+************** perturbation: 2 **************
+No solution.
+
+************** perturbation: 3 **************
+The minimum number of perturbation is 3
+
+execution time = 19.216
+
+======================== END SEQUENTIAL CONTROL ===============================
+
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/tumour-22-pc.ispl
+
+========= REMOVE UNDIRED ATTRACTORS =========
+
+attractors for the sequential control (0)
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+target attractor:
+0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+
+---------------------------------------------
+The source and the target are the same.
+The minimum number of perturbation is 0
+The BDD consisting of all reprogramming paths: 
+
+execution time = 0
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/tumour-23-pc.ispl
+
+========= REMOVE UNDIRED ATTRACTORS =========
+
+attractors for the sequential control (0)
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+target attractor:
+0-0-0-1-0-1-0-0-1-0-0-0-1-1-1-1-1-1-1-0-0-0-0-0-0-0-0-0-0-1-1-0---------  1
+
+************** perturbation: 0 **************
+No solution.
+
+************** perturbation: 1 **************
+No solution.
+
+************** perturbation: 2 **************
+The minimum number of perturbation is 2
+
+execution time = 6.128
+
+======================== END SEQUENTIAL CONTROL ===============================
+
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/tumour-24-pc.ispl
+
+========= REMOVE UNDIRED ATTRACTORS =========
+
+attractors for the sequential control (0)
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+target attractor:
+1-1-1-1-0-1-1-1-1-1-0-0-1-1-1-1-1-1-1-0-1-0-1-0-0-0-0-0-0-1-1-1---------  1
+
+************** perturbation: 0 **************
+No solution.
+
+************** perturbation: 1 **************
+No solution.
+
+************** perturbation: 2 **************
+The minimum number of perturbation is 2
+
+execution time = 11.564
+
+======================== END SEQUENTIAL CONTROL ===============================
+
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/tumour-25-pc.ispl
+
+========= REMOVE UNDIRED ATTRACTORS =========
+
+attractors for the sequential control (0)
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+target attractor:
+1-1-1-1-0-1-1-0-1-1-0-0-1-1-1-1-1-1-1-0-1-0-1-0-0-0-0-0-0-1-1-1---------  1
+
+************** perturbation: 0 **************
+No solution.
+
+************** perturbation: 1 **************
+The minimum number of perturbation is 1
+
+execution time = 0.738
+
+All the sequential reprogramming paths:
+STEP 1
+	path 1
+		from : 0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+		to   : 0-0-0-0-0-0-1-0-0-0-0-1-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+		driver nodes: ECMicroenv 
+
+======================== END SEQUENTIAL CONTROL ===============================
+
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/tumour-31-pc.ispl
+
+========= REMOVE UNDIRED ATTRACTORS =========
+
+attractors for the sequential control (0)
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+0-0-0-1-0-1-0-0-1-0-0-0-1-1-1-1-1-1-1-0-0-0-0-0-0-0-0-0-0-1-1-0---------  1
+target attractor:
+0-0-0-1-0-1-0-1-1-0-0-0-1-1-1-1-1-1-1-0-0-0-0-0-0-0-0-0-0-1-1-0---------  1
+
+************** perturbation: 0 **************
+No solution.
+
+************** perturbation: 1 **************
+The minimum number of perturbation is 1
+
+execution time = 1.793
+
+All the sequential reprogramming paths:
+STEP 1
+	path 1
+		from : 0-0-0-1-0-1-0-0-1-0-0-0-1-1-1-1-1-1-1-0-0-0-0-0-0-0-0-0-0-1-1-0---------  1
+		to   : 0-0-0-1-0-1-0-1-1-0-0-0-1-1-1-1-1-1-1-0-0-0-0-0-0-0-0-0-0-1-1-0---------  1
+		driver nodes: DNAdamage 
+
+======================== END SEQUENTIAL CONTROL ===============================
+
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/tumour-32-pc.ispl
+
+========= REMOVE UNDIRED ATTRACTORS =========
+
+attractors for the sequential control (0)
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+0-0-0-1-0-1-0-0-1-0-0-0-1-1-1-1-1-1-1-0-0-0-0-0-0-0-0-0-0-1-1-0---------  1
+target attractor:
+0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+
+************** perturbation: 0 **************
+No solution.
+
+************** perturbation: 1 **************
+No solution.
+
+************** perturbation: 2 **************
+No solution.
+
+************** perturbation: 3 **************
+No solution.
+
+************** perturbation: 4 **************
+No solution.
+
+************** perturbation: 5 **************
+The minimum number of perturbation is 5
+
+execution time = 124.69
+
+======================== END SEQUENTIAL CONTROL ===============================
+
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/tumour-33-pc.ispl
+
+========= REMOVE UNDIRED ATTRACTORS =========
+
+attractors for the sequential control (0)
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+0-0-0-1-0-1-0-0-1-0-0-0-1-1-1-1-1-1-1-0-0-0-0-0-0-0-0-0-0-1-1-0---------  1
+target attractor:
+0-0-0-1-0-1-0-0-1-0-0-0-1-1-1-1-1-1-1-0-0-0-0-0-0-0-0-0-0-1-1-0---------  1
+
+---------------------------------------------
+The source and the target are the same.
+The minimum number of perturbation is 0
+The BDD consisting of all reprogramming paths: 
+
+execution time = 0
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/tumour-34-pc.ispl
+
+========= REMOVE UNDIRED ATTRACTORS =========
+
+attractors for the sequential control (0)
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+0-0-0-1-0-1-0-0-1-0-0-0-1-1-1-1-1-1-1-0-0-0-0-0-0-0-0-0-0-1-1-0---------  1
+target attractor:
+1-1-1-1-0-1-1-1-1-1-0-0-1-1-1-1-1-1-1-0-1-0-1-0-0-0-0-0-0-1-1-1---------  1
+
+************** perturbation: 0 **************
+No solution.
+
+************** perturbation: 1 **************
+No solution.
+
+************** perturbation: 2 **************
+The minimum number of perturbation is 2
+
+execution time = 2.915
+
+All the sequential reprogramming paths:
+STEP 1
+	path 1
+		from : 0-0-0-1-0-1-0-0-1-0-0-0-1-1-1-1-1-1-1-0-0-0-0-0-0-0-0-0-0-1-1-0---------  1
+		to   : 0-0-0-1-0-1-0-1-1-0-0-0-1-1-1-1-1-1-1-0-0-0-0-0-0-0-0-0-0-1-1-0---------  1
+		driver nodes: DNAdamage 
+	path 2
+		from : 0-0-0-1-0-1-0-0-1-0-0-0-1-1-1-1-1-1-1-0-0-0-0-0-0-0-0-0-0-1-1-0---------  1
+		to   : 0-0-0-1-0-1-1-0-1-0-0-0-1-1-1-1-1-1-1-0-0-0-0-0-0-0-0-0-0-1-1-0---------  1
+		driver nodes: ECMicroenv 
+STEP 2
+	path 1
+		from : 1-1-1-1-0-1-1-0-1-1-0-0-1-1-1-1-1-1-1-0-1-0-1-0-0-0-0-0-0-1-1-1---------  1
+		to   : 1-1-1-1-0-1-1-1-1-1-0-0-1-1-1-1-1-1-1-0-1-0-1-0-0-0-0-0-0-1-1-1---------  1
+		driver nodes: DNAdamage 
+	path 2
+		from : 1-1-1-1-0-1-1-0-1-1-0-0-1-1-1-1-1-1-1-0-0-0-0-0-0-0-0-0-0-1-1-1---------  1
+		to   : 1-1-1-1-0-1-1-1-1-1-0-0-1-1-1-1-1-1-1-0-0-0-0-0-0-0-0-0-0-1-1-1---------  1
+		driver nodes: DNAdamage 
+	path 3
+		from : 1-1-1-1-0-1-1-0-1-1-0-0-1-1-1-1-1-1-1-0-0-0-1-0-0-0-0-0-0-1-1-1---------  1
+		to   : 1-1-1-1-0-1-1-1-1-1-0-0-1-1-1-1-1-1-1-0-0-0-1-0-0-0-0-0-0-1-1-1---------  1
+		driver nodes: DNAdamage 
+	path 4
+		from : 0-0-1-1-0-1-1-0-1-1-0-0-1-1-1-1-1-1-1-0-1-0-1-0-0-0-0-0-0-1-1-1---------  1
+		to   : 0-0-1-1-0-1-1-1-1-1-0-0-1-1-1-1-1-1-1-0-1-0-1-0-0-0-0-0-0-1-1-1---------  1
+		driver nodes: DNAdamage 
+	path 5
+		from : 0-1-1-1-0-1-1-0-1-1-0-0-1-1-1-1-1-1-1-0-1-0-1-0-0-0-0-0-0-1-1-1---------  1
+		to   : 0-1-1-1-0-1-1-1-1-1-0-0-1-1-1-1-1-1-1-0-1-0-1-0-0-0-0-0-0-1-1-1---------  1
+		driver nodes: DNAdamage 
+	path 6
+		from : 0-0-0-1-0-1-0-1-1-0-0-0-1-1-1-1-1-1-1-0-0-0-0-0-0-0-0-0-0-1-1-0---------  1
+		to   : 0-0-0-1-0-1-1-1-1-0-0-0-1-1-1-1-1-1-1-0-0-0-0-0-0-0-0-0-0-1-1-0---------  1
+		driver nodes: ECMicroenv 
+	path 7
+		from : 0-0-0-1-0-1-1-0-1-1-0-0-1-1-1-1-1-1-1-0-0-0-0-0-0-0-0-0-0-1-1-0---------  1
+		to   : 0-0-0-1-0-1-1-1-1-1-0-0-1-1-1-1-1-1-1-0-0-0-0-0-0-0-0-0-0-1-1-0---------  1
+		driver nodes: DNAdamage 
+	path 8
+		from : 0-1-1-1-0-1-1-0-1-1-0-0-1-1-1-1-1-1-1-0-0-0-1-0-0-0-0-0-0-1-1-1---------  1
+		to   : 0-1-1-1-0-1-1-1-1-1-0-0-1-1-1-1-1-1-1-0-0-0-1-0-0-0-0-0-0-1-1-1---------  1
+		driver nodes: DNAdamage 
+	path 9
+		from : 0-0-0-1-0-1-1-0-1-0-0-0-1-1-1-1-1-1-1-0-0-0-0-0-0-0-0-0-0-1-1-0---------  1
+		to   : 0-0-0-1-0-1-1-1-1-0-0-0-1-1-1-1-1-1-1-0-0-0-0-0-0-0-0-0-0-1-1-0---------  1
+		driver nodes: DNAdamage 
+	path 10
+		from : 0-0-0-1-0-1-1-0-1-0-0-0-1-1-1-1-1-1-1-0-0-0-1-0-0-0-0-0-0-1-1-0---------  1
+		to   : 0-0-0-1-0-1-1-1-1-0-0-0-1-1-1-1-1-1-1-0-0-0-1-0-0-0-0-0-0-1-1-0---------  1
+		driver nodes: DNAdamage 
+	path 11
+		from : 0-1-1-1-0-1-1-0-1-1-0-0-1-1-1-1-1-1-1-0-0-0-0-0-0-0-0-0-0-1-1-1---------  1
+		to   : 0-1-1-1-0-1-1-1-1-1-0-0-1-1-1-1-1-1-1-0-0-0-0-0-0-0-0-0-0-1-1-1---------  1
+		driver nodes: DNAdamage 
+	path 12
+		from : 0-0-0-1-0-1-1-0-1-1-0-0-1-1-1-1-1-1-1-0-1-0-1-0-0-0-0-0-0-1-1-0---------  1
+		to   : 0-0-0-1-0-1-1-1-1-1-0-0-1-1-1-1-1-1-1-0-1-0-1-0-0-0-0-0-0-1-1-0---------  1
+		driver nodes: DNAdamage 
+	path 13
+		from : 0-0-1-1-0-1-1-0-1-1-0-0-1-1-1-1-1-1-1-0-0-0-0-0-0-0-0-0-0-1-1-1---------  1
+		to   : 0-0-1-1-0-1-1-1-1-1-0-0-1-1-1-1-1-1-1-0-0-0-0-0-0-0-0-0-0-1-1-1---------  1
+		driver nodes: DNAdamage 
+	path 14
+		from : 0-0-0-1-0-1-1-0-1-1-0-0-1-1-1-1-1-1-1-0-1-0-1-0-0-0-0-0-0-1-1-1---------  1
+		to   : 0-0-0-1-0-1-1-1-1-1-0-0-1-1-1-1-1-1-1-0-1-0-1-0-0-0-0-0-0-1-1-1---------  1
+		driver nodes: DNAdamage 
+	path 15
+		from : 0-0-0-1-0-1-1-0-1-1-0-0-1-1-1-1-1-1-1-0-0-0-1-0-0-0-0-0-0-1-1-0---------  1
+		to   : 0-0-0-1-0-1-1-1-1-1-0-0-1-1-1-1-1-1-1-0-0-0-1-0-0-0-0-0-0-1-1-0---------  1
+		driver nodes: DNAdamage 
+	path 16
+		from : 0-0-0-1-0-1-1-0-1-0-0-0-1-1-1-1-1-1-1-0-1-0-1-0-0-0-0-0-0-1-1-0---------  1
+		to   : 0-0-0-1-0-1-1-1-1-0-0-0-1-1-1-1-1-1-1-0-1-0-1-0-0-0-0-0-0-1-1-0---------  1
+		driver nodes: DNAdamage 
+	path 17
+		from : 0-0-1-1-0-1-1-0-1-1-0-0-1-1-1-1-1-1-1-0-0-0-1-0-0-0-0-0-0-1-1-1---------  1
+		to   : 0-0-1-1-0-1-1-1-1-1-0-0-1-1-1-1-1-1-1-0-0-0-1-0-0-0-0-0-0-1-1-1---------  1
+		driver nodes: DNAdamage 
+	path 18
+		from : 0-0-0-1-0-1-1-0-1-1-0-0-1-1-1-1-1-1-1-0-0-0-0-0-0-0-0-0-0-1-1-1---------  1
+		to   : 0-0-0-1-0-1-1-1-1-1-0-0-1-1-1-1-1-1-1-0-0-0-0-0-0-0-0-0-0-1-1-1---------  1
+		driver nodes: DNAdamage 
+	path 19
+		from : 0-0-0-1-0-1-1-0-1-1-0-0-1-1-1-1-1-1-1-0-0-0-1-0-0-0-0-0-0-1-1-1---------  1
+		to   : 0-0-0-1-0-1-1-1-1-1-0-0-1-1-1-1-1-1-1-0-0-0-1-0-0-0-0-0-0-1-1-1---------  1
+		driver nodes: DNAdamage 
+
+======================== END SEQUENTIAL CONTROL ===============================
+
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/tumour-35-pc.ispl
+
+========= REMOVE UNDIRED ATTRACTORS =========
+
+attractors for the sequential control (0)
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+0-0-0-1-0-1-0-0-1-0-0-0-1-1-1-1-1-1-1-0-0-0-0-0-0-0-0-0-0-1-1-0---------  1
+target attractor:
+1-1-1-1-0-1-1-0-1-1-0-0-1-1-1-1-1-1-1-0-1-0-1-0-0-0-0-0-0-1-1-1---------  1
+
+************** perturbation: 0 **************
+No solution.
+
+************** perturbation: 1 **************
+The minimum number of perturbation is 1
+
+execution time = 0.727
+
+All the sequential reprogramming paths:
+STEP 1
+	path 1
+		from : 0-0-0-1-0-1-0-0-1-0-0-0-1-1-1-1-1-1-1-0-0-0-0-0-0-0-0-0-0-1-1-0---------  1
+		to   : 0-0-0-1-0-1-1-0-1-0-0-0-1-1-1-1-1-1-1-0-0-0-0-0-0-0-0-0-0-1-1-0---------  1
+		driver nodes: ECMicroenv 
+
+======================== END SEQUENTIAL CONTROL ===============================
+
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/tumour-41-pc.ispl
+
+========= REMOVE UNDIRED ATTRACTORS =========
+
+attractors for the sequential control (0)
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+1-1-1-1-0-1-1-1-1-1-0-0-1-1-1-1-1-1-1-0-1-0-1-0-0-0-0-0-0-1-1-1---------  1
+target attractor:
+0-0-0-1-0-1-0-1-1-0-0-0-1-1-1-1-1-1-1-0-0-0-0-0-0-0-0-0-0-1-1-0---------  1
+
+************** perturbation: 0 **************
+No solution.
+
+************** perturbation: 1 **************
+The minimum number of perturbation is 1
+
+execution time = 1.227
+
+All the sequential reprogramming paths:
+STEP 1
+	path 1
+		from : 1-1-1-1-0-1-1-1-1-1-0-0-1-1-1-1-1-1-1-0-1-0-1-0-0-0-0-0-0-1-1-1---------  1
+		to   : 1-1-1-1-0-1-0-1-1-1-0-0-1-1-1-1-1-1-1-0-1-0-1-0-0-0-0-0-0-1-1-1---------  1
+		driver nodes: ECMicroenv 
+
+======================== END SEQUENTIAL CONTROL ===============================
+
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/tumour-42-pc.ispl
+
+========= REMOVE UNDIRED ATTRACTORS =========
+
+attractors for the sequential control (0)
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+1-1-1-1-0-1-1-1-1-1-0-0-1-1-1-1-1-1-1-0-1-0-1-0-0-0-0-0-0-1-1-1---------  1
+target attractor:
+0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+
+************** perturbation: 0 **************
+No solution.
+
+************** perturbation: 1 **************
+No solution.
+
+************** perturbation: 2 **************
+No solution.
+
+************** perturbation: 3 **************
+No solution.
+
+************** perturbation: 4 **************
+No solution.
+
+************** perturbation: 5 **************
+The minimum number of perturbation is 5
+
+execution time = 70.529
+
+======================== END SEQUENTIAL CONTROL ===============================
+
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/tumour-43-pc.ispl
+
+========= REMOVE UNDIRED ATTRACTORS =========
+
+attractors for the sequential control (0)
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+1-1-1-1-0-1-1-1-1-1-0-0-1-1-1-1-1-1-1-0-1-0-1-0-0-0-0-0-0-1-1-1---------  1
+target attractor:
+0-0-0-1-0-1-0-0-1-0-0-0-1-1-1-1-1-1-1-0-0-0-0-0-0-0-0-0-0-1-1-0---------  1
+
+************** perturbation: 0 **************
+No solution.
+
+************** perturbation: 1 **************
+No solution.
+
+************** perturbation: 2 **************
+The minimum number of perturbation is 2
+
+execution time = 1.553
+
+All the sequential reprogramming paths:
+STEP 1
+	path 1
+		from : 1-1-1-1-0-1-1-1-1-1-0-0-1-1-1-1-1-1-1-0-1-0-1-0-0-0-0-0-0-1-1-1---------  1
+		to   : 1-1-1-1-0-1-0-1-1-1-0-0-1-1-1-1-1-1-1-0-1-0-1-0-0-0-0-0-0-1-1-1---------  1
+		driver nodes: ECMicroenv 
+	path 2
+		from : 1-1-1-1-0-1-1-1-1-1-0-0-1-1-1-1-1-1-1-0-1-0-1-0-0-0-0-0-0-1-1-1---------  1
+		to   : 1-1-1-1-0-1-1-0-1-1-0-0-1-1-1-1-1-1-1-0-1-0-1-0-0-0-0-0-0-1-1-1---------  1
+		driver nodes: DNAdamage 
+STEP 2
+	path 1
+		from : 1-1-1-1-0-1-0-1-1-0-0-0-1-1-1-1-1-1-1-0-1-0-0-0-0-0-0-0-0-1-1-1---------  1
+		to   : 1-1-1-1-0-1-0-0-1-0-0-0-1-1-1-1-1-1-1-0-1-0-0-0-0-0-0-0-0-1-1-1---------  1
+		driver nodes: DNAdamage 
+	path 2
+		from : 1-1-1-1-0-1-0-1-1-1-0-0-1-1-1-1-1-1-1-0-1-0-1-0-0-0-0-0-0-1-1-1---------  1
+		to   : 1-1-1-1-0-1-0-0-1-1-0-0-1-1-1-1-1-1-1-0-1-0-1-0-0-0-0-0-0-1-1-1---------  1
+		driver nodes: DNAdamage 
+	path 3
+		from : 1-0-0-1-0-1-0-1-1-0-0-0-1-1-1-1-1-1-1-0-0-0-0-0-0-0-0-0-0-1-1-0---------  1
+		to   : 1-0-0-1-0-1-0-0-1-0-0-0-1-1-1-1-1-1-1-0-0-0-0-0-0-0-0-0-0-1-1-0---------  1
+		driver nodes: DNAdamage 
+	path 4
+		from : 0-0-0-1-0-1-0-1-1-0-0-0-1-1-1-1-1-1-1-0-0-0-0-0-0-0-0-0-0-1-1-0---------  1
+		to   : 0-0-0-1-0-1-0-0-1-0-0-0-1-1-1-1-1-1-1-0-0-0-0-0-0-0-0-0-0-1-1-0---------  1
+		driver nodes: DNAdamage 
+	path 5
+		from : 0-0-0-1-0-1-0-1-1-0-0-0-1-1-1-1-1-1-1-0-1-0-0-0-0-0-0-0-0-1-1-0---------  1
+		to   : 0-0-0-1-0-1-0-0-1-0-0-0-1-1-1-1-1-1-1-0-1-0-0-0-0-0-0-0-0-1-1-0---------  1
+		driver nodes: DNAdamage 
+	path 6
+		from : 1-1-0-1-0-1-0-1-1-0-0-0-1-1-1-1-1-1-1-0-0-0-0-0-0-0-0-0-0-1-1-0---------  1
+		to   : 1-1-0-1-0-1-0-0-1-0-0-0-1-1-1-1-1-1-1-0-0-0-0-0-0-0-0-0-0-1-1-0---------  1
+		driver nodes: DNAdamage 
+	path 7
+		from : 1-1-1-1-0-1-1-0-1-1-0-0-1-1-1-1-1-1-1-0-1-0-1-0-0-0-0-0-0-1-1-1---------  1
+		to   : 1-1-1-1-0-1-0-0-1-1-0-0-1-1-1-1-1-1-1-0-1-0-1-0-0-0-0-0-0-1-1-1---------  1
+		driver nodes: ECMicroenv 
+	path 8
+		from : 1-0-0-1-0-1-0-1-1-0-0-0-1-1-1-1-1-1-1-0-1-0-0-0-0-0-0-0-0-1-1-0---------  1
+		to   : 1-0-0-1-0-1-0-0-1-0-0-0-1-1-1-1-1-1-1-0-1-0-0-0-0-0-0-0-0-1-1-0---------  1
+		driver nodes: DNAdamage 
+	path 9
+		from : 1-1-1-1-0-1-0-1-1-0-0-0-1-1-1-1-1-1-1-0-0-0-0-0-0-0-0-0-0-1-1-0---------  1
+		to   : 1-1-1-1-0-1-0-0-1-0-0-0-1-1-1-1-1-1-1-0-0-0-0-0-0-0-0-0-0-1-1-0---------  1
+		driver nodes: DNAdamage 
+	path 10
+		from : 1-1-1-1-0-1-0-1-1-1-0-0-1-1-1-1-1-1-1-0-1-0-0-0-0-0-0-0-0-1-1-1---------  1
+		to   : 1-1-1-1-0-1-0-0-1-1-0-0-1-1-1-1-1-1-1-0-1-0-0-0-0-0-0-0-0-1-1-1---------  1
+		driver nodes: DNAdamage 
+	path 11
+		from : 1-1-0-1-0-1-0-1-1-0-0-0-1-1-1-1-1-1-1-0-1-0-0-0-0-0-0-0-0-1-1-0---------  1
+		to   : 1-1-0-1-0-1-0-0-1-0-0-0-1-1-1-1-1-1-1-0-1-0-0-0-0-0-0-0-0-1-1-0---------  1
+		driver nodes: DNAdamage 
+	path 12
+		from : 1-1-1-1-0-1-0-1-1-0-0-0-1-1-1-1-1-1-1-0-1-0-0-0-0-0-0-0-0-1-1-0---------  1
+		to   : 1-1-1-1-0-1-0-0-1-0-0-0-1-1-1-1-1-1-1-0-1-0-0-0-0-0-0-0-0-1-1-0---------  1
+		driver nodes: DNAdamage 
+	path 13
+		from : 1-1-1-1-0-1-0-1-1-1-0-0-1-1-1-1-1-1-1-0-0-0-0-0-0-0-0-0-0-1-1-1---------  1
+		to   : 1-1-1-1-0-1-0-0-1-1-0-0-1-1-1-1-1-1-1-0-0-0-0-0-0-0-0-0-0-1-1-1---------  1
+		driver nodes: DNAdamage 
+	path 14
+		from : 1-1-1-1-0-1-0-1-1-0-0-0-1-1-1-1-1-1-1-0-0-0-0-0-0-0-0-0-0-1-1-1---------  1
+		to   : 1-1-1-1-0-1-0-0-1-0-0-0-1-1-1-1-1-1-1-0-0-0-0-0-0-0-0-0-0-1-1-1---------  1
+		driver nodes: DNAdamage 
+
+======================== END SEQUENTIAL CONTROL ===============================
+
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/tumour-44-pc.ispl
+
+========= REMOVE UNDIRED ATTRACTORS =========
+
+attractors for the sequential control (0)
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+1-1-1-1-0-1-1-1-1-1-0-0-1-1-1-1-1-1-1-0-1-0-1-0-0-0-0-0-0-1-1-1---------  1
+target attractor:
+1-1-1-1-0-1-1-1-1-1-0-0-1-1-1-1-1-1-1-0-1-0-1-0-0-0-0-0-0-1-1-1---------  1
+
+---------------------------------------------
+The source and the target are the same.
+The minimum number of perturbation is 0
+The BDD consisting of all reprogramming paths: 
+
+execution time = 0
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/tumour-45-pc.ispl
+
+========= REMOVE UNDIRED ATTRACTORS =========
+
+attractors for the sequential control (0)
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+1-1-1-1-0-1-1-1-1-1-0-0-1-1-1-1-1-1-1-0-1-0-1-0-0-0-0-0-0-1-1-1---------  1
+target attractor:
+1-1-1-1-0-1-1-0-1-1-0-0-1-1-1-1-1-1-1-0-1-0-1-0-0-0-0-0-0-1-1-1---------  1
+
+************** perturbation: 0 **************
+No solution.
+
+************** perturbation: 1 **************
+The minimum number of perturbation is 1
+
+execution time = 0.761
+
+All the sequential reprogramming paths:
+STEP 1
+	path 1
+		from : 1-1-1-1-0-1-1-1-1-1-0-0-1-1-1-1-1-1-1-0-1-0-1-0-0-0-0-0-0-1-1-1---------  1
+		to   : 1-1-1-1-0-1-1-0-1-1-0-0-1-1-1-1-1-1-1-0-1-0-1-0-0-0-0-0-0-1-1-1---------  1
+		driver nodes: DNAdamage 
+
+======================== END SEQUENTIAL CONTROL ===============================
+
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/tumour-51-pc.ispl
+
+========= REMOVE UNDIRED ATTRACTORS =========
+
+attractors for the sequential control (0)
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+1-1-1-1-0-1-1-0-1-1-0-0-1-1-1-1-1-1-1-0-1-0-1-0-0-0-0-0-0-1-1-1---------  1
+target attractor:
+0-0-0-1-0-1-0-1-1-0-0-0-1-1-1-1-1-1-1-0-0-0-0-0-0-0-0-0-0-1-1-0---------  1
+
+************** perturbation: 0 **************
+No solution.
+
+************** perturbation: 1 **************
+No solution.
+
+************** perturbation: 2 **************
+The minimum number of perturbation is 2
+
+execution time = 5.569
+
+All the sequential reprogramming paths:
+STEP 1
+	path 1
+		from : 1-1-1-1-0-1-1-0-1-1-0-0-1-1-1-1-1-1-1-0-1-0-1-0-0-0-0-0-0-1-1-1---------  1
+		to   : 1-1-1-1-0-1-1-1-1-1-0-0-1-1-1-1-1-1-1-0-1-0-1-0-0-0-0-0-0-1-1-1---------  1
+		driver nodes: DNAdamage 
+	path 2
+		from : 1-1-1-1-0-1-1-0-1-1-0-0-1-1-1-1-1-1-1-0-1-0-1-0-0-0-0-0-0-1-1-1---------  1
+		to   : 1-1-1-1-0-1-0-0-1-1-0-0-1-1-1-1-1-1-1-0-1-0-1-0-0-0-0-0-0-1-1-1---------  1
+		driver nodes: ECMicroenv 
+STEP 2
+	path 1
+		from : 1-1-1-1-0-1-1-1-1-1-0-0-1-1-1-1-1-1-1-0-1-0-1-0-0-0-0-0-0-1-1-1---------  1
+		to   : 1-1-1-1-0-1-0-1-1-1-0-0-1-1-1-1-1-1-1-0-1-0-1-0-0-0-0-0-0-1-1-1---------  1
+		driver nodes: ECMicroenv 
+	path 2
+		from : 1-0-0-1-0-1-0-0-1-0-0-0-1-1-1-1-1-1-1-0-1-0-0-0-0-0-0-0-0-1-1-0---------  1
+		to   : 1-0-0-1-0-1-0-1-1-0-0-0-1-1-1-1-1-1-1-0-1-0-0-0-0-0-0-0-0-1-1-0---------  1
+		driver nodes: DNAdamage 
+	path 3
+		from : 0-0-0-1-0-1-0-0-1-0-0-0-1-1-1-1-1-1-1-0-1-0-0-0-0-0-0-0-0-1-1-0---------  1
+		to   : 0-0-0-1-0-1-0-1-1-0-0-0-1-1-1-1-1-1-1-0-1-0-0-0-0-0-0-0-0-1-1-0---------  1
+		driver nodes: DNAdamage 
+	path 4
+		from : 1-1-1-1-0-1-0-0-1-1-0-0-1-1-1-1-1-1-1-0-1-0-1-0-0-0-0-0-0-1-1-1---------  1
+		to   : 1-1-1-1-0-1-0-1-1-1-0-0-1-1-1-1-1-1-1-0-1-0-1-0-0-0-0-0-0-1-1-1---------  1
+		driver nodes: DNAdamage 
+	path 5
+		from : 1-1-1-1-0-1-0-0-1-1-0-0-1-1-1-1-1-1-1-0-1-0-0-0-0-0-0-0-0-1-1-1---------  1
+		to   : 1-1-1-1-0-1-0-1-1-1-0-0-1-1-1-1-1-1-1-0-1-0-0-0-0-0-0-0-0-1-1-1---------  1
+		driver nodes: DNAdamage 
+	path 6
+		from : 0-0-0-1-0-1-0-0-1-0-0-0-1-1-1-1-1-1-1-0-0-0-0-0-0-0-0-0-0-1-1-0---------  1
+		to   : 0-0-0-1-0-1-0-1-1-0-0-0-1-1-1-1-1-1-1-0-0-0-0-0-0-0-0-0-0-1-1-0---------  1
+		driver nodes: DNAdamage 
+	path 7
+		from : 1-0-0-1-0-1-0-0-1-0-0-0-1-1-1-1-1-1-1-0-0-0-0-0-0-0-0-0-0-1-1-0---------  1
+		to   : 1-0-0-1-0-1-0-1-1-0-0-0-1-1-1-1-1-1-1-0-0-0-0-0-0-0-0-0-0-1-1-0---------  1
+		driver nodes: DNAdamage 
+	path 8
+		from : 1-1-1-1-0-1-0-0-1-1-0-0-1-1-1-1-1-1-1-0-0-0-0-0-0-0-0-0-0-1-1-1---------  1
+		to   : 1-1-1-1-0-1-0-1-1-1-0-0-1-1-1-1-1-1-1-0-0-0-0-0-0-0-0-0-0-1-1-1---------  1
+		driver nodes: DNAdamage 
+	path 9
+		from : 1-1-1-1-0-1-0-0-1-0-0-0-1-1-1-1-1-1-1-0-0-0-0-0-0-0-0-0-0-1-1-0---------  1
+		to   : 1-1-1-1-0-1-0-1-1-0-0-0-1-1-1-1-1-1-1-0-0-0-0-0-0-0-0-0-0-1-1-0---------  1
+		driver nodes: DNAdamage 
+	path 10
+		from : 1-1-1-1-0-1-0-0-1-0-0-0-1-1-1-1-1-1-1-0-0-0-0-0-0-0-0-0-0-1-1-1---------  1
+		to   : 1-1-1-1-0-1-0-1-1-0-0-0-1-1-1-1-1-1-1-0-0-0-0-0-0-0-0-0-0-1-1-1---------  1
+		driver nodes: DNAdamage 
+	path 11
+		from : 1-1-0-1-0-1-0-0-1-0-0-0-1-1-1-1-1-1-1-0-1-0-0-0-0-0-0-0-0-1-1-0---------  1
+		to   : 1-1-0-1-0-1-0-1-1-0-0-0-1-1-1-1-1-1-1-0-1-0-0-0-0-0-0-0-0-1-1-0---------  1
+		driver nodes: DNAdamage 
+	path 12
+		from : 1-1-0-1-0-1-0-0-1-0-0-0-1-1-1-1-1-1-1-0-0-0-0-0-0-0-0-0-0-1-1-0---------  1
+		to   : 1-1-0-1-0-1-0-1-1-0-0-0-1-1-1-1-1-1-1-0-0-0-0-0-0-0-0-0-0-1-1-0---------  1
+		driver nodes: DNAdamage 
+	path 13
+		from : 1-1-1-1-0-1-0-0-1-0-0-0-1-1-1-1-1-1-1-0-1-0-0-0-0-0-0-0-0-1-1-0---------  1
+		to   : 1-1-1-1-0-1-0-1-1-0-0-0-1-1-1-1-1-1-1-0-1-0-0-0-0-0-0-0-0-1-1-0---------  1
+		driver nodes: DNAdamage 
+	path 14
+		from : 1-1-1-1-0-1-0-0-1-0-0-0-1-1-1-1-1-1-1-0-1-0-0-0-0-0-0-0-0-1-1-1---------  1
+		to   : 1-1-1-1-0-1-0-1-1-0-0-0-1-1-1-1-1-1-1-0-1-0-0-0-0-0-0-0-0-1-1-1---------  1
+		driver nodes: DNAdamage 
+
+======================== END SEQUENTIAL CONTROL ===============================
+
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/tumour-52-pc.ispl
+
+========= REMOVE UNDIRED ATTRACTORS =========
+
+attractors for the sequential control (0)
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+1-1-1-1-0-1-1-0-1-1-0-0-1-1-1-1-1-1-1-0-1-0-1-0-0-0-0-0-0-1-1-1---------  1
+target attractor:
+0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+
+************** perturbation: 0 **************
+No solution.
+
+************** perturbation: 1 **************
+No solution.
+
+************** perturbation: 2 **************
+No solution.
+
+************** perturbation: 3 **************
+No solution.
+
+************** perturbation: 4 **************
+No solution.
+
+************** perturbation: 5 **************
+No solution.
+
+************** perturbation: 6 **************
+The minimum number of perturbation is 6
+
+execution time = 113.358
+
+======================== END SEQUENTIAL CONTROL ===============================
+
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/tumour-53-pc.ispl
+
+========= REMOVE UNDIRED ATTRACTORS =========
+
+attractors for the sequential control (0)
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+1-1-1-1-0-1-1-0-1-1-0-0-1-1-1-1-1-1-1-0-1-0-1-0-0-0-0-0-0-1-1-1---------  1
+target attractor:
+0-0-0-1-0-1-0-0-1-0-0-0-1-1-1-1-1-1-1-0-0-0-0-0-0-0-0-0-0-1-1-0---------  1
+
+************** perturbation: 0 **************
+No solution.
+
+************** perturbation: 1 **************
+The minimum number of perturbation is 1
+
+execution time = 1.179
+
+All the sequential reprogramming paths:
+STEP 1
+	path 1
+		from : 1-1-1-1-0-1-1-0-1-1-0-0-1-1-1-1-1-1-1-0-1-0-1-0-0-0-0-0-0-1-1-1---------  1
+		to   : 1-1-1-1-0-1-0-0-1-1-0-0-1-1-1-1-1-1-1-0-1-0-1-0-0-0-0-0-0-1-1-1---------  1
+		driver nodes: ECMicroenv 
+
+======================== END SEQUENTIAL CONTROL ===============================
+
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/tumour-54-pc.ispl
+
+========= REMOVE UNDIRED ATTRACTORS =========
+
+attractors for the sequential control (0)
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+1-1-1-1-0-1-1-0-1-1-0-0-1-1-1-1-1-1-1-0-1-0-1-0-0-0-0-0-0-1-1-1---------  1
+target attractor:
+1-1-1-1-0-1-1-1-1-1-0-0-1-1-1-1-1-1-1-0-1-0-1-0-0-0-0-0-0-1-1-1---------  1
+
+************** perturbation: 0 **************
+No solution.
+
+************** perturbation: 1 **************
+The minimum number of perturbation is 1
+
+execution time = 2.155
+
+All the sequential reprogramming paths:
+STEP 1
+	path 1
+		from : 1-1-1-1-0-1-1-0-1-1-0-0-1-1-1-1-1-1-1-0-1-0-1-0-0-0-0-0-0-1-1-1---------  1
+		to   : 1-1-1-1-0-1-1-1-1-1-0-0-1-1-1-1-1-1-1-0-1-0-1-0-0-0-0-0-0-1-1-1---------  1
+		driver nodes: DNAdamage 
+
+======================== END SEQUENTIAL CONTROL ===============================
+
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/tumour-55-pc.ispl
+
+========= REMOVE UNDIRED ATTRACTORS =========
+
+attractors for the sequential control (0)
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+1-1-1-1-0-1-1-0-1-1-0-0-1-1-1-1-1-1-1-0-1-0-1-0-0-0-0-0-0-1-1-1---------  1
+target attractor:
+1-1-1-1-0-1-1-0-1-1-0-0-1-1-1-1-1-1-1-0-1-0-1-0-0-0-0-0-0-1-1-1---------  1
+
+---------------------------------------------
+The source and the target are the same.
+The minimum number of perturbation is 0
+The BDD consisting of all reprogramming paths: 
+
+execution time = 0

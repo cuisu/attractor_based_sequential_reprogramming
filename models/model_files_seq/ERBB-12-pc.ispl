@@ -1,0 +1,120 @@
+Agent M
+	Vars:
+		AKT1 : boolean;
+		CDK2 : boolean;
+		CDK4 : boolean;
+		CDK6 : boolean;
+		cMYC : boolean;
+		CyclinD1 : boolean;
+		CyclinE1 : boolean;
+		ERa : boolean;
+		ERBB1 : boolean;
+		ERBB12 : boolean;
+		ERBB13 : boolean;
+		ERBB2 : boolean;
+		ERBB23 : boolean;
+		ERBB3 : boolean;
+		IGF1R : boolean;
+		MEK1 : boolean;
+		p21 : boolean;
+		p27 : boolean;
+		pRB : boolean;
+		EGF : boolean;
+		pc: 0..10;
+	end Vars
+	RedStates:
+		AKT1=false and CDK2=false and CDK4=false and CDK6=false and CyclinD1=false and CyclinE1=false and EGF=false and ERBB1=false and ERBB12=false and ERBB13=false and ERBB2=false and ERBB23=false and ERBB3=false and ERa=false and IGF1R=false and MEK1=false and cMYC=false and p21=false and p27=false and pRB=false;
+	end RedStates
+	Actions = {none};
+	Protocol:
+		Other: {none};
+	end Protocol
+	Evolution:
+		EGF =true if  EGF=true;
+		EGF =false if  EGF=false;
+		ERBB1 =true if  EGF=true;
+		ERBB1 =false if  EGF=false;
+		ERBB2 =true if  EGF=true;
+		ERBB2 =false if  EGF=false;
+		ERBB3 =true if  EGF=true;
+		ERBB3 =false if  EGF=false;
+		ERBB12 =true if  ERBB1 & ERBB2=true;
+		ERBB12 =false if  ERBB1 & ERBB2=false;
+		ERBB13 =true if  ERBB1 & ERBB3=true;
+		ERBB13 =false if  ERBB1 & ERBB3=false;
+		ERBB23 =true if  ERBB2 & ERBB3=true;
+		ERBB23 =false if  ERBB2 & ERBB3=false;
+		IGF1R =true if  (ERa | AKT1) & (~ERBB23)=true;
+		IGF1R =false if  (ERa | AKT1) & (~ERBB23)=false;
+		ERa =true if  AKT1 | MEK1=true;
+		ERa =false if  AKT1 | MEK1=false;
+		cMYC =true if  AKT1 | MEK1 | ERa=true;
+		cMYC =false if  AKT1 | MEK1 | ERa=false;
+		AKT1 =true if  ERBB1 | ERBB12 | ERBB13 | ERBB23 | IGF1R=true;
+		AKT1 =false if  ERBB1 | ERBB12 | ERBB13 | ERBB23 | IGF1R=false;
+		MEK1 =true if  ERBB1 | ERBB12 | ERBB13 | ERBB23 | IGF1R=true;
+		MEK1 =false if  ERBB1 | ERBB12 | ERBB13 | ERBB23 | IGF1R=false;
+		CDK2 =true if  CyclinE1 & (~p21) & (~p27)=true;
+		CDK2 =false if  CyclinE1 & (~p21) & (~p27)=false;
+		CDK4 =true if  CyclinD1 & (~p21) & (~p27)=true;
+		CDK4 =false if  CyclinD1 & (~p21) & (~p27)=false;
+		CDK6 =true if  CyclinD1=true;
+		CDK6 =false if  CyclinD1=false;
+		CyclinD1 =true if  ERa & cMYC & (AKT1 | MEK1)=true;
+		CyclinD1 =false if  ERa & cMYC & (AKT1 | MEK1)=false;
+		CyclinE1 =true if  cMYC=true;
+		CyclinE1 =false if  cMYC=false;
+		p21 =true if  ERa & (~AKT1) & (~cMYC) & (~CDK4)=true;
+		p21 =false if  ERa & (~AKT1) & (~cMYC) & (~CDK4)=false;
+		p27 =true if  ERa & (~CDK4) & (~CDK2) & (~AKT1) & (~cMYC)=true;
+		p27 =false if  ERa & (~CDK4) & (~CDK2) & (~AKT1) & (~cMYC)=false;
+		pRB =true if  (CDK4 & CDK6)| (CDK4 & CDK6 & CDK2)=true;
+		pRB =false if  (CDK4 & CDK6)| (CDK4 & CDK6 & CDK2)=false;
+
+
+		AKT1 =true and pc=pc+1 if pc<10 and AKT1 =false;
+		AKT1 =false and pc=pc+1 if pc<10  and AKT1 =true;
+		CDK2 =true and pc=pc+1 if pc<10 and CDK2 =false;
+		CDK2 =false and pc=pc+1 if pc<10  and CDK2 =true;
+		CDK4 =true and pc=pc+1 if pc<10 and CDK4 =false;
+		CDK4 =false and pc=pc+1 if pc<10  and CDK4 =true;
+		CDK6 =true and pc=pc+1 if pc<10 and CDK6 =false;
+		CDK6 =false and pc=pc+1 if pc<10  and CDK6 =true;
+		cMYC =true and pc=pc+1 if pc<10 and cMYC =false;
+		cMYC =false and pc=pc+1 if pc<10  and cMYC =true;
+		CyclinD1 =true and pc=pc+1 if pc<10 and CyclinD1 =false;
+		CyclinD1 =false and pc=pc+1 if pc<10  and CyclinD1 =true;
+		CyclinE1 =true and pc=pc+1 if pc<10 and CyclinE1 =false;
+		CyclinE1 =false and pc=pc+1 if pc<10  and CyclinE1 =true;
+		ERa =true and pc=pc+1 if pc<10 and ERa =false;
+		ERa =false and pc=pc+1 if pc<10  and ERa =true;
+		ERBB1 =true and pc=pc+1 if pc<10 and ERBB1 =false;
+		ERBB1 =false and pc=pc+1 if pc<10  and ERBB1 =true;
+		ERBB12 =true and pc=pc+1 if pc<10 and ERBB12 =false;
+		ERBB12 =false and pc=pc+1 if pc<10  and ERBB12 =true;
+		ERBB13 =true and pc=pc+1 if pc<10 and ERBB13 =false;
+		ERBB13 =false and pc=pc+1 if pc<10  and ERBB13 =true;
+		ERBB2 =true and pc=pc+1 if pc<10 and ERBB2 =false;
+		ERBB2 =false and pc=pc+1 if pc<10  and ERBB2 =true;
+		ERBB23 =true and pc=pc+1 if pc<10 and ERBB23 =false;
+		ERBB23 =false and pc=pc+1 if pc<10  and ERBB23 =true;
+		ERBB3 =true and pc=pc+1 if pc<10 and ERBB3 =false;
+		ERBB3 =false and pc=pc+1 if pc<10  and ERBB3 =true;
+		IGF1R =true and pc=pc+1 if pc<10 and IGF1R =false;
+		IGF1R =false and pc=pc+1 if pc<10  and IGF1R =true;
+		MEK1 =true and pc=pc+1 if pc<10 and MEK1 =false;
+		MEK1 =false and pc=pc+1 if pc<10  and MEK1 =true;
+		p21 =true and pc=pc+1 if pc<10 and p21 =false;
+		p21 =false and pc=pc+1 if pc<10  and p21 =true;
+		p27 =true and pc=pc+1 if pc<10 and p27 =false;
+		p27 =false and pc=pc+1 if pc<10  and p27 =true;
+		pRB =true and pc=pc+1 if pc<10 and pRB =false;
+		pRB =false and pc=pc+1 if pc<10  and pRB =true;
+		EGF =true and pc=pc+1 if pc<10 and EGF =false;
+		EGF =false and pc=pc+1 if pc<10  and EGF =true;
+end Evolution
+end Agent
+
+InitStates
+		M.AKT1=true and M.CDK2=true and M.CDK4=true and M.CDK6=true and M.CyclinD1=true and M.CyclinE1=true and M.EGF=false and M.ERBB1=false and M.ERBB12=false and M.ERBB13=false and M.ERBB2=false and M.ERBB23=false and M.ERBB3=false and M.ERa=true and M.IGF1R=true and M.MEK1=true and M.cMYC=true and M.p21=false and M.p27=false and M.pRB=true;
+end InitStates

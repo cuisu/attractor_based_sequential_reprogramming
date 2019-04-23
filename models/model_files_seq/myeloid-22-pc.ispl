@@ -1,0 +1,75 @@
+Agent M
+	Vars:
+		GATA2 : boolean;
+		GATA1 : boolean;
+		FOG1 : boolean;
+		EKLF : boolean;
+		Fli1 : boolean;
+		SCL : boolean;
+		CEBPA: boolean;
+		PU1 : boolean;
+		cJun : boolean;
+		EgrNab : boolean;
+		Gfi1 : boolean;
+		pc: 0..10;
+	end Vars
+	RedStates:
+		CEBPA=false and EKLF=false and EgrNab=false and FOG1=true and Fli1=true and GATA1=true and GATA2=false and Gfi1=false and PU1=false and SCL=true and cJun=false;
+	end RedStates
+	Actions = {none};
+	Protocol:
+		Other: {none};
+	end Protocol
+	Evolution:
+		GATA2 =true if  GATA2 & (~(GATA1&FOG1)) & (~PU1)=true;
+		GATA2 =false if  GATA2 & (~(GATA1&FOG1)) & (~PU1)=false;
+		GATA1 =true if  (GATA1 | GATA2 | Fli1) & (~PU1)=true;
+		GATA1 =false if  (GATA1 | GATA2 | Fli1) & (~PU1)=false;
+		FOG1 =true if  GATA1=true;
+		FOG1 =false if  GATA1=false;
+		EKLF =true if  GATA1 & (~Fli1)=true;
+		EKLF =false if  GATA1 & (~Fli1)=false;
+		Fli1 =true if  GATA1 & (~EKLF)=true;
+		Fli1 =false if  GATA1 & (~EKLF)=false;
+		SCL =true if  GATA1 & (~PU1)=true;
+		SCL =false if  GATA1 & (~PU1)=false;
+		CEBPA=true if  CEBPA&(~(GATA1 &FOG1 &SCL))=true;
+		CEBPA=false if  CEBPA&(~(GATA1 &FOG1 &SCL))=false;
+		PU1 =true if  (CEBPA| PU1) & (~(GATA1 | GATA2))=true;
+		PU1 =false if  (CEBPA| PU1) & (~(GATA1 | GATA2))=false;
+		cJun =true if  PU1 & (~Gfi1)=true;
+		cJun =false if  PU1 & (~Gfi1)=false;
+		EgrNab =true if  (PU1 &cJun) & (~Gfi1)=true;
+		EgrNab =false if  (PU1 &cJun) & (~Gfi1)=false;
+		Gfi1 =true if  CEBPA&(~EgrNab)=true;
+		Gfi1 =false if  CEBPA&(~EgrNab)=false;
+
+
+		GATA2 =true and pc=pc+1 if pc<10 and GATA2 =false;
+		GATA2 =false and pc=pc+1 if pc<10  and GATA2 =true;
+		GATA1 =true and pc=pc+1 if pc<10 and GATA1 =false;
+		GATA1 =false and pc=pc+1 if pc<10  and GATA1 =true;
+		FOG1 =true and pc=pc+1 if pc<10 and FOG1 =false;
+		FOG1 =false and pc=pc+1 if pc<10  and FOG1 =true;
+		EKLF =true and pc=pc+1 if pc<10 and EKLF =false;
+		EKLF =false and pc=pc+1 if pc<10  and EKLF =true;
+		Fli1 =true and pc=pc+1 if pc<10 and Fli1 =false;
+		Fli1 =false and pc=pc+1 if pc<10  and Fli1 =true;
+		SCL =true and pc=pc+1 if pc<10 and SCL =false;
+		SCL =false and pc=pc+1 if pc<10  and SCL =true;
+		CEBPA=true and pc=pc+1 if pc<10 and CEBPA=false;
+		CEBPA=false and pc=pc+1 if pc<10  and CEBPA=true;
+		PU1 =true and pc=pc+1 if pc<10 and PU1 =false;
+		PU1 =false and pc=pc+1 if pc<10  and PU1 =true;
+		cJun =true and pc=pc+1 if pc<10 and cJun =false;
+		cJun =false and pc=pc+1 if pc<10  and cJun =true;
+		EgrNab =true and pc=pc+1 if pc<10 and EgrNab =false;
+		EgrNab =false and pc=pc+1 if pc<10  and EgrNab =true;
+		Gfi1 =true and pc=pc+1 if pc<10 and Gfi1 =false;
+		Gfi1 =false and pc=pc+1 if pc<10  and Gfi1 =true;
+end Evolution
+end Agent
+
+InitStates
+		M.CEBPA=false and M.EKLF=false and M.EgrNab=false and M.FOG1=true and M.Fli1=true and M.GATA1=true and M.GATA2=false and M.Gfi1=false and M.PU1=false and M.SCL=true and M.cJun=false;
+end InitStates

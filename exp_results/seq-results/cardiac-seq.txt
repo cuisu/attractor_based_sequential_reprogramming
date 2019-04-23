@@ -1,0 +1,3662 @@
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/cardiac-11-pc.ispl
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+0-0-0-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+target attractor:
+0-0-0-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+
+---------------------------------------------
+The source and the target are the same.
+The minimum number of perturbation is 0
+The BDD consisting of all reprogramming paths: 
+
+execution time = 0
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/cardiac-12-pc.ispl
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+0-0-0-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+target attractor:
+0-0-0-0-0-1-0-0-1-0-1-0-0-0-0---------  1
+
+************** perturbation: 0 **************
+No solution.
+
+************** perturbation: 1 **************
+The minimum number of perturbation is 1
+
+execution time = 0.052
+
+All the sequential reprogramming paths:
+STEP 1
+	path 1
+		from : 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+		to   : 0-0-0-0-0-0-0-0-0-0-1-0-0-0-0---------  1
+		driver nodes: Tbx5 
+
+======================== END SEQUENTIAL CONTROL ===============================
+
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/cardiac-13-pc.ispl
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+0-0-0-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+target attractor:
+1-0-0-0-0-0-0-0-0-0-0-1-1-0-0---------  1
+
+************** perturbation: 0 **************
+No solution.
+
+************** perturbation: 1 **************
+The minimum number of perturbation is 1
+
+execution time = 0.047
+
+All the sequential reprogramming paths:
+STEP 1
+	path 1
+		from : 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+		to   : 0-0-0-0-0-0-0-0-0-0-0-1-0-0-0---------  1
+		driver nodes: exogenBMP2I 
+
+======================== END SEQUENTIAL CONTROL ===============================
+
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/cardiac-14-pc.ispl
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+0-0-0-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+target attractor:
+1-0-0-0-0-1-0-0-1-0-1-1-1-0-0---------  1
+
+************** perturbation: 0 **************
+No solution.
+
+************** perturbation: 1 **************
+No solution.
+
+************** perturbation: 2 **************
+The minimum number of perturbation is 2
+
+execution time = 0.076
+
+All the sequential reprogramming paths:
+STEP 1
+	path 1
+		from : 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+		to   : 0-0-0-0-0-0-0-0-0-0-1-0-0-0-0---------  1
+		driver nodes: Tbx5 
+	path 2
+		from : 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+		to   : 0-0-0-0-0-0-0-0-0-0-0-1-0-0-0---------  1
+		driver nodes: exogenBMP2I 
+STEP 2
+	path 1
+		from : 1-0-0-0-0-0-0-0-0-0-0-1-1-0-0---------  1
+		to   : 1-0-0-0-0-0-0-0-0-0-1-1-1-0-0---------  1
+		driver nodes: Tbx5 
+	path 2
+		from : 0-0-0-0-0-1-0-0-1-0-1-0-0-0-0---------  1
+		to   : 0-0-0-0-0-1-0-0-1-0-1-1-0-0-0---------  1
+		driver nodes: exogenBMP2I 
+	path 3
+		from : 0-0-0-0-0-0-0-0-0-0-0-1-1-0-0---------  1
+		to   : 0-0-0-0-0-0-0-0-0-0-1-1-1-0-0---------  1
+		driver nodes: Tbx5 
+	path 4
+		from : 0-0-0-0-0-0-0-0-0-0-0-1-0-0-0---------  1
+		to   : 0-0-0-0-0-0-0-0-0-0-1-1-0-0-0---------  1
+		driver nodes: Tbx5 
+	path 5
+		from : 0-0-0-0-0-1-0-0-0-0-1-0-0-0-0---------  1
+		to   : 0-0-0-0-0-1-0-0-0-0-1-1-0-0-0---------  1
+		driver nodes: exogenBMP2I 
+	path 6
+		from : 0-0-0-0-0-0-0-0-1-0-1-0-0-0-0---------  1
+		to   : 0-0-0-0-0-0-0-0-1-0-1-1-0-0-0---------  1
+		driver nodes: exogenBMP2I 
+	path 7
+		from : 0-0-0-0-0-0-0-0-0-0-1-0-0-0-0---------  1
+		to   : 0-0-0-0-0-0-0-0-0-0-1-1-0-0-0---------  1
+		driver nodes: exogenBMP2I 
+
+======================== END SEQUENTIAL CONTROL ===============================
+
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/cardiac-15-pc.ispl
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+0-0-0-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+target attractor:
+0-1-1-0-1-1-1-1-1-1-0-0-0-1-1---------  1
+
+************** perturbation: 0 **************
+No solution.
+
+************** perturbation: 1 **************
+The minimum number of perturbation is 1
+
+execution time = 0.006
+
+All the sequential reprogramming paths:
+STEP 1
+	path 1
+		from : 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+		to   : 0-0-0-0-0-0-0-0-0-0-0-0-0-1-0---------  1
+		driver nodes: exogenCanWntI 
+
+======================== END SEQUENTIAL CONTROL ===============================
+
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/cardiac-16-pc.ispl
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+0-0-0-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+target attractor:
+0-1-0-1-1-1-1-0-1-1-0-1-1-1-1---------  1
+
+************** perturbation: 0 **************
+No solution.
+
+************** perturbation: 1 **************
+No solution.
+
+************** perturbation: 2 **************
+The minimum number of perturbation is 2
+
+execution time = 0.012
+
+All the sequential reprogramming paths:
+STEP 1
+	path 1
+		from : 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+		to   : 0-0-0-0-0-0-0-0-0-0-0-1-0-0-0---------  1
+		driver nodes: exogenBMP2I 
+	path 2
+		from : 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+		to   : 0-0-0-0-0-0-0-0-0-0-0-0-0-1-0---------  1
+		driver nodes: exogenCanWntI 
+STEP 2
+	path 1
+		from : 1-0-0-0-0-0-0-0-0-0-0-1-1-0-0---------  1
+		to   : 1-0-0-0-0-0-0-0-0-0-0-1-1-1-0---------  1
+		driver nodes: exogenCanWntI 
+	path 2
+		from : 0-1-1-1-1-0-1-0-1-1-0-0-0-1-1---------  1
+		to   : 0-1-1-1-1-0-1-0-1-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 3
+		from : 0-1-1-1-1-1-1-1-1-0-0-0-0-1-1---------  1
+		to   : 0-1-1-1-1-1-1-1-1-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 4
+		from : 0-0-0-0-0-0-0-0-0-0-0-1-0-0-0---------  1
+		to   : 0-0-0-0-0-0-0-0-0-0-0-1-0-1-0---------  1
+		driver nodes: exogenCanWntI 
+	path 5
+		from : 0-0-0-0-0-0-0-0-0-0-0-1-1-0-0---------  1
+		to   : 0-0-0-0-0-0-0-0-0-0-0-1-1-1-0---------  1
+		driver nodes: exogenCanWntI 
+	path 6
+		from : 0-0-0-0-0-0-0-0-0-0-0-0-0-1-1---------  1
+		to   : 0-0-0-0-0-0-0-0-0-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 7
+		from : 0-1-0-0-0-0-1-0-0-0-0-0-0-1-1---------  1
+		to   : 0-1-0-0-0-0-1-0-0-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 8
+		from : 0-0-0-0-0-0-0-0-0-0-0-0-0-1-0---------  1
+		to   : 0-0-0-0-0-0-0-0-0-0-0-1-0-1-0---------  1
+		driver nodes: exogenBMP2I 
+	path 9
+		from : 0-1-1-1-1-1-1-0-1-1-0-0-0-1-1---------  1
+		to   : 0-1-1-1-1-1-1-0-1-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 10
+		from : 0-1-0-1-1-1-1-1-1-0-0-0-0-1-1---------  1
+		to   : 0-1-0-1-1-1-1-1-1-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 11
+		from : 0-1-0-1-1-1-1-1-0-1-0-0-0-1-1---------  1
+		to   : 0-1-0-1-1-1-1-1-0-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 12
+		from : 0-1-1-0-0-1-0-1-1-0-0-0-0-1-1---------  1
+		to   : 0-1-1-0-0-1-0-1-1-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 13
+		from : 0-1-1-0-0-0-1-1-1-0-0-0-0-1-1---------  1
+		to   : 0-1-1-0-0-0-1-1-1-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 14
+		from : 0-1-1-0-0-1-0-1-0-0-0-0-0-1-1---------  1
+		to   : 0-1-1-0-0-1-0-1-0-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 15
+		from : 0-1-0-1-1-1-1-1-0-0-0-0-0-1-1---------  1
+		to   : 0-1-0-1-1-1-1-1-0-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 16
+		from : 0-1-1-1-1-1-0-1-0-0-0-0-0-1-1---------  1
+		to   : 0-1-1-1-1-1-0-1-0-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 17
+		from : 0-1-1-1-1-0-1-1-1-0-0-0-0-1-1---------  1
+		to   : 0-1-1-1-1-0-1-1-1-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 18
+		from : 0-1-1-0-1-0-0-1-1-0-0-0-0-1-1---------  1
+		to   : 0-1-1-0-1-0-0-1-1-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 19
+		from : 0-1-0-0-0-0-1-1-0-0-0-0-0-1-1---------  1
+		to   : 0-1-0-0-0-0-1-1-0-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 20
+		from : 0-1-1-1-1-0-1-1-0-0-0-0-0-1-1---------  1
+		to   : 0-1-1-1-1-0-1-1-0-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 21
+		from : 0-1-1-1-1-0-0-0-0-1-0-0-0-1-1---------  1
+		to   : 0-1-1-1-1-0-0-0-0-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 22
+		from : 0-1-1-0-1-1-0-1-0-1-0-0-0-1-1---------  1
+		to   : 0-1-1-0-1-1-0-1-0-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 23
+		from : 0-1-0-0-0-1-1-1-1-0-0-0-0-1-1---------  1
+		to   : 0-1-0-0-0-1-1-1-1-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 24
+		from : 0-1-1-1-1-1-0-1-1-0-0-0-0-1-1---------  1
+		to   : 0-1-1-1-1-1-0-1-1-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 25
+		from : 0-1-0-0-0-0-0-0-0-0-0-0-0-1-1---------  1
+		to   : 0-1-0-0-0-0-0-0-0-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 26
+		from : 0-1-0-1-1-1-1-0-1-1-0-0-0-1-1---------  1
+		to   : 0-1-0-1-1-1-1-0-1-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 27
+		from : 0-1-1-0-0-0-0-0-0-0-0-0-0-1-1---------  1
+		to   : 0-1-1-0-0-0-0-0-0-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 28
+		from : 0-1-1-1-1-0-0-1-1-0-0-0-0-1-1---------  1
+		to   : 0-1-1-1-1-0-0-1-1-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 29
+		from : 0-1-0-1-1-1-1-1-1-1-0-0-0-1-1---------  1
+		to   : 0-1-0-1-1-1-1-1-1-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 30
+		from : 0-1-0-1-1-0-1-1-0-1-0-0-0-1-1---------  1
+		to   : 0-1-0-1-1-0-1-1-0-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 31
+		from : 0-1-1-0-0-1-1-1-1-0-0-0-0-1-1---------  1
+		to   : 0-1-1-0-0-1-1-1-1-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 32
+		from : 0-1-0-1-1-0-0-0-1-1-0-0-0-1-1---------  1
+		to   : 0-1-0-1-1-0-0-0-1-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 33
+		from : 0-1-1-1-1-0-1-1-1-1-0-0-0-1-1---------  1
+		to   : 0-1-1-1-1-0-1-1-1-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 34
+		from : 0-1-1-1-1-0-0-0-0-0-0-0-0-1-1---------  1
+		to   : 0-1-1-1-1-0-0-0-0-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 35
+		from : 0-1-1-0-1-1-0-0-1-1-0-0-0-1-1---------  1
+		to   : 0-1-1-0-1-1-0-0-1-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 36
+		from : 0-1-0-0-0-0-0-1-0-0-0-0-0-1-1---------  1
+		to   : 0-1-0-0-0-0-0-1-0-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 37
+		from : 0-1-0-1-1-1-0-1-0-1-0-0-0-1-1---------  1
+		to   : 0-1-0-1-1-1-0-1-0-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 38
+		from : 0-1-0-0-0-1-0-1-0-0-0-0-0-1-1---------  1
+		to   : 0-1-0-0-0-1-0-1-0-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 39
+		from : 0-1-0-0-0-1-1-1-0-0-0-0-0-1-1---------  1
+		to   : 0-1-0-0-0-1-1-1-0-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 40
+		from : 0-1-0-1-1-1-0-0-1-1-0-0-0-1-1---------  1
+		to   : 0-1-0-1-1-1-0-0-1-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 41
+		from : 0-1-0-0-1-1-1-0-1-1-0-0-0-1-1---------  1
+		to   : 0-1-0-0-1-1-1-0-1-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 42
+		from : 0-1-0-1-1-0-1-0-0-1-0-0-0-1-1---------  1
+		to   : 0-1-0-1-1-0-1-0-0-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 43
+		from : 0-1-1-0-1-0-0-0-0-1-0-0-0-1-1---------  1
+		to   : 0-1-1-0-1-0-0-0-0-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 44
+		from : 0-1-1-0-1-0-0-1-1-1-0-0-0-1-1---------  1
+		to   : 0-1-1-0-1-0-0-1-1-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 45
+		from : 0-1-0-1-1-0-1-0-1-1-0-0-0-1-1---------  1
+		to   : 0-1-0-1-1-0-1-0-1-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 46
+		from : 0-1-1-1-1-1-0-0-1-1-0-0-0-1-1---------  1
+		to   : 0-1-1-1-1-1-0-0-1-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 47
+		from : 0-1-1-1-1-0-0-1-0-1-0-0-0-1-1---------  1
+		to   : 0-1-1-1-1-0-0-1-0-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 48
+		from : 0-1-0-1-1-1-0-1-0-0-0-0-0-1-1---------  1
+		to   : 0-1-0-1-1-1-0-1-0-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 49
+		from : 0-1-1-1-1-0-1-1-0-1-0-0-0-1-1---------  1
+		to   : 0-1-1-1-1-0-1-1-0-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 50
+		from : 0-1-1-1-1-0-1-0-0-1-0-0-0-1-1---------  1
+		to   : 0-1-1-1-1-0-1-0-0-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 51
+		from : 0-1-0-1-1-0-1-0-0-0-0-0-0-1-1---------  1
+		to   : 0-1-0-1-1-0-1-0-0-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 52
+		from : 0-1-0-0-1-0-0-0-1-1-0-0-0-1-1---------  1
+		to   : 0-1-0-0-1-0-0-0-1-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 53
+		from : 0-1-1-1-1-0-1-0-0-0-0-0-0-1-1---------  1
+		to   : 0-1-1-1-1-0-1-0-0-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 54
+		from : 0-1-1-0-1-1-0-1-0-0-0-0-0-1-1---------  1
+		to   : 0-1-1-0-1-1-0-1-0-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 55
+		from : 0-1-1-1-1-1-1-1-1-1-0-0-0-1-1---------  1
+		to   : 0-1-1-1-1-1-1-1-1-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 56
+		from : 0-1-0-1-1-1-0-1-1-1-0-0-0-1-1---------  1
+		to   : 0-1-0-1-1-1-0-1-1-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 57
+		from : 0-1-0-0-1-1-1-1-0-0-0-0-0-1-1---------  1
+		to   : 0-1-0-0-1-1-1-1-0-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 58
+		from : 0-1-1-0-1-0-0-0-1-1-0-0-0-1-1---------  1
+		to   : 0-1-1-0-1-0-0-0-1-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 59
+		from : 0-1-0-1-1-0-1-1-0-0-0-0-0-1-1---------  1
+		to   : 0-1-0-1-1-0-1-1-0-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 60
+		from : 0-1-0-0-1-0-0-1-0-0-0-0-0-1-1---------  1
+		to   : 0-1-0-0-1-0-0-1-0-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 61
+		from : 0-1-0-1-1-0-1-1-1-1-0-0-0-1-1---------  1
+		to   : 0-1-0-1-1-0-1-1-1-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 62
+		from : 0-1-1-1-1-0-0-0-1-1-0-0-0-1-1---------  1
+		to   : 0-1-1-1-1-0-0-0-1-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 63
+		from : 0-1-0-0-1-0-1-1-0-1-0-0-0-1-1---------  1
+		to   : 0-1-0-0-1-0-1-1-0-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 64
+		from : 0-1-0-1-1-0-0-0-0-1-0-0-0-1-1---------  1
+		to   : 0-1-0-1-1-0-0-0-0-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 65
+		from : 0-1-0-0-1-1-0-1-0-1-0-0-0-1-1---------  1
+		to   : 0-1-0-0-1-1-0-1-0-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 66
+		from : 0-1-1-0-1-0-1-0-1-1-0-0-0-1-1---------  1
+		to   : 0-1-1-0-1-0-1-0-1-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 67
+		from : 0-1-1-0-0-1-1-1-0-0-0-0-0-1-1---------  1
+		to   : 0-1-1-0-0-1-1-1-0-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 68
+		from : 0-1-1-0-0-0-0-1-0-0-0-0-0-1-1---------  1
+		to   : 0-1-1-0-0-0-0-1-0-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 69
+		from : 0-1-0-1-1-0-0-1-1-1-0-0-0-1-1---------  1
+		to   : 0-1-0-1-1-0-0-1-1-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 70
+		from : 0-1-1-1-1-1-1-1-0-1-0-0-0-1-1---------  1
+		to   : 0-1-1-1-1-1-1-1-0-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 71
+		from : 0-1-0-0-1-0-0-0-0-1-0-0-0-1-1---------  1
+		to   : 0-1-0-0-1-0-0-0-0-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 72
+		from : 0-1-0-1-1-0-0-0-0-0-0-0-0-1-1---------  1
+		to   : 0-1-0-1-1-0-0-0-0-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 73
+		from : 0-1-1-1-1-0-0-1-1-1-0-0-0-1-1---------  1
+		to   : 0-1-1-1-1-0-0-1-1-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 74
+		from : 0-1-1-1-1-0-0-1-0-0-0-0-0-1-1---------  1
+		to   : 0-1-1-1-1-0-0-1-0-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 75
+		from : 0-1-1-0-1-1-0-1-1-1-0-0-0-1-1---------  1
+		to   : 0-1-1-0-1-1-0-1-1-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 76
+		from : 0-1-0-0-1-0-1-1-1-1-0-0-0-1-1---------  1
+		to   : 0-1-0-0-1-0-1-1-1-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 77
+		from : 0-1-0-0-1-0-0-0-0-0-0-0-0-1-1---------  1
+		to   : 0-1-0-0-1-0-0-0-0-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 78
+		from : 0-1-0-0-1-1-0-1-1-1-0-0-0-1-1---------  1
+		to   : 0-1-0-0-1-1-0-1-1-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 79
+		from : 0-1-1-1-1-1-1-1-0-0-0-0-0-1-1---------  1
+		to   : 0-1-1-1-1-1-1-1-0-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 80
+		from : 0-1-0-1-1-0-0-1-0-1-0-0-0-1-1---------  1
+		to   : 0-1-0-1-1-0-0-1-0-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 81
+		from : 0-1-0-1-1-0-0-1-0-0-0-0-0-1-1---------  1
+		to   : 0-1-0-1-1-0-0-1-0-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 82
+		from : 0-1-0-0-1-1-1-1-1-0-0-0-0-1-1---------  1
+		to   : 0-1-0-0-1-1-1-1-1-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 83
+		from : 0-1-0-0-1-0-0-1-1-1-0-0-0-1-1---------  1
+		to   : 0-1-0-0-1-0-0-1-1-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 84
+		from : 0-1-0-0-1-1-1-1-1-1-0-0-0-1-1---------  1
+		to   : 0-1-0-0-1-1-1-1-1-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 85
+		from : 0-1-0-0-1-1-1-1-0-1-0-0-0-1-1---------  1
+		to   : 0-1-0-0-1-1-1-1-0-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 86
+		from : 0-1-0-0-1-0-1-1-0-0-0-0-0-1-1---------  1
+		to   : 0-1-0-0-1-0-1-1-0-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 87
+		from : 0-1-0-0-1-1-0-0-1-1-0-0-0-1-1---------  1
+		to   : 0-1-0-0-1-1-0-0-1-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 88
+		from : 0-1-0-0-1-0-1-0-0-0-0-0-0-1-1---------  1
+		to   : 0-1-0-0-1-0-1-0-0-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 89
+		from : 0-1-1-0-0-0-1-0-0-0-0-0-0-1-1---------  1
+		to   : 0-1-1-0-0-0-1-0-0-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 90
+		from : 0-1-1-1-1-1-0-1-1-1-0-0-0-1-1---------  1
+		to   : 0-1-1-1-1-1-0-1-1-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 91
+		from : 0-1-1-0-1-0-1-0-0-1-0-0-0-1-1---------  1
+		to   : 0-1-1-0-1-0-1-0-0-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 92
+		from : 0-1-0-0-1-1-0-1-0-0-0-0-0-1-1---------  1
+		to   : 0-1-0-0-1-1-0-1-0-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 93
+		from : 0-1-0-0-1-0-1-0-0-1-0-0-0-1-1---------  1
+		to   : 0-1-0-0-1-0-1-0-0-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 94
+		from : 0-1-1-0-0-0-1-1-0-0-0-0-0-1-1---------  1
+		to   : 0-1-1-0-0-0-1-1-0-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 95
+		from : 0-1-0-0-1-0-0-1-0-1-0-0-0-1-1---------  1
+		to   : 0-1-0-0-1-0-0-1-0-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 96
+		from : 0-1-1-1-1-1-0-1-0-1-0-0-0-1-1---------  1
+		to   : 0-1-1-1-1-1-0-1-0-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 97
+		from : 0-1-0-0-1-0-1-0-1-1-0-0-0-1-1---------  1
+		to   : 0-1-0-0-1-0-1-0-1-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 98
+		from : 0-1-1-0-0-0-0-1-1-0-0-0-0-1-1---------  1
+		to   : 0-1-1-0-0-0-0-1-1-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 99
+		from : 0-1-1-0-1-0-1-0-0-0-0-0-0-1-1---------  1
+		to   : 0-1-1-0-1-0-1-0-0-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 100
+		from : 0-1-1-0-1-0-1-1-1-0-0-0-0-1-1---------  1
+		to   : 0-1-1-0-1-0-1-1-1-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 101
+		from : 0-1-1-0-1-0-0-0-0-0-0-0-0-1-1---------  1
+		to   : 0-1-1-0-1-0-0-0-0-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 102
+		from : 0-1-1-0-1-1-1-0-1-1-0-0-0-1-1---------  1
+		to   : 0-1-1-0-1-1-1-0-1-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 103
+		from : 0-1-1-0-1-0-1-1-1-1-0-0-0-1-1---------  1
+		to   : 0-1-1-0-1-0-1-1-1-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 104
+		from : 0-1-1-0-1-1-0-1-1-0-0-0-0-1-1---------  1
+		to   : 0-1-1-0-1-1-0-1-1-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 105
+		from : 0-1-1-0-1-1-1-1-0-0-0-0-0-1-1---------  1
+		to   : 0-1-1-0-1-1-1-1-0-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 106
+		from : 0-1-1-0-1-0-1-1-0-1-0-0-0-1-1---------  1
+		to   : 0-1-1-0-1-0-1-1-0-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 107
+		from : 0-1-1-0-1-0-0-1-0-0-0-0-0-1-1---------  1
+		to   : 0-1-1-0-1-0-0-1-0-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 108
+		from : 0-1-1-0-1-1-1-1-0-1-0-0-0-1-1---------  1
+		to   : 0-1-1-0-1-1-1-1-0-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 109
+		from : 0-1-1-0-1-0-0-1-0-1-0-0-0-1-1---------  1
+		to   : 0-1-1-0-1-0-0-1-0-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 110
+		from : 0-1-1-0-1-0-1-1-0-0-0-0-0-1-1---------  1
+		to   : 0-1-1-0-1-0-1-1-0-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 111
+		from : 0-1-1-0-1-1-1-1-1-0-0-0-0-1-1---------  1
+		to   : 0-1-1-0-1-1-1-1-1-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 112
+		from : 0-1-1-0-1-1-1-1-1-1-0-0-0-1-1---------  1
+		to   : 0-1-1-0-1-1-1-1-1-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+
+======================== END SEQUENTIAL CONTROL ===============================
+
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/cardiac-21-pc.ispl
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+0-0-0-0-0-1-0-0-1-0-1-0-0-0-0---------  1
+target attractor:
+0-0-0-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+
+************** perturbation: 0 **************
+No solution.
+
+************** perturbation: 1 **************
+No solution.
+
+************** perturbation: 2 **************
+The minimum number of perturbation is 2
+
+execution time = 0.102
+
+All the sequential reprogramming paths:
+STEP 1
+	path 1
+		from : 0-0-0-0-0-1-0-0-1-0-1-0-0-0-0---------  1
+		to   : 0-0-0-0-0-1-0-0-0-0-1-0-0-0-0---------  1
+		driver nodes: Nkx25 
+	path 2
+		from : 0-0-0-0-0-1-0-0-1-0-1-0-0-0-0---------  1
+		to   : 0-0-0-0-0-1-0-0-1-0-0-0-0-0-0---------  1
+		driver nodes: Tbx5 
+STEP 2
+	path 1
+		from : 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+		to   : 0-0-0-0-0-0-1-0-0-0-0-0-0-0-0---------  1
+		driver nodes: Isl1 
+	path 2
+		from : 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+		to   : 0-0-0-1-0-0-0-0-0-0-0-0-0-0-0---------  1
+		driver nodes: Fgf8 
+	path 3
+		from : 0-0-0-0-0-1-0-0-0-0-1-0-0-0-0---------  1
+		to   : 0-0-0-0-0-1-0-0-0-0-0-0-0-0-0---------  1
+		driver nodes: Tbx5 
+	path 4
+		from : 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+		to   : 0-0-0-0-0-1-0-0-0-0-0-0-0-0-0---------  1
+		driver nodes: GATAs 
+	path 5
+		from : 0-0-0-0-0-1-0-0-0-0-0-0-0-0-0---------  1
+		to   : 0-0-1-0-0-1-0-0-0-0-0-0-0-0-0---------  1
+		driver nodes: Dkk1 
+	path 6
+		from : 0-0-0-0-0-1-0-0-1-0-0-0-0-0-0---------  1
+		to   : 0-0-0-0-0-1-0-0-0-0-0-0-0-0-0---------  1
+		driver nodes: Nkx25 
+	path 7
+		from : 0-0-0-0-0-1-0-0-0-0-0-0-0-0-0---------  1
+		to   : 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+		driver nodes: GATAs 
+	path 8
+		from : 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+		to   : 0-0-1-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+		driver nodes: Dkk1 
+	path 9
+		from : 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+		to   : 1-0-0-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+		driver nodes: BMP2 
+	path 10
+		from : 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+		to   : 0-0-0-0-0-0-0-0-0-0-0-0-1-0-0---------  1
+		driver nodes: exogenBMP2II 
+
+======================== END SEQUENTIAL CONTROL ===============================
+
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/cardiac-22-pc.ispl
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+0-0-0-0-0-1-0-0-1-0-1-0-0-0-0---------  1
+target attractor:
+0-0-0-0-0-1-0-0-1-0-1-0-0-0-0---------  1
+
+---------------------------------------------
+The source and the target are the same.
+The minimum number of perturbation is 0
+The BDD consisting of all reprogramming paths: 
+
+execution time = 0
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/cardiac-23-pc.ispl
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+0-0-0-0-0-1-0-0-1-0-1-0-0-0-0---------  1
+target attractor:
+1-0-0-0-0-0-0-0-0-0-0-1-1-0-0---------  1
+
+************** perturbation: 0 **************
+No solution.
+
+************** perturbation: 1 **************
+No solution.
+
+************** perturbation: 2 **************
+No solution.
+
+************** perturbation: 3 **************
+The minimum number of perturbation is 3
+
+execution time = 0.172
+
+All the sequential reprogramming paths:
+STEP 1
+	path 1
+		from : 0-0-0-0-0-1-0-0-1-0-1-0-0-0-0---------  1
+		to   : 0-0-0-0-0-1-0-0-0-0-1-0-0-0-0---------  1
+		driver nodes: Nkx25 
+	path 2
+		from : 0-0-0-0-0-1-0-0-1-0-1-0-0-0-0---------  1
+		to   : 0-0-0-0-0-1-0-0-1-0-0-0-0-0-0---------  1
+		driver nodes: Tbx5 
+STEP 2
+	path 1
+		from : 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+		to   : 0-0-0-0-0-0-1-0-0-0-0-0-0-0-0---------  1
+		driver nodes: Isl1 
+	path 2
+		from : 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+		to   : 1-0-0-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+		driver nodes: BMP2 
+	path 3
+		from : 0-0-0-0-0-1-0-0-0-0-0-0-0-0-0---------  1
+		to   : 0-0-1-0-0-1-0-0-0-0-0-0-0-0-0---------  1
+		driver nodes: Dkk1 
+	path 4
+		from : 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+		to   : 0-0-0-1-0-0-0-0-0-0-0-0-0-0-0---------  1
+		driver nodes: Fgf8 
+	path 5
+		from : 0-0-0-0-0-1-0-0-0-0-1-0-0-0-0---------  1
+		to   : 0-0-0-0-0-1-0-0-0-0-0-0-0-0-0---------  1
+		driver nodes: Tbx5 
+	path 6
+		from : 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+		to   : 0-0-1-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+		driver nodes: Dkk1 
+	path 7
+		from : 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+		to   : 0-0-0-0-0-0-0-0-0-0-0-0-1-0-0---------  1
+		driver nodes: exogenBMP2II 
+	path 8
+		from : 0-0-0-0-0-1-0-0-0-0-0-0-0-0-0---------  1
+		to   : 0-0-0-0-0-1-0-0-0-0-0-1-0-0-0---------  1
+		driver nodes: exogenBMP2I 
+	path 9
+		from : 0-0-0-0-0-1-0-0-1-0-0-0-0-0-0---------  1
+		to   : 0-0-0-0-0-1-0-0-0-0-0-0-0-0-0---------  1
+		driver nodes: Nkx25 
+	path 10
+		from : 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+		to   : 0-0-0-0-0-0-0-0-0-0-0-1-0-0-0---------  1
+		driver nodes: exogenBMP2I 
+	path 11
+		from : 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+		to   : 0-0-0-0-0-1-0-0-0-0-0-0-0-0-0---------  1
+		driver nodes: GATAs 
+	path 12
+		from : 0-0-0-0-0-1-0-0-0-0-0-0-0-0-0---------  1
+		to   : 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+		driver nodes: GATAs 
+STEP 3
+	path 1
+		from : 0-0-0-0-0-0-0-0-0-0-0-1-1-0-0---------  1
+		to   : 1-0-0-0-0-0-0-0-0-0-0-1-1-0-0---------  1
+		driver nodes: BMP2 
+	path 2
+		from : 0-0-1-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+		to   : 0-0-1-0-0-0-0-0-0-0-0-1-0-0-0---------  1
+		driver nodes: exogenBMP2I 
+	path 3
+		from : 1-0-0-0-0-0-0-0-0-0-0-1-1-0-0---------  1
+		to   : 1-0-0-0-0-0-1-0-0-0-0-1-1-0-0---------  1
+		driver nodes: Isl1 
+	path 4
+		from : 0-0-0-0-0-0-1-0-0-0-0-0-0-0-0---------  1
+		to   : 0-0-0-0-0-0-1-0-0-0-0-1-0-0-0---------  1
+		driver nodes: exogenBMP2I 
+	path 5
+		from : 0-0-0-1-0-0-1-0-0-0-0-0-0-0-0---------  1
+		to   : 0-0-0-1-0-0-1-0-0-0-0-1-0-0-0---------  1
+		driver nodes: exogenBMP2I 
+	path 6
+		from : 1-0-0-0-0-0-0-0-0-0-0-1-1-0-0---------  1
+		to   : 1-0-1-0-0-0-0-0-0-0-0-1-1-0-0---------  1
+		driver nodes: Dkk1 
+	path 7
+		from : 0-0-0-0-0-0-0-0-0-0-0-1-1-0-0---------  1
+		to   : 0-0-0-0-0-0-1-0-0-0-0-1-1-0-0---------  1
+		driver nodes: Isl1 
+	path 8
+		from : 1-0-0-0-0-0-0-0-0-0-0-1-1-0-0---------  1
+		to   : 0-0-0-0-0-0-0-0-0-0-0-1-1-0-0---------  1
+		driver nodes: BMP2 
+	path 9
+		from : 0-0-0-0-0-0-0-0-0-0-0-1-0-0-0---------  1
+		to   : 0-0-0-0-0-0-1-0-0-0-0-1-0-0-0---------  1
+		driver nodes: Isl1 
+	path 10
+		from : 0-0-0-0-0-0-0-0-0-0-0-1-0-0-0---------  1
+		to   : 1-0-0-0-0-0-0-0-0-0-0-1-0-0-0---------  1
+		driver nodes: BMP2 
+	path 11
+		from : 1-0-0-0-0-0-0-0-0-0-0-1-1-0-0---------  1
+		to   : 1-0-0-1-0-0-0-0-0-0-0-1-1-0-0---------  1
+		driver nodes: Fgf8 
+	path 12
+		from : 0-0-0-0-0-0-0-0-0-0-0-1-0-0-0---------  1
+		to   : 0-0-1-0-0-0-0-0-0-0-0-1-0-0-0---------  1
+		driver nodes: Dkk1 
+	path 13
+		from : 0-0-0-0-0-1-0-0-0-0-0-1-1-0-0---------  1
+		to   : 0-0-0-0-0-0-0-0-0-0-0-1-1-0-0---------  1
+		driver nodes: GATAs 
+	path 14
+		from : 1-0-0-0-0-0-0-0-0-0-0-1-1-0-0---------  1
+		to   : 1-1-0-0-0-0-0-0-0-0-0-1-1-0-0---------  1
+		driver nodes: canWnt 
+	path 15
+		from : 0-0-0-0-0-0-0-0-0-0-0-1-1-0-0---------  1
+		to   : 0-0-1-0-0-0-0-0-0-0-0-1-1-0-0---------  1
+		driver nodes: Dkk1 
+	path 16
+		from : 0-0-0-0-0-0-0-0-0-0-0-1-1-0-0---------  1
+		to   : 0-0-0-1-0-0-0-0-0-0-0-1-1-0-0---------  1
+		driver nodes: Fgf8 
+	path 17
+		from : 1-0-0-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+		to   : 1-0-0-0-0-0-0-0-0-0-0-1-0-0-0---------  1
+		driver nodes: exogenBMP2I 
+	path 18
+		from : 1-0-0-0-0-1-0-0-0-0-0-1-1-0-0---------  1
+		to   : 1-0-0-0-0-0-0-0-0-0-0-1-1-0-0---------  1
+		driver nodes: GATAs 
+	path 19
+		from : 1-0-0-0-0-0-0-0-0-0-0-0-1-0-0---------  1
+		to   : 1-0-0-0-0-0-0-0-0-0-0-1-1-0-0---------  1
+		driver nodes: exogenBMP2I 
+	path 20
+		from : 0-0-0-0-0-0-0-0-0-0-0-1-1-0-0---------  1
+		to   : 0-0-0-0-0-0-0-0-0-0-0-1-0-0-0---------  1
+		driver nodes: exogenBMP2II 
+	path 21
+		from : 0-0-0-0-0-0-0-0-0-0-0-1-0-0-0---------  1
+		to   : 0-0-0-1-0-0-0-0-0-0-0-1-0-0-0---------  1
+		driver nodes: Fgf8 
+	path 22
+		from : 1-0-0-0-0-0-0-0-0-0-0-1-1-0-0---------  1
+		to   : 1-0-0-0-0-0-0-0-0-0-0-1-0-0-0---------  1
+		driver nodes: exogenBMP2II 
+	path 23
+		from : 0-0-0-1-0-0-0-0-0-0-0-0-0-0-0---------  1
+		to   : 0-0-0-1-0-0-0-0-0-0-0-1-0-0-0---------  1
+		driver nodes: exogenBMP2I 
+	path 24
+		from : 0-0-0-0-0-1-0-0-0-0-0-1-0-0-0---------  1
+		to   : 0-0-0-0-0-0-0-0-0-0-0-1-0-0-0---------  1
+		driver nodes: GATAs 
+	path 25
+		from : 0-0-0-0-0-0-0-0-0-0-0-1-1-0-0---------  1
+		to   : 0-1-0-0-0-0-0-0-0-0-0-1-1-0-0---------  1
+		driver nodes: canWnt 
+	path 26
+		from : 0-0-0-0-0-0-0-0-0-0-0-0-1-0-0---------  1
+		to   : 0-0-0-0-0-0-0-0-0-0-0-1-1-0-0---------  1
+		driver nodes: exogenBMP2I 
+	path 27
+		from : 0-0-0-0-0-0-0-0-0-0-0-1-0-0-0---------  1
+		to   : 0-0-0-0-0-0-0-0-0-0-0-1-1-0-0---------  1
+		driver nodes: exogenBMP2II 
+	path 28
+		from : 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+		to   : 0-0-0-0-0-0-0-0-0-0-0-1-0-0-0---------  1
+		driver nodes: exogenBMP2I 
+
+======================== END SEQUENTIAL CONTROL ===============================
+
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/cardiac-24-pc.ispl
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+0-0-0-0-0-1-0-0-1-0-1-0-0-0-0---------  1
+target attractor:
+1-0-0-0-0-1-0-0-1-0-1-1-1-0-0---------  1
+
+************** perturbation: 0 **************
+No solution.
+
+************** perturbation: 1 **************
+The minimum number of perturbation is 1
+
+execution time = 0.045
+
+All the sequential reprogramming paths:
+STEP 1
+	path 1
+		from : 0-0-0-0-0-1-0-0-1-0-1-0-0-0-0---------  1
+		to   : 0-0-0-0-0-1-0-0-1-0-1-1-0-0-0---------  1
+		driver nodes: exogenBMP2I 
+
+======================== END SEQUENTIAL CONTROL ===============================
+
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/cardiac-25-pc.ispl
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+0-0-0-0-0-1-0-0-1-0-1-0-0-0-0---------  1
+target attractor:
+0-1-1-0-1-1-1-1-1-1-0-0-0-1-1---------  1
+
+************** perturbation: 0 **************
+No solution.
+
+************** perturbation: 1 **************
+The minimum number of perturbation is 1
+
+execution time = 0.005
+
+All the sequential reprogramming paths:
+STEP 1
+	path 1
+		from : 0-0-0-0-0-1-0-0-1-0-1-0-0-0-0---------  1
+		to   : 0-0-0-0-0-1-0-0-1-0-1-0-0-1-0---------  1
+		driver nodes: exogenCanWntI 
+
+======================== END SEQUENTIAL CONTROL ===============================
+
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/cardiac-26-pc.ispl
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+0-0-0-0-0-1-0-0-1-0-1-0-0-0-0---------  1
+target attractor:
+0-1-0-1-1-1-1-0-1-1-0-1-1-1-1---------  1
+
+************** perturbation: 0 **************
+No solution.
+
+************** perturbation: 1 **************
+No solution.
+
+************** perturbation: 2 **************
+The minimum number of perturbation is 2
+
+execution time = 0.013
+
+All the sequential reprogramming paths:
+STEP 1
+	path 1
+		from : 0-0-0-0-0-1-0-0-1-0-1-0-0-0-0---------  1
+		to   : 0-0-0-0-0-1-0-0-1-0-1-1-0-0-0---------  1
+		driver nodes: exogenBMP2I 
+	path 2
+		from : 0-0-0-0-0-1-0-0-1-0-1-0-0-0-0---------  1
+		to   : 0-0-0-0-0-1-0-0-1-0-1-0-0-1-0---------  1
+		driver nodes: exogenCanWntI 
+STEP 2
+	path 1
+		from : 1-0-0-0-0-1-0-0-1-0-1-1-1-0-0---------  1
+		to   : 1-0-0-0-0-1-0-0-1-0-1-1-1-1-0---------  1
+		driver nodes: exogenCanWntI 
+	path 2
+		from : 0-1-1-1-1-0-1-0-1-1-0-0-0-1-1---------  1
+		to   : 0-1-1-1-1-0-1-0-1-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 3
+		from : 0-1-1-1-1-1-1-1-1-0-0-0-0-1-1---------  1
+		to   : 0-1-1-1-1-1-1-1-1-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 4
+		from : 0-1-0-0-1-0-1-1-0-0-0-0-0-1-1---------  1
+		to   : 0-1-0-0-1-0-1-1-0-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 5
+		from : 0-0-0-0-0-1-0-0-1-0-1-0-0-1-1---------  1
+		to   : 0-0-0-0-0-1-0-0-1-0-1-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 6
+		from : 0-0-0-0-0-1-0-0-1-0-1-0-0-1-0---------  1
+		to   : 0-0-0-0-0-1-0-0-1-0-1-1-0-1-0---------  1
+		driver nodes: exogenBMP2I 
+	path 7
+		from : 0-1-1-1-1-1-0-0-1-1-1-0-0-1-1---------  1
+		to   : 0-1-1-1-1-1-0-0-1-1-1-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 8
+		from : 0-1-1-0-0-1-1-1-1-0-0-0-0-1-1---------  1
+		to   : 0-1-1-0-0-1-1-1-1-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 9
+		from : 0-1-1-0-0-1-0-1-1-0-0-0-0-1-1---------  1
+		to   : 0-1-1-0-0-1-0-1-1-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 10
+		from : 0-0-0-0-0-1-0-0-1-0-1-1-0-0-0---------  1
+		to   : 0-0-0-0-0-1-0-0-1-0-1-1-0-1-0---------  1
+		driver nodes: exogenCanWntI 
+	path 11
+		from : 0-1-1-1-1-1-0-0-1-0-0-0-0-1-1---------  1
+		to   : 0-1-1-1-1-1-0-0-1-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 12
+		from : 0-1-1-1-1-1-0-1-1-1-0-0-0-1-1---------  1
+		to   : 0-1-1-1-1-1-0-1-1-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 13
+		from : 0-1-0-0-1-1-0-1-1-1-0-0-0-1-1---------  1
+		to   : 0-1-0-0-1-1-0-1-1-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 14
+		from : 0-1-0-1-1-0-0-1-1-1-0-0-0-1-1---------  1
+		to   : 0-1-0-1-1-0-0-1-1-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 15
+		from : 0-0-0-0-0-1-0-0-1-0-1-1-1-0-0---------  1
+		to   : 0-0-0-0-0-1-0-0-1-0-1-1-1-1-0---------  1
+		driver nodes: exogenCanWntI 
+	path 16
+		from : 0-1-0-0-0-0-1-1-0-0-0-0-0-1-1---------  1
+		to   : 0-1-0-0-0-0-1-1-0-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 17
+		from : 0-1-1-0-1-1-0-0-1-1-0-0-0-1-1---------  1
+		to   : 0-1-1-0-1-1-0-0-1-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 18
+		from : 0-1-0-0-0-1-1-0-1-0-1-0-0-1-1---------  1
+		to   : 0-1-0-0-0-1-1-0-1-0-1-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 19
+		from : 0-1-0-1-1-0-1-0-0-0-0-0-0-1-1---------  1
+		to   : 0-1-0-1-1-0-1-0-0-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 20
+		from : 0-1-1-1-1-1-1-1-1-0-1-0-0-1-1---------  1
+		to   : 0-1-1-1-1-1-1-1-1-0-1-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 21
+		from : 0-1-1-1-1-0-0-0-0-0-0-0-0-1-1---------  1
+		to   : 0-1-1-1-1-0-0-0-0-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 22
+		from : 0-1-0-0-1-1-1-0-1-0-0-0-0-1-1---------  1
+		to   : 0-1-0-0-1-1-1-0-1-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 23
+		from : 0-1-0-0-0-1-1-0-0-0-0-0-0-1-1---------  1
+		to   : 0-1-0-0-0-1-1-0-0-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 24
+		from : 0-1-1-1-1-0-0-1-1-1-0-0-0-1-1---------  1
+		to   : 0-1-1-1-1-0-0-1-1-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 25
+		from : 0-1-0-1-1-0-1-1-0-1-0-0-0-1-1---------  1
+		to   : 0-1-0-1-1-0-1-1-0-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 26
+		from : 0-1-1-0-0-1-1-0-1-0-0-0-0-1-1---------  1
+		to   : 0-1-1-0-0-1-1-0-1-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 27
+		from : 0-1-0-0-1-1-1-0-1-1-1-0-0-1-1---------  1
+		to   : 0-1-0-0-1-1-1-0-1-1-1-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 28
+		from : 0-1-1-1-1-0-0-0-0-1-0-0-0-1-1---------  1
+		to   : 0-1-1-1-1-0-0-0-0-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 29
+		from : 0-1-1-0-1-1-0-0-0-0-0-0-0-1-1---------  1
+		to   : 0-1-1-0-1-1-0-0-0-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 30
+		from : 0-1-0-0-0-1-1-1-0-0-0-0-0-1-1---------  1
+		to   : 0-1-0-0-0-1-1-1-0-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 31
+		from : 0-1-1-0-0-0-0-0-0-0-0-0-0-1-1---------  1
+		to   : 0-1-1-0-0-0-0-0-0-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 32
+		from : 0-1-0-0-0-1-1-0-1-0-0-0-0-1-1---------  1
+		to   : 0-1-0-0-0-1-1-0-1-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 33
+		from : 0-1-0-0-1-1-0-0-1-0-1-0-0-1-1---------  1
+		to   : 0-1-0-0-1-1-0-0-1-0-1-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 34
+		from : 0-1-0-0-1-1-0-1-0-0-0-0-0-1-1---------  1
+		to   : 0-1-0-0-1-1-0-1-0-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 35
+		from : 0-1-0-0-1-1-0-1-0-1-0-0-0-1-1---------  1
+		to   : 0-1-0-0-1-1-0-1-0-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 36
+		from : 0-1-0-1-1-1-0-1-0-1-0-0-0-1-1---------  1
+		to   : 0-1-0-1-1-1-0-1-0-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 37
+		from : 0-1-0-1-1-1-1-1-0-0-0-0-0-1-1---------  1
+		to   : 0-1-0-1-1-1-1-1-0-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 38
+		from : 0-1-1-1-1-0-0-1-0-1-0-0-0-1-1---------  1
+		to   : 0-1-1-1-1-0-0-1-0-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 39
+		from : 0-1-0-1-1-1-0-1-1-0-1-0-0-1-1---------  1
+		to   : 0-1-0-1-1-1-0-1-1-0-1-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 40
+		from : 0-1-1-1-1-1-0-1-1-0-1-0-0-1-1---------  1
+		to   : 0-1-1-1-1-1-0-1-1-0-1-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 41
+		from : 0-1-0-1-1-0-0-0-0-0-0-0-0-1-1---------  1
+		to   : 0-1-0-1-1-0-0-0-0-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 42
+		from : 0-1-0-1-1-1-1-0-1-1-0-0-0-1-1---------  1
+		to   : 0-1-0-1-1-1-1-0-1-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 43
+		from : 0-1-1-1-1-0-0-1-1-0-0-0-0-1-1---------  1
+		to   : 0-1-1-1-1-0-0-1-1-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 44
+		from : 0-1-1-1-1-1-0-1-1-0-0-0-0-1-1---------  1
+		to   : 0-1-1-1-1-1-0-1-1-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 45
+		from : 0-1-0-1-1-1-0-0-1-0-1-0-0-1-1---------  1
+		to   : 0-1-0-1-1-1-0-0-1-0-1-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 46
+		from : 0-1-0-0-0-1-0-1-1-0-0-0-0-1-1---------  1
+		to   : 0-1-0-0-0-1-0-1-1-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 47
+		from : 0-1-0-0-0-0-1-0-0-0-0-0-0-1-1---------  1
+		to   : 0-1-0-0-0-0-1-0-0-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 48
+		from : 0-1-0-0-0-1-1-1-1-0-1-0-0-1-1---------  1
+		to   : 0-1-0-0-0-1-1-1-1-0-1-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 49
+		from : 0-1-1-0-0-0-0-1-0-0-0-0-0-1-1---------  1
+		to   : 0-1-1-0-0-0-0-1-0-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 50
+		from : 0-1-1-1-1-0-1-0-0-1-0-0-0-1-1---------  1
+		to   : 0-1-1-1-1-0-1-0-0-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 51
+		from : 0-1-0-1-1-0-0-1-0-0-0-0-0-1-1---------  1
+		to   : 0-1-0-1-1-0-0-1-0-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 52
+		from : 0-1-1-0-1-1-0-1-0-1-0-0-0-1-1---------  1
+		to   : 0-1-1-0-1-1-0-1-0-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 53
+		from : 0-1-0-1-1-1-0-0-1-1-0-0-0-1-1---------  1
+		to   : 0-1-0-1-1-1-0-0-1-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 54
+		from : 0-1-0-0-0-0-0-1-0-0-0-0-0-1-1---------  1
+		to   : 0-1-0-0-0-0-0-1-0-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 55
+		from : 0-1-1-1-1-1-1-1-1-1-1-0-0-1-1---------  1
+		to   : 0-1-1-1-1-1-1-1-1-1-1-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 56
+		from : 0-1-0-0-0-0-0-0-0-0-0-0-0-1-1---------  1
+		to   : 0-1-0-0-0-0-0-0-0-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 57
+		from : 0-1-0-1-1-0-1-0-1-1-0-0-0-1-1---------  1
+		to   : 0-1-0-1-1-0-1-0-1-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 58
+		from : 0-1-1-0-1-1-1-0-1-0-1-0-0-1-1---------  1
+		to   : 0-1-1-0-1-1-1-0-1-0-1-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 59
+		from : 0-1-1-0-1-0-0-0-1-1-0-0-0-1-1---------  1
+		to   : 0-1-1-0-1-0-0-0-1-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 60
+		from : 0-1-1-1-1-0-0-0-1-1-0-0-0-1-1---------  1
+		to   : 0-1-1-1-1-0-0-0-1-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 61
+		from : 0-1-0-0-0-1-0-1-0-0-0-0-0-1-1---------  1
+		to   : 0-1-0-0-0-1-0-1-0-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 62
+		from : 0-1-1-1-1-1-1-1-0-1-0-0-0-1-1---------  1
+		to   : 0-1-1-1-1-1-1-1-0-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 63
+		from : 0-1-1-0-1-0-1-1-1-0-0-0-0-1-1---------  1
+		to   : 0-1-1-0-1-0-1-1-1-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 64
+		from : 0-1-0-0-0-1-1-1-1-0-0-0-0-1-1---------  1
+		to   : 0-1-0-0-0-1-1-1-1-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 65
+		from : 0-1-0-1-1-1-1-0-1-1-1-0-0-1-1---------  1
+		to   : 0-1-0-1-1-1-1-0-1-1-1-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 66
+		from : 0-1-0-0-1-1-0-1-1-0-0-0-0-1-1---------  1
+		to   : 0-1-0-0-1-1-0-1-1-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 67
+		from : 0-1-0-1-1-0-0-1-0-1-0-0-0-1-1---------  1
+		to   : 0-1-0-1-1-0-0-1-0-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 68
+		from : 0-1-0-0-1-0-1-1-1-1-0-0-0-1-1---------  1
+		to   : 0-1-0-0-1-0-1-1-1-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 69
+		from : 0-1-1-0-1-0-1-0-1-1-0-0-0-1-1---------  1
+		to   : 0-1-1-0-1-0-1-0-1-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 70
+		from : 0-1-0-1-1-0-1-0-0-1-0-0-0-1-1---------  1
+		to   : 0-1-0-1-1-0-1-0-0-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 71
+		from : 0-1-1-0-0-1-0-0-1-0-1-0-0-1-1---------  1
+		to   : 0-1-1-0-0-1-0-0-1-0-1-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 72
+		from : 0-1-0-0-0-1-0-1-1-0-1-0-0-1-1---------  1
+		to   : 0-1-0-0-0-1-0-1-1-0-1-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 73
+		from : 0-1-0-0-1-1-0-0-0-0-0-0-0-1-1---------  1
+		to   : 0-1-0-0-1-1-0-0-0-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 74
+		from : 0-1-1-1-1-0-0-1-0-0-0-0-0-1-1---------  1
+		to   : 0-1-1-1-1-0-0-1-0-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 75
+		from : 0-1-1-1-1-1-0-1-0-0-0-0-0-1-1---------  1
+		to   : 0-1-1-1-1-1-0-1-0-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 76
+		from : 0-1-0-1-1-1-0-0-0-1-0-0-0-1-1---------  1
+		to   : 0-1-0-1-1-1-0-0-0-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 77
+		from : 0-1-0-0-0-1-0-0-0-0-0-0-0-1-1---------  1
+		to   : 0-1-0-0-0-1-0-0-0-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 78
+		from : 0-1-0-0-1-1-1-1-1-1-1-0-0-1-1---------  1
+		to   : 0-1-0-0-1-1-1-1-1-1-1-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 79
+		from : 0-1-0-0-1-0-1-0-0-1-0-0-0-1-1---------  1
+		to   : 0-1-0-0-1-0-1-0-0-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 80
+		from : 0-1-1-0-0-0-1-1-1-0-0-0-0-1-1---------  1
+		to   : 0-1-1-0-0-0-1-1-1-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 81
+		from : 0-1-0-0-0-1-0-0-1-0-1-0-0-1-1---------  1
+		to   : 0-1-0-0-0-1-0-0-1-0-1-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 82
+		from : 0-1-1-1-1-1-1-0-1-0-1-0-0-1-1---------  1
+		to   : 0-1-1-1-1-1-1-0-1-0-1-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 83
+		from : 0-1-0-0-0-1-0-0-1-0-0-0-0-1-1---------  1
+		to   : 0-1-0-0-0-1-0-0-1-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 84
+		from : 0-1-0-1-1-0-1-1-0-0-0-0-0-1-1---------  1
+		to   : 0-1-0-1-1-0-1-1-0-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 85
+		from : 0-1-1-1-1-1-0-0-1-0-1-0-0-1-1---------  1
+		to   : 0-1-1-1-1-1-0-0-1-0-1-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 86
+		from : 0-1-0-1-1-0-1-1-1-1-0-0-0-1-1---------  1
+		to   : 0-1-0-1-1-0-1-1-1-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 87
+		from : 0-1-1-1-1-0-1-1-1-0-0-0-0-1-1---------  1
+		to   : 0-1-1-1-1-0-1-1-1-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 88
+		from : 0-1-1-0-0-0-0-1-1-0-0-0-0-1-1---------  1
+		to   : 0-1-1-0-0-0-0-1-1-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 89
+		from : 0-1-0-1-1-0-0-0-1-1-0-0-0-1-1---------  1
+		to   : 0-1-0-1-1-0-0-0-1-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 90
+		from : 0-1-0-0-1-1-0-1-1-0-1-0-0-1-1---------  1
+		to   : 0-1-0-0-1-1-0-1-1-0-1-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 91
+		from : 0-1-0-1-1-1-1-1-0-1-0-0-0-1-1---------  1
+		to   : 0-1-0-1-1-1-1-1-0-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 92
+		from : 0-1-0-0-1-0-0-1-1-1-0-0-0-1-1---------  1
+		to   : 0-1-0-0-1-0-0-1-1-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 93
+		from : 0-1-1-1-1-0-1-0-0-0-0-0-0-1-1---------  1
+		to   : 0-1-1-1-1-0-1-0-0-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 94
+		from : 0-1-0-0-1-0-0-1-0-1-0-0-0-1-1---------  1
+		to   : 0-1-0-0-1-0-0-1-0-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 95
+		from : 0-1-1-0-0-1-1-0-1-0-1-0-0-1-1---------  1
+		to   : 0-1-1-0-0-1-1-0-1-0-1-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 96
+		from : 0-1-1-0-0-0-1-1-0-0-0-0-0-1-1---------  1
+		to   : 0-1-1-0-0-0-1-1-0-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 97
+		from : 0-1-0-1-1-1-1-0-0-1-0-0-0-1-1---------  1
+		to   : 0-1-0-1-1-1-1-0-0-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 98
+		from : 0-1-0-1-1-1-0-1-0-0-0-0-0-1-1---------  1
+		to   : 0-1-0-1-1-1-0-1-0-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 99
+		from : 0-1-0-1-1-0-0-0-0-1-0-0-0-1-1---------  1
+		to   : 0-1-0-1-1-0-0-0-0-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 100
+		from : 0-1-0-1-1-1-0-1-1-0-0-0-0-1-1---------  1
+		to   : 0-1-0-1-1-1-0-1-1-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 101
+		from : 0-1-1-0-0-0-1-0-0-0-0-0-0-1-1---------  1
+		to   : 0-1-1-0-0-0-1-0-0-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 102
+		from : 0-1-0-0-1-1-0-0-1-0-0-0-0-1-1---------  1
+		to   : 0-1-0-0-1-1-0-0-1-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 103
+		from : 0-1-0-0-1-0-0-0-1-1-0-0-0-1-1---------  1
+		to   : 0-1-0-0-1-0-0-0-1-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 104
+		from : 0-1-1-0-1-0-0-1-1-0-0-0-0-1-1---------  1
+		to   : 0-1-1-0-1-0-0-1-1-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 105
+		from : 0-1-0-0-1-1-1-1-1-0-0-0-0-1-1---------  1
+		to   : 0-1-0-0-1-1-1-1-1-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 106
+		from : 0-1-1-1-1-1-1-1-0-0-0-0-0-1-1---------  1
+		to   : 0-1-1-1-1-1-1-1-0-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 107
+		from : 0-1-0-1-1-1-0-1-1-1-1-0-0-1-1---------  1
+		to   : 0-1-0-1-1-1-0-1-1-1-1-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 108
+		from : 0-1-1-1-1-0-1-1-1-1-0-0-0-1-1---------  1
+		to   : 0-1-1-1-1-0-1-1-1-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 109
+		from : 0-1-1-0-0-1-1-0-0-0-0-0-0-1-1---------  1
+		to   : 0-1-1-0-0-1-1-0-0-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 110
+		from : 0-1-1-0-1-0-1-1-0-0-0-0-0-1-1---------  1
+		to   : 0-1-1-0-1-0-1-1-0-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 111
+		from : 0-1-0-0-1-1-1-0-1-0-1-0-0-1-1---------  1
+		to   : 0-1-0-0-1-1-1-0-1-0-1-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 112
+		from : 0-1-1-0-1-0-1-0-0-0-0-0-0-1-1---------  1
+		to   : 0-1-1-0-1-0-1-0-0-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 113
+		from : 0-1-0-1-1-1-1-0-0-0-0-0-0-1-1---------  1
+		to   : 0-1-0-1-1-1-1-0-0-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 114
+		from : 0-1-1-1-1-0-1-1-0-1-0-0-0-1-1---------  1
+		to   : 0-1-1-1-1-0-1-1-0-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 115
+		from : 0-1-1-0-1-0-0-1-1-1-0-0-0-1-1---------  1
+		to   : 0-1-1-0-1-0-0-1-1-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 116
+		from : 0-1-0-1-1-1-0-0-1-1-1-0-0-1-1---------  1
+		to   : 0-1-0-1-1-1-0-0-1-1-1-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 117
+		from : 0-1-0-1-1-1-0-0-1-0-0-0-0-1-1---------  1
+		to   : 0-1-0-1-1-1-0-0-1-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 118
+		from : 0-1-1-0-0-1-0-1-0-0-0-0-0-1-1---------  1
+		to   : 0-1-1-0-0-1-0-1-0-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 119
+		from : 0-1-1-1-1-0-1-1-0-0-0-0-0-1-1---------  1
+		to   : 0-1-1-1-1-0-1-1-0-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 120
+		from : 0-1-1-1-1-1-1-0-1-0-0-0-0-1-1---------  1
+		to   : 0-1-1-1-1-1-1-0-1-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 121
+		from : 0-1-1-1-1-1-0-0-0-1-0-0-0-1-1---------  1
+		to   : 0-1-1-1-1-1-0-0-0-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 122
+		from : 0-1-0-0-1-0-0-0-0-0-0-0-0-1-1---------  1
+		to   : 0-1-0-0-1-0-0-0-0-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 123
+		from : 0-1-0-1-1-1-0-0-0-0-0-0-0-1-1---------  1
+		to   : 0-1-0-1-1-1-0-0-0-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 124
+		from : 0-1-1-0-1-1-0-0-0-1-0-0-0-1-1---------  1
+		to   : 0-1-1-0-1-1-0-0-0-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 125
+		from : 0-1-0-0-1-0-0-1-0-0-0-0-0-1-1---------  1
+		to   : 0-1-0-0-1-0-0-1-0-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 126
+		from : 0-1-1-0-0-1-0-1-1-0-1-0-0-1-1---------  1
+		to   : 0-1-1-0-0-1-0-1-1-0-1-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 127
+		from : 0-1-0-0-1-1-0-0-1-1-1-0-0-1-1---------  1
+		to   : 0-1-0-0-1-1-0-0-1-1-1-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 128
+		from : 0-1-0-0-1-0-0-0-0-1-0-0-0-1-1---------  1
+		to   : 0-1-0-0-1-0-0-0-0-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 129
+		from : 0-1-1-1-1-1-1-1-1-1-0-0-0-1-1---------  1
+		to   : 0-1-1-1-1-1-1-1-1-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 130
+		from : 0-1-1-1-1-1-0-1-1-1-1-0-0-1-1---------  1
+		to   : 0-1-1-1-1-1-0-1-1-1-1-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 131
+		from : 0-1-1-1-1-1-1-0-0-0-0-0-0-1-1---------  1
+		to   : 0-1-1-1-1-1-1-0-0-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 132
+		from : 0-1-1-1-1-1-0-0-0-0-0-0-0-1-1---------  1
+		to   : 0-1-1-1-1-1-0-0-0-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 133
+		from : 0-1-0-1-1-1-1-0-1-0-0-0-0-1-1---------  1
+		to   : 0-1-0-1-1-1-1-0-1-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 134
+		from : 0-1-1-1-1-1-0-1-0-1-0-0-0-1-1---------  1
+		to   : 0-1-1-1-1-1-0-1-0-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 135
+		from : 0-1-0-1-1-1-0-1-1-1-0-0-0-1-1---------  1
+		to   : 0-1-0-1-1-1-0-1-1-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 136
+		from : 0-1-1-0-0-1-1-1-0-0-0-0-0-1-1---------  1
+		to   : 0-1-1-0-0-1-1-1-0-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 137
+		from : 0-1-1-0-0-1-0-0-1-0-0-0-0-1-1---------  1
+		to   : 0-1-1-0-0-1-0-0-1-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 138
+		from : 0-1-0-0-1-1-0-1-1-1-1-0-0-1-1---------  1
+		to   : 0-1-0-0-1-1-0-1-1-1-1-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 139
+		from : 0-1-1-1-1-1-1-0-1-1-1-0-0-1-1---------  1
+		to   : 0-1-1-1-1-1-1-0-1-1-1-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 140
+		from : 0-1-0-1-1-1-1-1-1-0-1-0-0-1-1---------  1
+		to   : 0-1-0-1-1-1-1-1-1-0-1-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 141
+		from : 0-1-1-0-0-1-0-0-0-0-0-0-0-1-1---------  1
+		to   : 0-1-1-0-0-1-0-0-0-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 142
+		from : 0-1-0-1-1-1-1-0-1-0-1-0-0-1-1---------  1
+		to   : 0-1-0-1-1-1-1-0-1-0-1-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 143
+		from : 0-1-1-0-1-0-0-1-0-0-0-0-0-1-1---------  1
+		to   : 0-1-1-0-1-0-0-1-0-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 144
+		from : 0-1-1-1-1-1-1-0-0-1-0-0-0-1-1---------  1
+		to   : 0-1-1-1-1-1-1-0-0-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 145
+		from : 0-1-1-1-1-1-0-0-1-1-0-0-0-1-1---------  1
+		to   : 0-1-1-1-1-1-0-0-1-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 146
+		from : 0-1-0-1-1-1-1-1-1-0-0-0-0-1-1---------  1
+		to   : 0-1-0-1-1-1-1-1-1-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 147
+		from : 0-1-0-1-1-1-1-1-1-1-0-0-0-1-1---------  1
+		to   : 0-1-0-1-1-1-1-1-1-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 148
+		from : 0-1-1-1-1-1-1-0-1-1-0-0-0-1-1---------  1
+		to   : 0-1-1-1-1-1-1-0-1-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 149
+		from : 0-1-1-0-1-1-0-0-1-0-1-0-0-1-1---------  1
+		to   : 0-1-1-0-1-1-0-0-1-0-1-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 150
+		from : 0-1-1-0-0-1-1-1-1-0-1-0-0-1-1---------  1
+		to   : 0-1-1-0-0-1-1-1-1-0-1-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 151
+		from : 0-1-1-0-1-0-0-0-0-1-0-0-0-1-1---------  1
+		to   : 0-1-1-0-1-0-0-0-0-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 152
+		from : 0-1-1-0-1-1-0-1-1-1-0-0-0-1-1---------  1
+		to   : 0-1-1-0-1-1-0-1-1-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 153
+		from : 0-1-0-0-1-0-1-1-0-1-0-0-0-1-1---------  1
+		to   : 0-1-0-0-1-0-1-1-0-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 154
+		from : 0-1-0-0-1-0-1-0-0-0-0-0-0-1-1---------  1
+		to   : 0-1-0-0-1-0-1-0-0-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 155
+		from : 0-1-1-0-1-1-0-0-1-0-0-0-0-1-1---------  1
+		to   : 0-1-1-0-1-1-0-0-1-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 156
+		from : 0-1-1-0-1-0-0-0-0-0-0-0-0-1-1---------  1
+		to   : 0-1-1-0-1-0-0-0-0-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 157
+		from : 0-1-1-0-1-1-0-0-1-1-1-0-0-1-1---------  1
+		to   : 0-1-1-0-1-1-0-0-1-1-1-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 158
+		from : 0-1-1-0-1-1-0-1-0-0-0-0-0-1-1---------  1
+		to   : 0-1-1-0-1-1-0-1-0-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 159
+		from : 0-1-1-0-1-0-0-1-0-1-0-0-0-1-1---------  1
+		to   : 0-1-1-0-1-0-0-1-0-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 160
+		from : 0-1-0-1-1-1-1-1-1-1-1-0-0-1-1---------  1
+		to   : 0-1-0-1-1-1-1-1-1-1-1-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 161
+		from : 0-1-0-0-1-0-1-0-1-1-0-0-0-1-1---------  1
+		to   : 0-1-0-0-1-0-1-0-1-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 162
+		from : 0-1-1-0-1-1-0-1-1-1-1-0-0-1-1---------  1
+		to   : 0-1-1-0-1-1-0-1-1-1-1-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 163
+		from : 0-1-1-0-1-0-1-1-1-1-0-0-0-1-1---------  1
+		to   : 0-1-1-0-1-0-1-1-1-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 164
+		from : 0-1-0-0-1-1-0-0-0-1-0-0-0-1-1---------  1
+		to   : 0-1-0-0-1-1-0-0-0-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 165
+		from : 0-1-0-0-1-1-1-1-0-0-0-0-0-1-1---------  1
+		to   : 0-1-0-0-1-1-1-1-0-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 166
+		from : 0-1-0-0-1-1-1-0-0-1-0-0-0-1-1---------  1
+		to   : 0-1-0-0-1-1-1-0-0-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 167
+		from : 0-1-0-0-1-1-1-1-1-0-1-0-0-1-1---------  1
+		to   : 0-1-0-0-1-1-1-1-1-0-1-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 168
+		from : 0-1-0-0-1-1-1-0-1-1-0-0-0-1-1---------  1
+		to   : 0-1-0-0-1-1-1-0-1-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 169
+		from : 0-1-0-0-1-1-0-0-1-1-0-0-0-1-1---------  1
+		to   : 0-1-0-0-1-1-0-0-1-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 170
+		from : 0-1-1-0-1-1-0-1-1-0-1-0-0-1-1---------  1
+		to   : 0-1-1-0-1-1-0-1-1-0-1-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 171
+		from : 0-1-1-0-1-0-1-1-0-1-0-0-0-1-1---------  1
+		to   : 0-1-1-0-1-0-1-1-0-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 172
+		from : 0-1-0-0-1-1-1-0-0-0-0-0-0-1-1---------  1
+		to   : 0-1-0-0-1-1-1-0-0-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 173
+		from : 0-1-1-0-1-0-1-0-0-1-0-0-0-1-1---------  1
+		to   : 0-1-1-0-1-0-1-0-0-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 174
+		from : 0-1-0-0-1-1-1-1-1-1-0-0-0-1-1---------  1
+		to   : 0-1-0-0-1-1-1-1-1-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 175
+		from : 0-1-1-0-1-1-1-1-1-1-1-0-0-1-1---------  1
+		to   : 0-1-1-0-1-1-1-1-1-1-1-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 176
+		from : 0-1-0-0-1-1-1-1-0-1-0-0-0-1-1---------  1
+		to   : 0-1-0-0-1-1-1-1-0-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 177
+		from : 0-1-1-0-1-1-0-1-1-0-0-0-0-1-1---------  1
+		to   : 0-1-1-0-1-1-0-1-1-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 178
+		from : 0-1-1-0-1-1-1-0-0-1-0-0-0-1-1---------  1
+		to   : 0-1-1-0-1-1-1-0-0-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 179
+		from : 0-1-1-0-1-1-1-1-1-0-0-0-0-1-1---------  1
+		to   : 0-1-1-0-1-1-1-1-1-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 180
+		from : 0-1-1-0-1-1-1-0-1-0-0-0-0-1-1---------  1
+		to   : 0-1-1-0-1-1-1-0-1-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 181
+		from : 0-1-1-0-1-1-1-1-1-1-0-0-0-1-1---------  1
+		to   : 0-1-1-0-1-1-1-1-1-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 182
+		from : 0-1-1-0-1-1-1-1-1-0-1-0-0-1-1---------  1
+		to   : 0-1-1-0-1-1-1-1-1-0-1-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 183
+		from : 0-1-1-0-1-1-1-1-0-0-0-0-0-1-1---------  1
+		to   : 0-1-1-0-1-1-1-1-0-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 184
+		from : 0-1-1-0-1-1-1-0-0-0-0-0-0-1-1---------  1
+		to   : 0-1-1-0-1-1-1-0-0-0-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 185
+		from : 0-1-1-0-1-1-1-0-1-1-0-0-0-1-1---------  1
+		to   : 0-1-1-0-1-1-1-0-1-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 186
+		from : 0-1-1-0-1-1-1-0-1-1-1-0-0-1-1---------  1
+		to   : 0-1-1-0-1-1-1-0-1-1-1-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 187
+		from : 0-1-1-0-1-1-1-1-0-1-0-0-0-1-1---------  1
+		to   : 0-1-1-0-1-1-1-1-0-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+
+======================== END SEQUENTIAL CONTROL ===============================
+
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/cardiac-31-pc.ispl
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+1-0-0-0-0-0-0-0-0-0-0-1-1-0-0---------  1
+target attractor:
+0-0-0-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+
+************** perturbation: 0 **************
+No solution.
+
+************** perturbation: 1 **************
+The minimum number of perturbation is 1
+
+execution time = 0.069
+
+All the sequential reprogramming paths:
+STEP 1
+	path 1
+		from : 1-0-0-0-0-0-0-0-0-0-0-1-1-0-0---------  1
+		to   : 1-0-0-0-0-0-0-0-0-0-0-0-1-0-0---------  1
+		driver nodes: exogenBMP2I 
+
+======================== END SEQUENTIAL CONTROL ===============================
+
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/cardiac-32-pc.ispl
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+1-0-0-0-0-0-0-0-0-0-0-1-1-0-0---------  1
+target attractor:
+0-0-0-0-0-1-0-0-1-0-1-0-0-0-0---------  1
+
+************** perturbation: 0 **************
+No solution.
+
+************** perturbation: 1 **************
+No solution.
+
+************** perturbation: 2 **************
+The minimum number of perturbation is 2
+
+execution time = 0.067
+
+All the sequential reprogramming paths:
+STEP 1
+	path 1
+		from : 1-0-0-0-0-0-0-0-0-0-0-1-1-0-0---------  1
+		to   : 1-0-0-0-0-0-0-0-0-0-1-1-1-0-0---------  1
+		driver nodes: Tbx5 
+	path 2
+		from : 1-0-0-0-0-0-0-0-0-0-0-1-1-0-0---------  1
+		to   : 1-0-0-0-0-0-0-0-0-0-0-0-1-0-0---------  1
+		driver nodes: exogenBMP2I 
+STEP 2
+	path 1
+		from : 1-0-0-0-0-1-0-0-1-0-1-1-1-0-0---------  1
+		to   : 1-0-0-0-0-1-0-0-1-0-1-0-1-0-0---------  1
+		driver nodes: exogenBMP2I 
+	path 2
+		from : 1-0-0-0-0-0-0-0-0-0-1-1-1-0-0---------  1
+		to   : 1-0-0-0-0-0-0-0-0-0-1-0-1-0-0---------  1
+		driver nodes: exogenBMP2I 
+	path 3
+		from : 1-0-0-0-0-1-0-0-0-0-1-1-1-0-0---------  1
+		to   : 1-0-0-0-0-1-0-0-0-0-1-0-1-0-0---------  1
+		driver nodes: exogenBMP2I 
+	path 4
+		from : 1-0-0-0-0-0-0-0-1-0-1-1-1-0-0---------  1
+		to   : 1-0-0-0-0-0-0-0-1-0-1-0-1-0-0---------  1
+		driver nodes: exogenBMP2I 
+	path 5
+		from : 1-0-0-0-0-0-0-0-0-0-0-0-1-0-0---------  1
+		to   : 1-0-0-0-0-0-0-0-0-0-1-0-1-0-0---------  1
+		driver nodes: Tbx5 
+	path 6
+		from : 1-0-0-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+		to   : 1-0-0-0-0-0-0-0-0-0-1-0-0-0-0---------  1
+		driver nodes: Tbx5 
+	path 7
+		from : 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+		to   : 0-0-0-0-0-0-0-0-0-0-1-0-0-0-0---------  1
+		driver nodes: Tbx5 
+
+======================== END SEQUENTIAL CONTROL ===============================
+
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/cardiac-33-pc.ispl
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+1-0-0-0-0-0-0-0-0-0-0-1-1-0-0---------  1
+target attractor:
+1-0-0-0-0-0-0-0-0-0-0-1-1-0-0---------  1
+
+---------------------------------------------
+The source and the target are the same.
+The minimum number of perturbation is 0
+The BDD consisting of all reprogramming paths: 
+
+execution time = 0
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/cardiac-34-pc.ispl
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+1-0-0-0-0-0-0-0-0-0-0-1-1-0-0---------  1
+target attractor:
+1-0-0-0-0-1-0-0-1-0-1-1-1-0-0---------  1
+
+************** perturbation: 0 **************
+No solution.
+
+************** perturbation: 1 **************
+The minimum number of perturbation is 1
+
+execution time = 0.067
+
+All the sequential reprogramming paths:
+STEP 1
+	path 1
+		from : 1-0-0-0-0-0-0-0-0-0-0-1-1-0-0---------  1
+		to   : 1-0-0-0-0-0-0-0-0-0-1-1-1-0-0---------  1
+		driver nodes: Tbx5 
+
+======================== END SEQUENTIAL CONTROL ===============================
+
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/cardiac-35-pc.ispl
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+1-0-0-0-0-0-0-0-0-0-0-1-1-0-0---------  1
+target attractor:
+0-1-1-0-1-1-1-1-1-1-0-0-0-1-1---------  1
+
+************** perturbation: 0 **************
+No solution.
+
+************** perturbation: 1 **************
+No solution.
+
+************** perturbation: 2 **************
+The minimum number of perturbation is 2
+
+execution time = 0.012
+
+All the sequential reprogramming paths:
+STEP 1
+	path 1
+		from : 1-0-0-0-0-0-0-0-0-0-0-1-1-0-0---------  1
+		to   : 1-0-0-0-0-0-0-0-0-0-0-1-1-1-0---------  1
+		driver nodes: exogenCanWntI 
+	path 2
+		from : 1-0-0-0-0-0-0-0-0-0-0-1-1-0-0---------  1
+		to   : 1-0-0-0-0-0-0-0-0-0-0-0-1-0-0---------  1
+		driver nodes: exogenBMP2I 
+STEP 2
+	path 1
+		from : 1-1-0-1-1-1-0-0-1-1-0-1-1-1-1---------  1
+		to   : 1-1-0-1-1-1-0-0-1-1-0-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 2
+		from : 1-0-0-0-0-0-0-0-0-0-0-1-1-1-1---------  1
+		to   : 1-0-0-0-0-0-0-0-0-0-0-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 3
+		from : 1-1-0-1-1-1-1-0-1-1-0-1-1-1-1---------  1
+		to   : 1-1-0-1-1-1-1-0-1-1-0-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 4
+		from : 1-1-0-0-0-0-1-0-0-0-0-1-1-1-1---------  1
+		to   : 1-1-0-0-0-0-1-0-0-0-0-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 5
+		from : 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+		to   : 0-0-0-0-0-0-0-0-0-0-0-0-0-1-0---------  1
+		driver nodes: exogenCanWntI 
+	path 6
+		from : 1-0-0-0-0-0-0-0-0-0-0-1-1-1-0---------  1
+		to   : 1-0-0-0-0-0-0-0-0-0-0-0-1-1-0---------  1
+		driver nodes: exogenBMP2I 
+	path 7
+		from : 1-0-0-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+		to   : 1-0-0-0-0-0-0-0-0-0-0-0-0-1-0---------  1
+		driver nodes: exogenCanWntI 
+	path 8
+		from : 0-1-0-0-1-0-0-0-1-1-0-1-1-1-1---------  1
+		to   : 0-1-0-0-1-0-0-0-1-1-0-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 9
+		from : 1-1-0-1-1-0-0-0-0-1-0-1-1-1-1---------  1
+		to   : 1-1-0-1-1-0-0-0-0-1-0-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 10
+		from : 1-1-0-1-1-0-1-0-0-0-0-1-1-1-1---------  1
+		to   : 1-1-0-1-1-0-1-0-0-0-0-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 11
+		from : 1-1-0-1-1-0-1-0-0-1-0-1-1-1-1---------  1
+		to   : 1-1-0-1-1-0-1-0-0-1-0-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 12
+		from : 1-1-0-0-0-0-0-0-0-0-0-1-1-1-1---------  1
+		to   : 1-1-0-0-0-0-0-0-0-0-0-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 13
+		from : 1-0-0-0-0-0-0-0-0-0-0-0-1-0-0---------  1
+		to   : 1-0-0-0-0-0-0-0-0-0-0-0-1-1-0---------  1
+		driver nodes: exogenCanWntI 
+	path 14
+		from : 1-1-0-1-1-0-0-0-0-0-0-1-1-1-1---------  1
+		to   : 1-1-0-1-1-0-0-0-0-0-0-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 15
+		from : 0-1-0-1-1-1-1-0-1-1-0-1-1-1-1---------  1
+		to   : 0-1-0-1-1-1-1-0-1-1-0-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 16
+		from : 1-1-0-0-1-0-1-0-0-0-0-1-1-1-1---------  1
+		to   : 1-1-0-0-1-0-1-0-0-0-0-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 17
+		from : 1-1-0-1-1-0-1-0-1-1-0-1-1-1-1---------  1
+		to   : 1-1-0-1-1-0-1-0-1-1-0-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 18
+		from : 1-1-0-0-1-1-1-0-1-1-0-1-1-1-1---------  1
+		to   : 1-1-0-0-1-1-1-0-1-1-0-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 19
+		from : 1-1-0-0-1-1-0-0-1-1-0-1-1-1-1---------  1
+		to   : 1-1-0-0-1-1-0-0-1-1-0-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 20
+		from : 0-1-0-0-1-1-0-0-1-1-0-1-1-1-1---------  1
+		to   : 0-1-0-0-1-1-0-0-1-1-0-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 21
+		from : 1-1-0-1-1-0-0-0-1-1-0-1-1-1-1---------  1
+		to   : 1-1-0-1-1-0-0-0-1-1-0-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 22
+		from : 1-1-0-0-1-0-0-0-1-1-0-1-1-1-1---------  1
+		to   : 1-1-0-0-1-0-0-0-1-1-0-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 23
+		from : 0-1-0-1-1-0-0-0-1-1-0-1-1-1-1---------  1
+		to   : 0-1-0-1-1-0-0-0-1-1-0-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 24
+		from : 1-1-0-0-1-0-0-0-0-0-0-1-1-1-1---------  1
+		to   : 1-1-0-0-1-0-0-0-0-0-0-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 25
+		from : 0-1-0-0-0-0-1-0-0-0-0-1-1-1-1---------  1
+		to   : 0-1-0-0-0-0-1-0-0-0-0-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 26
+		from : 1-1-0-0-1-0-1-0-0-1-0-1-1-1-1---------  1
+		to   : 1-1-0-0-1-0-1-0-0-1-0-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 27
+		from : 1-1-0-0-1-0-1-0-1-1-0-1-1-1-1---------  1
+		to   : 1-1-0-0-1-0-1-0-1-1-0-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 28
+		from : 0-1-0-0-1-1-1-0-1-1-0-1-1-1-1---------  1
+		to   : 0-1-0-0-1-1-1-0-1-1-0-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 29
+		from : 0-1-0-0-0-0-0-0-0-0-0-1-1-1-1---------  1
+		to   : 0-1-0-0-0-0-0-0-0-0-0-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 30
+		from : 0-1-0-1-1-1-0-0-1-1-0-1-1-1-1---------  1
+		to   : 0-1-0-1-1-1-0-0-1-1-0-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 31
+		from : 0-1-0-1-1-0-1-0-0-1-0-1-1-1-1---------  1
+		to   : 0-1-0-1-1-0-1-0-0-1-0-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 32
+		from : 0-1-0-1-1-0-0-0-0-0-0-1-1-1-1---------  1
+		to   : 0-1-0-1-1-0-0-0-0-0-0-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 33
+		from : 0-1-0-1-1-0-1-0-1-1-0-1-1-1-1---------  1
+		to   : 0-1-0-1-1-0-1-0-1-1-0-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 34
+		from : 1-1-0-0-1-0-0-0-0-1-0-1-1-1-1---------  1
+		to   : 1-1-0-0-1-0-0-0-0-1-0-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 35
+		from : 0-1-0-1-1-0-1-0-0-0-0-1-1-1-1---------  1
+		to   : 0-1-0-1-1-0-1-0-0-0-0-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 36
+		from : 0-1-0-0-1-0-1-0-1-1-0-1-1-1-1---------  1
+		to   : 0-1-0-0-1-0-1-0-1-1-0-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 37
+		from : 0-1-0-0-1-0-0-0-0-0-0-1-1-1-1---------  1
+		to   : 0-1-0-0-1-0-0-0-0-0-0-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 38
+		from : 0-1-0-0-1-0-0-0-0-1-0-1-1-1-1---------  1
+		to   : 0-1-0-0-1-0-0-0-0-1-0-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 39
+		from : 0-1-0-0-1-0-1-0-0-0-0-1-1-1-1---------  1
+		to   : 0-1-0-0-1-0-1-0-0-0-0-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 40
+		from : 0-1-0-1-1-0-0-0-0-1-0-1-1-1-1---------  1
+		to   : 0-1-0-1-1-0-0-0-0-1-0-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 41
+		from : 0-1-0-0-1-0-1-0-0-1-0-1-1-1-1---------  1
+		to   : 0-1-0-0-1-0-1-0-0-1-0-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+
+======================== END SEQUENTIAL CONTROL ===============================
+
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/cardiac-36-pc.ispl
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+1-0-0-0-0-0-0-0-0-0-0-1-1-0-0---------  1
+target attractor:
+0-1-0-1-1-1-1-0-1-1-0-1-1-1-1---------  1
+
+************** perturbation: 0 **************
+No solution.
+
+************** perturbation: 1 **************
+The minimum number of perturbation is 1
+
+execution time = 0.007
+
+All the sequential reprogramming paths:
+STEP 1
+	path 1
+		from : 1-0-0-0-0-0-0-0-0-0-0-1-1-0-0---------  1
+		to   : 1-0-0-0-0-0-0-0-0-0-0-1-1-1-0---------  1
+		driver nodes: exogenCanWntI 
+
+======================== END SEQUENTIAL CONTROL ===============================
+
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/cardiac-41-pc.ispl
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+1-0-0-0-0-1-0-0-1-0-1-1-1-0-0---------  1
+target attractor:
+0-0-0-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+
+************** perturbation: 0 **************
+No solution.
+
+************** perturbation: 1 **************
+No solution.
+
+************** perturbation: 2 **************
+No solution.
+
+************** perturbation: 3 **************
+The minimum number of perturbation is 3
+
+execution time = 0.146
+
+All the sequential reprogramming paths:
+STEP 1
+	path 1
+		from : 1-0-0-0-0-1-0-0-1-0-1-1-1-0-0---------  1
+		to   : 1-0-0-0-0-1-0-0-1-0-1-0-1-0-0---------  1
+		driver nodes: exogenBMP2I 
+STEP 2
+	path 1
+		from : 0-0-0-0-0-1-0-0-1-0-1-0-0-0-0---------  1
+		to   : 0-0-0-0-0-1-0-0-0-0-1-0-0-0-0---------  1
+		driver nodes: Nkx25 
+	path 2
+		from : 0-0-0-0-0-1-0-0-1-0-1-0-0-0-0---------  1
+		to   : 0-0-0-0-0-1-0-0-1-0-0-0-0-0-0---------  1
+		driver nodes: Tbx5 
+STEP 3
+	path 1
+		from : 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+		to   : 0-0-0-0-0-0-1-0-0-0-0-0-0-0-0---------  1
+		driver nodes: Isl1 
+	path 2
+		from : 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+		to   : 0-0-0-1-0-0-0-0-0-0-0-0-0-0-0---------  1
+		driver nodes: Fgf8 
+	path 3
+		from : 0-0-0-0-0-1-0-0-1-0-0-0-0-0-0---------  1
+		to   : 0-0-0-0-0-1-0-0-0-0-0-0-0-0-0---------  1
+		driver nodes: Nkx25 
+	path 4
+		from : 0-0-0-0-0-1-0-0-0-0-1-0-0-0-0---------  1
+		to   : 0-0-0-0-0-1-0-0-0-0-0-0-0-0-0---------  1
+		driver nodes: Tbx5 
+	path 5
+		from : 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+		to   : 0-0-0-0-0-1-0-0-0-0-0-0-0-0-0---------  1
+		driver nodes: GATAs 
+	path 6
+		from : 0-0-0-0-0-1-0-0-0-0-0-0-0-0-0---------  1
+		to   : 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+		driver nodes: GATAs 
+	path 7
+		from : 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+		to   : 0-0-0-0-0-0-0-0-0-0-0-0-1-0-0---------  1
+		driver nodes: exogenBMP2II 
+	path 8
+		from : 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+		to   : 0-0-1-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+		driver nodes: Dkk1 
+	path 9
+		from : 0-0-0-0-0-1-0-0-0-0-0-0-0-0-0---------  1
+		to   : 0-0-1-0-0-1-0-0-0-0-0-0-0-0-0---------  1
+		driver nodes: Dkk1 
+	path 10
+		from : 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+		to   : 1-0-0-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+		driver nodes: BMP2 
+
+======================== END SEQUENTIAL CONTROL ===============================
+
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/cardiac-42-pc.ispl
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+1-0-0-0-0-1-0-0-1-0-1-1-1-0-0---------  1
+target attractor:
+0-0-0-0-0-1-0-0-1-0-1-0-0-0-0---------  1
+
+************** perturbation: 0 **************
+No solution.
+
+************** perturbation: 1 **************
+The minimum number of perturbation is 1
+
+execution time = 0.05
+
+All the sequential reprogramming paths:
+STEP 1
+	path 1
+		from : 1-0-0-0-0-1-0-0-1-0-1-1-1-0-0---------  1
+		to   : 1-0-0-0-0-1-0-0-1-0-1-0-1-0-0---------  1
+		driver nodes: exogenBMP2I 
+
+======================== END SEQUENTIAL CONTROL ===============================
+
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/cardiac-43-pc.ispl
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+1-0-0-0-0-1-0-0-1-0-1-1-1-0-0---------  1
+target attractor:
+1-0-0-0-0-0-0-0-0-0-0-1-1-0-0---------  1
+
+************** perturbation: 0 **************
+No solution.
+
+************** perturbation: 1 **************
+No solution.
+
+************** perturbation: 2 **************
+No solution.
+
+************** perturbation: 3 **************
+The minimum number of perturbation is 3
+
+execution time = 0.177
+
+All the sequential reprogramming paths:
+STEP 1
+	path 1
+		from : 1-0-0-0-0-1-0-0-1-0-1-1-1-0-0---------  1
+		to   : 1-0-0-0-0-1-0-0-0-0-1-1-1-0-0---------  1
+		driver nodes: Nkx25 
+	path 2
+		from : 1-0-0-0-0-1-0-0-1-0-1-1-1-0-0---------  1
+		to   : 1-0-0-0-0-0-0-0-1-0-1-1-1-0-0---------  1
+		driver nodes: GATAs 
+	path 3
+		from : 1-0-0-0-0-1-0-0-1-0-1-1-1-0-0---------  1
+		to   : 1-0-0-0-0-1-0-0-1-0-0-1-1-0-0---------  1
+		driver nodes: Tbx5 
+STEP 2
+	path 1
+		from : 1-0-0-0-0-1-0-0-0-0-1-1-1-0-0---------  1
+		to   : 1-0-0-0-0-0-0-0-0-0-1-1-1-0-0---------  1
+		driver nodes: GATAs 
+	path 2
+		from : 1-0-0-0-0-0-0-0-1-0-1-1-1-0-0---------  1
+		to   : 1-0-0-0-0-0-0-0-1-0-0-1-1-0-0---------  1
+		driver nodes: Tbx5 
+	path 3
+		from : 1-0-0-0-0-0-0-0-1-0-1-1-1-0-0---------  1
+		to   : 1-0-0-0-0-0-0-0-0-0-1-1-1-0-0---------  1
+		driver nodes: Nkx25 
+	path 4
+		from : 1-0-0-0-0-1-0-0-0-0-1-1-1-0-0---------  1
+		to   : 1-0-0-0-0-1-0-0-0-0-0-1-1-0-0---------  1
+		driver nodes: Tbx5 
+	path 5
+		from : 1-0-0-0-0-1-0-0-1-0-0-1-1-0-0---------  1
+		to   : 1-0-0-0-0-1-0-0-0-0-0-1-1-0-0---------  1
+		driver nodes: Nkx25 
+	path 6
+		from : 1-0-0-0-0-1-0-0-1-0-0-1-1-0-0---------  1
+		to   : 1-0-0-0-0-0-0-0-1-0-0-1-1-0-0---------  1
+		driver nodes: GATAs 
+STEP 3
+	path 1
+		from : 1-0-0-0-0-0-0-0-0-0-0-1-1-0-0---------  1
+		to   : 1-0-0-0-0-0-1-0-0-0-0-1-1-0-0---------  1
+		driver nodes: Isl1 
+	path 2
+		from : 1-0-0-0-0-0-0-0-0-0-0-1-1-0-0---------  1
+		to   : 1-0-1-0-0-0-0-0-0-0-0-1-1-0-0---------  1
+		driver nodes: Dkk1 
+	path 3
+		from : 1-0-0-0-0-0-0-0-0-0-0-1-1-0-0---------  1
+		to   : 0-0-0-0-0-0-0-0-0-0-0-1-1-0-0---------  1
+		driver nodes: BMP2 
+	path 4
+		from : 1-0-0-0-0-0-0-0-0-0-0-1-1-0-0---------  1
+		to   : 1-0-0-1-0-0-0-0-0-0-0-1-1-0-0---------  1
+		driver nodes: Fgf8 
+	path 5
+		from : 1-0-0-0-0-0-0-0-0-0-0-1-1-0-0---------  1
+		to   : 1-0-0-0-0-0-0-0-0-0-0-1-0-0-0---------  1
+		driver nodes: exogenBMP2II 
+	path 6
+		from : 1-0-0-0-0-0-0-0-0-0-1-1-1-0-0---------  1
+		to   : 1-0-0-0-0-0-0-0-0-0-0-1-1-0-0---------  1
+		driver nodes: Tbx5 
+	path 7
+		from : 1-0-0-0-0-0-0-0-0-0-0-1-1-0-0---------  1
+		to   : 1-1-0-0-0-0-0-0-0-0-0-1-1-0-0---------  1
+		driver nodes: canWnt 
+	path 8
+		from : 1-0-0-0-0-0-0-0-1-0-0-1-1-0-0---------  1
+		to   : 1-0-0-0-0-0-0-0-0-0-0-1-1-0-0---------  1
+		driver nodes: Nkx25 
+	path 9
+		from : 1-0-0-0-0-1-0-0-0-0-0-1-1-0-0---------  1
+		to   : 1-0-0-0-0-0-0-0-0-0-0-1-1-0-0---------  1
+		driver nodes: GATAs 
+
+======================== END SEQUENTIAL CONTROL ===============================
+
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/cardiac-44-pc.ispl
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+1-0-0-0-0-1-0-0-1-0-1-1-1-0-0---------  1
+target attractor:
+1-0-0-0-0-1-0-0-1-0-1-1-1-0-0---------  1
+
+---------------------------------------------
+The source and the target are the same.
+The minimum number of perturbation is 0
+The BDD consisting of all reprogramming paths: 
+
+execution time = 0
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/cardiac-45-pc.ispl
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+1-0-0-0-0-1-0-0-1-0-1-1-1-0-0---------  1
+target attractor:
+0-1-1-0-1-1-1-1-1-1-0-0-0-1-1---------  1
+
+************** perturbation: 0 **************
+No solution.
+
+************** perturbation: 1 **************
+No solution.
+
+************** perturbation: 2 **************
+The minimum number of perturbation is 2
+
+execution time = 0.013
+
+All the sequential reprogramming paths:
+STEP 1
+	path 1
+		from : 1-0-0-0-0-1-0-0-1-0-1-1-1-0-0---------  1
+		to   : 1-0-0-0-0-1-0-0-1-0-1-1-1-1-0---------  1
+		driver nodes: exogenCanWntI 
+	path 2
+		from : 1-0-0-0-0-1-0-0-1-0-1-1-1-0-0---------  1
+		to   : 1-0-0-0-0-1-0-0-1-0-1-0-1-0-0---------  1
+		driver nodes: exogenBMP2I 
+STEP 2
+	path 1
+		from : 1-1-0-1-1-1-1-0-1-0-1-1-1-1-1---------  1
+		to   : 1-1-0-1-1-1-1-0-1-0-1-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 2
+		from : 0-1-0-1-1-1-1-0-1-1-1-1-1-1-1---------  1
+		to   : 0-1-0-1-1-1-1-0-1-1-1-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 3
+		from : 1-0-0-0-0-1-0-0-1-0-1-0-1-0-0---------  1
+		to   : 1-0-0-0-0-1-0-0-1-0-1-0-1-1-0---------  1
+		driver nodes: exogenCanWntI 
+	path 4
+		from : 0-0-0-0-0-1-0-0-1-0-1-0-0-0-0---------  1
+		to   : 0-0-0-0-0-1-0-0-1-0-1-0-0-1-0---------  1
+		driver nodes: exogenCanWntI 
+	path 5
+		from : 1-0-0-0-0-1-0-0-1-0-1-1-1-1-1---------  1
+		to   : 1-0-0-0-0-1-0-0-1-0-1-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 6
+		from : 0-1-0-0-0-0-1-0-0-0-0-1-1-1-1---------  1
+		to   : 0-1-0-0-0-0-1-0-0-0-0-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 7
+		from : 0-1-0-0-1-1-1-0-1-0-0-1-1-1-1---------  1
+		to   : 0-1-0-0-1-1-1-0-1-0-0-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 8
+		from : 1-1-0-1-1-1-1-0-1-1-0-1-1-1-1---------  1
+		to   : 1-1-0-1-1-1-1-0-1-1-0-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 9
+		from : 0-1-0-1-1-1-1-0-1-0-1-1-1-1-1---------  1
+		to   : 0-1-0-1-1-1-1-0-1-0-1-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 10
+		from : 1-0-0-0-0-1-0-0-1-0-1-0-0-0-0---------  1
+		to   : 1-0-0-0-0-1-0-0-1-0-1-0-0-1-0---------  1
+		driver nodes: exogenCanWntI 
+	path 11
+		from : 1-0-0-0-0-1-0-0-1-0-1-1-1-1-0---------  1
+		to   : 1-0-0-0-0-1-0-0-1-0-1-0-1-1-0---------  1
+		driver nodes: exogenBMP2I 
+	path 12
+		from : 1-1-0-1-1-1-0-0-1-0-0-1-1-1-1---------  1
+		to   : 1-1-0-1-1-1-0-0-1-0-0-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 13
+		from : 1-1-0-1-1-1-1-0-1-1-1-1-1-1-1---------  1
+		to   : 1-1-0-1-1-1-1-0-1-1-1-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 14
+		from : 0-1-0-0-1-0-0-0-1-1-0-1-1-1-1---------  1
+		to   : 0-1-0-0-1-0-0-0-1-1-0-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 15
+		from : 1-1-0-1-1-1-1-0-1-0-0-1-1-1-1---------  1
+		to   : 1-1-0-1-1-1-1-0-1-0-0-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 16
+		from : 0-1-0-1-1-1-1-0-0-1-0-1-1-1-1---------  1
+		to   : 0-1-0-1-1-1-1-0-0-1-0-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 17
+		from : 0-1-0-0-1-1-0-0-1-1-1-1-1-1-1---------  1
+		to   : 0-1-0-0-1-1-0-0-1-1-1-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 18
+		from : 0-1-0-1-1-0-1-0-0-0-0-1-1-1-1---------  1
+		to   : 0-1-0-1-1-0-1-0-0-0-0-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 19
+		from : 1-1-0-1-1-1-0-0-1-0-1-1-1-1-1---------  1
+		to   : 1-1-0-1-1-1-0-0-1-0-1-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 20
+		from : 0-1-0-0-0-0-0-0-0-0-0-1-1-1-1---------  1
+		to   : 0-1-0-0-0-0-0-0-0-0-0-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 21
+		from : 1-1-0-1-1-1-0-0-1-1-1-1-1-1-1---------  1
+		to   : 1-1-0-1-1-1-0-0-1-1-1-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 22
+		from : 0-1-0-1-1-1-0-0-0-1-0-1-1-1-1---------  1
+		to   : 0-1-0-1-1-1-0-0-0-1-0-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 23
+		from : 1-1-0-0-0-1-0-0-1-0-0-1-1-1-1---------  1
+		to   : 1-1-0-0-0-1-0-0-1-0-0-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 24
+		from : 1-1-0-1-1-1-0-0-1-1-0-1-1-1-1---------  1
+		to   : 1-1-0-1-1-1-0-0-1-1-0-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 25
+		from : 0-1-0-1-1-1-0-0-1-0-1-1-1-1-1---------  1
+		to   : 0-1-0-1-1-1-0-0-1-0-1-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 26
+		from : 0-1-0-0-0-1-1-0-1-0-1-1-1-1-1---------  1
+		to   : 0-1-0-0-0-1-1-0-1-0-1-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 27
+		from : 1-1-0-0-1-1-1-0-1-0-1-1-1-1-1---------  1
+		to   : 1-1-0-0-1-1-1-0-1-0-1-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 28
+		from : 1-1-0-0-0-1-0-0-1-0-1-1-1-1-1---------  1
+		to   : 1-1-0-0-0-1-0-0-1-0-1-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 29
+		from : 0-1-0-0-0-1-0-0-0-0-0-1-1-1-1---------  1
+		to   : 0-1-0-0-0-1-0-0-0-0-0-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 30
+		from : 1-1-0-0-1-1-1-0-1-0-0-1-1-1-1---------  1
+		to   : 1-1-0-0-1-1-1-0-1-0-0-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 31
+		from : 1-1-0-0-0-1-1-0-1-0-0-1-1-1-1---------  1
+		to   : 1-1-0-0-0-1-1-0-1-0-0-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 32
+		from : 0-1-0-0-0-1-1-0-1-0-0-1-1-1-1---------  1
+		to   : 0-1-0-0-0-1-1-0-1-0-0-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 33
+		from : 0-1-0-0-1-1-0-0-0-1-0-1-1-1-1---------  1
+		to   : 0-1-0-0-1-1-0-0-0-1-0-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 34
+		from : 1-1-0-0-1-1-0-0-1-1-0-1-1-1-1---------  1
+		to   : 1-1-0-0-1-1-0-0-1-1-0-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 35
+		from : 1-1-0-0-1-1-0-0-1-1-1-1-1-1-1---------  1
+		to   : 1-1-0-0-1-1-0-0-1-1-1-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 36
+		from : 1-1-0-0-0-1-1-0-1-0-1-1-1-1-1---------  1
+		to   : 1-1-0-0-0-1-1-0-1-0-1-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 37
+		from : 0-1-0-1-1-1-0-0-1-0-0-1-1-1-1---------  1
+		to   : 0-1-0-1-1-1-0-0-1-0-0-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 38
+		from : 0-1-0-0-1-1-1-0-0-1-0-1-1-1-1---------  1
+		to   : 0-1-0-0-1-1-1-0-0-1-0-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 39
+		from : 1-1-0-0-1-1-1-0-1-1-1-1-1-1-1---------  1
+		to   : 1-1-0-0-1-1-1-0-1-1-1-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 40
+		from : 1-1-0-0-1-1-0-0-1-0-0-1-1-1-1---------  1
+		to   : 1-1-0-0-1-1-0-0-1-0-0-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 41
+		from : 0-1-0-0-1-0-1-0-1-1-0-1-1-1-1---------  1
+		to   : 0-1-0-0-1-0-1-0-1-1-0-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 42
+		from : 0-1-0-0-0-1-0-0-1-0-0-1-1-1-1---------  1
+		to   : 0-1-0-0-0-1-0-0-1-0-0-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 43
+		from : 0-1-0-0-1-1-1-0-0-0-0-1-1-1-1---------  1
+		to   : 0-1-0-0-1-1-1-0-0-0-0-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 44
+		from : 1-1-0-0-1-1-0-0-1-0-1-1-1-1-1---------  1
+		to   : 1-1-0-0-1-1-0-0-1-0-1-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 45
+		from : 0-1-0-0-0-1-0-0-1-0-1-1-1-1-1---------  1
+		to   : 0-1-0-0-0-1-0-0-1-0-1-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 46
+		from : 0-1-0-0-0-1-1-0-0-0-0-1-1-1-1---------  1
+		to   : 0-1-0-0-0-1-1-0-0-0-0-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 47
+		from : 1-1-0-0-1-1-1-0-1-1-0-1-1-1-1---------  1
+		to   : 1-1-0-0-1-1-1-0-1-1-0-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 48
+		from : 0-1-0-1-1-0-0-0-0-1-0-1-1-1-1---------  1
+		to   : 0-1-0-1-1-0-0-0-0-1-0-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 49
+		from : 0-1-0-1-1-0-0-0-1-1-0-1-1-1-1---------  1
+		to   : 0-1-0-1-1-0-0-0-1-1-0-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 50
+		from : 0-1-0-0-1-1-0-0-0-0-0-1-1-1-1---------  1
+		to   : 0-1-0-0-1-1-0-0-0-0-0-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 51
+		from : 0-1-0-1-1-1-0-0-1-1-0-1-1-1-1---------  1
+		to   : 0-1-0-1-1-1-0-0-1-1-0-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 52
+		from : 0-1-0-0-1-0-0-0-0-1-0-1-1-1-1---------  1
+		to   : 0-1-0-0-1-0-0-0-0-1-0-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 53
+		from : 0-1-0-1-1-0-1-0-0-1-0-1-1-1-1---------  1
+		to   : 0-1-0-1-1-0-1-0-0-1-0-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 54
+		from : 0-1-0-0-1-1-1-0-1-0-1-1-1-1-1---------  1
+		to   : 0-1-0-0-1-1-1-0-1-0-1-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 55
+		from : 0-1-0-1-1-0-1-0-1-1-0-1-1-1-1---------  1
+		to   : 0-1-0-1-1-0-1-0-1-1-0-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 56
+		from : 0-1-0-0-1-1-1-0-1-1-1-1-1-1-1---------  1
+		to   : 0-1-0-0-1-1-1-0-1-1-1-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 57
+		from : 0-1-0-1-1-0-0-0-0-0-0-1-1-1-1---------  1
+		to   : 0-1-0-1-1-0-0-0-0-0-0-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 58
+		from : 0-1-0-0-1-1-1-0-1-1-0-1-1-1-1---------  1
+		to   : 0-1-0-0-1-1-1-0-1-1-0-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 59
+		from : 0-1-0-0-1-0-1-0-0-0-0-1-1-1-1---------  1
+		to   : 0-1-0-0-1-0-1-0-0-0-0-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 60
+		from : 0-1-0-1-1-1-0-0-1-1-1-1-1-1-1---------  1
+		to   : 0-1-0-1-1-1-0-0-1-1-1-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 61
+		from : 0-1-0-1-1-1-0-0-0-0-0-1-1-1-1---------  1
+		to   : 0-1-0-1-1-1-0-0-0-0-0-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 62
+		from : 0-1-0-1-1-1-1-0-1-0-0-1-1-1-1---------  1
+		to   : 0-1-0-1-1-1-1-0-1-0-0-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 63
+		from : 0-1-0-1-1-1-1-0-1-1-0-1-1-1-1---------  1
+		to   : 0-1-0-1-1-1-1-0-1-1-0-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 64
+		from : 0-1-0-1-1-1-1-0-0-0-0-1-1-1-1---------  1
+		to   : 0-1-0-1-1-1-1-0-0-0-0-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 65
+		from : 0-1-0-0-1-1-0-0-1-0-1-1-1-1-1---------  1
+		to   : 0-1-0-0-1-1-0-0-1-0-1-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 66
+		from : 0-1-0-0-1-1-0-0-1-0-0-1-1-1-1---------  1
+		to   : 0-1-0-0-1-1-0-0-1-0-0-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 67
+		from : 0-1-0-0-1-1-0-0-1-1-0-1-1-1-1---------  1
+		to   : 0-1-0-0-1-1-0-0-1-1-0-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 68
+		from : 0-1-0-0-1-0-0-0-0-0-0-1-1-1-1---------  1
+		to   : 0-1-0-0-1-0-0-0-0-0-0-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+	path 69
+		from : 0-1-0-0-1-0-1-0-0-1-0-1-1-1-1---------  1
+		to   : 0-1-0-0-1-0-1-0-0-1-0-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+
+======================== END SEQUENTIAL CONTROL ===============================
+
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/cardiac-46-pc.ispl
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+1-0-0-0-0-1-0-0-1-0-1-1-1-0-0---------  1
+target attractor:
+0-1-0-1-1-1-1-0-1-1-0-1-1-1-1---------  1
+
+************** perturbation: 0 **************
+No solution.
+
+************** perturbation: 1 **************
+The minimum number of perturbation is 1
+
+execution time = 0.006
+
+All the sequential reprogramming paths:
+STEP 1
+	path 1
+		from : 1-0-0-0-0-1-0-0-1-0-1-1-1-0-0---------  1
+		to   : 1-0-0-0-0-1-0-0-1-0-1-1-1-1-0---------  1
+		driver nodes: exogenCanWntI 
+
+======================== END SEQUENTIAL CONTROL ===============================
+
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/cardiac-51-pc.ispl
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+0-1-1-0-1-1-1-1-1-1-0-0-0-1-1---------  1
+target attractor:
+0-0-0-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+
+************** perturbation: 0 **************
+No solution.
+
+************** perturbation: 1 **************
+No solution.
+
+************** perturbation: 2 **************
+No solution.
+
+************** perturbation: 3 **************
+The minimum number of perturbation is 3
+
+execution time = 0.145
+
+======================== END SEQUENTIAL CONTROL ===============================
+
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/cardiac-52-pc.ispl
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+0-1-1-0-1-1-1-1-1-1-0-0-0-1-1---------  1
+target attractor:
+0-0-0-0-0-1-0-0-1-0-1-0-0-0-0---------  1
+
+************** perturbation: 0 **************
+No solution.
+
+************** perturbation: 1 **************
+No solution.
+
+************** perturbation: 2 **************
+The minimum number of perturbation is 2
+
+execution time = 0.068
+
+All the sequential reprogramming paths:
+STEP 1
+	path 1
+		from : 0-1-1-0-1-1-1-1-1-1-0-0-0-1-1---------  1
+		to   : 0-1-1-0-1-1-1-1-1-1-0-0-0-0-1---------  1
+		driver nodes: exogenCanWntI 
+STEP 2
+	path 1
+		from : 0-0-0-1-0-1-1-0-1-0-1-0-0-0-0---------  1
+		to   : 1-0-0-1-0-1-1-0-1-0-1-0-0-0-0---------  1
+		driver nodes: BMP2 
+	path 2
+		from : 0-0-1-0-0-1-1-0-1-0-1-0-0-0-0---------  1
+		to   : 1-0-1-0-0-1-1-0-1-0-1-0-0-0-0---------  1
+		driver nodes: BMP2 
+	path 3
+		from : 0-0-0-1-0-1-1-0-1-0-1-0-0-0-0---------  1
+		to   : 0-0-0-1-0-1-1-1-1-0-1-0-0-0-0---------  1
+		driver nodes: Mesp1 
+	path 4
+		from : 0-0-1-0-0-1-1-1-1-0-1-0-0-0-0---------  1
+		to   : 1-0-1-0-0-1-1-1-1-0-1-0-0-0-0---------  1
+		driver nodes: BMP2 
+	path 5
+		from : 0-0-0-0-0-1-0-0-1-0-1-0-0-0-0---------  1
+		to   : 0-0-0-0-0-1-1-0-1-0-1-0-0-0-0---------  1
+		driver nodes: Isl1 
+	path 6
+		from : 0-0-0-1-0-1-1-0-1-0-1-0-0-0-0---------  1
+		to   : 0-0-0-1-0-1-0-0-1-0-1-0-0-0-0---------  1
+		driver nodes: Isl1 
+	path 7
+		from : 0-0-0-0-0-1-0-0-1-0-1-0-0-0-0---------  1
+		to   : 1-0-0-0-0-1-0-0-1-0-1-0-0-0-0---------  1
+		driver nodes: BMP2 
+	path 8
+		from : 0-0-1-0-0-1-0-0-1-0-1-0-0-0-0---------  1
+		to   : 0-0-1-0-0-1-1-0-1-0-1-0-0-0-0---------  1
+		driver nodes: Isl1 
+	path 9
+		from : 0-0-1-0-0-1-0-0-1-0-1-0-0-0-0---------  1
+		to   : 0-0-1-1-0-1-0-0-1-0-1-0-0-0-0---------  1
+		driver nodes: Fgf8 
+	path 10
+		from : 0-0-0-0-0-1-1-0-1-0-1-0-0-0-0---------  1
+		to   : 1-0-0-0-0-1-1-0-1-0-1-0-0-0-0---------  1
+		driver nodes: BMP2 
+	path 11
+		from : 0-0-0-0-0-1-0-0-1-0-1-0-0-0-0---------  1
+		to   : 0-0-0-1-0-1-0-0-1-0-1-0-0-0-0---------  1
+		driver nodes: Fgf8 
+	path 12
+		from : 0-0-1-0-0-1-0-0-1-0-1-0-0-0-0---------  1
+		to   : 1-0-1-0-0-1-0-0-1-0-1-0-0-0-0---------  1
+		driver nodes: BMP2 
+	path 13
+		from : 0-0-0-1-0-1-1-0-1-0-1-0-0-0-0---------  1
+		to   : 0-0-0-0-0-1-1-0-1-0-1-0-0-0-0---------  1
+		driver nodes: Fgf8 
+	path 14
+		from : 0-0-1-0-0-1-0-0-1-0-1-0-0-0-0---------  1
+		to   : 0-0-1-0-0-1-0-1-1-0-1-0-0-0-0---------  1
+		driver nodes: Mesp1 
+	path 15
+		from : 0-0-1-0-0-1-1-1-1-0-1-0-0-0-0---------  1
+		to   : 0-0-1-1-0-1-1-1-1-0-1-0-0-0-0---------  1
+		driver nodes: Fgf8 
+	path 16
+		from : 0-0-1-0-0-1-0-0-1-0-1-0-0-0-0---------  1
+		to   : 0-0-0-0-0-1-0-0-1-0-1-0-0-0-0---------  1
+		driver nodes: Dkk1 
+	path 17
+		from : 0-0-1-0-0-1-1-0-1-0-1-0-0-0-0---------  1
+		to   : 0-0-1-0-0-1-1-1-1-0-1-0-0-0-0---------  1
+		driver nodes: Mesp1 
+	path 18
+		from : 0-0-1-0-0-1-1-1-1-0-1-0-0-0-0---------  1
+		to   : 0-0-1-0-0-1-1-0-1-0-1-0-0-0-0---------  1
+		driver nodes: Mesp1 
+	path 19
+		from : 0-0-0-0-0-1-0-0-1-0-1-0-0-0-0---------  1
+		to   : 0-0-0-0-0-1-0-1-1-0-1-0-0-0-0---------  1
+		driver nodes: Mesp1 
+	path 20
+		from : 0-0-0-1-0-1-1-0-1-0-1-0-0-0-0---------  1
+		to   : 0-0-1-1-0-1-1-0-1-0-1-0-0-0-0---------  1
+		driver nodes: Dkk1 
+	path 21
+		from : 0-0-0-0-0-1-1-0-1-0-1-0-0-0-0---------  1
+		to   : 0-0-0-1-0-1-1-0-1-0-1-0-0-0-0---------  1
+		driver nodes: Fgf8 
+	path 22
+		from : 0-0-1-0-0-1-0-0-1-0-1-0-0-0-0---------  1
+		to   : 0-0-1-0-0-0-0-0-1-0-1-0-0-0-0---------  1
+		driver nodes: GATAs 
+	path 23
+		from : 0-0-0-1-0-1-1-0-1-0-1-0-0-0-0---------  1
+		to   : 0-0-0-1-0-0-1-0-1-0-1-0-0-0-0---------  1
+		driver nodes: GATAs 
+	path 24
+		from : 0-0-1-0-0-1-1-0-1-0-1-0-0-0-0---------  1
+		to   : 0-0-1-0-0-1-0-0-1-0-1-0-0-0-0---------  1
+		driver nodes: Isl1 
+	path 25
+		from : 0-0-0-0-0-1-1-0-1-0-1-0-0-0-0---------  1
+		to   : 0-0-0-0-0-1-0-0-1-0-1-0-0-0-0---------  1
+		driver nodes: Isl1 
+	path 26
+		from : 0-0-0-0-0-1-0-0-1-0-1-0-0-0-0---------  1
+		to   : 0-0-0-0-0-1-0-0-1-0-1-0-1-0-0---------  1
+		driver nodes: exogenBMP2II 
+	path 27
+		from : 0-0-1-0-0-1-0-0-1-0-1-0-0-0-0---------  1
+		to   : 0-0-1-0-0-1-0-0-0-0-1-0-0-0-0---------  1
+		driver nodes: Nkx25 
+	path 28
+		from : 0-0-1-0-0-1-0-0-1-0-1-0-0-0-0---------  1
+		to   : 0-0-1-0-0-1-0-0-1-0-1-0-1-0-0---------  1
+		driver nodes: exogenBMP2II 
+	path 29
+		from : 0-0-0-0-0-1-0-0-1-0-0-0-0-0-0---------  1
+		to   : 0-0-0-0-0-1-0-0-1-0-1-0-0-0-0---------  1
+		driver nodes: Tbx5 
+	path 30
+		from : 0-0-1-0-0-1-0-0-0-0-0-0-0-0-0---------  1
+		to   : 0-0-1-0-0-1-0-0-0-0-1-0-0-0-0---------  1
+		driver nodes: Tbx5 
+	path 31
+		from : 0-0-1-0-0-1-1-1-1-0-1-0-0-0-0---------  1
+		to   : 0-0-1-0-0-1-0-1-1-0-1-0-0-0-0---------  1
+		driver nodes: Isl1 
+	path 32
+		from : 0-0-0-0-0-1-1-0-1-0-1-0-0-0-0---------  1
+		to   : 0-0-0-0-0-1-1-1-1-0-1-0-0-0-0---------  1
+		driver nodes: Mesp1 
+	path 33
+		from : 0-0-1-1-0-1-1-0-1-0-0-0-0-0-0---------  1
+		to   : 0-0-1-1-0-1-1-0-1-0-1-0-0-0-0---------  1
+		driver nodes: Tbx5 
+	path 34
+		from : 0-0-0-1-0-1-1-0-1-0-0-0-0-0-0---------  1
+		to   : 0-0-0-1-0-1-1-0-1-0-1-0-0-0-0---------  1
+		driver nodes: Tbx5 
+	path 35
+		from : 0-0-0-1-0-1-1-0-1-0-1-0-0-0-0---------  1
+		to   : 0-0-0-1-0-1-1-0-0-0-1-0-0-0-0---------  1
+		driver nodes: Nkx25 
+	path 36
+		from : 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+		to   : 0-0-0-0-0-0-0-0-0-0-1-0-0-0-0---------  1
+		driver nodes: Tbx5 
+	path 37
+		from : 0-0-1-0-0-1-0-0-1-0-0-0-0-0-0---------  1
+		to   : 0-0-1-0-0-1-0-0-1-0-1-0-0-0-0---------  1
+		driver nodes: Tbx5 
+	path 38
+		from : 0-0-1-0-0-1-1-0-1-0-1-0-0-0-0---------  1
+		to   : 0-0-1-1-0-1-1-0-1-0-1-0-0-0-0---------  1
+		driver nodes: Fgf8 
+	path 39
+		from : 0-0-0-0-0-1-0-0-0-0-0-0-0-0-0---------  1
+		to   : 0-0-0-0-0-1-0-0-0-0-1-0-0-0-0---------  1
+		driver nodes: Tbx5 
+	path 40
+		from : 0-0-1-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+		to   : 0-0-1-0-0-0-0-0-0-0-1-0-0-0-0---------  1
+		driver nodes: Tbx5 
+	path 41
+		from : 0-0-1-0-0-1-1-0-1-0-0-0-0-0-0---------  1
+		to   : 0-0-1-0-0-1-1-0-1-0-1-0-0-0-0---------  1
+		driver nodes: Tbx5 
+	path 42
+		from : 0-0-0-0-0-1-0-0-1-0-1-0-0-0-0---------  1
+		to   : 0-0-1-0-0-1-0-0-1-0-1-0-0-0-0---------  1
+		driver nodes: Dkk1 
+	path 43
+		from : 0-0-0-1-0-1-1-0-1-0-1-0-0-0-0---------  1
+		to   : 0-0-0-1-0-1-1-0-1-0-1-0-1-0-0---------  1
+		driver nodes: exogenBMP2II 
+	path 44
+		from : 0-0-0-0-0-1-0-0-1-0-1-0-0-0-0---------  1
+		to   : 0-0-0-0-0-1-0-0-0-0-1-0-0-0-0---------  1
+		driver nodes: Nkx25 
+	path 45
+		from : 0-0-0-0-0-1-0-0-1-0-1-0-0-0-0---------  1
+		to   : 0-0-0-0-0-0-0-0-1-0-1-0-0-0-0---------  1
+		driver nodes: GATAs 
+	path 46
+		from : 0-0-1-0-0-1-1-1-1-0-0-0-0-0-0---------  1
+		to   : 0-0-1-0-0-1-1-1-1-0-1-0-0-0-0---------  1
+		driver nodes: Tbx5 
+	path 47
+		from : 0-0-1-0-0-1-1-1-1-0-1-0-0-0-0---------  1
+		to   : 0-0-1-0-0-0-1-1-1-0-1-0-0-0-0---------  1
+		driver nodes: GATAs 
+	path 48
+		from : 0-0-1-0-0-1-1-0-1-0-1-0-0-0-0---------  1
+		to   : 0-0-1-0-0-0-1-0-1-0-1-0-0-0-0---------  1
+		driver nodes: GATAs 
+	path 49
+		from : 0-0-1-0-0-1-1-1-1-0-1-0-0-0-0---------  1
+		to   : 0-0-0-0-0-1-1-1-1-0-1-0-0-0-0---------  1
+		driver nodes: Dkk1 
+	path 50
+		from : 0-0-0-0-0-1-1-0-1-0-1-0-0-0-0---------  1
+		to   : 0-0-1-0-0-1-1-0-1-0-1-0-0-0-0---------  1
+		driver nodes: Dkk1 
+	path 51
+		from : 0-0-1-0-0-1-1-1-1-0-1-0-0-0-0---------  1
+		to   : 0-0-1-0-0-1-1-1-1-0-1-0-1-0-0---------  1
+		driver nodes: exogenBMP2II 
+	path 52
+		from : 0-0-1-0-0-1-1-0-1-0-1-0-0-0-0---------  1
+		to   : 0-0-1-0-0-1-1-0-1-0-1-0-1-0-0---------  1
+		driver nodes: exogenBMP2II 
+	path 53
+		from : 0-0-1-0-0-1-1-1-1-0-1-0-0-0-0---------  1
+		to   : 0-0-1-0-0-1-1-1-0-0-1-0-0-0-0---------  1
+		driver nodes: Nkx25 
+	path 54
+		from : 0-0-1-0-0-1-1-0-1-0-1-0-0-0-0---------  1
+		to   : 0-0-0-0-0-1-1-0-1-0-1-0-0-0-0---------  1
+		driver nodes: Dkk1 
+	path 55
+		from : 0-0-0-0-0-1-1-0-1-0-0-0-0-0-0---------  1
+		to   : 0-0-0-0-0-1-1-0-1-0-1-0-0-0-0---------  1
+		driver nodes: Tbx5 
+	path 56
+		from : 0-0-0-0-0-1-1-0-1-0-1-0-0-0-0---------  1
+		to   : 0-0-0-0-0-1-1-0-0-0-1-0-0-0-0---------  1
+		driver nodes: Nkx25 
+	path 57
+		from : 0-0-1-0-0-1-1-0-1-0-1-0-0-0-0---------  1
+		to   : 0-0-1-0-0-1-1-0-0-0-1-0-0-0-0---------  1
+		driver nodes: Nkx25 
+	path 58
+		from : 0-0-0-0-0-1-1-0-1-0-1-0-0-0-0---------  1
+		to   : 0-0-0-0-0-1-1-0-1-0-1-0-1-0-0---------  1
+		driver nodes: exogenBMP2II 
+	path 59
+		from : 0-0-0-0-0-1-1-0-1-0-1-0-0-0-0---------  1
+		to   : 0-0-0-0-0-0-1-0-1-0-1-0-0-0-0---------  1
+		driver nodes: GATAs 
+
+======================== END SEQUENTIAL CONTROL ===============================
+
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/cardiac-53-pc.ispl
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+0-1-1-0-1-1-1-1-1-1-0-0-0-1-1---------  1
+target attractor:
+1-0-0-0-0-0-0-0-0-0-0-1-1-0-0---------  1
+
+************** perturbation: 0 **************
+No solution.
+
+************** perturbation: 1 **************
+No solution.
+
+************** perturbation: 2 **************
+No solution.
+
+************** perturbation: 3 **************
+No solution.
+
+************** perturbation: 4 **************
+The minimum number of perturbation is 4
+
+execution time = 0.244
+
+======================== END SEQUENTIAL CONTROL ===============================
+
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/cardiac-54-pc.ispl
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+0-1-1-0-1-1-1-1-1-1-0-0-0-1-1---------  1
+target attractor:
+1-0-0-0-0-1-0-0-1-0-1-1-1-0-0---------  1
+
+************** perturbation: 0 **************
+No solution.
+
+************** perturbation: 1 **************
+No solution.
+
+************** perturbation: 2 **************
+No solution.
+
+************** perturbation: 3 **************
+The minimum number of perturbation is 3
+
+execution time = 0.105
+
+======================== END SEQUENTIAL CONTROL ===============================
+
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/cardiac-55-pc.ispl
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+0-1-1-0-1-1-1-1-1-1-0-0-0-1-1---------  1
+target attractor:
+0-1-1-0-1-1-1-1-1-1-0-0-0-1-1---------  1
+
+---------------------------------------------
+The source and the target are the same.
+The minimum number of perturbation is 0
+The BDD consisting of all reprogramming paths: 
+
+execution time = 0
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/cardiac-56-pc.ispl
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+0-1-1-0-1-1-1-1-1-1-0-0-0-1-1---------  1
+target attractor:
+0-1-0-1-1-1-1-0-1-1-0-1-1-1-1---------  1
+
+************** perturbation: 0 **************
+No solution.
+
+************** perturbation: 1 **************
+The minimum number of perturbation is 1
+
+execution time = 0.006
+
+All the sequential reprogramming paths:
+STEP 1
+	path 1
+		from : 0-1-1-0-1-1-1-1-1-1-0-0-0-1-1---------  1
+		to   : 0-1-1-0-1-1-1-1-1-1-0-1-0-1-1---------  1
+		driver nodes: exogenBMP2I 
+
+======================== END SEQUENTIAL CONTROL ===============================
+
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/cardiac-61-pc.ispl
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+0-1-0-1-1-1-1-0-1-1-0-1-1-1-1---------  1
+target attractor:
+0-0-0-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+
+************** perturbation: 0 **************
+No solution.
+
+************** perturbation: 1 **************
+No solution.
+
+************** perturbation: 2 **************
+No solution.
+
+************** perturbation: 3 **************
+No solution.
+
+************** perturbation: 4 **************
+The minimum number of perturbation is 4
+
+execution time = 0.182
+
+======================== END SEQUENTIAL CONTROL ===============================
+
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/cardiac-62-pc.ispl
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+0-1-0-1-1-1-1-0-1-1-0-1-1-1-1---------  1
+target attractor:
+0-0-0-0-0-1-0-0-1-0-1-0-0-0-0---------  1
+
+************** perturbation: 0 **************
+No solution.
+
+************** perturbation: 1 **************
+No solution.
+
+************** perturbation: 2 **************
+No solution.
+
+************** perturbation: 3 **************
+The minimum number of perturbation is 3
+
+execution time = 0.123
+
+======================== END SEQUENTIAL CONTROL ===============================
+
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/cardiac-63-pc.ispl
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+0-1-0-1-1-1-1-0-1-1-0-1-1-1-1---------  1
+target attractor:
+1-0-0-0-0-0-0-0-0-0-0-1-1-0-0---------  1
+
+************** perturbation: 0 **************
+No solution.
+
+************** perturbation: 1 **************
+No solution.
+
+************** perturbation: 2 **************
+No solution.
+
+************** perturbation: 3 **************
+The minimum number of perturbation is 3
+
+execution time = 0.18
+
+======================== END SEQUENTIAL CONTROL ===============================
+
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/cardiac-64-pc.ispl
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+0-1-0-1-1-1-1-0-1-1-0-1-1-1-1---------  1
+target attractor:
+1-0-0-0-0-1-0-0-1-0-1-1-1-0-0---------  1
+
+************** perturbation: 0 **************
+No solution.
+
+************** perturbation: 1 **************
+No solution.
+
+************** perturbation: 2 **************
+The minimum number of perturbation is 2
+
+execution time = 0.078
+
+All the sequential reprogramming paths:
+STEP 1
+	path 1
+		from : 0-1-0-1-1-1-1-0-1-1-0-1-1-1-1---------  1
+		to   : 0-1-0-1-1-1-1-0-1-1-0-1-1-0-1---------  1
+		driver nodes: exogenCanWntI 
+STEP 2
+	path 1
+		from : 1-0-0-1-0-1-1-0-1-1-0-1-1-0-0---------  1
+		to   : 1-0-0-0-0-1-1-0-1-1-0-1-1-0-0---------  1
+		driver nodes: Fgf8 
+	path 2
+		from : 1-0-0-1-0-1-1-0-1-1-0-1-1-0-0---------  1
+		to   : 1-0-1-1-0-1-1-0-1-1-0-1-1-0-0---------  1
+		driver nodes: Dkk1 
+	path 3
+		from : 1-0-0-0-0-1-0-0-1-0-1-1-1-0-0---------  1
+		to   : 0-0-0-0-0-1-0-0-1-0-1-1-1-0-0---------  1
+		driver nodes: BMP2 
+	path 4
+		from : 1-0-0-0-0-1-1-0-1-0-1-1-1-0-0---------  1
+		to   : 0-0-0-0-0-1-1-0-1-0-1-1-1-0-0---------  1
+		driver nodes: BMP2 
+	path 5
+		from : 1-0-0-0-0-1-0-0-1-0-0-1-1-0-0---------  1
+		to   : 1-0-0-0-0-1-0-1-1-0-0-1-1-0-0---------  1
+		driver nodes: Mesp1 
+	path 6
+		from : 1-0-0-1-0-1-1-0-1-0-1-1-1-0-0---------  1
+		to   : 0-0-0-1-0-1-1-0-1-0-1-1-1-0-0---------  1
+		driver nodes: BMP2 
+	path 7
+		from : 1-0-0-0-0-1-0-0-1-0-0-1-1-0-0---------  1
+		to   : 1-0-0-0-0-1-1-0-1-0-0-1-1-0-0---------  1
+		driver nodes: Isl1 
+	path 8
+		from : 1-0-0-1-0-1-1-0-1-0-1-1-1-0-0---------  1
+		to   : 1-0-0-0-0-1-1-0-1-0-1-1-1-0-0---------  1
+		driver nodes: Fgf8 
+	path 9
+		from : 1-0-0-0-0-1-0-0-1-0-1-1-1-0-0---------  1
+		to   : 1-0-0-0-0-1-1-0-1-0-1-1-1-0-0---------  1
+		driver nodes: Isl1 
+	path 10
+		from : 1-0-0-0-0-1-0-0-1-0-0-1-1-0-0---------  1
+		to   : 1-0-0-1-0-1-0-0-1-0-0-1-1-0-0---------  1
+		driver nodes: Fgf8 
+	path 11
+		from : 1-0-0-0-0-1-0-0-1-0-1-1-1-0-0---------  1
+		to   : 1-0-1-0-0-1-0-0-1-0-1-1-1-0-0---------  1
+		driver nodes: Dkk1 
+	path 12
+		from : 1-0-0-0-0-1-0-0-1-0-1-1-1-0-0---------  1
+		to   : 1-0-0-1-0-1-0-0-1-0-1-1-1-0-0---------  1
+		driver nodes: Fgf8 
+	path 13
+		from : 0-0-0-1-0-1-1-0-1-0-1-1-1-0-0---------  1
+		to   : 0-0-0-1-0-1-0-0-1-0-1-1-1-0-0---------  1
+		driver nodes: Isl1 
+	path 14
+		from : 1-0-0-1-0-1-1-0-1-1-0-1-1-0-0---------  1
+		to   : 1-0-0-1-0-1-0-0-1-1-0-1-1-0-0---------  1
+		driver nodes: Isl1 
+	path 15
+		from : 0-0-0-0-0-1-0-0-1-0-1-1-1-0-0---------  1
+		to   : 1-0-0-0-0-1-0-0-1-0-1-1-1-0-0---------  1
+		driver nodes: BMP2 
+	path 16
+		from : 0-0-0-1-0-1-1-0-1-1-0-1-1-0-0---------  1
+		to   : 1-0-0-1-0-1-1-0-1-1-0-1-1-0-0---------  1
+		driver nodes: BMP2 
+	path 17
+		from : 0-0-0-0-0-1-1-0-1-0-0-1-1-0-0---------  1
+		to   : 1-0-0-0-0-1-1-0-1-0-0-1-1-0-0---------  1
+		driver nodes: BMP2 
+	path 18
+		from : 1-0-0-0-0-1-0-0-1-0-1-1-1-0-0---------  1
+		to   : 1-0-0-0-1-1-0-0-1-0-1-1-1-0-0---------  1
+		driver nodes: Foxc12 
+	path 19
+		from : 0-0-0-1-0-1-1-0-1-0-0-1-1-0-0---------  1
+		to   : 1-0-0-1-0-1-1-0-1-0-0-1-1-0-0---------  1
+		driver nodes: BMP2 
+	path 20
+		from : 1-0-0-0-0-1-0-0-1-0-1-1-1-0-0---------  1
+		to   : 1-0-0-0-0-1-0-0-1-1-1-1-1-0-0---------  1
+		driver nodes: Tbx1 
+	path 21
+		from : 0-0-0-0-0-1-1-0-1-0-1-1-1-0-0---------  1
+		to   : 0-0-0-1-0-1-1-0-1-0-1-1-1-0-0---------  1
+		driver nodes: Fgf8 
+	path 22
+		from : 0-0-0-0-0-1-0-0-1-0-1-1-1-0-0---------  1
+		to   : 0-0-0-0-0-1-1-0-1-0-1-1-1-0-0---------  1
+		driver nodes: Isl1 
+	path 23
+		from : 0-0-0-0-0-1-1-0-1-0-1-1-1-0-0---------  1
+		to   : 0-0-0-0-0-1-0-0-1-0-1-1-1-0-0---------  1
+		driver nodes: Isl1 
+	path 24
+		from : 1-0-0-1-0-1-1-0-1-1-0-1-1-0-0---------  1
+		to   : 1-0-0-1-0-1-1-1-1-1-0-1-1-0-0---------  1
+		driver nodes: Mesp1 
+	path 25
+		from : 0-0-0-0-0-1-0-0-1-0-0-1-1-0-0---------  1
+		to   : 0-0-0-0-0-1-0-0-1-0-1-1-1-0-0---------  1
+		driver nodes: Tbx5 
+	path 26
+		from : 0-0-0-0-0-1-1-0-1-0-1-1-1-0-0---------  1
+		to   : 1-0-0-0-0-1-1-0-1-0-1-1-1-0-0---------  1
+		driver nodes: BMP2 
+	path 27
+		from : 0-0-0-0-0-1-0-0-1-0-1-1-1-0-0---------  1
+		to   : 0-0-0-0-0-1-0-1-1-0-1-1-1-0-0---------  1
+		driver nodes: Mesp1 
+	path 28
+		from : 0-0-0-0-0-1-0-0-1-0-0-1-1-0-0---------  1
+		to   : 1-0-0-0-0-1-0-0-1-0-0-1-1-0-0---------  1
+		driver nodes: BMP2 
+	path 29
+		from : 1-0-0-0-0-1-0-0-1-0-0-1-1-0-0---------  1
+		to   : 1-0-1-0-0-1-0-0-1-0-0-1-1-0-0---------  1
+		driver nodes: Dkk1 
+	path 30
+		from : 1-0-0-0-0-1-1-0-1-0-1-1-1-0-0---------  1
+		to   : 1-0-0-0-0-1-0-0-1-0-1-1-1-0-0---------  1
+		driver nodes: Isl1 
+	path 31
+		from : 0-0-0-1-1-1-1-0-1-1-0-1-1-0-0---------  1
+		to   : 1-0-0-1-1-1-1-0-1-1-0-1-1-0-0---------  1
+		driver nodes: BMP2 
+	path 32
+		from : 0-0-0-1-0-1-1-0-1-0-1-1-1-0-0---------  1
+		to   : 1-0-0-1-0-1-1-0-1-0-1-1-1-0-0---------  1
+		driver nodes: BMP2 
+	path 33
+		from : 0-0-0-1-0-1-1-0-1-0-1-1-1-0-0---------  1
+		to   : 0-0-0-0-0-1-1-0-1-0-1-1-1-0-0---------  1
+		driver nodes: Fgf8 
+	path 34
+		from : 1-0-0-0-0-1-0-0-1-0-0-1-1-0-0---------  1
+		to   : 1-0-0-0-0-1-0-0-1-1-0-1-1-0-0---------  1
+		driver nodes: Tbx1 
+	path 35
+		from : 1-0-0-0-0-1-1-0-1-0-1-1-1-0-0---------  1
+		to   : 1-0-0-1-0-1-1-0-1-0-1-1-1-0-0---------  1
+		driver nodes: Fgf8 
+	path 36
+		from : 1-0-0-1-0-1-1-0-1-0-0-1-1-0-0---------  1
+		to   : 1-0-0-0-0-1-1-0-1-0-0-1-1-0-0---------  1
+		driver nodes: Fgf8 
+	path 37
+		from : 0-0-0-0-0-1-0-0-1-0-1-1-1-0-0---------  1
+		to   : 0-0-0-1-0-1-0-0-1-0-1-1-1-0-0---------  1
+		driver nodes: Fgf8 
+	path 38
+		from : 0-0-0-1-0-1-1-0-1-0-0-1-1-0-0---------  1
+		to   : 0-0-0-1-0-1-1-0-1-0-1-1-1-0-0---------  1
+		driver nodes: Tbx5 
+	path 39
+		from : 0-0-0-0-0-1-0-0-0-0-0-1-1-0-0---------  1
+		to   : 0-0-0-0-0-1-0-0-0-0-1-1-1-0-0---------  1
+		driver nodes: Tbx5 
+	path 40
+		from : 1-0-0-0-0-1-1-0-1-0-0-1-1-0-0---------  1
+		to   : 1-0-0-1-0-1-1-0-1-0-0-1-1-0-0---------  1
+		driver nodes: Fgf8 
+	path 41
+		from : 0-0-0-0-0-0-0-0-0-0-0-1-1-0-0---------  1
+		to   : 0-0-0-0-0-0-0-0-0-0-1-1-1-0-0---------  1
+		driver nodes: Tbx5 
+	path 42
+		from : 0-0-0-0-0-1-0-0-1-0-1-1-1-0-0---------  1
+		to   : 0-0-0-0-0-0-0-0-1-0-1-1-1-0-0---------  1
+		driver nodes: GATAs 
+	path 43
+		from : 1-0-0-0-0-1-1-0-1-0-1-1-1-0-0---------  1
+		to   : 1-0-0-0-0-1-1-0-1-1-1-1-1-0-0---------  1
+		driver nodes: Tbx1 
+	path 44
+		from : 0-0-0-0-0-1-0-0-1-0-1-1-1-0-0---------  1
+		to   : 0-0-1-0-0-1-0-0-1-0-1-1-1-0-0---------  1
+		driver nodes: Dkk1 
+	path 45
+		from : 0-0-0-0-0-1-1-0-1-0-1-1-1-0-0---------  1
+		to   : 0-0-0-0-0-1-1-1-1-0-1-1-1-0-0---------  1
+		driver nodes: Mesp1 
+	path 46
+		from : 1-0-0-0-0-1-1-0-1-0-0-1-1-0-0---------  1
+		to   : 1-0-0-0-0-1-0-0-1-0-0-1-1-0-0---------  1
+		driver nodes: Isl1 
+	path 47
+		from : 0-0-0-0-0-1-0-0-1-0-1-1-1-0-0---------  1
+		to   : 0-0-0-0-0-1-0-0-0-0-1-1-1-0-0---------  1
+		driver nodes: Nkx25 
+	path 48
+		from : 1-0-0-0-0-1-1-0-1-0-0-1-1-0-0---------  1
+		to   : 1-0-1-0-0-1-1-0-1-0-0-1-1-0-0---------  1
+		driver nodes: Dkk1 
+	path 49
+		from : 0-0-0-1-0-1-1-0-1-0-1-1-1-0-0---------  1
+		to   : 0-0-0-1-0-1-1-1-1-0-1-1-1-0-0---------  1
+		driver nodes: Mesp1 
+	path 50
+		from : 0-0-0-0-0-1-1-0-1-0-1-1-1-0-0---------  1
+		to   : 0-0-1-0-0-1-1-0-1-0-1-1-1-0-0---------  1
+		driver nodes: Dkk1 
+	path 51
+		from : 1-0-0-1-1-1-1-0-1-1-0-1-1-0-0---------  1
+		to   : 1-0-0-0-1-1-1-0-1-1-0-1-1-0-0---------  1
+		driver nodes: Fgf8 
+	path 52
+		from : 0-0-0-1-0-1-1-0-1-0-1-1-1-0-0---------  1
+		to   : 0-0-0-1-0-0-1-0-1-0-1-1-1-0-0---------  1
+		driver nodes: GATAs 
+	path 53
+		from : 1-0-0-1-0-1-1-0-1-0-1-1-1-0-0---------  1
+		to   : 1-0-0-1-0-1-0-0-1-0-1-1-1-0-0---------  1
+		driver nodes: Isl1 
+	path 54
+		from : 1-0-0-1-1-1-1-0-1-1-0-1-1-0-0---------  1
+		to   : 1-0-0-1-1-1-0-0-1-1-0-1-1-0-0---------  1
+		driver nodes: Isl1 
+	path 55
+		from : 0-0-0-1-0-1-1-0-1-0-1-1-1-0-0---------  1
+		to   : 0-0-1-1-0-1-1-0-1-0-1-1-1-0-0---------  1
+		driver nodes: Dkk1 
+	path 56
+		from : 1-0-0-1-0-1-1-0-1-0-0-1-1-0-0---------  1
+		to   : 1-0-0-1-0-1-0-0-1-0-0-1-1-0-0---------  1
+		driver nodes: Isl1 
+	path 57
+		from : 1-0-0-0-0-1-0-0-1-0-1-1-1-0-0---------  1
+		to   : 1-0-0-0-0-1-0-1-1-0-1-1-1-0-0---------  1
+		driver nodes: Mesp1 
+	path 58
+		from : 0-0-0-0-0-1-1-0-1-0-0-1-1-0-0---------  1
+		to   : 0-0-0-0-0-1-1-0-1-0-1-1-1-0-0---------  1
+		driver nodes: Tbx5 
+	path 59
+		from : 0-0-0-0-0-1-0-0-1-0-1-1-1-0-0---------  1
+		to   : 0-0-0-0-0-1-0-0-1-0-1-1-0-0-0---------  1
+		driver nodes: exogenBMP2II 
+	path 60
+		from : 0-0-0-0-0-1-1-0-1-0-1-1-1-0-0---------  1
+		to   : 0-0-0-0-0-1-1-0-1-0-1-1-0-0-0---------  1
+		driver nodes: exogenBMP2II 
+	path 61
+		from : 1-0-0-0-0-1-0-0-1-0-0-1-1-0-0---------  1
+		to   : 1-0-0-0-1-1-0-0-1-0-0-1-1-0-0---------  1
+		driver nodes: Foxc12 
+	path 62
+		from : 1-0-0-0-0-1-0-0-1-0-1-1-1-0-0---------  1
+		to   : 1-0-0-0-0-0-0-0-1-0-1-1-1-0-0---------  1
+		driver nodes: GATAs 
+	path 63
+		from : 0-0-0-1-0-1-1-0-1-0-1-1-1-0-0---------  1
+		to   : 0-0-0-1-0-1-1-0-1-0-1-1-0-0-0---------  1
+		driver nodes: exogenBMP2II 
+	path 64
+		from : 1-0-0-1-1-1-1-0-1-1-0-1-1-0-0---------  1
+		to   : 1-0-0-1-1-1-1-1-1-1-0-1-1-0-0---------  1
+		driver nodes: Mesp1 
+	path 65
+		from : 0-0-0-0-0-1-1-0-1-0-1-1-1-0-0---------  1
+		to   : 0-0-0-0-0-1-1-0-0-0-1-1-1-0-0---------  1
+		driver nodes: Nkx25 
+	path 66
+		from : 1-0-0-0-0-0-0-0-0-0-0-1-1-0-0---------  1
+		to   : 1-0-0-0-0-0-0-0-0-0-1-1-1-0-0---------  1
+		driver nodes: Tbx5 
+	path 67
+		from : 1-0-0-0-0-1-0-0-0-0-0-1-1-0-0---------  1
+		to   : 1-0-0-0-0-1-0-0-1-0-0-1-1-0-0---------  1
+		driver nodes: Nkx25 
+	path 68
+		from : 1-0-0-0-0-1-0-0-1-0-1-1-1-0-0---------  1
+		to   : 1-0-0-0-0-1-0-0-0-0-1-1-1-0-0---------  1
+		driver nodes: Nkx25 
+	path 69
+		from : 0-0-0-0-0-1-1-0-1-0-1-1-1-0-0---------  1
+		to   : 0-0-0-0-0-0-1-0-1-0-1-1-1-0-0---------  1
+		driver nodes: GATAs 
+	path 70
+		from : 0-0-0-1-0-1-1-0-1-0-1-1-1-0-0---------  1
+		to   : 0-0-0-1-0-1-1-0-0-0-1-1-1-0-0---------  1
+		driver nodes: Nkx25 
+	path 71
+		from : 1-0-0-0-0-1-0-0-1-0-1-1-1-0-0---------  1
+		to   : 1-0-0-0-0-1-0-0-1-0-0-1-1-0-0---------  1
+		driver nodes: Tbx5 
+	path 72
+		from : 1-0-0-0-0-1-0-0-1-0-0-1-1-0-0---------  1
+		to   : 1-0-0-0-0-1-0-0-1-0-1-1-1-0-0---------  1
+		driver nodes: Tbx5 
+	path 73
+		from : 1-0-0-1-0-1-1-0-1-0-0-1-1-0-0---------  1
+		to   : 1-0-1-1-0-1-1-0-1-0-0-1-1-0-0---------  1
+		driver nodes: Dkk1 
+	path 74
+		from : 1-0-0-0-0-1-0-0-0-0-0-1-1-0-0---------  1
+		to   : 1-0-0-0-0-1-0-0-0-0-1-1-1-0-0---------  1
+		driver nodes: Tbx5 
+	path 75
+		from : 1-0-0-0-0-1-0-0-1-0-1-1-1-0-0---------  1
+		to   : 1-0-0-0-0-1-0-0-1-0-1-1-0-0-0---------  1
+		driver nodes: exogenBMP2II 
+	path 76
+		from : 1-0-0-1-0-1-1-0-1-0-1-1-1-0-0---------  1
+		to   : 1-0-1-1-0-1-1-0-1-0-1-1-1-0-0---------  1
+		driver nodes: Dkk1 
+	path 77
+		from : 1-0-0-1-0-1-1-0-1-0-0-1-1-0-0---------  1
+		to   : 1-0-0-1-0-1-1-1-1-0-0-1-1-0-0---------  1
+		driver nodes: Mesp1 
+	path 78
+		from : 1-0-0-1-1-1-1-0-1-1-0-1-1-0-0---------  1
+		to   : 1-0-0-1-1-1-1-0-1-0-0-1-1-0-0---------  1
+		driver nodes: Tbx1 
+	path 79
+		from : 1-0-0-0-0-1-1-0-1-0-1-1-1-0-0---------  1
+		to   : 1-0-1-0-0-1-1-0-1-0-1-1-1-0-0---------  1
+		driver nodes: Dkk1 
+	path 80
+		from : 1-0-0-1-0-1-1-0-1-0-1-1-1-0-0---------  1
+		to   : 1-0-0-1-0-1-1-1-1-0-1-1-1-0-0---------  1
+		driver nodes: Mesp1 
+	path 81
+		from : 1-0-0-0-0-1-1-0-1-0-0-1-1-0-0---------  1
+		to   : 1-0-0-0-0-1-1-1-1-0-0-1-1-0-0---------  1
+		driver nodes: Mesp1 
+	path 82
+		from : 1-0-0-1-1-1-1-0-1-1-0-1-1-0-0---------  1
+		to   : 1-0-1-1-1-1-1-0-1-1-0-1-1-0-0---------  1
+		driver nodes: Dkk1 
+	path 83
+		from : 1-0-0-0-0-1-1-0-1-0-0-1-1-0-0---------  1
+		to   : 1-0-0-0-0-1-1-0-1-1-0-1-1-0-0---------  1
+		driver nodes: Tbx1 
+	path 84
+		from : 1-0-0-1-0-1-1-0-1-0-0-1-1-0-0---------  1
+		to   : 1-0-0-1-0-1-1-0-1-0-1-1-1-0-0---------  1
+		driver nodes: Tbx5 
+	path 85
+		from : 1-0-0-0-0-1-1-0-1-0-1-1-1-0-0---------  1
+		to   : 1-0-0-0-0-1-1-1-1-0-1-1-1-0-0---------  1
+		driver nodes: Mesp1 
+	path 86
+		from : 1-0-0-1-1-1-1-0-1-1-0-1-1-0-0---------  1
+		to   : 1-0-0-1-1-1-1-0-1-1-1-1-1-0-0---------  1
+		driver nodes: Tbx5 
+	path 87
+		from : 1-0-0-1-0-1-1-0-1-1-0-1-1-0-0---------  1
+		to   : 1-0-0-1-0-1-1-0-1-0-0-1-1-0-0---------  1
+		driver nodes: Tbx1 
+	path 88
+		from : 1-0-0-0-0-1-1-0-1-0-0-1-1-0-0---------  1
+		to   : 1-0-0-0-0-1-1-0-1-0-1-1-1-0-0---------  1
+		driver nodes: Tbx5 
+	path 89
+		from : 1-0-0-0-0-1-1-0-1-0-0-1-1-0-0---------  1
+		to   : 1-0-0-0-1-1-1-0-1-0-0-1-1-0-0---------  1
+		driver nodes: Foxc12 
+	path 90
+		from : 1-0-0-1-0-1-1-0-1-0-1-1-1-0-0---------  1
+		to   : 1-0-0-1-0-1-1-0-1-1-1-1-1-0-0---------  1
+		driver nodes: Tbx1 
+	path 91
+		from : 1-0-0-0-0-1-1-0-1-0-1-1-1-0-0---------  1
+		to   : 1-0-0-0-1-1-1-0-1-0-1-1-1-0-0---------  1
+		driver nodes: Foxc12 
+	path 92
+		from : 1-0-0-1-0-1-1-0-1-1-0-1-1-0-0---------  1
+		to   : 1-0-0-1-1-1-1-0-1-1-0-1-1-0-0---------  1
+		driver nodes: Foxc12 
+	path 93
+		from : 1-0-0-0-0-1-1-0-1-0-1-1-1-0-0---------  1
+		to   : 1-0-0-0-0-1-1-0-0-0-1-1-1-0-0---------  1
+		driver nodes: Nkx25 
+	path 94
+		from : 1-0-0-1-0-1-1-0-1-0-1-1-1-0-0---------  1
+		to   : 1-0-0-1-0-1-1-0-1-0-1-1-0-0-0---------  1
+		driver nodes: exogenBMP2II 
+	path 95
+		from : 1-0-0-0-0-1-1-0-1-0-1-1-1-0-0---------  1
+		to   : 1-0-0-0-0-1-1-0-1-0-0-1-1-0-0---------  1
+		driver nodes: Tbx5 
+	path 96
+		from : 1-0-0-0-0-1-1-0-1-0-1-1-1-0-0---------  1
+		to   : 1-0-0-0-0-0-1-0-1-0-1-1-1-0-0---------  1
+		driver nodes: GATAs 
+	path 97
+		from : 1-0-0-0-0-1-1-0-1-0-1-1-1-0-0---------  1
+		to   : 1-0-0-0-0-1-1-0-1-0-1-1-0-0-0---------  1
+		driver nodes: exogenBMP2II 
+	path 98
+		from : 1-0-0-1-0-1-1-0-1-0-0-1-1-0-0---------  1
+		to   : 1-0-0-1-1-1-1-0-1-0-0-1-1-0-0---------  1
+		driver nodes: Foxc12 
+	path 99
+		from : 1-0-0-1-1-1-1-0-1-1-0-1-1-0-0---------  1
+		to   : 1-0-0-1-0-1-1-0-1-1-0-1-1-0-0---------  1
+		driver nodes: Foxc12 
+	path 100
+		from : 1-0-0-1-0-1-1-0-1-1-0-1-1-0-0---------  1
+		to   : 1-0-0-1-0-1-1-0-1-1-1-1-1-0-0---------  1
+		driver nodes: Tbx5 
+	path 101
+		from : 1-0-0-1-0-1-1-0-1-0-0-1-1-0-0---------  1
+		to   : 1-0-0-1-0-1-1-0-1-1-0-1-1-0-0---------  1
+		driver nodes: Tbx1 
+	path 102
+		from : 1-0-0-1-0-1-1-0-1-0-1-1-1-0-0---------  1
+		to   : 1-0-0-1-1-1-1-0-1-0-1-1-1-0-0---------  1
+		driver nodes: Foxc12 
+	path 103
+		from : 1-0-0-1-0-1-1-0-1-0-1-1-1-0-0---------  1
+		to   : 1-0-0-1-0-1-1-0-1-0-0-1-1-0-0---------  1
+		driver nodes: Tbx5 
+	path 104
+		from : 1-0-0-1-0-1-1-0-1-0-1-1-1-0-0---------  1
+		to   : 1-0-0-1-0-1-1-0-0-0-1-1-1-0-0---------  1
+		driver nodes: Nkx25 
+	path 105
+		from : 1-0-0-1-0-1-1-0-1-0-1-1-1-0-0---------  1
+		to   : 1-0-0-1-0-0-1-0-1-0-1-1-1-0-0---------  1
+		driver nodes: GATAs 
+
+======================== END SEQUENTIAL CONTROL ===============================
+
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/cardiac-65-pc.ispl
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+0-1-0-1-1-1-1-0-1-1-0-1-1-1-1---------  1
+target attractor:
+0-1-1-0-1-1-1-1-1-1-0-0-0-1-1---------  1
+
+************** perturbation: 0 **************
+No solution.
+
+************** perturbation: 1 **************
+The minimum number of perturbation is 1
+
+execution time = 0.007
+
+All the sequential reprogramming paths:
+STEP 1
+	path 1
+		from : 0-1-0-1-1-1-1-0-1-1-0-1-1-1-1---------  1
+		to   : 0-1-0-1-1-1-1-0-1-1-0-0-1-1-1---------  1
+		driver nodes: exogenBMP2I 
+
+======================== END SEQUENTIAL CONTROL ===============================
+
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/cardiac-66-pc.ispl
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+0-1-0-1-1-1-1-0-1-1-0-1-1-1-1---------  1
+target attractor:
+0-1-0-1-1-1-1-0-1-1-0-1-1-1-1---------  1
+
+---------------------------------------------
+The source and the target are the same.
+The minimum number of perturbation is 0
+The BDD consisting of all reprogramming paths: 
+
+execution time = 0

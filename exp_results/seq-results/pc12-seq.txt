@@ -1,0 +1,1570 @@
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/pc12-11-pc.ispl
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+0-0-1-1-1-1-1-0-0-1-1-1-1-1-0-1-1-1-0-1-1-1-1-0-0-1-0-1-1-1-1-1-0---------  1
+target attractor:
+0-0-1-1-1-1-1-0-0-1-1-1-1-1-0-1-1-1-0-1-1-1-1-0-0-1-0-1-1-1-1-1-0---------  1
+
+---------------------------------------------
+The source and the target are the same.
+The minimum number of perturbation is 0
+The BDD consisting of all reprogramming paths: 
+
+execution time = 0
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/pc12-12-pc.ispl
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+0-0-1-1-1-1-1-0-0-1-1-1-1-1-0-1-1-1-0-1-1-1-1-0-0-1-0-1-1-1-1-1-0---------  1
+target attractor:
+0-0-1-1-1-1-1-0-0-1-1-1-1-1-0-0-1-1-0-1-1-1-1-0-0-1-0-1-1-1-1-1-1---------  1
+
+************** perturbation: 0 **************
+No solution.
+
+************** perturbation: 1 **************
+The minimum number of perturbation is 1
+
+execution time = 0.523
+
+All the sequential reprogramming paths:
+STEP 1
+	path 1
+		from : 0-0-1-1-1-1-1-0-0-1-1-1-1-1-0-1-1-1-0-1-1-1-1-0-0-1-0-1-1-1-1-1-0---------  1
+		to   : 0-0-1-1-1-1-1-0-0-1-1-1-1-1-0-1-1-1-0-1-1-1-1-0-0-1-0-1-1-1-1-1-1---------  1
+		driver nodes: CellCycleArrest 
+
+======================== END SEQUENTIAL CONTROL ===============================
+
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/pc12-13-pc.ispl
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+0-0-1-1-1-1-1-0-0-1-1-1-1-1-0-1-1-1-0-1-1-1-1-0-0-1-0-1-1-1-1-1-0---------  1
+target attractor:
+0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-1---------  1
+
+************** perturbation: 0 **************
+No solution.
+
+************** perturbation: 1 **************
+No solution.
+
+************** perturbation: 2 **************
+No solution.
+
+************** perturbation: 3 **************
+No solution.
+
+************** perturbation: 4 **************
+No solution.
+
+************** perturbation: 5 **************
+No solution.
+
+************** perturbation: 6 **************
+No solution.
+
+************** perturbation: 7 **************
+No solution.
+
+************** perturbation: 8 **************
+The minimum number of perturbation is 8
+
+execution time = 5.659
+
+======================== END SEQUENTIAL CONTROL ===============================
+
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/pc12-14-pc.ispl
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+0-0-1-1-1-1-1-0-0-1-1-1-1-1-0-1-1-1-0-1-1-1-1-0-0-1-0-1-1-1-1-1-0---------  1
+target attractor:
+0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-0---------  1
+
+************** perturbation: 0 **************
+No solution.
+
+************** perturbation: 1 **************
+No solution.
+
+************** perturbation: 2 **************
+No solution.
+
+************** perturbation: 3 **************
+No solution.
+
+************** perturbation: 4 **************
+No solution.
+
+************** perturbation: 5 **************
+No solution.
+
+************** perturbation: 6 **************
+No solution.
+
+************** perturbation: 7 **************
+The minimum number of perturbation is 7
+
+execution time = 6.406
+
+======================== END SEQUENTIAL CONTROL ===============================
+
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/pc12-15-pc.ispl
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+0-0-1-1-1-1-1-0-0-1-1-1-1-1-0-1-1-1-0-1-1-1-1-0-0-1-0-1-1-1-1-1-0---------  1
+target attractor:
+0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1---------  1
+
+************** perturbation: 0 **************
+No solution.
+
+************** perturbation: 1 **************
+No solution.
+
+************** perturbation: 2 **************
+No solution.
+
+************** perturbation: 3 **************
+No solution.
+
+************** perturbation: 4 **************
+No solution.
+
+************** perturbation: 5 **************
+No solution.
+
+************** perturbation: 6 **************
+No solution.
+
+************** perturbation: 7 **************
+No solution.
+
+************** perturbation: 8 **************
+No solution.
+
+************** perturbation: 9 **************
+The minimum number of perturbation is 9
+
+execution time = 7.341
+
+======================== END SEQUENTIAL CONTROL ===============================
+
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/pc12-16-pc.ispl
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+0-0-1-1-1-1-1-0-0-1-1-1-1-1-0-1-1-1-0-1-1-1-1-0-0-1-0-1-1-1-1-1-0---------  1
+target attractor:
+0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+
+************** perturbation: 0 **************
+No solution.
+
+************** perturbation: 1 **************
+No solution.
+
+************** perturbation: 2 **************
+No solution.
+
+************** perturbation: 3 **************
+No solution.
+
+************** perturbation: 4 **************
+No solution.
+
+************** perturbation: 5 **************
+No solution.
+
+************** perturbation: 6 **************
+No solution.
+
+************** perturbation: 7 **************
+No solution.
+
+************** perturbation: 8 **************
+The minimum number of perturbation is 8
+
+execution time = 5.273
+
+======================== END SEQUENTIAL CONTROL ===============================
+
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/pc12-17-pc.ispl
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+0-0-1-1-1-1-1-0-0-1-1-1-1-1-0-1-1-1-0-1-1-1-1-0-0-1-0-1-1-1-1-1-0---------  1
+target attractor:
+1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-0-1-1-1-1-1-1-1-0-0-1-1-1-1-1-1-1-1---------  1
+
+************** perturbation: 0 **************
+No solution.
+
+************** perturbation: 1 **************
+The minimum number of perturbation is 1
+
+execution time = 0.245
+
+All the sequential reprogramming paths:
+STEP 1
+	path 1
+		from : 0-0-1-1-1-1-1-0-0-1-1-1-1-1-0-1-1-1-0-1-1-1-1-0-0-1-0-1-1-1-1-1-0---------  1
+		to   : 1-0-1-1-1-1-1-0-0-1-1-1-1-1-0-1-1-1-0-1-1-1-1-0-0-1-0-1-1-1-1-1-0---------  1
+		driver nodes: NGF 
+
+======================== END SEQUENTIAL CONTROL ===============================
+
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/pc12-21-pc.ispl
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+0-0-1-1-1-1-1-0-0-1-1-1-1-1-0-0-1-1-0-1-1-1-1-0-0-1-0-1-1-1-1-1-1---------  1
+target attractor:
+0-0-1-1-1-1-1-0-0-1-1-1-1-1-0-1-1-1-0-1-1-1-1-0-0-1-0-1-1-1-1-1-0---------  1
+
+************** perturbation: 0 **************
+No solution.
+
+************** perturbation: 1 **************
+The minimum number of perturbation is 1
+
+execution time = 0.595
+
+All the sequential reprogramming paths:
+STEP 1
+	path 1
+		from : 0-0-1-1-1-1-1-0-0-1-1-1-1-1-0-0-1-1-0-1-1-1-1-0-0-1-0-1-1-1-1-1-1---------  1
+		to   : 0-0-1-1-1-1-1-0-0-1-1-1-1-1-0-0-1-1-0-1-1-1-1-0-0-1-0-1-1-1-1-1-0---------  1
+		driver nodes: CellCycleArrest 
+
+======================== END SEQUENTIAL CONTROL ===============================
+
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/pc12-22-pc.ispl
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+0-0-1-1-1-1-1-0-0-1-1-1-1-1-0-0-1-1-0-1-1-1-1-0-0-1-0-1-1-1-1-1-1---------  1
+target attractor:
+0-0-1-1-1-1-1-0-0-1-1-1-1-1-0-0-1-1-0-1-1-1-1-0-0-1-0-1-1-1-1-1-1---------  1
+
+---------------------------------------------
+The source and the target are the same.
+The minimum number of perturbation is 0
+The BDD consisting of all reprogramming paths: 
+
+execution time = 0
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/pc12-23-pc.ispl
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+0-0-1-1-1-1-1-0-0-1-1-1-1-1-0-0-1-1-0-1-1-1-1-0-0-1-0-1-1-1-1-1-1---------  1
+target attractor:
+0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-1---------  1
+
+************** perturbation: 0 **************
+No solution.
+
+************** perturbation: 1 **************
+No solution.
+
+************** perturbation: 2 **************
+No solution.
+
+************** perturbation: 3 **************
+No solution.
+
+************** perturbation: 4 **************
+No solution.
+
+************** perturbation: 5 **************
+No solution.
+
+************** perturbation: 6 **************
+No solution.
+
+************** perturbation: 7 **************
+The minimum number of perturbation is 7
+
+execution time = 5.811
+
+======================== END SEQUENTIAL CONTROL ===============================
+
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/pc12-24-pc.ispl
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+0-0-1-1-1-1-1-0-0-1-1-1-1-1-0-0-1-1-0-1-1-1-1-0-0-1-0-1-1-1-1-1-1---------  1
+target attractor:
+0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-0---------  1
+
+************** perturbation: 0 **************
+No solution.
+
+************** perturbation: 1 **************
+No solution.
+
+************** perturbation: 2 **************
+No solution.
+
+************** perturbation: 3 **************
+No solution.
+
+************** perturbation: 4 **************
+No solution.
+
+************** perturbation: 5 **************
+No solution.
+
+************** perturbation: 6 **************
+No solution.
+
+************** perturbation: 7 **************
+No solution.
+
+************** perturbation: 8 **************
+The minimum number of perturbation is 8
+
+execution time = 5.381
+
+======================== END SEQUENTIAL CONTROL ===============================
+
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/pc12-25-pc.ispl
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+0-0-1-1-1-1-1-0-0-1-1-1-1-1-0-0-1-1-0-1-1-1-1-0-0-1-0-1-1-1-1-1-1---------  1
+target attractor:
+0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1---------  1
+
+************** perturbation: 0 **************
+No solution.
+
+************** perturbation: 1 **************
+No solution.
+
+************** perturbation: 2 **************
+No solution.
+
+************** perturbation: 3 **************
+No solution.
+
+************** perturbation: 4 **************
+No solution.
+
+************** perturbation: 5 **************
+No solution.
+
+************** perturbation: 6 **************
+No solution.
+
+************** perturbation: 7 **************
+No solution.
+
+************** perturbation: 8 **************
+The minimum number of perturbation is 8
+
+execution time = 5.814
+
+======================== END SEQUENTIAL CONTROL ===============================
+
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/pc12-26-pc.ispl
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+0-0-1-1-1-1-1-0-0-1-1-1-1-1-0-0-1-1-0-1-1-1-1-0-0-1-0-1-1-1-1-1-1---------  1
+target attractor:
+0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+
+************** perturbation: 0 **************
+No solution.
+
+************** perturbation: 1 **************
+No solution.
+
+************** perturbation: 2 **************
+No solution.
+
+************** perturbation: 3 **************
+No solution.
+
+************** perturbation: 4 **************
+No solution.
+
+************** perturbation: 5 **************
+No solution.
+
+************** perturbation: 6 **************
+No solution.
+
+************** perturbation: 7 **************
+No solution.
+
+************** perturbation: 8 **************
+No solution.
+
+************** perturbation: 9 **************
+The minimum number of perturbation is 9
+
+execution time = 4.506
+
+======================== END SEQUENTIAL CONTROL ===============================
+
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/pc12-27-pc.ispl
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+0-0-1-1-1-1-1-0-0-1-1-1-1-1-0-0-1-1-0-1-1-1-1-0-0-1-0-1-1-1-1-1-1---------  1
+target attractor:
+1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-0-1-1-1-1-1-1-1-0-0-1-1-1-1-1-1-1-1---------  1
+
+************** perturbation: 0 **************
+No solution.
+
+************** perturbation: 1 **************
+The minimum number of perturbation is 1
+
+execution time = 0.272
+
+All the sequential reprogramming paths:
+STEP 1
+	path 1
+		from : 0-0-1-1-1-1-1-0-0-1-1-1-1-1-0-0-1-1-0-1-1-1-1-0-0-1-0-1-1-1-1-1-1---------  1
+		to   : 1-0-1-1-1-1-1-0-0-1-1-1-1-1-0-0-1-1-0-1-1-1-1-0-0-1-0-1-1-1-1-1-1---------  1
+		driver nodes: NGF 
+
+======================== END SEQUENTIAL CONTROL ===============================
+
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/pc12-31-pc.ispl
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-1---------  1
+target attractor:
+0-0-1-1-1-1-1-0-0-1-1-1-1-1-0-1-1-1-0-1-1-1-1-0-0-1-0-1-1-1-1-1-0---------  1
+
+************** perturbation: 0 **************
+No solution.
+
+************** perturbation: 1 **************
+No solution.
+
+************** perturbation: 2 **************
+No solution.
+
+************** perturbation: 3 **************
+The minimum number of perturbation is 3
+
+execution time = 0.523
+
+======================== END SEQUENTIAL CONTROL ===============================
+
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/pc12-32-pc.ispl
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-1---------  1
+target attractor:
+0-0-1-1-1-1-1-0-0-1-1-1-1-1-0-0-1-1-0-1-1-1-1-0-0-1-0-1-1-1-1-1-1---------  1
+
+************** perturbation: 0 **************
+No solution.
+
+************** perturbation: 1 **************
+No solution.
+
+************** perturbation: 2 **************
+The minimum number of perturbation is 2
+
+execution time = 0.671
+
+======================== END SEQUENTIAL CONTROL ===============================
+
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/pc12-33-pc.ispl
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-1---------  1
+target attractor:
+0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-1---------  1
+
+---------------------------------------------
+The source and the target are the same.
+The minimum number of perturbation is 0
+The BDD consisting of all reprogramming paths: 
+
+execution time = 0
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/pc12-34-pc.ispl
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-1---------  1
+target attractor:
+0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-0---------  1
+
+************** perturbation: 0 **************
+No solution.
+
+************** perturbation: 1 **************
+The minimum number of perturbation is 1
+
+execution time = 0.719
+
+All the sequential reprogramming paths:
+STEP 1
+	path 1
+		from : 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-1---------  1
+		to   : 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-0---------  1
+		driver nodes: CellCycleArrest 
+
+======================== END SEQUENTIAL CONTROL ===============================
+
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/pc12-35-pc.ispl
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-1---------  1
+target attractor:
+0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1---------  1
+
+************** perturbation: 0 **************
+No solution.
+
+************** perturbation: 1 **************
+The minimum number of perturbation is 1
+
+execution time = 0.723
+
+All the sequential reprogramming paths:
+STEP 1
+	path 1
+		from : 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-1---------  1
+		to   : 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1---------  1
+		driver nodes: ZFP36_inh 
+
+======================== END SEQUENTIAL CONTROL ===============================
+
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/pc12-36-pc.ispl
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-1---------  1
+target attractor:
+0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+
+************** perturbation: 0 **************
+No solution.
+
+************** perturbation: 1 **************
+No solution.
+
+************** perturbation: 2 **************
+The minimum number of perturbation is 2
+
+execution time = 0.593
+
+All the sequential reprogramming paths:
+STEP 1
+	path 1
+		from : 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-1---------  1
+		to   : 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1---------  1
+		driver nodes: ZFP36_inh 
+	path 2
+		from : 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-1---------  1
+		to   : 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-0---------  1
+		driver nodes: CellCycleArrest 
+STEP 2
+	path 1
+		from : 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1---------  1
+		to   : 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+		driver nodes: CellCycleArrest 
+	path 2
+		from : 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-0---------  1
+		to   : 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+		driver nodes: ZFP36_inh 
+
+======================== END SEQUENTIAL CONTROL ===============================
+
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/pc12-37-pc.ispl
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-1---------  1
+target attractor:
+1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-0-1-1-1-1-1-1-1-0-0-1-1-1-1-1-1-1-1---------  1
+
+************** perturbation: 0 **************
+No solution.
+
+************** perturbation: 1 **************
+The minimum number of perturbation is 1
+
+execution time = 0.268
+
+All the sequential reprogramming paths:
+STEP 1
+	path 1
+		from : 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-1---------  1
+		to   : 1-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-1---------  1
+		driver nodes: NGF 
+
+======================== END SEQUENTIAL CONTROL ===============================
+
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/pc12-41-pc.ispl
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-0---------  1
+target attractor:
+0-0-1-1-1-1-1-0-0-1-1-1-1-1-0-1-1-1-0-1-1-1-1-0-0-1-0-1-1-1-1-1-0---------  1
+
+************** perturbation: 0 **************
+No solution.
+
+************** perturbation: 1 **************
+No solution.
+
+************** perturbation: 2 **************
+No solution.
+
+************** perturbation: 3 **************
+The minimum number of perturbation is 3
+
+execution time = 0.771
+
+======================== END SEQUENTIAL CONTROL ===============================
+
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/pc12-42-pc.ispl
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-0---------  1
+target attractor:
+0-0-1-1-1-1-1-0-0-1-1-1-1-1-0-0-1-1-0-1-1-1-1-0-0-1-0-1-1-1-1-1-1---------  1
+
+************** perturbation: 0 **************
+No solution.
+
+************** perturbation: 1 **************
+No solution.
+
+************** perturbation: 2 **************
+The minimum number of perturbation is 2
+
+execution time = 0.707
+
+======================== END SEQUENTIAL CONTROL ===============================
+
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/pc12-43-pc.ispl
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-0---------  1
+target attractor:
+0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-1---------  1
+
+************** perturbation: 0 **************
+No solution.
+
+************** perturbation: 1 **************
+The minimum number of perturbation is 1
+
+execution time = 1.202
+
+All the sequential reprogramming paths:
+STEP 1
+	path 1
+		from : 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-0---------  1
+		to   : 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-1---------  1
+		driver nodes: CellCycleArrest 
+
+======================== END SEQUENTIAL CONTROL ===============================
+
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/pc12-44-pc.ispl
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-0---------  1
+target attractor:
+0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-0---------  1
+
+---------------------------------------------
+The source and the target are the same.
+The minimum number of perturbation is 0
+The BDD consisting of all reprogramming paths: 
+
+execution time = 0
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/pc12-45-pc.ispl
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-0---------  1
+target attractor:
+0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1---------  1
+
+************** perturbation: 0 **************
+No solution.
+
+************** perturbation: 1 **************
+No solution.
+
+************** perturbation: 2 **************
+The minimum number of perturbation is 2
+
+execution time = 1.152
+
+All the sequential reprogramming paths:
+STEP 1
+	path 1
+		from : 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-0---------  1
+		to   : 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-1---------  1
+		driver nodes: CellCycleArrest 
+	path 2
+		from : 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-0---------  1
+		to   : 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+		driver nodes: ZFP36_inh 
+STEP 2
+	path 1
+		from : 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-1---------  1
+		to   : 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1---------  1
+		driver nodes: ZFP36_inh 
+	path 2
+		from : 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+		to   : 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1---------  1
+		driver nodes: CellCycleArrest 
+
+======================== END SEQUENTIAL CONTROL ===============================
+
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/pc12-46-pc.ispl
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-0---------  1
+target attractor:
+0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+
+************** perturbation: 0 **************
+No solution.
+
+************** perturbation: 1 **************
+The minimum number of perturbation is 1
+
+execution time = 0.59
+
+All the sequential reprogramming paths:
+STEP 1
+	path 1
+		from : 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-0---------  1
+		to   : 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+		driver nodes: ZFP36_inh 
+
+======================== END SEQUENTIAL CONTROL ===============================
+
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/pc12-47-pc.ispl
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-0---------  1
+target attractor:
+1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-0-1-1-1-1-1-1-1-0-0-1-1-1-1-1-1-1-1---------  1
+
+************** perturbation: 0 **************
+No solution.
+
+************** perturbation: 1 **************
+The minimum number of perturbation is 1
+
+execution time = 0.254
+
+All the sequential reprogramming paths:
+STEP 1
+	path 1
+		from : 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-0---------  1
+		to   : 1-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-0---------  1
+		driver nodes: NGF 
+
+======================== END SEQUENTIAL CONTROL ===============================
+
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/pc12-51-pc.ispl
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1---------  1
+target attractor:
+0-0-1-1-1-1-1-0-0-1-1-1-1-1-0-1-1-1-0-1-1-1-1-0-0-1-0-1-1-1-1-1-0---------  1
+
+************** perturbation: 0 **************
+No solution.
+
+************** perturbation: 1 **************
+No solution.
+
+************** perturbation: 2 **************
+No solution.
+
+************** perturbation: 3 **************
+The minimum number of perturbation is 3
+
+execution time = 0.56
+
+======================== END SEQUENTIAL CONTROL ===============================
+
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/pc12-52-pc.ispl
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1---------  1
+target attractor:
+0-0-1-1-1-1-1-0-0-1-1-1-1-1-0-0-1-1-0-1-1-1-1-0-0-1-0-1-1-1-1-1-1---------  1
+
+************** perturbation: 0 **************
+No solution.
+
+************** perturbation: 1 **************
+No solution.
+
+************** perturbation: 2 **************
+The minimum number of perturbation is 2
+
+execution time = 0.756
+
+======================== END SEQUENTIAL CONTROL ===============================
+
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/pc12-53-pc.ispl
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1---------  1
+target attractor:
+0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-1---------  1
+
+************** perturbation: 0 **************
+No solution.
+
+************** perturbation: 1 **************
+The minimum number of perturbation is 1
+
+execution time = 1.191
+
+All the sequential reprogramming paths:
+STEP 1
+	path 1
+		from : 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1---------  1
+		to   : 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-1---------  1
+		driver nodes: ZFP36_inh 
+
+======================== END SEQUENTIAL CONTROL ===============================
+
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/pc12-54-pc.ispl
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1---------  1
+target attractor:
+0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-0---------  1
+
+************** perturbation: 0 **************
+No solution.
+
+************** perturbation: 1 **************
+No solution.
+
+************** perturbation: 2 **************
+The minimum number of perturbation is 2
+
+execution time = 0.941
+
+All the sequential reprogramming paths:
+STEP 1
+	path 1
+		from : 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1---------  1
+		to   : 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-1---------  1
+		driver nodes: ZFP36_inh 
+	path 2
+		from : 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1---------  1
+		to   : 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+		driver nodes: CellCycleArrest 
+STEP 2
+	path 1
+		from : 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-1---------  1
+		to   : 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-0---------  1
+		driver nodes: CellCycleArrest 
+	path 2
+		from : 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+		to   : 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-0---------  1
+		driver nodes: ZFP36_inh 
+
+======================== END SEQUENTIAL CONTROL ===============================
+
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/pc12-55-pc.ispl
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1---------  1
+target attractor:
+0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1---------  1
+
+---------------------------------------------
+The source and the target are the same.
+The minimum number of perturbation is 0
+The BDD consisting of all reprogramming paths: 
+
+execution time = 0
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/pc12-56-pc.ispl
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1---------  1
+target attractor:
+0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+
+************** perturbation: 0 **************
+No solution.
+
+************** perturbation: 1 **************
+The minimum number of perturbation is 1
+
+execution time = 0.549
+
+All the sequential reprogramming paths:
+STEP 1
+	path 1
+		from : 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1---------  1
+		to   : 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+		driver nodes: CellCycleArrest 
+
+======================== END SEQUENTIAL CONTROL ===============================
+
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/pc12-57-pc.ispl
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1---------  1
+target attractor:
+1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-0-1-1-1-1-1-1-1-0-0-1-1-1-1-1-1-1-1---------  1
+
+************** perturbation: 0 **************
+No solution.
+
+************** perturbation: 1 **************
+The minimum number of perturbation is 1
+
+execution time = 0.275
+
+All the sequential reprogramming paths:
+STEP 1
+	path 1
+		from : 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1---------  1
+		to   : 1-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1---------  1
+		driver nodes: NGF 
+
+======================== END SEQUENTIAL CONTROL ===============================
+
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/pc12-61-pc.ispl
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+target attractor:
+0-0-1-1-1-1-1-0-0-1-1-1-1-1-0-1-1-1-0-1-1-1-1-0-0-1-0-1-1-1-1-1-0---------  1
+
+************** perturbation: 0 **************
+No solution.
+
+************** perturbation: 1 **************
+No solution.
+
+************** perturbation: 2 **************
+No solution.
+
+************** perturbation: 3 **************
+The minimum number of perturbation is 3
+
+execution time = 0.989
+
+======================== END SEQUENTIAL CONTROL ===============================
+
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/pc12-62-pc.ispl
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+target attractor:
+0-0-1-1-1-1-1-0-0-1-1-1-1-1-0-0-1-1-0-1-1-1-1-0-0-1-0-1-1-1-1-1-1---------  1
+
+************** perturbation: 0 **************
+No solution.
+
+************** perturbation: 1 **************
+No solution.
+
+************** perturbation: 2 **************
+The minimum number of perturbation is 2
+
+execution time = 0.702
+
+======================== END SEQUENTIAL CONTROL ===============================
+
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/pc12-63-pc.ispl
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+target attractor:
+0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-1---------  1
+
+************** perturbation: 0 **************
+No solution.
+
+************** perturbation: 1 **************
+No solution.
+
+************** perturbation: 2 **************
+The minimum number of perturbation is 2
+
+execution time = 1.509
+
+All the sequential reprogramming paths:
+STEP 1
+	path 1
+		from : 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+		to   : 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1---------  1
+		driver nodes: CellCycleArrest 
+	path 2
+		from : 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+		to   : 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-0---------  1
+		driver nodes: ZFP36_inh 
+STEP 2
+	path 1
+		from : 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1---------  1
+		to   : 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-1---------  1
+		driver nodes: ZFP36_inh 
+	path 2
+		from : 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-0---------  1
+		to   : 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-1---------  1
+		driver nodes: CellCycleArrest 
+
+======================== END SEQUENTIAL CONTROL ===============================
+
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/pc12-64-pc.ispl
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+target attractor:
+0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-0---------  1
+
+************** perturbation: 0 **************
+No solution.
+
+************** perturbation: 1 **************
+The minimum number of perturbation is 1
+
+execution time = 0.732
+
+All the sequential reprogramming paths:
+STEP 1
+	path 1
+		from : 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+		to   : 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-0---------  1
+		driver nodes: ZFP36_inh 
+
+======================== END SEQUENTIAL CONTROL ===============================
+
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/pc12-65-pc.ispl
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+target attractor:
+0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1---------  1
+
+************** perturbation: 0 **************
+No solution.
+
+************** perturbation: 1 **************
+The minimum number of perturbation is 1
+
+execution time = 0.839
+
+All the sequential reprogramming paths:
+STEP 1
+	path 1
+		from : 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+		to   : 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1---------  1
+		driver nodes: CellCycleArrest 
+
+======================== END SEQUENTIAL CONTROL ===============================
+
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/pc12-66-pc.ispl
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+target attractor:
+0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+
+---------------------------------------------
+The source and the target are the same.
+The minimum number of perturbation is 0
+The BDD consisting of all reprogramming paths: 
+
+execution time = 0
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/pc12-67-pc.ispl
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+target attractor:
+1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-0-1-1-1-1-1-1-1-0-0-1-1-1-1-1-1-1-1---------  1
+
+************** perturbation: 0 **************
+No solution.
+
+************** perturbation: 1 **************
+The minimum number of perturbation is 1
+
+execution time = 0.336
+
+All the sequential reprogramming paths:
+STEP 1
+	path 1
+		from : 0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+		to   : 1-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+		driver nodes: NGF 
+
+======================== END SEQUENTIAL CONTROL ===============================
+
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/pc12-71-pc.ispl
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-0-1-1-1-1-1-1-1-0-0-1-1-1-1-1-1-1-1---------  1
+target attractor:
+0-0-1-1-1-1-1-0-0-1-1-1-1-1-0-1-1-1-0-1-1-1-1-0-0-1-0-1-1-1-1-1-0---------  1
+
+************** perturbation: 0 **************
+No solution.
+
+************** perturbation: 1 **************
+No solution.
+
+************** perturbation: 2 **************
+The minimum number of perturbation is 2
+
+execution time = 0.675
+
+All the sequential reprogramming paths:
+STEP 1
+	path 1
+		from : 1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-0-1-1-1-1-1-1-1-0-0-1-1-1-1-1-1-1-1---------  1
+		to   : 0-1-1-1-1-1-1-1-1-1-1-1-1-1-1-0-1-1-1-1-1-1-1-0-0-1-1-1-1-1-1-1-1---------  1
+		driver nodes: NGF 
+STEP 2
+	path 1
+		from : 0-1-1-1-1-1-1-0-1-1-1-1-1-1-1-0-1-1-1-1-1-1-1-0-0-1-1-1-1-1-1-1-1---------  1
+		to   : 0-1-1-1-1-1-1-0-1-1-1-1-1-1-1-0-1-1-1-1-1-1-1-0-0-1-1-1-1-1-1-1-0---------  1
+		driver nodes: CellCycleArrest 
+	path 2
+		from : 0-0-1-1-1-1-1-0-1-1-1-1-1-1-0-0-1-1-1-1-1-1-1-0-0-1-1-1-1-1-1-1-1---------  1
+		to   : 0-0-1-1-1-1-1-0-1-1-1-1-1-1-0-0-1-1-1-1-1-1-1-0-0-1-1-1-1-1-1-1-0---------  1
+		driver nodes: CellCycleArrest 
+	path 3
+		from : 0-1-1-1-1-1-1-0-0-1-1-1-1-1-1-0-1-1-1-1-1-1-1-0-0-1-1-1-1-1-1-1-1---------  1
+		to   : 0-1-1-1-1-1-1-0-0-1-1-1-1-1-1-0-1-1-1-1-1-1-1-0-0-1-1-1-1-1-1-1-0---------  1
+		driver nodes: CellCycleArrest 
+	path 4
+		from : 0-0-1-1-1-1-1-0-0-1-1-1-1-1-1-0-1-1-1-1-1-1-1-0-0-1-0-1-1-1-1-1-1---------  1
+		to   : 0-0-1-1-1-1-1-0-0-1-1-1-1-1-1-0-1-1-1-1-1-1-1-0-0-1-0-1-1-1-1-1-0---------  1
+		driver nodes: CellCycleArrest 
+	path 5
+		from : 0-0-1-1-1-1-1-0-0-1-1-1-1-1-1-0-1-1-0-1-1-1-1-0-0-1-1-1-1-1-1-1-1---------  1
+		to   : 0-0-1-1-1-1-1-0-0-1-1-1-1-1-1-0-1-1-0-1-1-1-1-0-0-1-1-1-1-1-1-1-0---------  1
+		driver nodes: CellCycleArrest 
+	path 6
+		from : 0-0-1-1-1-1-1-0-0-1-1-1-1-1-1-0-1-1-1-1-1-1-1-0-0-1-1-1-1-1-1-1-1---------  1
+		to   : 0-0-1-1-1-1-1-0-0-1-1-1-1-1-1-0-1-1-1-1-1-1-1-0-0-1-1-1-1-1-1-1-0---------  1
+		driver nodes: CellCycleArrest 
+	path 7
+		from : 0-1-1-1-1-1-1-0-0-1-1-1-1-1-0-0-1-1-0-1-1-1-1-0-0-1-0-1-1-1-1-1-1---------  1
+		to   : 0-1-1-1-1-1-1-0-0-1-1-1-1-1-0-0-1-1-0-1-1-1-1-0-0-1-0-1-1-1-1-1-0---------  1
+		driver nodes: CellCycleArrest 
+	path 8
+		from : 0-1-1-1-1-1-1-0-1-1-1-1-1-1-0-0-1-1-1-1-1-1-1-0-0-1-1-1-1-1-1-1-1---------  1
+		to   : 0-1-1-1-1-1-1-0-1-1-1-1-1-1-0-0-1-1-1-1-1-1-1-0-0-1-1-1-1-1-1-1-0---------  1
+		driver nodes: CellCycleArrest 
+	path 9
+		from : 0-1-1-1-1-1-1-0-1-1-1-1-1-1-0-0-1-1-0-1-1-1-1-0-0-1-1-1-1-1-1-1-1---------  1
+		to   : 0-1-1-1-1-1-1-0-1-1-1-1-1-1-0-0-1-1-0-1-1-1-1-0-0-1-1-1-1-1-1-1-0---------  1
+		driver nodes: CellCycleArrest 
+	path 10
+		from : 0-1-1-1-1-1-1-0-0-1-1-1-1-1-1-0-1-1-1-1-1-1-1-0-0-1-0-1-1-1-1-1-1---------  1
+		to   : 0-1-1-1-1-1-1-0-0-1-1-1-1-1-1-0-1-1-1-1-1-1-1-0-0-1-0-1-1-1-1-1-0---------  1
+		driver nodes: CellCycleArrest 
+	path 11
+		from : 0-1-1-1-1-1-1-0-0-1-1-1-1-1-0-0-1-1-0-1-1-1-1-0-0-1-1-1-1-1-1-1-1---------  1
+		to   : 0-1-1-1-1-1-1-0-0-1-1-1-1-1-0-0-1-1-0-1-1-1-1-0-0-1-1-1-1-1-1-1-0---------  1
+		driver nodes: CellCycleArrest 
+	path 12
+		from : 0-0-1-1-1-1-1-0-1-1-1-1-1-1-1-0-1-1-1-1-1-1-1-0-0-1-1-1-1-1-1-1-1---------  1
+		to   : 0-0-1-1-1-1-1-0-1-1-1-1-1-1-1-0-1-1-1-1-1-1-1-0-0-1-1-1-1-1-1-1-0---------  1
+		driver nodes: CellCycleArrest 
+	path 13
+		from : 0-0-1-1-1-1-1-0-1-1-1-1-1-1-1-0-1-1-0-1-1-1-1-0-0-1-1-1-1-1-1-1-1---------  1
+		to   : 0-0-1-1-1-1-1-0-1-1-1-1-1-1-1-0-1-1-0-1-1-1-1-0-0-1-1-1-1-1-1-1-0---------  1
+		driver nodes: CellCycleArrest 
+	path 14
+		from : 0-0-1-1-1-1-1-0-0-1-1-1-1-1-1-0-1-1-0-1-1-1-1-0-0-1-0-1-1-1-1-1-1---------  1
+		to   : 0-0-1-1-1-1-1-0-0-1-1-1-1-1-1-0-1-1-0-1-1-1-1-0-0-1-0-1-1-1-1-1-0---------  1
+		driver nodes: CellCycleArrest 
+	path 15
+		from : 0-0-1-1-1-1-1-0-0-1-1-1-1-1-0-0-1-1-1-1-1-1-1-0-0-1-1-1-1-1-1-1-1---------  1
+		to   : 0-0-1-1-1-1-1-0-0-1-1-1-1-1-0-0-1-1-1-1-1-1-1-0-0-1-1-1-1-1-1-1-0---------  1
+		driver nodes: CellCycleArrest 
+	path 16
+		from : 0-1-1-1-1-1-1-0-0-1-1-1-1-1-1-0-1-1-0-1-1-1-1-0-0-1-0-1-1-1-1-1-1---------  1
+		to   : 0-1-1-1-1-1-1-0-0-1-1-1-1-1-1-0-1-1-0-1-1-1-1-0-0-1-0-1-1-1-1-1-0---------  1
+		driver nodes: CellCycleArrest 
+	path 17
+		from : 0-0-1-1-1-1-1-0-1-1-1-1-1-1-0-0-1-1-0-1-1-1-1-0-0-1-1-1-1-1-1-1-1---------  1
+		to   : 0-0-1-1-1-1-1-0-1-1-1-1-1-1-0-0-1-1-0-1-1-1-1-0-0-1-1-1-1-1-1-1-0---------  1
+		driver nodes: CellCycleArrest 
+	path 18
+		from : 0-1-1-1-1-1-1-0-1-1-1-1-1-1-1-0-1-1-0-1-1-1-1-0-0-1-1-1-1-1-1-1-1---------  1
+		to   : 0-1-1-1-1-1-1-0-1-1-1-1-1-1-1-0-1-1-0-1-1-1-1-0-0-1-1-1-1-1-1-1-0---------  1
+		driver nodes: CellCycleArrest 
+	path 19
+		from : 0-0-1-1-1-1-1-0-0-1-1-1-1-1-0-0-1-1-0-1-1-1-1-0-0-1-1-1-1-1-1-1-1---------  1
+		to   : 0-0-1-1-1-1-1-0-0-1-1-1-1-1-0-0-1-1-0-1-1-1-1-0-0-1-1-1-1-1-1-1-0---------  1
+		driver nodes: CellCycleArrest 
+	path 20
+		from : 0-0-1-1-1-1-1-0-0-1-1-1-1-1-0-0-1-1-0-1-1-1-1-0-0-1-0-1-1-1-1-1-1---------  1
+		to   : 0-0-1-1-1-1-1-0-0-1-1-1-1-1-0-0-1-1-0-1-1-1-1-0-0-1-0-1-1-1-1-1-0---------  1
+		driver nodes: CellCycleArrest 
+	path 21
+		from : 0-1-1-1-1-1-1-0-0-1-1-1-1-1-1-0-1-1-0-1-1-1-1-0-0-1-1-1-1-1-1-1-1---------  1
+		to   : 0-1-1-1-1-1-1-0-0-1-1-1-1-1-1-0-1-1-0-1-1-1-1-0-0-1-1-1-1-1-1-1-0---------  1
+		driver nodes: CellCycleArrest 
+	path 22
+		from : 0-1-1-1-1-1-1-0-0-1-1-1-1-1-0-0-1-1-1-1-1-1-1-0-0-1-1-1-1-1-1-1-1---------  1
+		to   : 0-1-1-1-1-1-1-0-0-1-1-1-1-1-0-0-1-1-1-1-1-1-1-0-0-1-1-1-1-1-1-1-0---------  1
+		driver nodes: CellCycleArrest 
+	path 23
+		from : 0-1-1-1-1-1-1-0-0-1-1-1-1-1-0-0-1-1-1-1-1-1-1-0-0-1-0-1-1-1-1-1-1---------  1
+		to   : 0-1-1-1-1-1-1-0-0-1-1-1-1-1-0-0-1-1-1-1-1-1-1-0-0-1-0-1-1-1-1-1-0---------  1
+		driver nodes: CellCycleArrest 
+	path 24
+		from : 0-0-1-1-1-1-1-0-0-1-1-1-1-1-0-0-1-1-1-1-1-1-1-0-0-1-0-1-1-1-1-1-1---------  1
+		to   : 0-0-1-1-1-1-1-0-0-1-1-1-1-1-0-0-1-1-1-1-1-1-1-0-0-1-0-1-1-1-1-1-0---------  1
+		driver nodes: CellCycleArrest 
+
+======================== END SEQUENTIAL CONTROL ===============================
+
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/pc12-72-pc.ispl
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-0-1-1-1-1-1-1-1-0-0-1-1-1-1-1-1-1-1---------  1
+target attractor:
+0-0-1-1-1-1-1-0-0-1-1-1-1-1-0-0-1-1-0-1-1-1-1-0-0-1-0-1-1-1-1-1-1---------  1
+
+************** perturbation: 0 **************
+No solution.
+
+************** perturbation: 1 **************
+The minimum number of perturbation is 1
+
+execution time = 0.644
+
+All the sequential reprogramming paths:
+STEP 1
+	path 1
+		from : 1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-0-1-1-1-1-1-1-1-0-0-1-1-1-1-1-1-1-1---------  1
+		to   : 0-1-1-1-1-1-1-1-1-1-1-1-1-1-1-0-1-1-1-1-1-1-1-0-0-1-1-1-1-1-1-1-1---------  1
+		driver nodes: NGF 
+
+======================== END SEQUENTIAL CONTROL ===============================
+
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/pc12-73-pc.ispl
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-0-1-1-1-1-1-1-1-0-0-1-1-1-1-1-1-1-1---------  1
+target attractor:
+0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-1---------  1
+
+************** perturbation: 0 **************
+No solution.
+
+************** perturbation: 1 **************
+No solution.
+
+************** perturbation: 2 **************
+No solution.
+
+************** perturbation: 3 **************
+No solution.
+
+************** perturbation: 4 **************
+No solution.
+
+************** perturbation: 5 **************
+No solution.
+
+************** perturbation: 6 **************
+No solution.
+
+************** perturbation: 7 **************
+No solution.
+
+************** perturbation: 8 **************
+The minimum number of perturbation is 8
+
+execution time = 6.568
+
+======================== END SEQUENTIAL CONTROL ===============================
+
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/pc12-74-pc.ispl
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-0-1-1-1-1-1-1-1-0-0-1-1-1-1-1-1-1-1---------  1
+target attractor:
+0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-0---------  1
+
+************** perturbation: 0 **************
+No solution.
+
+************** perturbation: 1 **************
+No solution.
+
+************** perturbation: 2 **************
+No solution.
+
+************** perturbation: 3 **************
+No solution.
+
+************** perturbation: 4 **************
+No solution.
+
+************** perturbation: 5 **************
+No solution.
+
+************** perturbation: 6 **************
+No solution.
+
+************** perturbation: 7 **************
+No solution.
+
+************** perturbation: 8 **************
+No solution.
+
+************** perturbation: 9 **************
+The minimum number of perturbation is 9
+
+execution time = 9.212
+
+======================== END SEQUENTIAL CONTROL ===============================
+
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/pc12-75-pc.ispl
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-0-1-1-1-1-1-1-1-0-0-1-1-1-1-1-1-1-1---------  1
+target attractor:
+0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1---------  1
+
+************** perturbation: 0 **************
+No solution.
+
+************** perturbation: 1 **************
+No solution.
+
+************** perturbation: 2 **************
+No solution.
+
+************** perturbation: 3 **************
+No solution.
+
+************** perturbation: 4 **************
+No solution.
+
+************** perturbation: 5 **************
+No solution.
+
+************** perturbation: 6 **************
+No solution.
+
+************** perturbation: 7 **************
+No solution.
+
+************** perturbation: 8 **************
+No solution.
+
+************** perturbation: 9 **************
+The minimum number of perturbation is 9
+
+execution time = 7.161
+
+======================== END SEQUENTIAL CONTROL ===============================
+
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/pc12-76-pc.ispl
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-0-1-1-1-1-1-1-1-0-0-1-1-1-1-1-1-1-1---------  1
+target attractor:
+0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0---------  1
+
+************** perturbation: 0 **************
+No solution.
+
+************** perturbation: 1 **************
+No solution.
+
+************** perturbation: 2 **************
+No solution.
+
+************** perturbation: 3 **************
+No solution.
+
+************** perturbation: 4 **************
+No solution.
+
+************** perturbation: 5 **************
+No solution.
+
+************** perturbation: 6 **************
+No solution.
+
+************** perturbation: 7 **************
+No solution.
+
+************** perturbation: 8 **************
+No solution.
+
+************** perturbation: 9 **************
+No solution.
+
+************** perturbation: 10 **************
+The minimum number of perturbation is 10
+
+execution time = 5.461
+
+======================== END SEQUENTIAL CONTROL ===============================
+
+
+Command line: ./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 model-pc/pc12-77-pc.ispl
+
+======================== START SEQUENTIAL CONTROL ===============================
+
+source attractor:
+1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-0-1-1-1-1-1-1-1-0-0-1-1-1-1-1-1-1-1---------  1
+target attractor:
+1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-0-1-1-1-1-1-1-1-0-0-1-1-1-1-1-1-1-1---------  1
+
+---------------------------------------------
+The source and the target are the same.
+The minimum number of perturbation is 0
+The BDD consisting of all reprogramming paths: 
+
+execution time = 0

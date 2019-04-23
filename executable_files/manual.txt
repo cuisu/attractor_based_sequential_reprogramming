@@ -1,0 +1,50 @@
+Command:
+
+General Options:
+	• -v Number: verbosity level (optional)
+	• -steadystates
+	• -asynbn: asynchronous update mode 
+	• -newtarjan: new tarjan method 
+	• -newpred: new predecessor computation 
+	• -compositional Number: choose the way to decompose the network 
+		0: global (default); 
+		1: (not available) 
+		2: SCC-based decomposition
+	• -control Number: choose the control methods 
+ 		0: skip (default); 
+ 		1: one-step reprogramming; 
+ 		2: sequential reprogramming; 
+ 		3: attractor-based reprogramming 
+ 	• -pc Number: the maximum number of perturbations for sequential control
+	• -path Number: for sequential control 
+		• 0: compute all the reprogramming paths and print all the paths if the number of paths is less or equal to 200;
+		• 1: compute one reprogramming path;
+ 		• 2: compute and print all the reprogramming paths. 
+
+
+ 	• name of the model file (at the end of the command line)
+
+
+Examples:
+ 	• one-step control:
+ 	./mcmas -steadystates -asynbn -newtarjan -newpred -compositional 2 -control 1 file.ispl
+ 	
+ 	• sequential control:
+	./mcmas -steadystates -asynbn -newtarjan -newpred -control 2 -path 0 -pc 10 file.ispl
+
+ 	• attractor-based sequential control:
+ 	./mcmas -steadystates -asynbn -newtarjan -newpred -compositional 2 -control 3 file.ispl
+
+
+Model files: (see examples in folder "models")
+	• Semantics: MA - asynchronous mode; SA: synchornous mode 
+		This line is optional. The default value is MA. 
+	• Vars: a list of variables
+	• Evolution: Boolean functions of the variables
+	• InitStates: the initial states
+
+The model file for sequential control is slightly different. 
+In each model file, the expressions of the source and the target attractors are given as 'InitStates' and 'RedStates', respectively. 
+
+
+

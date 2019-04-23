@@ -1,0 +1,59 @@
+Agent M
+	Vars:
+		BMP2: boolean;
+		canWnt: boolean;
+		Dkk1: boolean;
+		Fgf8: boolean;
+		Foxc12: boolean;
+		GATAs: boolean;
+		Isl1: boolean;
+		Mesp1: boolean;
+		Nkx25: boolean;
+		Tbx1: boolean;
+		Tbx5: boolean;
+		exogenBMP2I: boolean;
+		exogenBMP2II: boolean;
+		exogenCanWntI: boolean;
+		exogenCanWntII: boolean;
+		end Vars
+	Actions = {none};
+	Protocol:
+		Other: {none};
+	end Protocol
+	Evolution:
+		BMP2=true if  (~canWnt)&exogenBMP2II=true;
+		BMP2=false if  (~canWnt)&exogenBMP2II=false;
+		canWnt=true if  exogenCanWntII=true;
+		canWnt=false if  exogenCanWntII=false;
+		Dkk1=true if  Mesp1|(canWnt&(~exogenBMP2II))=true;
+		Dkk1=false if  Mesp1|(canWnt&(~exogenBMP2II))=false;
+		Fgf8=true if  (~Mesp1)&(Foxc12|Tbx1)=true;
+		Fgf8=false if  (~Mesp1)&(Foxc12|Tbx1)=false;
+		Foxc12=true if  canWnt&exogenCanWntII=true;
+		Foxc12=false if  canWnt&exogenCanWntII=false;
+		GATAs=true if  Nkx25|Mesp1|Tbx5=true;
+		GATAs=false if  Nkx25|Mesp1|Tbx5=false;
+		Isl1=true if  Tbx1|Mesp1|Fgf8|(canWnt&exogenCanWntII)=true;
+		Isl1=false if  Tbx1|Mesp1|Fgf8|(canWnt&exogenCanWntII)=false;
+		Mesp1=true if  canWnt&(~exogenBMP2II)=true;
+		Mesp1=false if  canWnt&(~exogenBMP2II)=false;
+		Nkx25=true if  (Isl1&GATAs)|Tbx1|(Mesp1&Dkk1)|(BMP2&GATAs)|Tbx5=true;
+		Nkx25=false if  (Isl1&GATAs)|Tbx1|(Mesp1&Dkk1)|(BMP2&GATAs)|Tbx5=false;
+		Tbx1=true if  Foxc12=true;
+		Tbx1=false if  Foxc12=false;
+		Tbx5=true if  (~(Tbx1|canWnt))&(Nkx25|Tbx5|Mesp1)&(~(Dkk1&(~(Mesp1|Tbx5))))=true;
+		Tbx5=false if  (~(Tbx1|canWnt))&(Nkx25|Tbx5|Mesp1)&(~(Dkk1&(~(Mesp1|Tbx5))))=false;
+		exogenBMP2I=true if  exogenBMP2I=true;
+		exogenBMP2I=false if  exogenBMP2I=false;
+		exogenBMP2II=true if  exogenBMP2I=true;
+		exogenBMP2II=false if  exogenBMP2I=false;
+		exogenCanWntI=true if  exogenCanWntI=true;
+		exogenCanWntI=false if  exogenCanWntI=false;
+		exogenCanWntII=true if  exogenCanWntI=true;
+		exogenCanWntII=false if  exogenCanWntI=false;
+	end Evolution
+end Agent
+
+InitStates
+		M.exogenBMP2I=true or M.exogenBMP2I=false;
+end InitStates

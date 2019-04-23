@@ -1,0 +1,111 @@
+Agent M
+	Vars:
+		Metastasis : boolean;
+		Migration : boolean;
+		Invasion : boolean;
+		EMT : boolean;
+		Apoptosis : boolean;
+		CellCycleArrest : boolean;
+		ECMicroenv : boolean;
+		DNAdamage : boolean;
+		GF : boolean;
+		TGFbeta : boolean;
+		p21 : boolean;
+		CDH1 : boolean;
+		CDH2 : boolean;
+		VIM : boolean;
+		TWIST1 : boolean;
+		SNAI1 : boolean;
+		SNAI2 : boolean;
+		ZEB1 : boolean;
+		ZEB2 : boolean;
+		AKT1 : boolean;
+		DKK1 : boolean;
+		CTNNB1 : boolean;
+		NICD : boolean;
+		p63 : boolean;
+		p53 : boolean;
+		p73 : boolean;
+		miR200 : boolean;
+		miR203 : boolean;
+		miR34 : boolean;
+		AKT2 : boolean;
+		ERK : boolean;
+		SMAD : boolean;
+	end Vars
+	Actions = {none};
+	Protocol:
+		Other: {none};
+	end Protocol
+	Evolution:
+		Metastasis=true if Migration=true;
+		Metastasis=false if Migration=false;
+		Migration=true if VIM&AKT2&ERK&(~miR200)&(~AKT1)&EMT&Invasion&(~p63)=true;
+		Migration=false if VIM&AKT2&ERK&(~miR200)&(~AKT1)&EMT&Invasion&(~p63)=false;
+		Invasion=true if (SMAD&CDH2)|CTNNB1=true;
+		Invasion=false if (SMAD&CDH2)|CTNNB1=false;
+		EMT=true if CDH2&(~CDH1)=true;
+		EMT=false if CDH2&(~CDH1)=false;
+		Apoptosis=true if (p53|p63|p73|miR200|miR34)&(~ZEB2)&(~AKT1)&(~ERK)=true;
+		Apoptosis=false if (p53|p63|p73|miR200|miR34)&(~ZEB2)&(~AKT1)&(~ERK)=false;
+		CellCycleArrest=true if (miR203|miR200|miR34|ZEB2|p21)&(~AKT1)=true;
+		CellCycleArrest=false if (miR203|miR200|miR34|ZEB2|p21)&(~AKT1)=false;
+		ECMicroenv=true if ECMicroenv=true;
+		ECMicroenv=false if ECMicroenv=false;
+		DNAdamage=true if DNAdamage=true;
+		DNAdamage=false if DNAdamage=false;
+		GF=true if (~CDH1)&(GF|CDH2)=true;
+		GF=false if (~CDH1)&(GF|CDH2)=false;
+		TGFbeta=true if (ECMicroenv|NICD)&(~CTNNB1)=true;
+		TGFbeta=false if (ECMicroenv|NICD)&(~CTNNB1)=false;
+		p21=true if ((SMAD&NICD)|p63|p53|p73|AKT2)&(~(AKT1|ERK))=true;
+		p21=false if ((SMAD&NICD)|p63|p53|p73|AKT2)&(~(AKT1|ERK))=false;
+		CDH1=true if (~TWIST1)&(~SNAI2)&(~ZEB1)&(~ZEB2)&(~SNAI1)&(~AKT2)=true;
+		CDH1=false if (~TWIST1)&(~SNAI2)&(~ZEB1)&(~ZEB2)&(~SNAI1)&(~AKT2)=false;
+		CDH2=true if TWIST1=true;
+		CDH2=false if TWIST1=false;
+		VIM=true if CTNNB1|ZEB2=true;
+		VIM=false if CTNNB1|ZEB2=false;
+		TWIST1=true if CTNNB1|NICD|SNAI1=true;
+		TWIST1=false if CTNNB1|NICD|SNAI1=false;
+		SNAI1=true if (NICD|TWIST1)&(~miR203)&(~miR34)&(~p53)&(~CTNNB1)=true;
+		SNAI1=false if (NICD|TWIST1)&(~miR203)&(~miR34)&(~p53)&(~CTNNB1)=false;
+		SNAI2=true if (TWIST1|CTNNB1|NICD)&(~miR200)&(~p53)&(~miR203)=true;
+		SNAI2=false if (TWIST1|CTNNB1|NICD)&(~miR200)&(~p53)&(~miR203)=false;
+		ZEB1=true if ((TWIST1&SNAI1)|CTNNB1|SNAI2|NICD)&(~miR200)=true;
+		ZEB1=false if ((TWIST1&SNAI1)|CTNNB1|SNAI2|NICD)&(~miR200)=false;
+		ZEB2=true if (SNAI1|(SNAI2&TWIST1)|NICD)&(~miR200)&(~miR203)=true;
+		ZEB2=false if (SNAI1|(SNAI2&TWIST1)|NICD)&(~miR200)&(~miR203)=false;
+		AKT1=true if CTNNB1&(NICD|TGFbeta|GF|CDH2)&(~p53)&(~miR34)&(~CDH1)=true;
+		AKT1=false if CTNNB1&(NICD|TGFbeta|GF|CDH2)&(~p53)&(~miR34)&(~CDH1)=false;
+		DKK1=true if CTNNB1|NICD=true;
+		DKK1=false if CTNNB1|NICD=false;
+		CTNNB1=true if (~DKK1)&(~p53)&(~AKT1)&(~miR34)&(~miR200)&(~CDH1)&(~CDH2)&(~p63)=true;
+		CTNNB1=false if (~DKK1)&(~p53)&(~AKT1)&(~miR34)&(~miR200)&(~CDH1)&(~CDH2)&(~p63)=false;
+		NICD=true if (~p53)&(~p63)&(~p73)&(~miR200)&(~miR34)&ECMicroenv=true;
+		NICD=false if (~p53)&(~p63)&(~p73)&(~miR200)&(~miR34)&ECMicroenv=false;
+		p63=true if DNAdamage&(~NICD)&(~AKT1)&(~AKT2)&(~p53)&(~miR203)=true;
+		p63=false if DNAdamage&(~NICD)&(~AKT1)&(~AKT2)&(~p53)&(~miR203)=false;
+		p53=true if (DNAdamage|CTNNB1|NICD|miR34)&(~SNAI2)&(~p73)&(~AKT1)&(~AKT2)=true;
+		p53=false if (DNAdamage|CTNNB1|NICD|miR34)&(~SNAI2)&(~p73)&(~AKT1)&(~AKT2)=false;
+		p73=true if DNAdamage&(~p53)&(~ZEB1)&(~AKT1)&(~AKT2)=true;
+		p73=false if DNAdamage&(~p53)&(~ZEB1)&(~AKT1)&(~AKT2)=false;
+		miR200=true if (p63|p53|p73)&(~(AKT2|SNAI1|SNAI2|ZEB1|ZEB2))=true;
+		miR200=false if (p63|p53|p73)&(~(AKT2|SNAI1|SNAI2|ZEB1|ZEB2))=false;
+		miR203=true if p53&(~(SNAI1|ZEB1|ZEB2))=true;
+		miR203=false if p53&(~(SNAI1|ZEB1|ZEB2))=false;
+		miR34=true if (~(SNAI1|ZEB1|ZEB2))&(p53|p73)&AKT2&(~p63)&(~AKT1)=true;
+		miR34=false if (~(SNAI1|ZEB1|ZEB2))&(p53|p73)&AKT2&(~p63)&(~AKT1)=false;
+		AKT2=true if TWIST1&(TGFbeta|GF|CDH2)&(~(miR203|miR34|p53))=true;
+		AKT2=false if TWIST1&(TGFbeta|GF|CDH2)&(~(miR203|miR34|p53))=false;
+		ERK=true if (SMAD|CDH2|GF|NICD)&(~AKT1)=true;
+		ERK=false if (SMAD|CDH2|GF|NICD)&(~AKT1)=false;
+		SMAD=true if TGFbeta&(~miR200)&(~miR203)=true;
+		SMAD=false if TGFbeta&(~miR200)&(~miR203)=false;
+	end Evolution
+end Agent
+
+InitStates
+		M.ECMicroenv=true or M.ECMicroenv=false;
+end InitStates
+

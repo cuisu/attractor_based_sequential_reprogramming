@@ -1,0 +1,5829 @@
+
+Command line: ./mcmas -steadystates -asynbn -newpred -newtarjan -control 3 -compositional 2 ../model/myeloid.ispl
+======================== find attractor #1 : 1 states ========================
+: 12 nodes 1 leaves 1 minterms
+0-0-0-0-0-0-0-1-1-1-0-  1
+
+======================== find attractor #2 : 1 states ========================
+: 12 nodes 1 leaves 1 minterms
+0-1-1-0-1-1-0-0-0-0-0-  1
+
+======================== find attractor #3 : 1 states ========================
+: 12 nodes 1 leaves 1 minterms
+0-1-1-1-0-1-0-0-0-0-0-  1
+
+======================== find attractor #4 : 1 states ========================
+: 12 nodes 1 leaves 1 minterms
+0-0-0-0-0-0-0-0-0-0-0-  1
+
+======================== find attractor #5 : 1 states ========================
+: 12 nodes 1 leaves 1 minterms
+0-0-0-0-0-0-1-1-0-0-1-  1
+
+======================== find attractor #6 : 1 states ========================
+: 12 nodes 1 leaves 1 minterms
+0-0-0-0-0-0-1-1-1-1-0-  1
+
+number of attractors = 6
+time for attractor detection=0.002
+
+========= REMOVE UNDIRED ATTRACTORS =========
+
+attractors for the sequential control (6)
+attractor #1 : 1 states
+: 12 nodes 1 leaves 1 minterms
+0-0-0-0-0-0-0-1-1-1-0-  1
+
+(CEBPA=false and EKLF=false and EgrNab=true and FOG1=false and Fli1=false and GATA1=false and GATA2=false and Gfi1=false and PU1=true and SCL=false and cJun=true)
+
+attractor #2 : 1 states
+: 12 nodes 1 leaves 1 minterms
+0-1-1-0-1-1-0-0-0-0-0-  1
+
+(CEBPA=false and EKLF=false and EgrNab=false and FOG1=true and Fli1=true and GATA1=true and GATA2=false and Gfi1=false and PU1=false and SCL=true and cJun=false)
+
+attractor #3 : 1 states
+: 12 nodes 1 leaves 1 minterms
+0-1-1-1-0-1-0-0-0-0-0-  1
+
+(CEBPA=false and EKLF=true and EgrNab=false and FOG1=true and Fli1=false and GATA1=true and GATA2=false and Gfi1=false and PU1=false and SCL=true and cJun=false)
+
+attractor #4 : 1 states
+: 12 nodes 1 leaves 1 minterms
+0-0-0-0-0-0-0-0-0-0-0-  1
+
+(CEBPA=false and EKLF=false and EgrNab=false and FOG1=false and Fli1=false and GATA1=false and GATA2=false and Gfi1=false and PU1=false and SCL=false and cJun=false)
+
+attractor #5 : 1 states
+: 12 nodes 1 leaves 1 minterms
+0-0-0-0-0-0-1-1-0-0-1-  1
+
+(CEBPA=true and EKLF=false and EgrNab=false and FOG1=false and Fli1=false and GATA1=false and GATA2=false and Gfi1=true and PU1=true and SCL=false and cJun=false)
+
+attractor #6 : 1 states
+: 12 nodes 1 leaves 1 minterms
+0-0-0-0-0-0-1-1-1-1-0-  1
+
+(CEBPA=true and EKLF=false and EgrNab=true and FOG1=false and Fli1=false and GATA1=false and GATA2=false and Gfi1=false and PU1=true and SCL=false and cJun=true)
+
+
+========= START HYBRID CONTROL (ASY+DECOMP) =========
+
+
+------------------------------------------
+source and target: 1 -> 2
+
+	PATH 1 -  #perturbations: 3
+	Sequence of the attractors: 1 -> 2
+	STEP 1
+		driver nodes: GATA1 Fli1 PU1 
+
+time cost  = 0.003
+
+------------------------------------------
+source and target: 1 -> 3
+
+	PATH 1 -  #perturbations: 3
+	Sequence of the attractors: 1 -> 3
+	STEP 1
+		driver nodes: GATA1 EKLF PU1 
+
+time cost  = 0.002
+
+------------------------------------------
+source and target: 1 -> 4
+
+	PATH 1 -  #perturbations: 1
+	Sequence of the attractors: 1 -> 4
+	STEP 1
+		driver nodes: PU1 
+
+time cost  = 0
+
+------------------------------------------
+source and target: 1 -> 5
+
+	PATH 1 -  #perturbations: 3
+	Sequence of the attractors: 1 -> 5
+	STEP 1
+		driver nodes: EgrNab CEBPA Gfi1 
+
+time cost  = 0.002
+
+------------------------------------------
+source and target: 1 -> 6
+
+	PATH 1 -  #perturbations: 1
+	Sequence of the attractors: 1 -> 6
+	STEP 1
+		driver nodes: CEBPA 
+
+time cost  = 0.001
+
+------------------------------------------
+source and target: 2 -> 1
+
+	PATH 1 -  #perturbations: 2
+	Sequence of the attractors: 2 -> 1
+	STEP 1
+		driver nodes: GATA1 PU1 
+
+time cost  = 0.001
+
+------------------------------------------
+source and target: 2 -> 3
+
+	PATH 1 -  #perturbations: 2
+	Sequence of the attractors: 2 -> 3
+	STEP 1
+		driver nodes: EKLF Fli1 
+
+time cost  = 0.001
+
+------------------------------------------
+source and target: 2 -> 4
+
+	PATH 1 -  #perturbations: 2
+	Sequence of the attractors: 2 -> 4
+	STEP 1
+		driver nodes: GATA1 Fli1 
+
+time cost  = 0.001
+
+------------------------------------------
+source and target: 2 -> 5
+
+	PATH 1 -  #perturbations: 4
+	Sequence of the attractors: 2 -> 5
+	STEP 1
+		driver nodes: GATA1 CEBPA PU1 Gfi1 
+
+time cost  = 0.003
+
+------------------------------------------
+source and target: 2 -> 6
+
+	PATH 1 -  #perturbations: 5
+	Sequence of the attractors: 2 -> 6
+	STEP 1
+		driver nodes: GATA1 EgrNab CEBPA PU1 cJun 
+
+	PATH 2 -  #perturbations: 3
+	Sequence of the attractors: 2 -> 1 -> 6
+	STEP 1
+		driver nodes: GATA1 PU1 
+	STEP 2
+		driver nodes: CEBPA 
+
+	PATH 3 -  #perturbations: 4
+	Sequence of the attractors: 2 -> 4 -> 1 -> 6
+	STEP 1
+		driver nodes: GATA1 Fli1 
+	STEP 2
+		driver nodes: PU1 
+	STEP 3
+		driver nodes: CEBPA 
+
+time cost  = 0.004
+
+------------------------------------------
+source and target: 3 -> 1
+
+	PATH 1 -  #perturbations: 2
+	Sequence of the attractors: 3 -> 1
+	STEP 1
+		driver nodes: GATA1 PU1 
+
+time cost  = 0.001
+
+------------------------------------------
+source and target: 3 -> 2
+
+	PATH 1 -  #perturbations: 2
+	Sequence of the attractors: 3 -> 2
+	STEP 1
+		driver nodes: EKLF Fli1 
+
+time cost  = 0.001
+
+------------------------------------------
+source and target: 3 -> 4
+
+	PATH 1 -  #perturbations: 1
+	Sequence of the attractors: 3 -> 4
+	STEP 1
+		driver nodes: GATA1 
+
+time cost  = 0
+
+------------------------------------------
+source and target: 3 -> 5
+
+	PATH 1 -  #perturbations: 3
+	Sequence of the attractors: 3 -> 5
+	STEP 1
+		driver nodes: GATA1 CEBPA Gfi1 
+
+time cost  = 0.001
+
+------------------------------------------
+source and target: 3 -> 6
+
+	PATH 1 -  #perturbations: 5
+	Sequence of the attractors: 3 -> 6
+	STEP 1
+		driver nodes: GATA1 EgrNab CEBPA PU1 cJun 
+
+	PATH 2 -  #perturbations: 3
+	Sequence of the attractors: 3 -> 1 -> 6
+	STEP 1
+		driver nodes: GATA1 PU1 
+	STEP 2
+		driver nodes: CEBPA 
+
+	PATH 3 -  #perturbations: 3
+	Sequence of the attractors: 3 -> 4 -> 1 -> 6
+	STEP 1
+		driver nodes: GATA1 
+	STEP 2
+		driver nodes: PU1 
+	STEP 3
+		driver nodes: CEBPA 
+
+time cost  = 0.004
+
+------------------------------------------
+source and target: 4 -> 1
+
+	PATH 1 -  #perturbations: 1
+	Sequence of the attractors: 4 -> 1
+	STEP 1
+		driver nodes: PU1 
+
+time cost  = 0
+
+------------------------------------------
+source and target: 4 -> 2
+
+	PATH 1 -  #perturbations: 2
+	Sequence of the attractors: 4 -> 2
+	STEP 1
+		driver nodes: GATA1 Fli1 
+
+time cost  = 0.001
+
+------------------------------------------
+source and target: 4 -> 3
+
+	PATH 1 -  #perturbations: 2
+	Sequence of the attractors: 4 -> 3
+	STEP 1
+		driver nodes: GATA1 EKLF 
+
+time cost  = 0
+
+------------------------------------------
+source and target: 4 -> 5
+
+	PATH 1 -  #perturbations: 2
+	Sequence of the attractors: 4 -> 5
+	STEP 1
+		driver nodes: CEBPA Gfi1 
+
+time cost  = 0
+
+------------------------------------------
+source and target: 4 -> 6
+
+	PATH 1 -  #perturbations: 4
+	Sequence of the attractors: 4 -> 6
+	STEP 1
+		driver nodes: EgrNab CEBPA PU1 cJun 
+
+	PATH 2 -  #perturbations: 2
+	Sequence of the attractors: 4 -> 1 -> 6
+	STEP 1
+		driver nodes: PU1 
+	STEP 2
+		driver nodes: CEBPA 
+
+time cost  = 0.003
+
+------------------------------------------
+source and target: 5 -> 1
+
+	PATH 1 -  #perturbations: 1
+	Sequence of the attractors: 5 -> 1
+	STEP 1
+		driver nodes: CEBPA 
+
+time cost  = 0
+
+------------------------------------------
+source and target: 5 -> 2
+
+	PATH 1 -  #perturbations: 3
+	Sequence of the attractors: 5 -> 2
+	STEP 1
+		driver nodes: GATA1 Fli1 PU1 
+
+time cost  = 0.002
+
+------------------------------------------
+source and target: 5 -> 3
+
+	PATH 1 -  #perturbations: 3
+	Sequence of the attractors: 5 -> 3
+	STEP 1
+		driver nodes: GATA1 EKLF PU1 
+
+time cost  = 0.001
+
+------------------------------------------
+source and target: 5 -> 4
+
+	PATH 1 -  #perturbations: 2
+	Sequence of the attractors: 5 -> 4
+	STEP 1
+		driver nodes: CEBPA PU1 
+
+time cost  = 0.001
+
+------------------------------------------
+source and target: 5 -> 6
+
+	PATH 1 -  #perturbations: 3
+	Sequence of the attractors: 5 -> 6
+	STEP 1
+		driver nodes: EgrNab cJun Gfi1 
+
+	PATH 2 -  #perturbations: 2
+	Sequence of the attractors: 5 -> 1 -> 6
+	STEP 1
+		driver nodes: CEBPA 
+	STEP 2
+		driver nodes: CEBPA 
+
+time cost  = 0.002
+
+------------------------------------------
+source and target: 6 -> 1
+
+	PATH 1 -  #perturbations: 1
+	Sequence of the attractors: 6 -> 1
+	STEP 1
+		driver nodes: CEBPA 
+
+time cost  = 0
+
+------------------------------------------
+source and target: 6 -> 2
+
+	PATH 1 -  #perturbations: 3
+	Sequence of the attractors: 6 -> 2
+	STEP 1
+		driver nodes: GATA1 Fli1 PU1 
+
+time cost  = 0.002
+
+------------------------------------------
+source and target: 6 -> 3
+
+	PATH 1 -  #perturbations: 3
+	Sequence of the attractors: 6 -> 3
+	STEP 1
+		driver nodes: GATA1 EKLF PU1 
+
+time cost  = 0.001
+
+------------------------------------------
+source and target: 6 -> 4
+
+	PATH 1 -  #perturbations: 2
+	Sequence of the attractors: 6 -> 4
+	STEP 1
+		driver nodes: CEBPA PU1 
+
+time cost  = 0.001
+
+------------------------------------------
+source and target: 6 -> 5
+
+	PATH 1 -  #perturbations: 2
+	Sequence of the attractors: 6 -> 5
+	STEP 1
+		driver nodes: EgrNab Gfi1 
+
+time cost  = 0.001
+*****************************************************************************
+
+print all the time costs:
+
+0	0.003	0.002	0	0.002	0.001	
+0.001	0	0.001	0.001	0.003	0.004	
+0.001	0.001	0	0	0.001	0.004	
+0	0.001	0	0	0	0.003	
+0	0.002	0.001	0.001	0	0.002	
+0	0.002	0.001	0.001	0.001	0	
+
+print the number of driver nodes:
+
+0	3	3	1	3	1	
+2	0	2	2	4	3,4,5	
+2	2	0	1	3	3,5	
+1	2	2	0	2	2,4	
+1	3	3	2	0	2,3	
+1	3	3	2	2	0	
+
+
+total time costs=0.041
+
+Command line: ./mcmas -steadystates -asynbn -newpred -newtarjan -control 3 -compositional 2 ../model/cardiac.ispl
+======================== find attractor #1 : 1 states ========================
+: 16 nodes 1 leaves 1 minterms
+0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-  1
+
+======================== find attractor #2 : 1 states ========================
+: 16 nodes 1 leaves 1 minterms
+0-0-0-0-0-1-0-0-1-0-1-0-0-0-0-  1
+
+======================== find attractor #3 : 1 states ========================
+: 16 nodes 1 leaves 1 minterms
+1-0-0-0-0-0-0-0-0-0-0-1-1-0-0-  1
+
+======================== find attractor #4 : 1 states ========================
+: 16 nodes 1 leaves 1 minterms
+1-0-0-0-0-1-0-0-1-0-1-1-1-0-0-  1
+
+======================== find attractor #5 : 1 states ========================
+: 16 nodes 1 leaves 1 minterms
+0-1-1-0-1-1-1-1-1-1-0-0-0-1-1-  1
+
+======================== find attractor #6 : 1 states ========================
+: 16 nodes 1 leaves 1 minterms
+0-1-0-1-1-1-1-0-1-1-0-1-1-1-1-  1
+
+number of attractors = 6
+time for attractor detection=0.005
+
+========= REMOVE UNDIRED ATTRACTORS =========
+
+attractors for the sequential control (6)
+attractor #1 : 1 states
+: 16 nodes 1 leaves 1 minterms
+0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-  1
+
+(BMP2=false and Dkk1=false and Fgf8=false and Foxc12=false and GATAs=false and Isl1=false and Mesp1=false and Nkx25=false and Tbx1=false and Tbx5=false and canWnt=false and exogenBMP2I=false and exogenBMP2II=false and exogenCanWntI=false and exogenCanWntII=false)
+
+attractor #2 : 1 states
+: 16 nodes 1 leaves 1 minterms
+0-0-0-0-0-1-0-0-1-0-1-0-0-0-0-  1
+
+(BMP2=false and Dkk1=false and Fgf8=false and Foxc12=false and GATAs=true and Isl1=false and Mesp1=false and Nkx25=true and Tbx1=false and Tbx5=true and canWnt=false and exogenBMP2I=false and exogenBMP2II=false and exogenCanWntI=false and exogenCanWntII=false)
+
+attractor #3 : 1 states
+: 16 nodes 1 leaves 1 minterms
+1-0-0-0-0-0-0-0-0-0-0-1-1-0-0-  1
+
+(BMP2=true and Dkk1=false and Fgf8=false and Foxc12=false and GATAs=false and Isl1=false and Mesp1=false and Nkx25=false and Tbx1=false and Tbx5=false and canWnt=false and exogenBMP2I=true and exogenBMP2II=true and exogenCanWntI=false and exogenCanWntII=false)
+
+attractor #4 : 1 states
+: 16 nodes 1 leaves 1 minterms
+1-0-0-0-0-1-0-0-1-0-1-1-1-0-0-  1
+
+(BMP2=true and Dkk1=false and Fgf8=false and Foxc12=false and GATAs=true and Isl1=false and Mesp1=false and Nkx25=true and Tbx1=false and Tbx5=true and canWnt=false and exogenBMP2I=true and exogenBMP2II=true and exogenCanWntI=false and exogenCanWntII=false)
+
+attractor #5 : 1 states
+: 16 nodes 1 leaves 1 minterms
+0-1-1-0-1-1-1-1-1-1-0-0-0-1-1-  1
+
+(BMP2=false and Dkk1=true and Fgf8=false and Foxc12=true and GATAs=true and Isl1=true and Mesp1=true and Nkx25=true and Tbx1=true and Tbx5=false and canWnt=true and exogenBMP2I=false and exogenBMP2II=false and exogenCanWntI=true and exogenCanWntII=true)
+
+attractor #6 : 1 states
+: 16 nodes 1 leaves 1 minterms
+0-1-0-1-1-1-1-0-1-1-0-1-1-1-1-  1
+
+(BMP2=false and Dkk1=false and Fgf8=true and Foxc12=true and GATAs=true and Isl1=true and Mesp1=false and Nkx25=true and Tbx1=true and Tbx5=false and canWnt=true and exogenBMP2I=true and exogenBMP2II=true and exogenCanWntI=true and exogenCanWntII=true)
+
+
+========= START HYBRID CONTROL (ASY+DECOMP) =========
+
+
+------------------------------------------
+source and target: 1 -> 2
+
+	PATH 1 -  #perturbations: 1
+	Sequence of the attractors: 1 -> 2
+	STEP 1
+		driver nodes: Tbx5 
+
+time cost  = 0.027
+
+------------------------------------------
+source and target: 1 -> 3
+
+	PATH 1 -  #perturbations: 1
+	Sequence of the attractors: 1 -> 3
+	STEP 1
+		driver nodes: exogenBMP2I 
+
+time cost  = 0.008
+
+------------------------------------------
+source and target: 1 -> 4
+
+	PATH 1 -  #perturbations: 2
+	Sequence of the attractors: 1 -> 4
+	STEP 1
+		driver nodes: Tbx5 exogenBMP2I 
+
+time cost  = 0.014
+
+------------------------------------------
+source and target: 1 -> 5
+
+	PATH 1 -  #perturbations: 1
+	Sequence of the attractors: 1 -> 5
+	STEP 1
+		driver nodes: exogenCanWntI 
+
+time cost  = 0.006
+
+------------------------------------------
+source and target: 1 -> 6
+
+	PATH 1 -  #perturbations: 2
+	Sequence of the attractors: 1 -> 6
+	STEP 1
+		driver nodes: exogenBMP2I exogenCanWntI 
+
+time cost  = 0.017
+
+------------------------------------------
+source and target: 2 -> 1
+
+	PATH 1 -  #perturbations: 2
+	Sequence of the attractors: 2 -> 1
+	STEP 1
+		driver nodes: Nkx25 Tbx5 
+
+time cost  = 0.01
+
+------------------------------------------
+source and target: 2 -> 3
+
+	PATH 1 -  #perturbations: 4
+	Sequence of the attractors: 2 -> 3
+	STEP 1
+		driver nodes: GATAs Nkx25 Tbx5 exogenBMP2I 
+
+	PATH 2 -  #perturbations: 3
+	Sequence of the attractors: 2 -> 1 -> 3
+	STEP 1
+		driver nodes: Nkx25 Tbx5 
+	STEP 2
+		driver nodes: exogenBMP2I 
+
+time cost  = 0.008
+
+------------------------------------------
+source and target: 2 -> 4
+
+	PATH 1 -  #perturbations: 1
+	Sequence of the attractors: 2 -> 4
+	STEP 1
+		driver nodes: exogenBMP2I 
+
+time cost  = 0.003
+
+------------------------------------------
+source and target: 2 -> 5
+
+	PATH 1 -  #perturbations: 1
+	Sequence of the attractors: 2 -> 5
+	STEP 1
+		driver nodes: exogenCanWntI 
+
+time cost  = 0.003
+
+------------------------------------------
+source and target: 2 -> 6
+
+	PATH 1 -  #perturbations: 2
+	Sequence of the attractors: 2 -> 6
+	STEP 1
+		driver nodes: exogenBMP2I exogenCanWntI 
+
+time cost  = 0.01
+
+------------------------------------------
+source and target: 3 -> 1
+
+	PATH 1 -  #perturbations: 1
+	Sequence of the attractors: 3 -> 1
+	STEP 1
+		driver nodes: exogenBMP2I 
+
+time cost  = 0.002
+
+------------------------------------------
+source and target: 3 -> 2
+
+	PATH 1 -  #perturbations: 2
+	Sequence of the attractors: 3 -> 2
+	STEP 1
+		driver nodes: Tbx5 exogenBMP2I 
+
+time cost  = 0.022
+
+------------------------------------------
+source and target: 3 -> 4
+
+	PATH 1 -  #perturbations: 1
+	Sequence of the attractors: 3 -> 4
+	STEP 1
+		driver nodes: Tbx5 
+
+time cost  = 0.003
+
+------------------------------------------
+source and target: 3 -> 5
+
+	PATH 1 -  #perturbations: 2
+	Sequence of the attractors: 3 -> 5
+	STEP 1
+		driver nodes: exogenBMP2I exogenCanWntI 
+
+time cost  = 0.016
+
+------------------------------------------
+source and target: 3 -> 6
+
+	PATH 1 -  #perturbations: 1
+	Sequence of the attractors: 3 -> 6
+	STEP 1
+		driver nodes: exogenCanWntI 
+
+time cost  = 0.002
+
+------------------------------------------
+source and target: 4 -> 1
+
+	PATH 1 -  #perturbations: 4
+	Sequence of the attractors: 4 -> 1
+	STEP 1
+		driver nodes: GATAs Nkx25 Tbx5 exogenBMP2I 
+
+	PATH 2 -  #perturbations: 3
+	Sequence of the attractors: 4 -> 2 -> 1
+	STEP 1
+		driver nodes: exogenBMP2I 
+	STEP 2
+		driver nodes: Nkx25 Tbx5 
+
+time cost  = 0.02
+
+------------------------------------------
+source and target: 4 -> 2
+
+	PATH 1 -  #perturbations: 1
+	Sequence of the attractors: 4 -> 2
+	STEP 1
+		driver nodes: exogenBMP2I 
+
+time cost  = 0.003
+
+------------------------------------------
+source and target: 4 -> 3
+
+	PATH 1 -  #perturbations: 3
+	Sequence of the attractors: 4 -> 3
+	STEP 1
+		driver nodes: GATAs Nkx25 Tbx5 
+
+time cost  = 0.006
+
+------------------------------------------
+source and target: 4 -> 5
+
+	PATH 1 -  #perturbations: 2
+	Sequence of the attractors: 4 -> 5
+	STEP 1
+		driver nodes: exogenBMP2I exogenCanWntI 
+
+time cost  = 0.021
+
+------------------------------------------
+source and target: 4 -> 6
+
+	PATH 1 -  #perturbations: 1
+	Sequence of the attractors: 4 -> 6
+	STEP 1
+		driver nodes: exogenCanWntI 
+
+time cost  = 0.002
+
+------------------------------------------
+source and target: 5 -> 1
+
+	PATH 1 -  #perturbations: 8
+	Sequence of the attractors: 5 -> 1
+	STEP 1
+		driver nodes: canWnt Foxc12 Tbx1 GATAs Mesp1 Nkx25 exogenCanWntI exogenCanWntII 
+
+time cost  = 0.054
+
+------------------------------------------
+source and target: 5 -> 2
+
+	PATH 1 -  #perturbations: 6
+	Sequence of the attractors: 5 -> 2
+	STEP 1
+		driver nodes: canWnt Foxc12 Tbx1 Tbx5 exogenCanWntI exogenCanWntII 
+
+time cost  = 0.043
+
+------------------------------------------
+source and target: 5 -> 3
+
+	PATH 1 -  #perturbations: 9
+	Sequence of the attractors: 5 -> 3
+	STEP 1
+		driver nodes: Foxc12 Tbx1 GATAs Mesp1 Nkx25 exogenBMP2I exogenBMP2II exogenCanWntI exogenCanWntII 
+
+	PATH 2 -  #perturbations: 7
+	Sequence of the attractors: 5 -> 6 -> 3
+	STEP 1
+		driver nodes: exogenBMP2I 
+	STEP 2
+		driver nodes: Foxc12 Tbx1 GATAs Nkx25 exogenCanWntI exogenCanWntII 
+
+	PATH 3 -  #perturbations: 8
+	Sequence of the attractors: 5 -> 6 -> 4 -> 3
+	STEP 1
+		driver nodes: exogenBMP2I 
+	STEP 2
+		driver nodes: BMP2 canWnt exogenCanWntI exogenCanWntII 
+	STEP 3
+		driver nodes: GATAs Nkx25 Tbx5 
+
+time cost  = 0.056
+
+------------------------------------------
+source and target: 5 -> 4
+
+	PATH 1 -  #perturbations: 6
+	Sequence of the attractors: 5 -> 4
+	STEP 1
+		driver nodes: BMP2 canWnt exogenBMP2I exogenBMP2II exogenCanWntI exogenCanWntII 
+
+	PATH 2 -  #perturbations: 5
+	Sequence of the attractors: 5 -> 6 -> 4
+	STEP 1
+		driver nodes: exogenBMP2I 
+	STEP 2
+		driver nodes: BMP2 canWnt exogenCanWntI exogenCanWntII 
+
+time cost  = 0.058
+
+------------------------------------------
+source and target: 5 -> 6
+
+	PATH 1 -  #perturbations: 1
+	Sequence of the attractors: 5 -> 6
+	STEP 1
+		driver nodes: exogenBMP2I 
+
+time cost  = 0.002
+
+------------------------------------------
+source and target: 6 -> 1
+
+	PATH 1 -  #perturbations: 8
+	Sequence of the attractors: 6 -> 1
+	STEP 1
+		driver nodes: canWnt Foxc12 Tbx1 GATAs Nkx25 exogenBMP2I exogenCanWntI exogenCanWntII 
+
+	PATH 2 -  #perturbations: 7
+	Sequence of the attractors: 6 -> 3 -> 1
+	STEP 1
+		driver nodes: Foxc12 Tbx1 GATAs Nkx25 exogenCanWntI exogenCanWntII 
+	STEP 2
+		driver nodes: exogenBMP2I 
+
+	PATH 3 -  #perturbations: 7
+	Sequence of the attractors: 6 -> 4 -> 2 -> 1
+	STEP 1
+		driver nodes: BMP2 canWnt exogenCanWntI exogenCanWntII 
+	STEP 2
+		driver nodes: exogenBMP2I 
+	STEP 3
+		driver nodes: Nkx25 Tbx5 
+
+time cost  = 0.068
+
+------------------------------------------
+source and target: 6 -> 2
+
+	PATH 1 -  #perturbations: 7
+	Sequence of the attractors: 6 -> 2
+	STEP 1
+		driver nodes: canWnt Foxc12 Tbx1 Tbx5 exogenBMP2I exogenCanWntI exogenCanWntII 
+
+	PATH 2 -  #perturbations: 5
+	Sequence of the attractors: 6 -> 4 -> 2
+	STEP 1
+		driver nodes: BMP2 canWnt exogenCanWntI exogenCanWntII 
+	STEP 2
+		driver nodes: exogenBMP2I 
+
+time cost  = 0.058
+
+------------------------------------------
+source and target: 6 -> 3
+
+	PATH 1 -  #perturbations: 6
+	Sequence of the attractors: 6 -> 3
+	STEP 1
+		driver nodes: Foxc12 Tbx1 GATAs Nkx25 exogenCanWntI exogenCanWntII 
+
+time cost  = 0.05
+
+------------------------------------------
+source and target: 6 -> 4
+
+	PATH 1 -  #perturbations: 4
+	Sequence of the attractors: 6 -> 4
+	STEP 1
+		driver nodes: BMP2 canWnt exogenCanWntI exogenCanWntII 
+
+time cost  = 0.036
+
+------------------------------------------
+source and target: 6 -> 5
+
+	PATH 1 -  #perturbations: 1
+	Sequence of the attractors: 6 -> 5
+	STEP 1
+		driver nodes: exogenBMP2I 
+
+time cost  = 0.004
+*****************************************************************************
+
+print all the time costs:
+
+0	0.027	0.008	0.014	0.006	0.017	
+0.01	0	0.008	0.003	0.003	0.01	
+0.002	0.022	0	0.003	0.016	0.002	
+0.02	0.003	0.006	0	0.021	0.002	
+0.054	0.043	0.056	0.058	0	0.002	
+0.068	0.058	0.05	0.036	0.004	0	
+
+print the number of driver nodes:
+
+0	1	1	2	1	2	
+2	0	3,4	1	1	2	
+1	2	0	1	2	1	
+3,4	1	3	0	2	1	
+8	6	7,8,9	5,6	0	1	
+7,8	5,7	6	4	1	0	
+
+
+total time costs=0.634
+
+Command line: ./mcmas -steadystates -asynbn -newpred -newtarjan -control 3 -compositional 2 ../model/ERBB.ispl
+======================== find attractor #1 : 1 states ========================
+: 21 nodes 1 leaves 1 minterms
+1-1-1-1-1-1-1-1-0-0-0-0-0-0-1-1-0-0-1-0-  1
+
+======================== find attractor #2 : 1 states ========================
+: 21 nodes 1 leaves 1 minterms
+0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-  1
+
+======================== find attractor #3 : 1 states ========================
+: 21 nodes 1 leaves 1 minterms
+1-1-1-1-1-1-1-1-1-1-1-1-1-1-0-1-0-0-1-1-  1
+
+number of attractors = 3
+time for attractor detection=0.007
+
+========= REMOVE UNDIRED ATTRACTORS =========
+
+attractors for the sequential control (3)
+attractor #1 : 1 states
+: 21 nodes 1 leaves 1 minterms
+1-1-1-1-1-1-1-1-0-0-0-0-0-0-1-1-0-0-1-0-  1
+
+(AKT1=true and CDK2=true and CDK4=true and CDK6=true and CyclinD1=true and CyclinE1=true and EGF=false and ERBB1=false and ERBB12=false and ERBB13=false and ERBB2=false and ERBB23=false and ERBB3=false and ERa=true and IGF1R=true and MEK1=true and cMYC=true and p21=false and p27=false and pRB=true)
+
+attractor #2 : 1 states
+: 21 nodes 1 leaves 1 minterms
+0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-  1
+
+(AKT1=false and CDK2=false and CDK4=false and CDK6=false and CyclinD1=false and CyclinE1=false and EGF=false and ERBB1=false and ERBB12=false and ERBB13=false and ERBB2=false and ERBB23=false and ERBB3=false and ERa=false and IGF1R=false and MEK1=false and cMYC=false and p21=false and p27=false and pRB=false)
+
+attractor #3 : 1 states
+: 21 nodes 1 leaves 1 minterms
+1-1-1-1-1-1-1-1-1-1-1-1-1-1-0-1-0-0-1-1-  1
+
+(AKT1=true and CDK2=true and CDK4=true and CDK6=true and CyclinD1=true and CyclinE1=true and EGF=true and ERBB1=true and ERBB12=true and ERBB13=true and ERBB2=true and ERBB23=true and ERBB3=true and ERa=true and IGF1R=false and MEK1=true and cMYC=true and p21=false and p27=false and pRB=true)
+
+
+========= START HYBRID CONTROL (ASY+DECOMP) =========
+
+
+------------------------------------------
+source and target: 1 -> 2
+
+	PATH 1 -  #perturbations: 4
+	Sequence of the attractors: 1 -> 2
+	STEP 1
+		driver nodes: AKT1 ERa IGF1R MEK1 
+
+time cost  = 0.007
+
+------------------------------------------
+source and target: 1 -> 3
+
+	PATH 1 -  #perturbations: 1
+	Sequence of the attractors: 1 -> 3
+	STEP 1
+		driver nodes: EGF 
+
+time cost  = 0.035
+
+------------------------------------------
+source and target: 2 -> 1
+
+	PATH 1 -  #perturbations: 2
+	Sequence of the attractors: 2 -> 1
+	STEP 1
+		driver nodes: AKT1 IGF1R 
+
+time cost  = 0.006
+
+------------------------------------------
+source and target: 2 -> 3
+
+	PATH 1 -  #perturbations: 1
+	Sequence of the attractors: 2 -> 3
+	STEP 1
+		driver nodes: EGF 
+
+time cost  = 0.005
+
+------------------------------------------
+source and target: 3 -> 1
+
+	PATH 1 -  #perturbations: 4
+	Sequence of the attractors: 3 -> 1
+	STEP 1
+		driver nodes: ERBB23 ERBB3 IGF1R EGF 
+
+time cost  = 0.007
+
+------------------------------------------
+source and target: 3 -> 2
+
+	PATH 1 -  #perturbations: 9
+	Sequence of the attractors: 3 -> 2
+	STEP 1
+		driver nodes: AKT1 ERBB12 ERa ERBB1 ERBB13 ERBB23 ERBB3 MEK1 EGF 
+
+	PATH 2 -  #perturbations: 8
+	Sequence of the attractors: 3 -> 1 -> 2
+	STEP 1
+		driver nodes: ERBB23 ERBB3 IGF1R EGF 
+	STEP 2
+		driver nodes: AKT1 ERa IGF1R MEK1 
+
+time cost  = 0.006
+*****************************************************************************
+
+print all the time costs:
+
+0	0.007	0.035	
+0.006	0	0.005	
+0.007	0.006	0	
+
+print the number of driver nodes:
+
+0	4	1	
+2	0	1	
+4	8,9	0	
+
+
+total time costs=0.066
+
+Command line: ./mcmas -steadystates -asynbn -newpred -newtarjan -control 3 -compositional 2 ../model/tumour.ispl
+======================== find attractor #1 : 1 states ========================
+: 33 nodes 1 leaves 1 minterms
+0-0-0-1-0-1-0-1-1-0-0-0-1-1-1-1-1-1-1-0-0-0-0-0-0-0-0-0-0-1-1-0-  1
+
+======================== find attractor #2 : 1 states ========================
+: 33 nodes 1 leaves 1 minterms
+0-0-0-0-1-1-0-1-0-0-1-1-0-0-0-0-0-0-0-0-0-0-0-1-0-1-1-0-0-0-0-0-  1
+
+======================== find attractor #3 : 1 states ========================
+: 33 nodes 1 leaves 1 minterms
+0-0-0-0-1-1-0-1-0-0-1-1-0-0-0-0-0-0-0-0-0-0-0-0-1-0-1-1-0-0-0-0-  1
+
+======================== find attractor #4 : 1 states ========================
+: 33 nodes 1 leaves 1 minterms
+0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-  1
+
+======================== find attractor #5 : 1 states ========================
+: 33 nodes 1 leaves 1 minterms
+0-0-0-1-0-1-0-0-1-0-0-0-1-1-1-1-1-1-1-0-0-0-0-0-0-0-0-0-0-1-1-0-  1
+
+======================== find attractor #6 : 1 states ========================
+: 33 nodes 1 leaves 1 minterms
+1-1-1-1-0-1-1-1-1-1-0-0-1-1-1-1-1-1-1-0-1-0-1-0-0-0-0-0-0-1-1-1-  1
+
+======================== find attractor #7 : 1 states ========================
+: 33 nodes 1 leaves 1 minterms
+0-0-0-0-1-1-1-1-0-1-1-1-0-0-0-0-0-0-0-0-0-0-0-1-0-1-1-0-0-0-0-0-  1
+
+======================== find attractor #8 : 1 states ========================
+: 33 nodes 1 leaves 1 minterms
+0-0-0-0-1-1-1-1-0-1-1-1-0-0-0-0-0-0-0-0-0-0-0-0-1-0-1-1-0-0-0-0-  1
+
+======================== find attractor #9 : 1 states ========================
+: 33 nodes 1 leaves 1 minterms
+1-1-1-1-0-1-1-0-1-1-0-0-1-1-1-1-1-1-1-0-1-0-1-0-0-0-0-0-0-1-1-1-  1
+
+number of attractors = 9
+time for attractor detection=0.626
+
+========= REMOVE UNDIRED ATTRACTORS =========
+
+attractors for the sequential control (5)
+attractor #1 : 1 states
+: 33 nodes 1 leaves 1 minterms
+0-0-0-1-0-1-0-1-1-0-0-0-1-1-1-1-1-1-1-0-0-0-0-0-0-0-0-0-0-1-1-0-  1
+
+(AKT1=false and AKT2=true and Apoptosis=false and CDH1=false and CDH2=true and CTNNB1=false and CellCycleArrest=true and DKK1=false and DNAdamage=true and ECMicroenv=false and EMT=true and ERK=true and GF=true and Invasion=false and Metastasis=false and Migration=false and NICD=false and SMAD=false and SNAI1=true and SNAI2=true and TGFbeta=false and TWIST1=true and VIM=true and ZEB1=true and ZEB2=true and miR200=false and miR203=false and miR34=false and p21=false and p53=false and p63=false and p73=false)
+
+attractor #2 : 1 states
+: 33 nodes 1 leaves 1 minterms
+0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-  1
+
+(AKT1=false and AKT2=false and Apoptosis=false and CDH1=true and CDH2=false and CTNNB1=false and CellCycleArrest=false and DKK1=false and DNAdamage=false and ECMicroenv=false and EMT=false and ERK=false and GF=false and Invasion=false and Metastasis=false and Migration=false and NICD=false and SMAD=false and SNAI1=false and SNAI2=false and TGFbeta=false and TWIST1=false and VIM=false and ZEB1=false and ZEB2=false and miR200=false and miR203=false and miR34=false and p21=false and p53=false and p63=false and p73=false)
+
+attractor #3 : 1 states
+: 33 nodes 1 leaves 1 minterms
+0-0-0-1-0-1-0-0-1-0-0-0-1-1-1-1-1-1-1-0-0-0-0-0-0-0-0-0-0-1-1-0-  1
+
+(AKT1=false and AKT2=true and Apoptosis=false and CDH1=false and CDH2=true and CTNNB1=false and CellCycleArrest=true and DKK1=false and DNAdamage=false and ECMicroenv=false and EMT=true and ERK=true and GF=true and Invasion=false and Metastasis=false and Migration=false and NICD=false and SMAD=false and SNAI1=true and SNAI2=true and TGFbeta=false and TWIST1=true and VIM=true and ZEB1=true and ZEB2=true and miR200=false and miR203=false and miR34=false and p21=false and p53=false and p63=false and p73=false)
+
+attractor #4 : 1 states
+: 33 nodes 1 leaves 1 minterms
+1-1-1-1-0-1-1-1-1-1-0-0-1-1-1-1-1-1-1-0-1-0-1-0-0-0-0-0-0-1-1-1-  1
+
+(AKT1=false and AKT2=true and Apoptosis=false and CDH1=false and CDH2=true and CTNNB1=false and CellCycleArrest=true and DKK1=true and DNAdamage=true and ECMicroenv=true and EMT=true and ERK=true and GF=true and Invasion=true and Metastasis=true and Migration=true and NICD=true and SMAD=true and SNAI1=true and SNAI2=true and TGFbeta=true and TWIST1=true and VIM=true and ZEB1=true and ZEB2=true and miR200=false and miR203=false and miR34=false and p21=false and p53=false and p63=false and p73=false)
+
+attractor #5 : 1 states
+: 33 nodes 1 leaves 1 minterms
+1-1-1-1-0-1-1-0-1-1-0-0-1-1-1-1-1-1-1-0-1-0-1-0-0-0-0-0-0-1-1-1-  1
+
+(AKT1=false and AKT2=true and Apoptosis=false and CDH1=false and CDH2=true and CTNNB1=false and CellCycleArrest=true and DKK1=true and DNAdamage=false and ECMicroenv=true and EMT=true and ERK=true and GF=true and Invasion=true and Metastasis=true and Migration=true and NICD=true and SMAD=true and SNAI1=true and SNAI2=true and TGFbeta=true and TWIST1=true and VIM=true and ZEB1=true and ZEB2=true and miR200=false and miR203=false and miR34=false and p21=false and p53=false and p63=false and p73=false)
+
+
+========= START HYBRID CONTROL (ASY+DECOMP) =========
+
+
+------------------------------------------
+source and target: 1 -> 2
+
+	PATH 1 -  #perturbations: 8
+	Sequence of the attractors: 1 -> 2
+	STEP 1
+		driver nodes: DNAdamage ZEB1 CDH1 TWIST1 SNAI1 SNAI2 ZEB2 AKT2 
+
+time cost  = 0.093
+
+------------------------------------------
+source and target: 1 -> 3
+
+	PATH 1 -  #perturbations: 1
+	Sequence of the attractors: 1 -> 3
+	STEP 1
+		driver nodes: DNAdamage 
+
+time cost  = 0.021
+
+------------------------------------------
+source and target: 1 -> 4
+
+	PATH 1 -  #perturbations: 1
+	Sequence of the attractors: 1 -> 4
+	STEP 1
+		driver nodes: ECMicroenv 
+
+time cost  = 0.104
+
+------------------------------------------
+source and target: 1 -> 5
+
+	PATH 1 -  #perturbations: 2
+	Sequence of the attractors: 1 -> 5
+	STEP 1
+		driver nodes: ECMicroenv DNAdamage 
+
+time cost  = 0.3
+
+------------------------------------------
+source and target: 2 -> 1
+
+	PATH 1 -  #perturbations: 5
+	Sequence of the attractors: 2 -> 1
+	STEP 1
+		driver nodes: DNAdamage CDH2 TWIST1 SNAI1 SNAI2 
+
+	PATH 2 -  #perturbations: 4
+	Sequence of the attractors: 2 -> 3 -> 1
+	STEP 1
+		driver nodes: CDH2 TWIST1 SNAI1 
+	STEP 2
+		driver nodes: DNAdamage 
+
+	PATH 3 -  #perturbations: 3
+	Sequence of the attractors: 2 -> 5 -> 1
+	STEP 1
+		driver nodes: ECMicroenv 
+	STEP 2
+		driver nodes: ECMicroenv DNAdamage 
+
+	PATH 4 -  #perturbations: 3
+	Sequence of the attractors: 2 -> 5 -> 3 -> 1
+	STEP 1
+		driver nodes: ECMicroenv 
+	STEP 2
+		driver nodes: ECMicroenv 
+	STEP 3
+		driver nodes: DNAdamage 
+
+	PATH 5 -  #perturbations: 3
+	Sequence of the attractors: 2 -> 5 -> 4 -> 1
+	STEP 1
+		driver nodes: ECMicroenv 
+	STEP 2
+		driver nodes: DNAdamage 
+	STEP 3
+		driver nodes: ECMicroenv 
+
+time cost  = 0.746
+
+------------------------------------------
+source and target: 2 -> 3
+
+	PATH 1 -  #perturbations: 3
+	Sequence of the attractors: 2 -> 3
+	STEP 1
+		driver nodes: CDH2 TWIST1 SNAI1 
+
+	PATH 2 -  #perturbations: 2
+	Sequence of the attractors: 2 -> 5 -> 3
+	STEP 1
+		driver nodes: ECMicroenv 
+	STEP 2
+		driver nodes: ECMicroenv 
+
+time cost  = 0.473
+
+------------------------------------------
+source and target: 2 -> 4
+
+	PATH 1 -  #perturbations: 5
+	Sequence of the attractors: 2 -> 4
+	STEP 1
+		driver nodes: ECMicroenv DNAdamage ZEB1 SNAI2 NICD 
+
+	PATH 2 -  #perturbations: 2
+	Sequence of the attractors: 2 -> 5 -> 4
+	STEP 1
+		driver nodes: ECMicroenv 
+	STEP 2
+		driver nodes: DNAdamage 
+
+	PATH 3 -  #perturbations: 4
+	Sequence of the attractors: 2 -> 5 -> 1 -> 4
+	STEP 1
+		driver nodes: ECMicroenv 
+	STEP 2
+		driver nodes: ECMicroenv DNAdamage 
+	STEP 3
+		driver nodes: ECMicroenv 
+
+	PATH 4 -  #perturbations: 4
+	Sequence of the attractors: 2 -> 5 -> 3 -> 4
+	STEP 1
+		driver nodes: ECMicroenv 
+	STEP 2
+		driver nodes: ECMicroenv 
+	STEP 3
+		driver nodes: ECMicroenv DNAdamage 
+
+	PATH 5 -  #perturbations: 4
+	Sequence of the attractors: 2 -> 5 -> 3 -> 1 -> 4
+	STEP 1
+		driver nodes: ECMicroenv 
+	STEP 2
+		driver nodes: ECMicroenv 
+	STEP 3
+		driver nodes: DNAdamage 
+	STEP 4
+		driver nodes: ECMicroenv 
+
+time cost  = 0.834
+
+------------------------------------------
+source and target: 2 -> 5
+
+	PATH 1 -  #perturbations: 1
+	Sequence of the attractors: 2 -> 5
+	STEP 1
+		driver nodes: ECMicroenv 
+
+time cost  = 0.179
+
+------------------------------------------
+source and target: 3 -> 1
+
+	PATH 1 -  #perturbations: 1
+	Sequence of the attractors: 3 -> 1
+	STEP 1
+		driver nodes: DNAdamage 
+
+time cost  = 0.192
+
+------------------------------------------
+source and target: 3 -> 2
+
+	PATH 1 -  #perturbations: 7
+	Sequence of the attractors: 3 -> 2
+	STEP 1
+		driver nodes: ZEB1 CDH1 TWIST1 SNAI1 SNAI2 ZEB2 AKT2 
+
+time cost  = 0.078
+
+------------------------------------------
+source and target: 3 -> 4
+
+	PATH 1 -  #perturbations: 2
+	Sequence of the attractors: 3 -> 4
+	STEP 1
+		driver nodes: ECMicroenv DNAdamage 
+
+time cost  = 0.685
+
+------------------------------------------
+source and target: 3 -> 5
+
+	PATH 1 -  #perturbations: 1
+	Sequence of the attractors: 3 -> 5
+	STEP 1
+		driver nodes: ECMicroenv 
+
+time cost  = 0.126
+
+------------------------------------------
+source and target: 4 -> 1
+
+	PATH 1 -  #perturbations: 1
+	Sequence of the attractors: 4 -> 1
+	STEP 1
+		driver nodes: ECMicroenv 
+
+time cost  = 0.092
+
+------------------------------------------
+source and target: 4 -> 2
+
+	PATH 1 -  #perturbations: 10
+	Sequence of the attractors: 4 -> 2
+	STEP 1
+		driver nodes: ECMicroenv DNAdamage ZEB1 CDH1 TWIST1 SNAI1 SNAI2 ZEB2 NICD AKT2 
+
+	PATH 2 -  #perturbations: 9
+	Sequence of the attractors: 4 -> 1 -> 2
+	STEP 1
+		driver nodes: ECMicroenv 
+	STEP 2
+		driver nodes: DNAdamage ZEB1 CDH1 TWIST1 SNAI1 SNAI2 ZEB2 AKT2 
+
+	PATH 3 -  #perturbations: 9
+	Sequence of the attractors: 4 -> 3 -> 2
+	STEP 1
+		driver nodes: ECMicroenv DNAdamage 
+	STEP 2
+		driver nodes: ZEB1 CDH1 TWIST1 SNAI1 SNAI2 ZEB2 AKT2 
+
+	PATH 4 -  #perturbations: 9
+	Sequence of the attractors: 4 -> 5 -> 3 -> 2
+	STEP 1
+		driver nodes: DNAdamage 
+	STEP 2
+		driver nodes: ECMicroenv 
+	STEP 3
+		driver nodes: ZEB1 CDH1 TWIST1 SNAI1 SNAI2 ZEB2 AKT2 
+
+	PATH 5 -  #perturbations: 9
+	Sequence of the attractors: 4 -> 1 -> 3 -> 2
+	STEP 1
+		driver nodes: ECMicroenv 
+	STEP 2
+		driver nodes: DNAdamage 
+	STEP 3
+		driver nodes: ZEB1 CDH1 TWIST1 SNAI1 SNAI2 ZEB2 AKT2 
+
+time cost  = 0.943
+
+------------------------------------------
+source and target: 4 -> 3
+
+	PATH 1 -  #perturbations: 2
+	Sequence of the attractors: 4 -> 3
+	STEP 1
+		driver nodes: ECMicroenv DNAdamage 
+
+time cost  = 0.387
+
+------------------------------------------
+source and target: 4 -> 5
+
+	PATH 1 -  #perturbations: 1
+	Sequence of the attractors: 4 -> 5
+	STEP 1
+		driver nodes: DNAdamage 
+
+time cost  = 0.068
+
+------------------------------------------
+source and target: 5 -> 1
+
+	PATH 1 -  #perturbations: 2
+	Sequence of the attractors: 5 -> 1
+	STEP 1
+		driver nodes: ECMicroenv DNAdamage 
+
+time cost  = 0.221
+
+------------------------------------------
+source and target: 5 -> 2
+
+	PATH 1 -  #perturbations: 9
+	Sequence of the attractors: 5 -> 2
+	STEP 1
+		driver nodes: ECMicroenv ZEB1 CDH1 TWIST1 SNAI1 SNAI2 ZEB2 NICD AKT2 
+
+	PATH 2 -  #perturbations: 8
+	Sequence of the attractors: 5 -> 3 -> 2
+	STEP 1
+		driver nodes: ECMicroenv 
+	STEP 2
+		driver nodes: ZEB1 CDH1 TWIST1 SNAI1 SNAI2 ZEB2 AKT2 
+
+time cost  = 0.28
+
+------------------------------------------
+source and target: 5 -> 3
+
+	PATH 1 -  #perturbations: 1
+	Sequence of the attractors: 5 -> 3
+	STEP 1
+		driver nodes: ECMicroenv 
+
+time cost  = 0.048
+
+------------------------------------------
+source and target: 5 -> 4
+
+	PATH 1 -  #perturbations: 1
+	Sequence of the attractors: 5 -> 4
+	STEP 1
+		driver nodes: DNAdamage 
+
+time cost  = 0.116
+*****************************************************************************
+
+print all the time costs:
+
+0	0.093	0.021	0.104	0.3	
+0.746	0	0.473	0.834	0.179	
+0.192	0.078	0	0.685	0.126	
+0.092	0.943	0.387	0	0.068	
+0.221	0.28	0.048	0.116	0	
+
+print the number of driver nodes:
+
+0	8	1	1	2	
+3,4,5	0	2,3	2,4,5	1	
+1	7	0	2	1	
+1	9,10	2	0	1	
+2	8,9	1	1	0	
+
+
+total time costs=5.986
+
+Command line: ./mcmas -steadystates -asynbn -newpred -newtarjan -control 3 -compositional 2 ../model/pc12.ispl
+======================== find attractor #1 : 1 states ========================
+: 34 nodes 1 leaves 1 minterms
+0-0-1-1-1-1-1-0-0-1-1-1-1-1-0-1-1-1-0-1-1-1-1-0-0-1-0-1-1-1-1-1-0-  1
+
+======================== find attractor #2 : 1 states ========================
+: 34 nodes 1 leaves 1 minterms
+0-0-1-1-1-1-1-0-0-1-1-1-1-1-0-0-1-1-0-1-1-1-1-0-0-1-0-1-1-1-1-1-1-  1
+
+======================== find attractor #3 : 1 states ========================
+: 34 nodes 1 leaves 1 minterms
+0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-1-  1
+
+======================== find attractor #4 : 1 states ========================
+: 34 nodes 1 leaves 1 minterms
+0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-0-  1
+
+======================== find attractor #5 : 1 states ========================
+: 34 nodes 1 leaves 1 minterms
+0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-  1
+
+======================== find attractor #6 : 1 states ========================
+: 34 nodes 1 leaves 1 minterms
+0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-  1
+
+======================== find attractor #7 : 1 states ========================
+: 34 nodes 1 leaves 1 minterms
+1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-0-1-1-1-1-1-1-1-0-0-1-1-1-1-1-1-1-1-  1
+
+number of attractors = 7
+time for attractor detection=0.017
+
+========= REMOVE UNDIRED ATTRACTORS =========
+
+attractors for the sequential control (7)
+attractor #1 : 1 states
+: 34 nodes 1 leaves 1 minterms
+0-0-1-1-1-1-1-0-0-1-1-1-1-1-0-1-1-1-0-1-1-1-1-0-0-1-0-1-1-1-1-1-0-  1
+
+(AKT=false and AP1=true and BTG2=false and CITED2=true and CellCycleArrest=false and CellDifferentiation=true and DUSP6=true and ERK=true and FAK=true and FOSL1=true and ITGA1=true and JNK=true and JUNB=true and KLF10=false and KLF2=false and KLF4=true and KLF5=true and KLF6=true and MAFF=true and MEK=true and MMP10=true and MYC=false and NGF=false and NPY=true and P53=true and PI3K=false and PLC=true and RAF=true and RAS=true and TRKA=false and UPAR=true and ZFP36=false and ZFP36_inh=true)
+
+attractor #2 : 1 states
+: 34 nodes 1 leaves 1 minterms
+0-0-1-1-1-1-1-0-0-1-1-1-1-1-0-0-1-1-0-1-1-1-1-0-0-1-0-1-1-1-1-1-1-  1
+
+(AKT=false and AP1=true and BTG2=false and CITED2=true and CellCycleArrest=true and CellDifferentiation=true and DUSP6=true and ERK=true and FAK=true and FOSL1=true and ITGA1=true and JNK=true and JUNB=true and KLF10=false and KLF2=false and KLF4=false and KLF5=true and KLF6=true and MAFF=true and MEK=true and MMP10=true and MYC=false and NGF=false and NPY=true and P53=true and PI3K=false and PLC=true and RAF=true and RAS=true and TRKA=false and UPAR=true and ZFP36=false and ZFP36_inh=true)
+
+attractor #3 : 1 states
+: 34 nodes 1 leaves 1 minterms
+0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-1-  1
+
+(AKT=false and AP1=false and BTG2=false and CITED2=false and CellCycleArrest=true and CellDifferentiation=false and DUSP6=false and ERK=false and FAK=false and FOSL1=false and ITGA1=false and JNK=false and JUNB=false and KLF10=false and KLF2=false and KLF4=false and KLF5=false and KLF6=false and MAFF=false and MEK=false and MMP10=false and MYC=false and NGF=false and NPY=false and P53=false and PI3K=false and PLC=false and RAF=false and RAS=false and TRKA=false and UPAR=false and ZFP36=false and ZFP36_inh=true)
+
+attractor #4 : 1 states
+: 34 nodes 1 leaves 1 minterms
+0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-0-  1
+
+(AKT=false and AP1=false and BTG2=false and CITED2=false and CellCycleArrest=false and CellDifferentiation=false and DUSP6=false and ERK=false and FAK=false and FOSL1=false and ITGA1=false and JNK=false and JUNB=false and KLF10=false and KLF2=false and KLF4=false and KLF5=false and KLF6=false and MAFF=false and MEK=false and MMP10=false and MYC=false and NGF=false and NPY=false and P53=false and PI3K=false and PLC=false and RAF=false and RAS=false and TRKA=false and UPAR=false and ZFP36=false and ZFP36_inh=true)
+
+attractor #5 : 1 states
+: 34 nodes 1 leaves 1 minterms
+0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-  1
+
+(AKT=false and AP1=false and BTG2=false and CITED2=false and CellCycleArrest=true and CellDifferentiation=false and DUSP6=false and ERK=false and FAK=false and FOSL1=false and ITGA1=false and JNK=false and JUNB=false and KLF10=false and KLF2=false and KLF4=false and KLF5=false and KLF6=false and MAFF=false and MEK=false and MMP10=false and MYC=false and NGF=false and NPY=false and P53=false and PI3K=false and PLC=false and RAF=false and RAS=false and TRKA=false and UPAR=false and ZFP36=false and ZFP36_inh=false)
+
+attractor #6 : 1 states
+: 34 nodes 1 leaves 1 minterms
+0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-  1
+
+(AKT=false and AP1=false and BTG2=false and CITED2=false and CellCycleArrest=false and CellDifferentiation=false and DUSP6=false and ERK=false and FAK=false and FOSL1=false and ITGA1=false and JNK=false and JUNB=false and KLF10=false and KLF2=false and KLF4=false and KLF5=false and KLF6=false and MAFF=false and MEK=false and MMP10=false and MYC=false and NGF=false and NPY=false and P53=false and PI3K=false and PLC=false and RAF=false and RAS=false and TRKA=false and UPAR=false and ZFP36=false and ZFP36_inh=false)
+
+attractor #7 : 1 states
+: 34 nodes 1 leaves 1 minterms
+1-1-1-1-1-1-1-1-1-1-1-1-1-1-1-0-1-1-1-1-1-1-1-0-0-1-1-1-1-1-1-1-1-  1
+
+(AKT=true and AP1=true and BTG2=false and CITED2=true and CellCycleArrest=true and CellDifferentiation=true and DUSP6=true and ERK=true and FAK=true and FOSL1=true and ITGA1=true and JNK=true and JUNB=true and KLF10=true and KLF2=true and KLF4=false and KLF5=true and KLF6=true and MAFF=true and MEK=true and MMP10=true and MYC=true and NGF=true and NPY=true and P53=true and PI3K=true and PLC=true and RAF=true and RAS=true and TRKA=true and UPAR=true and ZFP36=false and ZFP36_inh=true)
+
+
+========= START HYBRID CONTROL (ASY+DECOMP) =========
+
+
+------------------------------------------
+source and target: 1 -> 2
+
+	PATH 1 -  #perturbations: 1
+	Sequence of the attractors: 1 -> 2
+	STEP 1
+		driver nodes: CellCycleArrest 
+
+time cost  = 0.01
+
+------------------------------------------
+source and target: 1 -> 3
+
+	PATH 1 -  #perturbations: 8
+	Sequence of the attractors: 1 -> 3
+	STEP 1
+		driver nodes: RAS JNK AP1 CellCycleArrest UPAR MMP10 ITGA1 FAK 
+
+time cost  = 0.081
+
+------------------------------------------
+source and target: 1 -> 4
+
+	PATH 1 -  #perturbations: 7
+	Sequence of the attractors: 1 -> 4
+	STEP 1
+		driver nodes: RAS JNK AP1 UPAR MMP10 ITGA1 FAK 
+
+time cost  = 0.071
+
+------------------------------------------
+source and target: 1 -> 5
+
+	PATH 1 -  #perturbations: 9
+	Sequence of the attractors: 1 -> 5
+	STEP 1
+		driver nodes: RAS JNK AP1 CellCycleArrest ZFP36_inh UPAR MMP10 ITGA1 FAK 
+
+time cost  = 0.082
+
+------------------------------------------
+source and target: 1 -> 6
+
+	PATH 1 -  #perturbations: 8
+	Sequence of the attractors: 1 -> 6
+	STEP 1
+		driver nodes: RAS JNK AP1 ZFP36_inh UPAR MMP10 ITGA1 FAK 
+
+time cost  = 0.07
+
+------------------------------------------
+source and target: 1 -> 7
+
+	PATH 1 -  #perturbations: 1
+	Sequence of the attractors: 1 -> 7
+	STEP 1
+		driver nodes: NGF 
+
+time cost  = 0.113
+
+------------------------------------------
+source and target: 2 -> 1
+
+	PATH 1 -  #perturbations: 1
+	Sequence of the attractors: 2 -> 1
+	STEP 1
+		driver nodes: CellCycleArrest 
+
+time cost  = 0.011
+
+------------------------------------------
+source and target: 2 -> 3
+
+	PATH 1 -  #perturbations: 7
+	Sequence of the attractors: 2 -> 3
+	STEP 1
+		driver nodes: RAS JNK AP1 UPAR MMP10 ITGA1 FAK 
+
+time cost  = 0.074
+
+------------------------------------------
+source and target: 2 -> 4
+
+	PATH 1 -  #perturbations: 8
+	Sequence of the attractors: 2 -> 4
+	STEP 1
+		driver nodes: RAS JNK AP1 CellCycleArrest UPAR MMP10 ITGA1 FAK 
+
+time cost  = 0.073
+
+------------------------------------------
+source and target: 2 -> 5
+
+	PATH 1 -  #perturbations: 8
+	Sequence of the attractors: 2 -> 5
+	STEP 1
+		driver nodes: RAS JNK AP1 ZFP36_inh UPAR MMP10 ITGA1 FAK 
+
+time cost  = 0.074
+
+------------------------------------------
+source and target: 2 -> 6
+
+	PATH 1 -  #perturbations: 9
+	Sequence of the attractors: 2 -> 6
+	STEP 1
+		driver nodes: RAS JNK AP1 CellCycleArrest ZFP36_inh UPAR MMP10 ITGA1 FAK 
+
+time cost  = 0.08
+
+------------------------------------------
+source and target: 2 -> 7
+
+	PATH 1 -  #perturbations: 1
+	Sequence of the attractors: 2 -> 7
+	STEP 1
+		driver nodes: NGF 
+
+time cost  = 0.022
+
+------------------------------------------
+source and target: 3 -> 1
+
+	PATH 1 -  #perturbations: 11
+	Sequence of the attractors: 3 -> 1
+	STEP 1
+		driver nodes: RAS RAF JNK MEK ERK AP1 CellCycleArrest UPAR MMP10 ITGA1 FAK 
+
+	PATH 2 -  #perturbations: 4
+	Sequence of the attractors: 3 -> 7 -> 1
+	STEP 1
+		driver nodes: NGF 
+	STEP 2
+		driver nodes: NGF PI3K CellCycleArrest 
+
+	PATH 3 -  #perturbations: 3
+	Sequence of the attractors: 3 -> 7 -> 2 -> 1
+	STEP 1
+		driver nodes: NGF 
+	STEP 2
+		driver nodes: NGF 
+	STEP 3
+		driver nodes: CellCycleArrest 
+
+	PATH 4 -  #perturbations: 5
+	Sequence of the attractors: 3 -> 4 -> 7 -> 1
+	STEP 1
+		driver nodes: CellCycleArrest 
+	STEP 2
+		driver nodes: NGF 
+	STEP 3
+		driver nodes: NGF PI3K CellCycleArrest 
+
+	PATH 5 -  #perturbations: 4
+	Sequence of the attractors: 3 -> 4 -> 7 -> 2 -> 1
+	STEP 1
+		driver nodes: CellCycleArrest 
+	STEP 2
+		driver nodes: NGF 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: CellCycleArrest 
+
+	PATH 6 -  #perturbations: 5
+	Sequence of the attractors: 3 -> 5 -> 7 -> 1
+	STEP 1
+		driver nodes: ZFP36_inh 
+	STEP 2
+		driver nodes: NGF 
+	STEP 3
+		driver nodes: NGF PI3K CellCycleArrest 
+
+	PATH 7 -  #perturbations: 4
+	Sequence of the attractors: 3 -> 5 -> 7 -> 2 -> 1
+	STEP 1
+		driver nodes: ZFP36_inh 
+	STEP 2
+		driver nodes: NGF 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: CellCycleArrest 
+
+	PATH 8 -  #perturbations: 7
+	Sequence of the attractors: 3 -> 5 -> 4 -> 7 -> 1
+	STEP 1
+		driver nodes: ZFP36_inh 
+	STEP 2
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: NGF PI3K CellCycleArrest 
+
+	PATH 9 -  #perturbations: 6
+	Sequence of the attractors: 3 -> 5 -> 4 -> 7 -> 2 -> 1
+	STEP 1
+		driver nodes: ZFP36_inh 
+	STEP 2
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: CellCycleArrest 
+
+	PATH 10 -  #perturbations: 6
+	Sequence of the attractors: 3 -> 6 -> 7 -> 1
+	STEP 1
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 2
+		driver nodes: NGF 
+	STEP 3
+		driver nodes: NGF PI3K CellCycleArrest 
+
+	PATH 11 -  #perturbations: 5
+	Sequence of the attractors: 3 -> 6 -> 7 -> 2 -> 1
+	STEP 1
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 2
+		driver nodes: NGF 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: CellCycleArrest 
+
+	PATH 12 -  #perturbations: 7
+	Sequence of the attractors: 3 -> 6 -> 4 -> 7 -> 1
+	STEP 1
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 2
+		driver nodes: ZFP36_inh 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: NGF PI3K CellCycleArrest 
+
+	PATH 13 -  #perturbations: 6
+	Sequence of the attractors: 3 -> 6 -> 4 -> 7 -> 2 -> 1
+	STEP 1
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 2
+		driver nodes: ZFP36_inh 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: CellCycleArrest 
+
+	PATH 14 -  #perturbations: 7
+	Sequence of the attractors: 3 -> 6 -> 5 -> 7 -> 1
+	STEP 1
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 2
+		driver nodes: CellCycleArrest 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: NGF PI3K CellCycleArrest 
+
+	PATH 15 -  #perturbations: 6
+	Sequence of the attractors: 3 -> 6 -> 5 -> 7 -> 2 -> 1
+	STEP 1
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 2
+		driver nodes: CellCycleArrest 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: CellCycleArrest 
+
+	PATH 16 -  #perturbations: 9
+	Sequence of the attractors: 3 -> 6 -> 5 -> 4 -> 7 -> 1
+	STEP 1
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 2
+		driver nodes: CellCycleArrest 
+	STEP 3
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: NGF PI3K CellCycleArrest 
+
+	PATH 17 -  #perturbations: 8
+	Sequence of the attractors: 3 -> 6 -> 5 -> 4 -> 7 -> 2 -> 1
+	STEP 1
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 2
+		driver nodes: CellCycleArrest 
+	STEP 3
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: NGF 
+	STEP 6
+		driver nodes: CellCycleArrest 
+
+	PATH 18 -  #perturbations: 6
+	Sequence of the attractors: 3 -> 5 -> 6 -> 7 -> 1
+	STEP 1
+		driver nodes: ZFP36_inh 
+	STEP 2
+		driver nodes: CellCycleArrest 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: NGF PI3K CellCycleArrest 
+
+	PATH 19 -  #perturbations: 5
+	Sequence of the attractors: 3 -> 5 -> 6 -> 7 -> 2 -> 1
+	STEP 1
+		driver nodes: ZFP36_inh 
+	STEP 2
+		driver nodes: CellCycleArrest 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: CellCycleArrest 
+
+	PATH 20 -  #perturbations: 7
+	Sequence of the attractors: 3 -> 5 -> 6 -> 4 -> 7 -> 1
+	STEP 1
+		driver nodes: ZFP36_inh 
+	STEP 2
+		driver nodes: CellCycleArrest 
+	STEP 3
+		driver nodes: ZFP36_inh 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: NGF PI3K CellCycleArrest 
+
+	PATH 21 -  #perturbations: 6
+	Sequence of the attractors: 3 -> 5 -> 6 -> 4 -> 7 -> 2 -> 1
+	STEP 1
+		driver nodes: ZFP36_inh 
+	STEP 2
+		driver nodes: CellCycleArrest 
+	STEP 3
+		driver nodes: ZFP36_inh 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: NGF 
+	STEP 6
+		driver nodes: CellCycleArrest 
+
+	PATH 22 -  #perturbations: 7
+	Sequence of the attractors: 3 -> 4 -> 5 -> 7 -> 1
+	STEP 1
+		driver nodes: CellCycleArrest 
+	STEP 2
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: NGF PI3K CellCycleArrest 
+
+	PATH 23 -  #perturbations: 6
+	Sequence of the attractors: 3 -> 4 -> 5 -> 7 -> 2 -> 1
+	STEP 1
+		driver nodes: CellCycleArrest 
+	STEP 2
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: CellCycleArrest 
+
+	PATH 24 -  #perturbations: 6
+	Sequence of the attractors: 3 -> 4 -> 6 -> 7 -> 1
+	STEP 1
+		driver nodes: CellCycleArrest 
+	STEP 2
+		driver nodes: ZFP36_inh 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: NGF PI3K CellCycleArrest 
+
+	PATH 25 -  #perturbations: 5
+	Sequence of the attractors: 3 -> 4 -> 6 -> 7 -> 2 -> 1
+	STEP 1
+		driver nodes: CellCycleArrest 
+	STEP 2
+		driver nodes: ZFP36_inh 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: CellCycleArrest 
+
+	PATH 26 -  #perturbations: 7
+	Sequence of the attractors: 3 -> 4 -> 6 -> 5 -> 7 -> 1
+	STEP 1
+		driver nodes: CellCycleArrest 
+	STEP 2
+		driver nodes: ZFP36_inh 
+	STEP 3
+		driver nodes: CellCycleArrest 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: NGF PI3K CellCycleArrest 
+
+	PATH 27 -  #perturbations: 6
+	Sequence of the attractors: 3 -> 4 -> 6 -> 5 -> 7 -> 2 -> 1
+	STEP 1
+		driver nodes: CellCycleArrest 
+	STEP 2
+		driver nodes: ZFP36_inh 
+	STEP 3
+		driver nodes: CellCycleArrest 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: NGF 
+	STEP 6
+		driver nodes: CellCycleArrest 
+
+	PATH 28 -  #perturbations: 8
+	Sequence of the attractors: 3 -> 4 -> 5 -> 6 -> 7 -> 1
+	STEP 1
+		driver nodes: CellCycleArrest 
+	STEP 2
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 3
+		driver nodes: CellCycleArrest 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: NGF PI3K CellCycleArrest 
+
+	PATH 29 -  #perturbations: 7
+	Sequence of the attractors: 3 -> 4 -> 5 -> 6 -> 7 -> 2 -> 1
+	STEP 1
+		driver nodes: CellCycleArrest 
+	STEP 2
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 3
+		driver nodes: CellCycleArrest 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: NGF 
+	STEP 6
+		driver nodes: CellCycleArrest 
+
+	PATH 30 -  #perturbations: 9
+	Sequence of the attractors: 3 -> 6 -> 4 -> 5 -> 7 -> 1
+	STEP 1
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 2
+		driver nodes: ZFP36_inh 
+	STEP 3
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: NGF PI3K CellCycleArrest 
+
+	PATH 31 -  #perturbations: 8
+	Sequence of the attractors: 3 -> 6 -> 4 -> 5 -> 7 -> 2 -> 1
+	STEP 1
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 2
+		driver nodes: ZFP36_inh 
+	STEP 3
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: NGF 
+	STEP 6
+		driver nodes: CellCycleArrest 
+
+	PATH 32 -  #perturbations: 8
+	Sequence of the attractors: 3 -> 5 -> 4 -> 6 -> 7 -> 1
+	STEP 1
+		driver nodes: ZFP36_inh 
+	STEP 2
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 3
+		driver nodes: ZFP36_inh 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: NGF PI3K CellCycleArrest 
+
+	PATH 33 -  #perturbations: 7
+	Sequence of the attractors: 3 -> 5 -> 4 -> 6 -> 7 -> 2 -> 1
+	STEP 1
+		driver nodes: ZFP36_inh 
+	STEP 2
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 3
+		driver nodes: ZFP36_inh 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: NGF 
+	STEP 6
+		driver nodes: CellCycleArrest 
+
+time cost  = 0.198
+
+------------------------------------------
+source and target: 3 -> 2
+
+	PATH 1 -  #perturbations: 10
+	Sequence of the attractors: 3 -> 2
+	STEP 1
+		driver nodes: RAS RAF JNK MEK ERK AP1 UPAR MMP10 ITGA1 FAK 
+
+	PATH 2 -  #perturbations: 2
+	Sequence of the attractors: 3 -> 7 -> 2
+	STEP 1
+		driver nodes: NGF 
+	STEP 2
+		driver nodes: NGF 
+
+	PATH 3 -  #perturbations: 5
+	Sequence of the attractors: 3 -> 7 -> 1 -> 2
+	STEP 1
+		driver nodes: NGF 
+	STEP 2
+		driver nodes: NGF PI3K CellCycleArrest 
+	STEP 3
+		driver nodes: CellCycleArrest 
+
+	PATH 4 -  #perturbations: 3
+	Sequence of the attractors: 3 -> 4 -> 7 -> 2
+	STEP 1
+		driver nodes: CellCycleArrest 
+	STEP 2
+		driver nodes: NGF 
+	STEP 3
+		driver nodes: NGF 
+
+	PATH 5 -  #perturbations: 6
+	Sequence of the attractors: 3 -> 4 -> 7 -> 1 -> 2
+	STEP 1
+		driver nodes: CellCycleArrest 
+	STEP 2
+		driver nodes: NGF 
+	STEP 3
+		driver nodes: NGF PI3K CellCycleArrest 
+	STEP 4
+		driver nodes: CellCycleArrest 
+
+	PATH 6 -  #perturbations: 3
+	Sequence of the attractors: 3 -> 5 -> 7 -> 2
+	STEP 1
+		driver nodes: ZFP36_inh 
+	STEP 2
+		driver nodes: NGF 
+	STEP 3
+		driver nodes: NGF 
+
+	PATH 7 -  #perturbations: 6
+	Sequence of the attractors: 3 -> 5 -> 7 -> 1 -> 2
+	STEP 1
+		driver nodes: ZFP36_inh 
+	STEP 2
+		driver nodes: NGF 
+	STEP 3
+		driver nodes: NGF PI3K CellCycleArrest 
+	STEP 4
+		driver nodes: CellCycleArrest 
+
+	PATH 8 -  #perturbations: 5
+	Sequence of the attractors: 3 -> 5 -> 4 -> 7 -> 2
+	STEP 1
+		driver nodes: ZFP36_inh 
+	STEP 2
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: NGF 
+
+	PATH 9 -  #perturbations: 8
+	Sequence of the attractors: 3 -> 5 -> 4 -> 7 -> 1 -> 2
+	STEP 1
+		driver nodes: ZFP36_inh 
+	STEP 2
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: NGF PI3K CellCycleArrest 
+	STEP 5
+		driver nodes: CellCycleArrest 
+
+	PATH 10 -  #perturbations: 4
+	Sequence of the attractors: 3 -> 6 -> 7 -> 2
+	STEP 1
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 2
+		driver nodes: NGF 
+	STEP 3
+		driver nodes: NGF 
+
+	PATH 11 -  #perturbations: 7
+	Sequence of the attractors: 3 -> 6 -> 7 -> 1 -> 2
+	STEP 1
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 2
+		driver nodes: NGF 
+	STEP 3
+		driver nodes: NGF PI3K CellCycleArrest 
+	STEP 4
+		driver nodes: CellCycleArrest 
+
+	PATH 12 -  #perturbations: 5
+	Sequence of the attractors: 3 -> 6 -> 4 -> 7 -> 2
+	STEP 1
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 2
+		driver nodes: ZFP36_inh 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: NGF 
+
+	PATH 13 -  #perturbations: 8
+	Sequence of the attractors: 3 -> 6 -> 4 -> 7 -> 1 -> 2
+	STEP 1
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 2
+		driver nodes: ZFP36_inh 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: NGF PI3K CellCycleArrest 
+	STEP 5
+		driver nodes: CellCycleArrest 
+
+	PATH 14 -  #perturbations: 5
+	Sequence of the attractors: 3 -> 6 -> 5 -> 7 -> 2
+	STEP 1
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 2
+		driver nodes: CellCycleArrest 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: NGF 
+
+	PATH 15 -  #perturbations: 8
+	Sequence of the attractors: 3 -> 6 -> 5 -> 7 -> 1 -> 2
+	STEP 1
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 2
+		driver nodes: CellCycleArrest 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: NGF PI3K CellCycleArrest 
+	STEP 5
+		driver nodes: CellCycleArrest 
+
+	PATH 16 -  #perturbations: 7
+	Sequence of the attractors: 3 -> 6 -> 5 -> 4 -> 7 -> 2
+	STEP 1
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 2
+		driver nodes: CellCycleArrest 
+	STEP 3
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: NGF 
+
+	PATH 17 -  #perturbations: 4
+	Sequence of the attractors: 3 -> 5 -> 6 -> 7 -> 2
+	STEP 1
+		driver nodes: ZFP36_inh 
+	STEP 2
+		driver nodes: CellCycleArrest 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: NGF 
+
+	PATH 18 -  #perturbations: 7
+	Sequence of the attractors: 3 -> 5 -> 6 -> 7 -> 1 -> 2
+	STEP 1
+		driver nodes: ZFP36_inh 
+	STEP 2
+		driver nodes: CellCycleArrest 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: NGF PI3K CellCycleArrest 
+	STEP 5
+		driver nodes: CellCycleArrest 
+
+	PATH 19 -  #perturbations: 5
+	Sequence of the attractors: 3 -> 5 -> 6 -> 4 -> 7 -> 2
+	STEP 1
+		driver nodes: ZFP36_inh 
+	STEP 2
+		driver nodes: CellCycleArrest 
+	STEP 3
+		driver nodes: ZFP36_inh 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: NGF 
+
+	PATH 20 -  #perturbations: 8
+	Sequence of the attractors: 3 -> 5 -> 6 -> 4 -> 7 -> 1 -> 2
+	STEP 1
+		driver nodes: ZFP36_inh 
+	STEP 2
+		driver nodes: CellCycleArrest 
+	STEP 3
+		driver nodes: ZFP36_inh 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: NGF PI3K CellCycleArrest 
+	STEP 6
+		driver nodes: CellCycleArrest 
+
+	PATH 21 -  #perturbations: 5
+	Sequence of the attractors: 3 -> 4 -> 5 -> 7 -> 2
+	STEP 1
+		driver nodes: CellCycleArrest 
+	STEP 2
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: NGF 
+
+	PATH 22 -  #perturbations: 8
+	Sequence of the attractors: 3 -> 4 -> 5 -> 7 -> 1 -> 2
+	STEP 1
+		driver nodes: CellCycleArrest 
+	STEP 2
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: NGF PI3K CellCycleArrest 
+	STEP 5
+		driver nodes: CellCycleArrest 
+
+	PATH 23 -  #perturbations: 4
+	Sequence of the attractors: 3 -> 4 -> 6 -> 7 -> 2
+	STEP 1
+		driver nodes: CellCycleArrest 
+	STEP 2
+		driver nodes: ZFP36_inh 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: NGF 
+
+	PATH 24 -  #perturbations: 7
+	Sequence of the attractors: 3 -> 4 -> 6 -> 7 -> 1 -> 2
+	STEP 1
+		driver nodes: CellCycleArrest 
+	STEP 2
+		driver nodes: ZFP36_inh 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: NGF PI3K CellCycleArrest 
+	STEP 5
+		driver nodes: CellCycleArrest 
+
+	PATH 25 -  #perturbations: 5
+	Sequence of the attractors: 3 -> 4 -> 6 -> 5 -> 7 -> 2
+	STEP 1
+		driver nodes: CellCycleArrest 
+	STEP 2
+		driver nodes: ZFP36_inh 
+	STEP 3
+		driver nodes: CellCycleArrest 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: NGF 
+
+	PATH 26 -  #perturbations: 8
+	Sequence of the attractors: 3 -> 4 -> 6 -> 5 -> 7 -> 1 -> 2
+	STEP 1
+		driver nodes: CellCycleArrest 
+	STEP 2
+		driver nodes: ZFP36_inh 
+	STEP 3
+		driver nodes: CellCycleArrest 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: NGF PI3K CellCycleArrest 
+	STEP 6
+		driver nodes: CellCycleArrest 
+
+	PATH 27 -  #perturbations: 6
+	Sequence of the attractors: 3 -> 4 -> 5 -> 6 -> 7 -> 2
+	STEP 1
+		driver nodes: CellCycleArrest 
+	STEP 2
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 3
+		driver nodes: CellCycleArrest 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: NGF 
+
+	PATH 28 -  #perturbations: 9
+	Sequence of the attractors: 3 -> 4 -> 5 -> 6 -> 7 -> 1 -> 2
+	STEP 1
+		driver nodes: CellCycleArrest 
+	STEP 2
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 3
+		driver nodes: CellCycleArrest 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: NGF PI3K CellCycleArrest 
+	STEP 6
+		driver nodes: CellCycleArrest 
+
+	PATH 29 -  #perturbations: 7
+	Sequence of the attractors: 3 -> 6 -> 4 -> 5 -> 7 -> 2
+	STEP 1
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 2
+		driver nodes: ZFP36_inh 
+	STEP 3
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: NGF 
+
+	PATH 30 -  #perturbations: 6
+	Sequence of the attractors: 3 -> 5 -> 4 -> 6 -> 7 -> 2
+	STEP 1
+		driver nodes: ZFP36_inh 
+	STEP 2
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 3
+		driver nodes: ZFP36_inh 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: NGF 
+
+	PATH 31 -  #perturbations: 9
+	Sequence of the attractors: 3 -> 5 -> 4 -> 6 -> 7 -> 1 -> 2
+	STEP 1
+		driver nodes: ZFP36_inh 
+	STEP 2
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 3
+		driver nodes: ZFP36_inh 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: NGF PI3K CellCycleArrest 
+	STEP 6
+		driver nodes: CellCycleArrest 
+
+time cost  = 0.195
+
+------------------------------------------
+source and target: 3 -> 4
+
+	PATH 1 -  #perturbations: 1
+	Sequence of the attractors: 3 -> 4
+	STEP 1
+		driver nodes: CellCycleArrest 
+
+time cost  = 0.009
+
+------------------------------------------
+source and target: 3 -> 5
+
+	PATH 1 -  #perturbations: 1
+	Sequence of the attractors: 3 -> 5
+	STEP 1
+		driver nodes: ZFP36_inh 
+
+time cost  = 0.006
+
+------------------------------------------
+source and target: 3 -> 6
+
+	PATH 1 -  #perturbations: 2
+	Sequence of the attractors: 3 -> 6
+	STEP 1
+		driver nodes: CellCycleArrest ZFP36_inh 
+
+time cost  = 0.017
+
+------------------------------------------
+source and target: 3 -> 7
+
+	PATH 1 -  #perturbations: 1
+	Sequence of the attractors: 3 -> 7
+	STEP 1
+		driver nodes: NGF 
+
+time cost  = 0.016
+
+------------------------------------------
+source and target: 4 -> 1
+
+	PATH 1 -  #perturbations: 10
+	Sequence of the attractors: 4 -> 1
+	STEP 1
+		driver nodes: RAS RAF JNK MEK ERK AP1 UPAR MMP10 ITGA1 FAK 
+
+	PATH 2 -  #perturbations: 4
+	Sequence of the attractors: 4 -> 7 -> 1
+	STEP 1
+		driver nodes: NGF 
+	STEP 2
+		driver nodes: NGF PI3K CellCycleArrest 
+
+	PATH 3 -  #perturbations: 3
+	Sequence of the attractors: 4 -> 7 -> 2 -> 1
+	STEP 1
+		driver nodes: NGF 
+	STEP 2
+		driver nodes: NGF 
+	STEP 3
+		driver nodes: CellCycleArrest 
+
+	PATH 4 -  #perturbations: 5
+	Sequence of the attractors: 4 -> 3 -> 7 -> 1
+	STEP 1
+		driver nodes: CellCycleArrest 
+	STEP 2
+		driver nodes: NGF 
+	STEP 3
+		driver nodes: NGF PI3K CellCycleArrest 
+
+	PATH 5 -  #perturbations: 4
+	Sequence of the attractors: 4 -> 3 -> 7 -> 2 -> 1
+	STEP 1
+		driver nodes: CellCycleArrest 
+	STEP 2
+		driver nodes: NGF 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: CellCycleArrest 
+
+	PATH 6 -  #perturbations: 6
+	Sequence of the attractors: 4 -> 5 -> 7 -> 1
+	STEP 1
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 2
+		driver nodes: NGF 
+	STEP 3
+		driver nodes: NGF PI3K CellCycleArrest 
+
+	PATH 7 -  #perturbations: 5
+	Sequence of the attractors: 4 -> 5 -> 7 -> 2 -> 1
+	STEP 1
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 2
+		driver nodes: NGF 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: CellCycleArrest 
+
+	PATH 8 -  #perturbations: 7
+	Sequence of the attractors: 4 -> 5 -> 3 -> 7 -> 1
+	STEP 1
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 2
+		driver nodes: ZFP36_inh 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: NGF PI3K CellCycleArrest 
+
+	PATH 9 -  #perturbations: 6
+	Sequence of the attractors: 4 -> 5 -> 3 -> 7 -> 2 -> 1
+	STEP 1
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 2
+		driver nodes: ZFP36_inh 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: CellCycleArrest 
+
+	PATH 10 -  #perturbations: 5
+	Sequence of the attractors: 4 -> 6 -> 7 -> 1
+	STEP 1
+		driver nodes: ZFP36_inh 
+	STEP 2
+		driver nodes: NGF 
+	STEP 3
+		driver nodes: NGF PI3K CellCycleArrest 
+
+	PATH 11 -  #perturbations: 4
+	Sequence of the attractors: 4 -> 6 -> 7 -> 2 -> 1
+	STEP 1
+		driver nodes: ZFP36_inh 
+	STEP 2
+		driver nodes: NGF 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: CellCycleArrest 
+
+	PATH 12 -  #perturbations: 7
+	Sequence of the attractors: 4 -> 6 -> 3 -> 7 -> 1
+	STEP 1
+		driver nodes: ZFP36_inh 
+	STEP 2
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: NGF PI3K CellCycleArrest 
+
+	PATH 13 -  #perturbations: 6
+	Sequence of the attractors: 4 -> 6 -> 3 -> 7 -> 2 -> 1
+	STEP 1
+		driver nodes: ZFP36_inh 
+	STEP 2
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: CellCycleArrest 
+
+	PATH 14 -  #perturbations: 6
+	Sequence of the attractors: 4 -> 6 -> 5 -> 7 -> 1
+	STEP 1
+		driver nodes: ZFP36_inh 
+	STEP 2
+		driver nodes: CellCycleArrest 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: NGF PI3K CellCycleArrest 
+
+	PATH 15 -  #perturbations: 5
+	Sequence of the attractors: 4 -> 6 -> 5 -> 7 -> 2 -> 1
+	STEP 1
+		driver nodes: ZFP36_inh 
+	STEP 2
+		driver nodes: CellCycleArrest 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: CellCycleArrest 
+
+	PATH 16 -  #perturbations: 7
+	Sequence of the attractors: 4 -> 6 -> 5 -> 3 -> 7 -> 1
+	STEP 1
+		driver nodes: ZFP36_inh 
+	STEP 2
+		driver nodes: CellCycleArrest 
+	STEP 3
+		driver nodes: ZFP36_inh 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: NGF PI3K CellCycleArrest 
+
+	PATH 17 -  #perturbations: 6
+	Sequence of the attractors: 4 -> 6 -> 5 -> 3 -> 7 -> 2 -> 1
+	STEP 1
+		driver nodes: ZFP36_inh 
+	STEP 2
+		driver nodes: CellCycleArrest 
+	STEP 3
+		driver nodes: ZFP36_inh 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: NGF 
+	STEP 6
+		driver nodes: CellCycleArrest 
+
+	PATH 18 -  #perturbations: 7
+	Sequence of the attractors: 4 -> 5 -> 6 -> 7 -> 1
+	STEP 1
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 2
+		driver nodes: CellCycleArrest 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: NGF PI3K CellCycleArrest 
+
+	PATH 19 -  #perturbations: 6
+	Sequence of the attractors: 4 -> 5 -> 6 -> 7 -> 2 -> 1
+	STEP 1
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 2
+		driver nodes: CellCycleArrest 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: CellCycleArrest 
+
+	PATH 20 -  #perturbations: 9
+	Sequence of the attractors: 4 -> 5 -> 6 -> 3 -> 7 -> 1
+	STEP 1
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 2
+		driver nodes: CellCycleArrest 
+	STEP 3
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: NGF PI3K CellCycleArrest 
+
+	PATH 21 -  #perturbations: 8
+	Sequence of the attractors: 4 -> 5 -> 6 -> 3 -> 7 -> 2 -> 1
+	STEP 1
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 2
+		driver nodes: CellCycleArrest 
+	STEP 3
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: NGF 
+	STEP 6
+		driver nodes: CellCycleArrest 
+
+	PATH 22 -  #perturbations: 6
+	Sequence of the attractors: 4 -> 3 -> 5 -> 7 -> 1
+	STEP 1
+		driver nodes: CellCycleArrest 
+	STEP 2
+		driver nodes: ZFP36_inh 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: NGF PI3K CellCycleArrest 
+
+	PATH 23 -  #perturbations: 5
+	Sequence of the attractors: 4 -> 3 -> 5 -> 7 -> 2 -> 1
+	STEP 1
+		driver nodes: CellCycleArrest 
+	STEP 2
+		driver nodes: ZFP36_inh 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: CellCycleArrest 
+
+	PATH 24 -  #perturbations: 7
+	Sequence of the attractors: 4 -> 3 -> 6 -> 7 -> 1
+	STEP 1
+		driver nodes: CellCycleArrest 
+	STEP 2
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: NGF PI3K CellCycleArrest 
+
+	PATH 25 -  #perturbations: 6
+	Sequence of the attractors: 4 -> 3 -> 6 -> 7 -> 2 -> 1
+	STEP 1
+		driver nodes: CellCycleArrest 
+	STEP 2
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: CellCycleArrest 
+
+	PATH 26 -  #perturbations: 8
+	Sequence of the attractors: 4 -> 3 -> 6 -> 5 -> 7 -> 1
+	STEP 1
+		driver nodes: CellCycleArrest 
+	STEP 2
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 3
+		driver nodes: CellCycleArrest 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: NGF PI3K CellCycleArrest 
+
+	PATH 27 -  #perturbations: 7
+	Sequence of the attractors: 4 -> 3 -> 6 -> 5 -> 7 -> 2 -> 1
+	STEP 1
+		driver nodes: CellCycleArrest 
+	STEP 2
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 3
+		driver nodes: CellCycleArrest 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: NGF 
+	STEP 6
+		driver nodes: CellCycleArrest 
+
+	PATH 28 -  #perturbations: 7
+	Sequence of the attractors: 4 -> 3 -> 5 -> 6 -> 7 -> 1
+	STEP 1
+		driver nodes: CellCycleArrest 
+	STEP 2
+		driver nodes: ZFP36_inh 
+	STEP 3
+		driver nodes: CellCycleArrest 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: NGF PI3K CellCycleArrest 
+
+	PATH 29 -  #perturbations: 6
+	Sequence of the attractors: 4 -> 3 -> 5 -> 6 -> 7 -> 2 -> 1
+	STEP 1
+		driver nodes: CellCycleArrest 
+	STEP 2
+		driver nodes: ZFP36_inh 
+	STEP 3
+		driver nodes: CellCycleArrest 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: NGF 
+	STEP 6
+		driver nodes: CellCycleArrest 
+
+	PATH 30 -  #perturbations: 8
+	Sequence of the attractors: 4 -> 6 -> 3 -> 5 -> 7 -> 1
+	STEP 1
+		driver nodes: ZFP36_inh 
+	STEP 2
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 3
+		driver nodes: ZFP36_inh 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: NGF PI3K CellCycleArrest 
+
+	PATH 31 -  #perturbations: 7
+	Sequence of the attractors: 4 -> 6 -> 3 -> 5 -> 7 -> 2 -> 1
+	STEP 1
+		driver nodes: ZFP36_inh 
+	STEP 2
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 3
+		driver nodes: ZFP36_inh 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: NGF 
+	STEP 6
+		driver nodes: CellCycleArrest 
+
+	PATH 32 -  #perturbations: 9
+	Sequence of the attractors: 4 -> 5 -> 3 -> 6 -> 7 -> 1
+	STEP 1
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 2
+		driver nodes: ZFP36_inh 
+	STEP 3
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: NGF PI3K CellCycleArrest 
+
+	PATH 33 -  #perturbations: 8
+	Sequence of the attractors: 4 -> 5 -> 3 -> 6 -> 7 -> 2 -> 1
+	STEP 1
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 2
+		driver nodes: ZFP36_inh 
+	STEP 3
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: NGF 
+	STEP 6
+		driver nodes: CellCycleArrest 
+
+time cost  = 0.186
+
+------------------------------------------
+source and target: 4 -> 2
+
+	PATH 1 -  #perturbations: 11
+	Sequence of the attractors: 4 -> 2
+	STEP 1
+		driver nodes: RAS RAF JNK MEK ERK AP1 CellCycleArrest UPAR MMP10 ITGA1 FAK 
+
+	PATH 2 -  #perturbations: 2
+	Sequence of the attractors: 4 -> 7 -> 2
+	STEP 1
+		driver nodes: NGF 
+	STEP 2
+		driver nodes: NGF 
+
+	PATH 3 -  #perturbations: 5
+	Sequence of the attractors: 4 -> 7 -> 1 -> 2
+	STEP 1
+		driver nodes: NGF 
+	STEP 2
+		driver nodes: NGF PI3K CellCycleArrest 
+	STEP 3
+		driver nodes: CellCycleArrest 
+
+	PATH 4 -  #perturbations: 3
+	Sequence of the attractors: 4 -> 3 -> 7 -> 2
+	STEP 1
+		driver nodes: CellCycleArrest 
+	STEP 2
+		driver nodes: NGF 
+	STEP 3
+		driver nodes: NGF 
+
+	PATH 5 -  #perturbations: 6
+	Sequence of the attractors: 4 -> 3 -> 7 -> 1 -> 2
+	STEP 1
+		driver nodes: CellCycleArrest 
+	STEP 2
+		driver nodes: NGF 
+	STEP 3
+		driver nodes: NGF PI3K CellCycleArrest 
+	STEP 4
+		driver nodes: CellCycleArrest 
+
+	PATH 6 -  #perturbations: 4
+	Sequence of the attractors: 4 -> 5 -> 7 -> 2
+	STEP 1
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 2
+		driver nodes: NGF 
+	STEP 3
+		driver nodes: NGF 
+
+	PATH 7 -  #perturbations: 7
+	Sequence of the attractors: 4 -> 5 -> 7 -> 1 -> 2
+	STEP 1
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 2
+		driver nodes: NGF 
+	STEP 3
+		driver nodes: NGF PI3K CellCycleArrest 
+	STEP 4
+		driver nodes: CellCycleArrest 
+
+	PATH 8 -  #perturbations: 5
+	Sequence of the attractors: 4 -> 5 -> 3 -> 7 -> 2
+	STEP 1
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 2
+		driver nodes: ZFP36_inh 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: NGF 
+
+	PATH 9 -  #perturbations: 8
+	Sequence of the attractors: 4 -> 5 -> 3 -> 7 -> 1 -> 2
+	STEP 1
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 2
+		driver nodes: ZFP36_inh 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: NGF PI3K CellCycleArrest 
+	STEP 5
+		driver nodes: CellCycleArrest 
+
+	PATH 10 -  #perturbations: 3
+	Sequence of the attractors: 4 -> 6 -> 7 -> 2
+	STEP 1
+		driver nodes: ZFP36_inh 
+	STEP 2
+		driver nodes: NGF 
+	STEP 3
+		driver nodes: NGF 
+
+	PATH 11 -  #perturbations: 6
+	Sequence of the attractors: 4 -> 6 -> 7 -> 1 -> 2
+	STEP 1
+		driver nodes: ZFP36_inh 
+	STEP 2
+		driver nodes: NGF 
+	STEP 3
+		driver nodes: NGF PI3K CellCycleArrest 
+	STEP 4
+		driver nodes: CellCycleArrest 
+
+	PATH 12 -  #perturbations: 5
+	Sequence of the attractors: 4 -> 6 -> 3 -> 7 -> 2
+	STEP 1
+		driver nodes: ZFP36_inh 
+	STEP 2
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: NGF 
+
+	PATH 13 -  #perturbations: 8
+	Sequence of the attractors: 4 -> 6 -> 3 -> 7 -> 1 -> 2
+	STEP 1
+		driver nodes: ZFP36_inh 
+	STEP 2
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: NGF PI3K CellCycleArrest 
+	STEP 5
+		driver nodes: CellCycleArrest 
+
+	PATH 14 -  #perturbations: 4
+	Sequence of the attractors: 4 -> 6 -> 5 -> 7 -> 2
+	STEP 1
+		driver nodes: ZFP36_inh 
+	STEP 2
+		driver nodes: CellCycleArrest 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: NGF 
+
+	PATH 15 -  #perturbations: 7
+	Sequence of the attractors: 4 -> 6 -> 5 -> 7 -> 1 -> 2
+	STEP 1
+		driver nodes: ZFP36_inh 
+	STEP 2
+		driver nodes: CellCycleArrest 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: NGF PI3K CellCycleArrest 
+	STEP 5
+		driver nodes: CellCycleArrest 
+
+	PATH 16 -  #perturbations: 5
+	Sequence of the attractors: 4 -> 6 -> 5 -> 3 -> 7 -> 2
+	STEP 1
+		driver nodes: ZFP36_inh 
+	STEP 2
+		driver nodes: CellCycleArrest 
+	STEP 3
+		driver nodes: ZFP36_inh 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: NGF 
+
+	PATH 17 -  #perturbations: 8
+	Sequence of the attractors: 4 -> 6 -> 5 -> 3 -> 7 -> 1 -> 2
+	STEP 1
+		driver nodes: ZFP36_inh 
+	STEP 2
+		driver nodes: CellCycleArrest 
+	STEP 3
+		driver nodes: ZFP36_inh 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: NGF PI3K CellCycleArrest 
+	STEP 6
+		driver nodes: CellCycleArrest 
+
+	PATH 18 -  #perturbations: 5
+	Sequence of the attractors: 4 -> 5 -> 6 -> 7 -> 2
+	STEP 1
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 2
+		driver nodes: CellCycleArrest 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: NGF 
+
+	PATH 19 -  #perturbations: 8
+	Sequence of the attractors: 4 -> 5 -> 6 -> 7 -> 1 -> 2
+	STEP 1
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 2
+		driver nodes: CellCycleArrest 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: NGF PI3K CellCycleArrest 
+	STEP 5
+		driver nodes: CellCycleArrest 
+
+	PATH 20 -  #perturbations: 7
+	Sequence of the attractors: 4 -> 5 -> 6 -> 3 -> 7 -> 2
+	STEP 1
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 2
+		driver nodes: CellCycleArrest 
+	STEP 3
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: NGF 
+
+	PATH 21 -  #perturbations: 10
+	Sequence of the attractors: 4 -> 5 -> 6 -> 3 -> 7 -> 1 -> 2
+	STEP 1
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 2
+		driver nodes: CellCycleArrest 
+	STEP 3
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: NGF PI3K CellCycleArrest 
+	STEP 6
+		driver nodes: CellCycleArrest 
+
+	PATH 22 -  #perturbations: 4
+	Sequence of the attractors: 4 -> 3 -> 5 -> 7 -> 2
+	STEP 1
+		driver nodes: CellCycleArrest 
+	STEP 2
+		driver nodes: ZFP36_inh 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: NGF 
+
+	PATH 23 -  #perturbations: 7
+	Sequence of the attractors: 4 -> 3 -> 5 -> 7 -> 1 -> 2
+	STEP 1
+		driver nodes: CellCycleArrest 
+	STEP 2
+		driver nodes: ZFP36_inh 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: NGF PI3K CellCycleArrest 
+	STEP 5
+		driver nodes: CellCycleArrest 
+
+	PATH 24 -  #perturbations: 5
+	Sequence of the attractors: 4 -> 3 -> 6 -> 7 -> 2
+	STEP 1
+		driver nodes: CellCycleArrest 
+	STEP 2
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: NGF 
+
+	PATH 25 -  #perturbations: 8
+	Sequence of the attractors: 4 -> 3 -> 6 -> 7 -> 1 -> 2
+	STEP 1
+		driver nodes: CellCycleArrest 
+	STEP 2
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: NGF PI3K CellCycleArrest 
+	STEP 5
+		driver nodes: CellCycleArrest 
+
+	PATH 26 -  #perturbations: 6
+	Sequence of the attractors: 4 -> 3 -> 6 -> 5 -> 7 -> 2
+	STEP 1
+		driver nodes: CellCycleArrest 
+	STEP 2
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 3
+		driver nodes: CellCycleArrest 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: NGF 
+
+	PATH 27 -  #perturbations: 9
+	Sequence of the attractors: 4 -> 3 -> 6 -> 5 -> 7 -> 1 -> 2
+	STEP 1
+		driver nodes: CellCycleArrest 
+	STEP 2
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 3
+		driver nodes: CellCycleArrest 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: NGF PI3K CellCycleArrest 
+	STEP 6
+		driver nodes: CellCycleArrest 
+
+	PATH 28 -  #perturbations: 5
+	Sequence of the attractors: 4 -> 3 -> 5 -> 6 -> 7 -> 2
+	STEP 1
+		driver nodes: CellCycleArrest 
+	STEP 2
+		driver nodes: ZFP36_inh 
+	STEP 3
+		driver nodes: CellCycleArrest 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: NGF 
+
+	PATH 29 -  #perturbations: 8
+	Sequence of the attractors: 4 -> 3 -> 5 -> 6 -> 7 -> 1 -> 2
+	STEP 1
+		driver nodes: CellCycleArrest 
+	STEP 2
+		driver nodes: ZFP36_inh 
+	STEP 3
+		driver nodes: CellCycleArrest 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: NGF PI3K CellCycleArrest 
+	STEP 6
+		driver nodes: CellCycleArrest 
+
+	PATH 30 -  #perturbations: 6
+	Sequence of the attractors: 4 -> 6 -> 3 -> 5 -> 7 -> 2
+	STEP 1
+		driver nodes: ZFP36_inh 
+	STEP 2
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 3
+		driver nodes: ZFP36_inh 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: NGF 
+
+	PATH 31 -  #perturbations: 9
+	Sequence of the attractors: 4 -> 6 -> 3 -> 5 -> 7 -> 1 -> 2
+	STEP 1
+		driver nodes: ZFP36_inh 
+	STEP 2
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 3
+		driver nodes: ZFP36_inh 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: NGF PI3K CellCycleArrest 
+	STEP 6
+		driver nodes: CellCycleArrest 
+
+	PATH 32 -  #perturbations: 7
+	Sequence of the attractors: 4 -> 5 -> 3 -> 6 -> 7 -> 2
+	STEP 1
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 2
+		driver nodes: ZFP36_inh 
+	STEP 3
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: NGF 
+
+	PATH 33 -  #perturbations: 10
+	Sequence of the attractors: 4 -> 5 -> 3 -> 6 -> 7 -> 1 -> 2
+	STEP 1
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 2
+		driver nodes: ZFP36_inh 
+	STEP 3
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: NGF PI3K CellCycleArrest 
+	STEP 6
+		driver nodes: CellCycleArrest 
+
+time cost  = 0.213
+
+------------------------------------------
+source and target: 4 -> 3
+
+	PATH 1 -  #perturbations: 1
+	Sequence of the attractors: 4 -> 3
+	STEP 1
+		driver nodes: CellCycleArrest 
+
+time cost  = 0.007
+
+------------------------------------------
+source and target: 4 -> 5
+
+	PATH 1 -  #perturbations: 2
+	Sequence of the attractors: 4 -> 5
+	STEP 1
+		driver nodes: CellCycleArrest ZFP36_inh 
+
+time cost  = 0.016
+
+------------------------------------------
+source and target: 4 -> 6
+
+	PATH 1 -  #perturbations: 1
+	Sequence of the attractors: 4 -> 6
+	STEP 1
+		driver nodes: ZFP36_inh 
+
+time cost  = 0.005
+
+------------------------------------------
+source and target: 4 -> 7
+
+	PATH 1 -  #perturbations: 1
+	Sequence of the attractors: 4 -> 7
+	STEP 1
+		driver nodes: NGF 
+
+time cost  = 0.016
+
+------------------------------------------
+source and target: 5 -> 1
+
+	PATH 1 -  #perturbations: 11
+	Sequence of the attractors: 5 -> 1
+	STEP 1
+		driver nodes: RAS RAF JNK MEK ERK AP1 CellCycleArrest UPAR MMP10 ITGA1 FAK 
+
+	PATH 2 -  #perturbations: 4
+	Sequence of the attractors: 5 -> 7 -> 1
+	STEP 1
+		driver nodes: NGF 
+	STEP 2
+		driver nodes: NGF PI3K CellCycleArrest 
+
+	PATH 3 -  #perturbations: 3
+	Sequence of the attractors: 5 -> 7 -> 2 -> 1
+	STEP 1
+		driver nodes: NGF 
+	STEP 2
+		driver nodes: NGF 
+	STEP 3
+		driver nodes: CellCycleArrest 
+
+	PATH 4 -  #perturbations: 5
+	Sequence of the attractors: 5 -> 3 -> 7 -> 1
+	STEP 1
+		driver nodes: ZFP36_inh 
+	STEP 2
+		driver nodes: NGF 
+	STEP 3
+		driver nodes: NGF PI3K CellCycleArrest 
+
+	PATH 5 -  #perturbations: 4
+	Sequence of the attractors: 5 -> 3 -> 7 -> 2 -> 1
+	STEP 1
+		driver nodes: ZFP36_inh 
+	STEP 2
+		driver nodes: NGF 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: CellCycleArrest 
+
+	PATH 6 -  #perturbations: 6
+	Sequence of the attractors: 5 -> 4 -> 7 -> 1
+	STEP 1
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 2
+		driver nodes: NGF 
+	STEP 3
+		driver nodes: NGF PI3K CellCycleArrest 
+
+	PATH 7 -  #perturbations: 5
+	Sequence of the attractors: 5 -> 4 -> 7 -> 2 -> 1
+	STEP 1
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 2
+		driver nodes: NGF 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: CellCycleArrest 
+
+	PATH 8 -  #perturbations: 7
+	Sequence of the attractors: 5 -> 4 -> 3 -> 7 -> 1
+	STEP 1
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 2
+		driver nodes: CellCycleArrest 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: NGF PI3K CellCycleArrest 
+
+	PATH 9 -  #perturbations: 6
+	Sequence of the attractors: 5 -> 4 -> 3 -> 7 -> 2 -> 1
+	STEP 1
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 2
+		driver nodes: CellCycleArrest 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: CellCycleArrest 
+
+	PATH 10 -  #perturbations: 5
+	Sequence of the attractors: 5 -> 6 -> 7 -> 1
+	STEP 1
+		driver nodes: CellCycleArrest 
+	STEP 2
+		driver nodes: NGF 
+	STEP 3
+		driver nodes: NGF PI3K CellCycleArrest 
+
+	PATH 11 -  #perturbations: 4
+	Sequence of the attractors: 5 -> 6 -> 7 -> 2 -> 1
+	STEP 1
+		driver nodes: CellCycleArrest 
+	STEP 2
+		driver nodes: NGF 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: CellCycleArrest 
+
+	PATH 12 -  #perturbations: 7
+	Sequence of the attractors: 5 -> 6 -> 3 -> 7 -> 1
+	STEP 1
+		driver nodes: CellCycleArrest 
+	STEP 2
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: NGF PI3K CellCycleArrest 
+
+	PATH 13 -  #perturbations: 6
+	Sequence of the attractors: 5 -> 6 -> 3 -> 7 -> 2 -> 1
+	STEP 1
+		driver nodes: CellCycleArrest 
+	STEP 2
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: CellCycleArrest 
+
+	PATH 14 -  #perturbations: 6
+	Sequence of the attractors: 5 -> 6 -> 4 -> 7 -> 1
+	STEP 1
+		driver nodes: CellCycleArrest 
+	STEP 2
+		driver nodes: ZFP36_inh 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: NGF PI3K CellCycleArrest 
+
+	PATH 15 -  #perturbations: 5
+	Sequence of the attractors: 5 -> 6 -> 4 -> 7 -> 2 -> 1
+	STEP 1
+		driver nodes: CellCycleArrest 
+	STEP 2
+		driver nodes: ZFP36_inh 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: CellCycleArrest 
+
+	PATH 16 -  #perturbations: 7
+	Sequence of the attractors: 5 -> 6 -> 4 -> 3 -> 7 -> 1
+	STEP 1
+		driver nodes: CellCycleArrest 
+	STEP 2
+		driver nodes: ZFP36_inh 
+	STEP 3
+		driver nodes: CellCycleArrest 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: NGF PI3K CellCycleArrest 
+
+	PATH 17 -  #perturbations: 6
+	Sequence of the attractors: 5 -> 6 -> 4 -> 3 -> 7 -> 2 -> 1
+	STEP 1
+		driver nodes: CellCycleArrest 
+	STEP 2
+		driver nodes: ZFP36_inh 
+	STEP 3
+		driver nodes: CellCycleArrest 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: NGF 
+	STEP 6
+		driver nodes: CellCycleArrest 
+
+	PATH 18 -  #perturbations: 7
+	Sequence of the attractors: 5 -> 4 -> 6 -> 7 -> 1
+	STEP 1
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 2
+		driver nodes: ZFP36_inh 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: NGF PI3K CellCycleArrest 
+
+	PATH 19 -  #perturbations: 6
+	Sequence of the attractors: 5 -> 4 -> 6 -> 7 -> 2 -> 1
+	STEP 1
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 2
+		driver nodes: ZFP36_inh 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: CellCycleArrest 
+
+	PATH 20 -  #perturbations: 9
+	Sequence of the attractors: 5 -> 4 -> 6 -> 3 -> 7 -> 1
+	STEP 1
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 2
+		driver nodes: ZFP36_inh 
+	STEP 3
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: NGF PI3K CellCycleArrest 
+
+	PATH 21 -  #perturbations: 8
+	Sequence of the attractors: 5 -> 4 -> 6 -> 3 -> 7 -> 2 -> 1
+	STEP 1
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 2
+		driver nodes: ZFP36_inh 
+	STEP 3
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: NGF 
+	STEP 6
+		driver nodes: CellCycleArrest 
+
+	PATH 22 -  #perturbations: 6
+	Sequence of the attractors: 5 -> 3 -> 4 -> 7 -> 1
+	STEP 1
+		driver nodes: ZFP36_inh 
+	STEP 2
+		driver nodes: CellCycleArrest 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: NGF PI3K CellCycleArrest 
+
+	PATH 23 -  #perturbations: 5
+	Sequence of the attractors: 5 -> 3 -> 4 -> 7 -> 2 -> 1
+	STEP 1
+		driver nodes: ZFP36_inh 
+	STEP 2
+		driver nodes: CellCycleArrest 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: CellCycleArrest 
+
+	PATH 24 -  #perturbations: 7
+	Sequence of the attractors: 5 -> 3 -> 6 -> 7 -> 1
+	STEP 1
+		driver nodes: ZFP36_inh 
+	STEP 2
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: NGF PI3K CellCycleArrest 
+
+	PATH 25 -  #perturbations: 6
+	Sequence of the attractors: 5 -> 3 -> 6 -> 7 -> 2 -> 1
+	STEP 1
+		driver nodes: ZFP36_inh 
+	STEP 2
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: CellCycleArrest 
+
+	PATH 26 -  #perturbations: 8
+	Sequence of the attractors: 5 -> 3 -> 6 -> 4 -> 7 -> 1
+	STEP 1
+		driver nodes: ZFP36_inh 
+	STEP 2
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 3
+		driver nodes: ZFP36_inh 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: NGF PI3K CellCycleArrest 
+
+	PATH 27 -  #perturbations: 7
+	Sequence of the attractors: 5 -> 3 -> 6 -> 4 -> 7 -> 2 -> 1
+	STEP 1
+		driver nodes: ZFP36_inh 
+	STEP 2
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 3
+		driver nodes: ZFP36_inh 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: NGF 
+	STEP 6
+		driver nodes: CellCycleArrest 
+
+	PATH 28 -  #perturbations: 7
+	Sequence of the attractors: 5 -> 3 -> 4 -> 6 -> 7 -> 1
+	STEP 1
+		driver nodes: ZFP36_inh 
+	STEP 2
+		driver nodes: CellCycleArrest 
+	STEP 3
+		driver nodes: ZFP36_inh 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: NGF PI3K CellCycleArrest 
+
+	PATH 29 -  #perturbations: 6
+	Sequence of the attractors: 5 -> 3 -> 4 -> 6 -> 7 -> 2 -> 1
+	STEP 1
+		driver nodes: ZFP36_inh 
+	STEP 2
+		driver nodes: CellCycleArrest 
+	STEP 3
+		driver nodes: ZFP36_inh 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: NGF 
+	STEP 6
+		driver nodes: CellCycleArrest 
+
+	PATH 30 -  #perturbations: 8
+	Sequence of the attractors: 5 -> 6 -> 3 -> 4 -> 7 -> 1
+	STEP 1
+		driver nodes: CellCycleArrest 
+	STEP 2
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 3
+		driver nodes: CellCycleArrest 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: NGF PI3K CellCycleArrest 
+
+	PATH 31 -  #perturbations: 7
+	Sequence of the attractors: 5 -> 6 -> 3 -> 4 -> 7 -> 2 -> 1
+	STEP 1
+		driver nodes: CellCycleArrest 
+	STEP 2
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 3
+		driver nodes: CellCycleArrest 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: NGF 
+	STEP 6
+		driver nodes: CellCycleArrest 
+
+	PATH 32 -  #perturbations: 9
+	Sequence of the attractors: 5 -> 4 -> 3 -> 6 -> 7 -> 1
+	STEP 1
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 2
+		driver nodes: CellCycleArrest 
+	STEP 3
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: NGF PI3K CellCycleArrest 
+
+	PATH 33 -  #perturbations: 8
+	Sequence of the attractors: 5 -> 4 -> 3 -> 6 -> 7 -> 2 -> 1
+	STEP 1
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 2
+		driver nodes: CellCycleArrest 
+	STEP 3
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: NGF 
+	STEP 6
+		driver nodes: CellCycleArrest 
+
+time cost  = 0.249
+
+------------------------------------------
+source and target: 5 -> 2
+
+	PATH 1 -  #perturbations: 10
+	Sequence of the attractors: 5 -> 2
+	STEP 1
+		driver nodes: RAS RAF JNK MEK ERK AP1 UPAR MMP10 ITGA1 FAK 
+
+	PATH 2 -  #perturbations: 2
+	Sequence of the attractors: 5 -> 7 -> 2
+	STEP 1
+		driver nodes: NGF 
+	STEP 2
+		driver nodes: NGF 
+
+	PATH 3 -  #perturbations: 5
+	Sequence of the attractors: 5 -> 7 -> 1 -> 2
+	STEP 1
+		driver nodes: NGF 
+	STEP 2
+		driver nodes: NGF PI3K CellCycleArrest 
+	STEP 3
+		driver nodes: CellCycleArrest 
+
+	PATH 4 -  #perturbations: 3
+	Sequence of the attractors: 5 -> 3 -> 7 -> 2
+	STEP 1
+		driver nodes: ZFP36_inh 
+	STEP 2
+		driver nodes: NGF 
+	STEP 3
+		driver nodes: NGF 
+
+	PATH 5 -  #perturbations: 6
+	Sequence of the attractors: 5 -> 3 -> 7 -> 1 -> 2
+	STEP 1
+		driver nodes: ZFP36_inh 
+	STEP 2
+		driver nodes: NGF 
+	STEP 3
+		driver nodes: NGF PI3K CellCycleArrest 
+	STEP 4
+		driver nodes: CellCycleArrest 
+
+	PATH 6 -  #perturbations: 4
+	Sequence of the attractors: 5 -> 4 -> 7 -> 2
+	STEP 1
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 2
+		driver nodes: NGF 
+	STEP 3
+		driver nodes: NGF 
+
+	PATH 7 -  #perturbations: 7
+	Sequence of the attractors: 5 -> 4 -> 7 -> 1 -> 2
+	STEP 1
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 2
+		driver nodes: NGF 
+	STEP 3
+		driver nodes: NGF PI3K CellCycleArrest 
+	STEP 4
+		driver nodes: CellCycleArrest 
+
+	PATH 8 -  #perturbations: 5
+	Sequence of the attractors: 5 -> 4 -> 3 -> 7 -> 2
+	STEP 1
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 2
+		driver nodes: CellCycleArrest 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: NGF 
+
+	PATH 9 -  #perturbations: 8
+	Sequence of the attractors: 5 -> 4 -> 3 -> 7 -> 1 -> 2
+	STEP 1
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 2
+		driver nodes: CellCycleArrest 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: NGF PI3K CellCycleArrest 
+	STEP 5
+		driver nodes: CellCycleArrest 
+
+	PATH 10 -  #perturbations: 3
+	Sequence of the attractors: 5 -> 6 -> 7 -> 2
+	STEP 1
+		driver nodes: CellCycleArrest 
+	STEP 2
+		driver nodes: NGF 
+	STEP 3
+		driver nodes: NGF 
+
+	PATH 11 -  #perturbations: 6
+	Sequence of the attractors: 5 -> 6 -> 7 -> 1 -> 2
+	STEP 1
+		driver nodes: CellCycleArrest 
+	STEP 2
+		driver nodes: NGF 
+	STEP 3
+		driver nodes: NGF PI3K CellCycleArrest 
+	STEP 4
+		driver nodes: CellCycleArrest 
+
+	PATH 12 -  #perturbations: 5
+	Sequence of the attractors: 5 -> 6 -> 3 -> 7 -> 2
+	STEP 1
+		driver nodes: CellCycleArrest 
+	STEP 2
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: NGF 
+
+	PATH 13 -  #perturbations: 8
+	Sequence of the attractors: 5 -> 6 -> 3 -> 7 -> 1 -> 2
+	STEP 1
+		driver nodes: CellCycleArrest 
+	STEP 2
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: NGF PI3K CellCycleArrest 
+	STEP 5
+		driver nodes: CellCycleArrest 
+
+	PATH 14 -  #perturbations: 4
+	Sequence of the attractors: 5 -> 6 -> 4 -> 7 -> 2
+	STEP 1
+		driver nodes: CellCycleArrest 
+	STEP 2
+		driver nodes: ZFP36_inh 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: NGF 
+
+	PATH 15 -  #perturbations: 7
+	Sequence of the attractors: 5 -> 6 -> 4 -> 7 -> 1 -> 2
+	STEP 1
+		driver nodes: CellCycleArrest 
+	STEP 2
+		driver nodes: ZFP36_inh 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: NGF PI3K CellCycleArrest 
+	STEP 5
+		driver nodes: CellCycleArrest 
+
+	PATH 16 -  #perturbations: 5
+	Sequence of the attractors: 5 -> 6 -> 4 -> 3 -> 7 -> 2
+	STEP 1
+		driver nodes: CellCycleArrest 
+	STEP 2
+		driver nodes: ZFP36_inh 
+	STEP 3
+		driver nodes: CellCycleArrest 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: NGF 
+
+	PATH 17 -  #perturbations: 8
+	Sequence of the attractors: 5 -> 6 -> 4 -> 3 -> 7 -> 1 -> 2
+	STEP 1
+		driver nodes: CellCycleArrest 
+	STEP 2
+		driver nodes: ZFP36_inh 
+	STEP 3
+		driver nodes: CellCycleArrest 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: NGF PI3K CellCycleArrest 
+	STEP 6
+		driver nodes: CellCycleArrest 
+
+	PATH 18 -  #perturbations: 5
+	Sequence of the attractors: 5 -> 4 -> 6 -> 7 -> 2
+	STEP 1
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 2
+		driver nodes: ZFP36_inh 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: NGF 
+
+	PATH 19 -  #perturbations: 8
+	Sequence of the attractors: 5 -> 4 -> 6 -> 7 -> 1 -> 2
+	STEP 1
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 2
+		driver nodes: ZFP36_inh 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: NGF PI3K CellCycleArrest 
+	STEP 5
+		driver nodes: CellCycleArrest 
+
+	PATH 20 -  #perturbations: 7
+	Sequence of the attractors: 5 -> 4 -> 6 -> 3 -> 7 -> 2
+	STEP 1
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 2
+		driver nodes: ZFP36_inh 
+	STEP 3
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: NGF 
+
+	PATH 21 -  #perturbations: 4
+	Sequence of the attractors: 5 -> 3 -> 4 -> 7 -> 2
+	STEP 1
+		driver nodes: ZFP36_inh 
+	STEP 2
+		driver nodes: CellCycleArrest 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: NGF 
+
+	PATH 22 -  #perturbations: 7
+	Sequence of the attractors: 5 -> 3 -> 4 -> 7 -> 1 -> 2
+	STEP 1
+		driver nodes: ZFP36_inh 
+	STEP 2
+		driver nodes: CellCycleArrest 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: NGF PI3K CellCycleArrest 
+	STEP 5
+		driver nodes: CellCycleArrest 
+
+	PATH 23 -  #perturbations: 5
+	Sequence of the attractors: 5 -> 3 -> 6 -> 7 -> 2
+	STEP 1
+		driver nodes: ZFP36_inh 
+	STEP 2
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: NGF 
+
+	PATH 24 -  #perturbations: 8
+	Sequence of the attractors: 5 -> 3 -> 6 -> 7 -> 1 -> 2
+	STEP 1
+		driver nodes: ZFP36_inh 
+	STEP 2
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: NGF PI3K CellCycleArrest 
+	STEP 5
+		driver nodes: CellCycleArrest 
+
+	PATH 25 -  #perturbations: 6
+	Sequence of the attractors: 5 -> 3 -> 6 -> 4 -> 7 -> 2
+	STEP 1
+		driver nodes: ZFP36_inh 
+	STEP 2
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 3
+		driver nodes: ZFP36_inh 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: NGF 
+
+	PATH 26 -  #perturbations: 9
+	Sequence of the attractors: 5 -> 3 -> 6 -> 4 -> 7 -> 1 -> 2
+	STEP 1
+		driver nodes: ZFP36_inh 
+	STEP 2
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 3
+		driver nodes: ZFP36_inh 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: NGF PI3K CellCycleArrest 
+	STEP 6
+		driver nodes: CellCycleArrest 
+
+	PATH 27 -  #perturbations: 5
+	Sequence of the attractors: 5 -> 3 -> 4 -> 6 -> 7 -> 2
+	STEP 1
+		driver nodes: ZFP36_inh 
+	STEP 2
+		driver nodes: CellCycleArrest 
+	STEP 3
+		driver nodes: ZFP36_inh 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: NGF 
+
+	PATH 28 -  #perturbations: 8
+	Sequence of the attractors: 5 -> 3 -> 4 -> 6 -> 7 -> 1 -> 2
+	STEP 1
+		driver nodes: ZFP36_inh 
+	STEP 2
+		driver nodes: CellCycleArrest 
+	STEP 3
+		driver nodes: ZFP36_inh 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: NGF PI3K CellCycleArrest 
+	STEP 6
+		driver nodes: CellCycleArrest 
+
+	PATH 29 -  #perturbations: 6
+	Sequence of the attractors: 5 -> 6 -> 3 -> 4 -> 7 -> 2
+	STEP 1
+		driver nodes: CellCycleArrest 
+	STEP 2
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 3
+		driver nodes: CellCycleArrest 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: NGF 
+
+	PATH 30 -  #perturbations: 9
+	Sequence of the attractors: 5 -> 6 -> 3 -> 4 -> 7 -> 1 -> 2
+	STEP 1
+		driver nodes: CellCycleArrest 
+	STEP 2
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 3
+		driver nodes: CellCycleArrest 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: NGF PI3K CellCycleArrest 
+	STEP 6
+		driver nodes: CellCycleArrest 
+
+	PATH 31 -  #perturbations: 7
+	Sequence of the attractors: 5 -> 4 -> 3 -> 6 -> 7 -> 2
+	STEP 1
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 2
+		driver nodes: CellCycleArrest 
+	STEP 3
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: NGF 
+
+time cost  = 0.298
+
+------------------------------------------
+source and target: 5 -> 3
+
+	PATH 1 -  #perturbations: 1
+	Sequence of the attractors: 5 -> 3
+	STEP 1
+		driver nodes: ZFP36_inh 
+
+time cost  = 0.01
+
+------------------------------------------
+source and target: 5 -> 4
+
+	PATH 1 -  #perturbations: 2
+	Sequence of the attractors: 5 -> 4
+	STEP 1
+		driver nodes: CellCycleArrest ZFP36_inh 
+
+time cost  = 0.028
+
+------------------------------------------
+source and target: 5 -> 6
+
+	PATH 1 -  #perturbations: 1
+	Sequence of the attractors: 5 -> 6
+	STEP 1
+		driver nodes: CellCycleArrest 
+
+time cost  = 0.01
+
+------------------------------------------
+source and target: 5 -> 7
+
+	PATH 1 -  #perturbations: 1
+	Sequence of the attractors: 5 -> 7
+	STEP 1
+		driver nodes: NGF 
+
+time cost  = 0.029
+
+------------------------------------------
+source and target: 6 -> 1
+
+	PATH 1 -  #perturbations: 10
+	Sequence of the attractors: 6 -> 1
+	STEP 1
+		driver nodes: RAS RAF JNK MEK ERK AP1 UPAR MMP10 ITGA1 FAK 
+
+	PATH 2 -  #perturbations: 4
+	Sequence of the attractors: 6 -> 7 -> 1
+	STEP 1
+		driver nodes: NGF 
+	STEP 2
+		driver nodes: NGF PI3K CellCycleArrest 
+
+	PATH 3 -  #perturbations: 3
+	Sequence of the attractors: 6 -> 7 -> 2 -> 1
+	STEP 1
+		driver nodes: NGF 
+	STEP 2
+		driver nodes: NGF 
+	STEP 3
+		driver nodes: CellCycleArrest 
+
+	PATH 4 -  #perturbations: 6
+	Sequence of the attractors: 6 -> 3 -> 7 -> 1
+	STEP 1
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 2
+		driver nodes: NGF 
+	STEP 3
+		driver nodes: NGF PI3K CellCycleArrest 
+
+	PATH 5 -  #perturbations: 5
+	Sequence of the attractors: 6 -> 3 -> 7 -> 2 -> 1
+	STEP 1
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 2
+		driver nodes: NGF 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: CellCycleArrest 
+
+	PATH 6 -  #perturbations: 5
+	Sequence of the attractors: 6 -> 4 -> 7 -> 1
+	STEP 1
+		driver nodes: ZFP36_inh 
+	STEP 2
+		driver nodes: NGF 
+	STEP 3
+		driver nodes: NGF PI3K CellCycleArrest 
+
+	PATH 7 -  #perturbations: 4
+	Sequence of the attractors: 6 -> 4 -> 7 -> 2 -> 1
+	STEP 1
+		driver nodes: ZFP36_inh 
+	STEP 2
+		driver nodes: NGF 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: CellCycleArrest 
+
+	PATH 8 -  #perturbations: 6
+	Sequence of the attractors: 6 -> 4 -> 3 -> 7 -> 1
+	STEP 1
+		driver nodes: ZFP36_inh 
+	STEP 2
+		driver nodes: CellCycleArrest 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: NGF PI3K CellCycleArrest 
+
+	PATH 9 -  #perturbations: 5
+	Sequence of the attractors: 6 -> 4 -> 3 -> 7 -> 2 -> 1
+	STEP 1
+		driver nodes: ZFP36_inh 
+	STEP 2
+		driver nodes: CellCycleArrest 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: CellCycleArrest 
+
+	PATH 10 -  #perturbations: 5
+	Sequence of the attractors: 6 -> 5 -> 7 -> 1
+	STEP 1
+		driver nodes: CellCycleArrest 
+	STEP 2
+		driver nodes: NGF 
+	STEP 3
+		driver nodes: NGF PI3K CellCycleArrest 
+
+	PATH 11 -  #perturbations: 4
+	Sequence of the attractors: 6 -> 5 -> 7 -> 2 -> 1
+	STEP 1
+		driver nodes: CellCycleArrest 
+	STEP 2
+		driver nodes: NGF 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: CellCycleArrest 
+
+	PATH 12 -  #perturbations: 6
+	Sequence of the attractors: 6 -> 5 -> 3 -> 7 -> 1
+	STEP 1
+		driver nodes: CellCycleArrest 
+	STEP 2
+		driver nodes: ZFP36_inh 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: NGF PI3K CellCycleArrest 
+
+	PATH 13 -  #perturbations: 5
+	Sequence of the attractors: 6 -> 5 -> 3 -> 7 -> 2 -> 1
+	STEP 1
+		driver nodes: CellCycleArrest 
+	STEP 2
+		driver nodes: ZFP36_inh 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: CellCycleArrest 
+
+	PATH 14 -  #perturbations: 7
+	Sequence of the attractors: 6 -> 5 -> 4 -> 7 -> 1
+	STEP 1
+		driver nodes: CellCycleArrest 
+	STEP 2
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: NGF PI3K CellCycleArrest 
+
+	PATH 15 -  #perturbations: 6
+	Sequence of the attractors: 6 -> 5 -> 4 -> 7 -> 2 -> 1
+	STEP 1
+		driver nodes: CellCycleArrest 
+	STEP 2
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: CellCycleArrest 
+
+	PATH 16 -  #perturbations: 8
+	Sequence of the attractors: 6 -> 5 -> 4 -> 3 -> 7 -> 1
+	STEP 1
+		driver nodes: CellCycleArrest 
+	STEP 2
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 3
+		driver nodes: CellCycleArrest 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: NGF PI3K CellCycleArrest 
+
+	PATH 17 -  #perturbations: 7
+	Sequence of the attractors: 6 -> 5 -> 4 -> 3 -> 7 -> 2 -> 1
+	STEP 1
+		driver nodes: CellCycleArrest 
+	STEP 2
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 3
+		driver nodes: CellCycleArrest 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: NGF 
+	STEP 6
+		driver nodes: CellCycleArrest 
+
+	PATH 18 -  #perturbations: 7
+	Sequence of the attractors: 6 -> 4 -> 5 -> 7 -> 1
+	STEP 1
+		driver nodes: ZFP36_inh 
+	STEP 2
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: NGF PI3K CellCycleArrest 
+
+	PATH 19 -  #perturbations: 6
+	Sequence of the attractors: 6 -> 4 -> 5 -> 7 -> 2 -> 1
+	STEP 1
+		driver nodes: ZFP36_inh 
+	STEP 2
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: CellCycleArrest 
+
+	PATH 20 -  #perturbations: 8
+	Sequence of the attractors: 6 -> 4 -> 5 -> 3 -> 7 -> 1
+	STEP 1
+		driver nodes: ZFP36_inh 
+	STEP 2
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 3
+		driver nodes: ZFP36_inh 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: NGF PI3K CellCycleArrest 
+
+	PATH 21 -  #perturbations: 7
+	Sequence of the attractors: 6 -> 4 -> 5 -> 3 -> 7 -> 2 -> 1
+	STEP 1
+		driver nodes: ZFP36_inh 
+	STEP 2
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 3
+		driver nodes: ZFP36_inh 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: NGF 
+	STEP 6
+		driver nodes: CellCycleArrest 
+
+	PATH 22 -  #perturbations: 7
+	Sequence of the attractors: 6 -> 3 -> 4 -> 7 -> 1
+	STEP 1
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 2
+		driver nodes: CellCycleArrest 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: NGF PI3K CellCycleArrest 
+
+	PATH 23 -  #perturbations: 6
+	Sequence of the attractors: 6 -> 3 -> 4 -> 7 -> 2 -> 1
+	STEP 1
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 2
+		driver nodes: CellCycleArrest 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: CellCycleArrest 
+
+	PATH 24 -  #perturbations: 7
+	Sequence of the attractors: 6 -> 3 -> 5 -> 7 -> 1
+	STEP 1
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 2
+		driver nodes: ZFP36_inh 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: NGF PI3K CellCycleArrest 
+
+	PATH 25 -  #perturbations: 6
+	Sequence of the attractors: 6 -> 3 -> 5 -> 7 -> 2 -> 1
+	STEP 1
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 2
+		driver nodes: ZFP36_inh 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: CellCycleArrest 
+
+	PATH 26 -  #perturbations: 9
+	Sequence of the attractors: 6 -> 3 -> 5 -> 4 -> 7 -> 1
+	STEP 1
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 2
+		driver nodes: ZFP36_inh 
+	STEP 3
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: NGF PI3K CellCycleArrest 
+
+	PATH 27 -  #perturbations: 8
+	Sequence of the attractors: 6 -> 3 -> 5 -> 4 -> 7 -> 2 -> 1
+	STEP 1
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 2
+		driver nodes: ZFP36_inh 
+	STEP 3
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: NGF 
+	STEP 6
+		driver nodes: CellCycleArrest 
+
+	PATH 28 -  #perturbations: 9
+	Sequence of the attractors: 6 -> 3 -> 4 -> 5 -> 7 -> 1
+	STEP 1
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 2
+		driver nodes: CellCycleArrest 
+	STEP 3
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: NGF PI3K CellCycleArrest 
+
+	PATH 29 -  #perturbations: 8
+	Sequence of the attractors: 6 -> 3 -> 4 -> 5 -> 7 -> 2 -> 1
+	STEP 1
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 2
+		driver nodes: CellCycleArrest 
+	STEP 3
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: NGF 
+	STEP 6
+		driver nodes: CellCycleArrest 
+
+	PATH 30 -  #perturbations: 7
+	Sequence of the attractors: 6 -> 5 -> 3 -> 4 -> 7 -> 1
+	STEP 1
+		driver nodes: CellCycleArrest 
+	STEP 2
+		driver nodes: ZFP36_inh 
+	STEP 3
+		driver nodes: CellCycleArrest 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: NGF PI3K CellCycleArrest 
+
+	PATH 31 -  #perturbations: 6
+	Sequence of the attractors: 6 -> 5 -> 3 -> 4 -> 7 -> 2 -> 1
+	STEP 1
+		driver nodes: CellCycleArrest 
+	STEP 2
+		driver nodes: ZFP36_inh 
+	STEP 3
+		driver nodes: CellCycleArrest 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: NGF 
+	STEP 6
+		driver nodes: CellCycleArrest 
+
+	PATH 32 -  #perturbations: 7
+	Sequence of the attractors: 6 -> 4 -> 3 -> 5 -> 7 -> 1
+	STEP 1
+		driver nodes: ZFP36_inh 
+	STEP 2
+		driver nodes: CellCycleArrest 
+	STEP 3
+		driver nodes: ZFP36_inh 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: NGF PI3K CellCycleArrest 
+
+	PATH 33 -  #perturbations: 6
+	Sequence of the attractors: 6 -> 4 -> 3 -> 5 -> 7 -> 2 -> 1
+	STEP 1
+		driver nodes: ZFP36_inh 
+	STEP 2
+		driver nodes: CellCycleArrest 
+	STEP 3
+		driver nodes: ZFP36_inh 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: NGF 
+	STEP 6
+		driver nodes: CellCycleArrest 
+
+time cost  = 0.258
+
+------------------------------------------
+source and target: 6 -> 2
+
+	PATH 1 -  #perturbations: 11
+	Sequence of the attractors: 6 -> 2
+	STEP 1
+		driver nodes: RAS RAF JNK MEK ERK AP1 CellCycleArrest UPAR MMP10 ITGA1 FAK 
+
+	PATH 2 -  #perturbations: 2
+	Sequence of the attractors: 6 -> 7 -> 2
+	STEP 1
+		driver nodes: NGF 
+	STEP 2
+		driver nodes: NGF 
+
+	PATH 3 -  #perturbations: 5
+	Sequence of the attractors: 6 -> 7 -> 1 -> 2
+	STEP 1
+		driver nodes: NGF 
+	STEP 2
+		driver nodes: NGF PI3K CellCycleArrest 
+	STEP 3
+		driver nodes: CellCycleArrest 
+
+	PATH 4 -  #perturbations: 4
+	Sequence of the attractors: 6 -> 3 -> 7 -> 2
+	STEP 1
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 2
+		driver nodes: NGF 
+	STEP 3
+		driver nodes: NGF 
+
+	PATH 5 -  #perturbations: 7
+	Sequence of the attractors: 6 -> 3 -> 7 -> 1 -> 2
+	STEP 1
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 2
+		driver nodes: NGF 
+	STEP 3
+		driver nodes: NGF PI3K CellCycleArrest 
+	STEP 4
+		driver nodes: CellCycleArrest 
+
+	PATH 6 -  #perturbations: 3
+	Sequence of the attractors: 6 -> 4 -> 7 -> 2
+	STEP 1
+		driver nodes: ZFP36_inh 
+	STEP 2
+		driver nodes: NGF 
+	STEP 3
+		driver nodes: NGF 
+
+	PATH 7 -  #perturbations: 6
+	Sequence of the attractors: 6 -> 4 -> 7 -> 1 -> 2
+	STEP 1
+		driver nodes: ZFP36_inh 
+	STEP 2
+		driver nodes: NGF 
+	STEP 3
+		driver nodes: NGF PI3K CellCycleArrest 
+	STEP 4
+		driver nodes: CellCycleArrest 
+
+	PATH 8 -  #perturbations: 4
+	Sequence of the attractors: 6 -> 4 -> 3 -> 7 -> 2
+	STEP 1
+		driver nodes: ZFP36_inh 
+	STEP 2
+		driver nodes: CellCycleArrest 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: NGF 
+
+	PATH 9 -  #perturbations: 7
+	Sequence of the attractors: 6 -> 4 -> 3 -> 7 -> 1 -> 2
+	STEP 1
+		driver nodes: ZFP36_inh 
+	STEP 2
+		driver nodes: CellCycleArrest 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: NGF PI3K CellCycleArrest 
+	STEP 5
+		driver nodes: CellCycleArrest 
+
+	PATH 10 -  #perturbations: 3
+	Sequence of the attractors: 6 -> 5 -> 7 -> 2
+	STEP 1
+		driver nodes: CellCycleArrest 
+	STEP 2
+		driver nodes: NGF 
+	STEP 3
+		driver nodes: NGF 
+
+	PATH 11 -  #perturbations: 6
+	Sequence of the attractors: 6 -> 5 -> 7 -> 1 -> 2
+	STEP 1
+		driver nodes: CellCycleArrest 
+	STEP 2
+		driver nodes: NGF 
+	STEP 3
+		driver nodes: NGF PI3K CellCycleArrest 
+	STEP 4
+		driver nodes: CellCycleArrest 
+
+	PATH 12 -  #perturbations: 4
+	Sequence of the attractors: 6 -> 5 -> 3 -> 7 -> 2
+	STEP 1
+		driver nodes: CellCycleArrest 
+	STEP 2
+		driver nodes: ZFP36_inh 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: NGF 
+
+	PATH 13 -  #perturbations: 7
+	Sequence of the attractors: 6 -> 5 -> 3 -> 7 -> 1 -> 2
+	STEP 1
+		driver nodes: CellCycleArrest 
+	STEP 2
+		driver nodes: ZFP36_inh 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: NGF PI3K CellCycleArrest 
+	STEP 5
+		driver nodes: CellCycleArrest 
+
+	PATH 14 -  #perturbations: 5
+	Sequence of the attractors: 6 -> 5 -> 4 -> 7 -> 2
+	STEP 1
+		driver nodes: CellCycleArrest 
+	STEP 2
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: NGF 
+
+	PATH 15 -  #perturbations: 8
+	Sequence of the attractors: 6 -> 5 -> 4 -> 7 -> 1 -> 2
+	STEP 1
+		driver nodes: CellCycleArrest 
+	STEP 2
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: NGF PI3K CellCycleArrest 
+	STEP 5
+		driver nodes: CellCycleArrest 
+
+	PATH 16 -  #perturbations: 6
+	Sequence of the attractors: 6 -> 5 -> 4 -> 3 -> 7 -> 2
+	STEP 1
+		driver nodes: CellCycleArrest 
+	STEP 2
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 3
+		driver nodes: CellCycleArrest 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: NGF 
+
+	PATH 17 -  #perturbations: 9
+	Sequence of the attractors: 6 -> 5 -> 4 -> 3 -> 7 -> 1 -> 2
+	STEP 1
+		driver nodes: CellCycleArrest 
+	STEP 2
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 3
+		driver nodes: CellCycleArrest 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: NGF PI3K CellCycleArrest 
+	STEP 6
+		driver nodes: CellCycleArrest 
+
+	PATH 18 -  #perturbations: 5
+	Sequence of the attractors: 6 -> 4 -> 5 -> 7 -> 2
+	STEP 1
+		driver nodes: ZFP36_inh 
+	STEP 2
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: NGF 
+
+	PATH 19 -  #perturbations: 8
+	Sequence of the attractors: 6 -> 4 -> 5 -> 7 -> 1 -> 2
+	STEP 1
+		driver nodes: ZFP36_inh 
+	STEP 2
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: NGF PI3K CellCycleArrest 
+	STEP 5
+		driver nodes: CellCycleArrest 
+
+	PATH 20 -  #perturbations: 6
+	Sequence of the attractors: 6 -> 4 -> 5 -> 3 -> 7 -> 2
+	STEP 1
+		driver nodes: ZFP36_inh 
+	STEP 2
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 3
+		driver nodes: ZFP36_inh 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: NGF 
+
+	PATH 21 -  #perturbations: 9
+	Sequence of the attractors: 6 -> 4 -> 5 -> 3 -> 7 -> 1 -> 2
+	STEP 1
+		driver nodes: ZFP36_inh 
+	STEP 2
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 3
+		driver nodes: ZFP36_inh 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: NGF PI3K CellCycleArrest 
+	STEP 6
+		driver nodes: CellCycleArrest 
+
+	PATH 22 -  #perturbations: 5
+	Sequence of the attractors: 6 -> 3 -> 4 -> 7 -> 2
+	STEP 1
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 2
+		driver nodes: CellCycleArrest 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: NGF 
+
+	PATH 23 -  #perturbations: 8
+	Sequence of the attractors: 6 -> 3 -> 4 -> 7 -> 1 -> 2
+	STEP 1
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 2
+		driver nodes: CellCycleArrest 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: NGF PI3K CellCycleArrest 
+	STEP 5
+		driver nodes: CellCycleArrest 
+
+	PATH 24 -  #perturbations: 5
+	Sequence of the attractors: 6 -> 3 -> 5 -> 7 -> 2
+	STEP 1
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 2
+		driver nodes: ZFP36_inh 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: NGF 
+
+	PATH 25 -  #perturbations: 8
+	Sequence of the attractors: 6 -> 3 -> 5 -> 7 -> 1 -> 2
+	STEP 1
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 2
+		driver nodes: ZFP36_inh 
+	STEP 3
+		driver nodes: NGF 
+	STEP 4
+		driver nodes: NGF PI3K CellCycleArrest 
+	STEP 5
+		driver nodes: CellCycleArrest 
+
+	PATH 26 -  #perturbations: 7
+	Sequence of the attractors: 6 -> 3 -> 5 -> 4 -> 7 -> 2
+	STEP 1
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 2
+		driver nodes: ZFP36_inh 
+	STEP 3
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: NGF 
+
+	PATH 27 -  #perturbations: 10
+	Sequence of the attractors: 6 -> 3 -> 5 -> 4 -> 7 -> 1 -> 2
+	STEP 1
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 2
+		driver nodes: ZFP36_inh 
+	STEP 3
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: NGF PI3K CellCycleArrest 
+	STEP 6
+		driver nodes: CellCycleArrest 
+
+	PATH 28 -  #perturbations: 7
+	Sequence of the attractors: 6 -> 3 -> 4 -> 5 -> 7 -> 2
+	STEP 1
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 2
+		driver nodes: CellCycleArrest 
+	STEP 3
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: NGF 
+
+	PATH 29 -  #perturbations: 10
+	Sequence of the attractors: 6 -> 3 -> 4 -> 5 -> 7 -> 1 -> 2
+	STEP 1
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 2
+		driver nodes: CellCycleArrest 
+	STEP 3
+		driver nodes: CellCycleArrest ZFP36_inh 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: NGF PI3K CellCycleArrest 
+	STEP 6
+		driver nodes: CellCycleArrest 
+
+	PATH 30 -  #perturbations: 5
+	Sequence of the attractors: 6 -> 5 -> 3 -> 4 -> 7 -> 2
+	STEP 1
+		driver nodes: CellCycleArrest 
+	STEP 2
+		driver nodes: ZFP36_inh 
+	STEP 3
+		driver nodes: CellCycleArrest 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: NGF 
+
+	PATH 31 -  #perturbations: 8
+	Sequence of the attractors: 6 -> 5 -> 3 -> 4 -> 7 -> 1 -> 2
+	STEP 1
+		driver nodes: CellCycleArrest 
+	STEP 2
+		driver nodes: ZFP36_inh 
+	STEP 3
+		driver nodes: CellCycleArrest 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: NGF PI3K CellCycleArrest 
+	STEP 6
+		driver nodes: CellCycleArrest 
+
+	PATH 32 -  #perturbations: 5
+	Sequence of the attractors: 6 -> 4 -> 3 -> 5 -> 7 -> 2
+	STEP 1
+		driver nodes: ZFP36_inh 
+	STEP 2
+		driver nodes: CellCycleArrest 
+	STEP 3
+		driver nodes: ZFP36_inh 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: NGF 
+
+	PATH 33 -  #perturbations: 8
+	Sequence of the attractors: 6 -> 4 -> 3 -> 5 -> 7 -> 1 -> 2
+	STEP 1
+		driver nodes: ZFP36_inh 
+	STEP 2
+		driver nodes: CellCycleArrest 
+	STEP 3
+		driver nodes: ZFP36_inh 
+	STEP 4
+		driver nodes: NGF 
+	STEP 5
+		driver nodes: NGF PI3K CellCycleArrest 
+	STEP 6
+		driver nodes: CellCycleArrest 
+
+time cost  = 0.212
+
+------------------------------------------
+source and target: 6 -> 3
+
+	PATH 1 -  #perturbations: 2
+	Sequence of the attractors: 6 -> 3
+	STEP 1
+		driver nodes: CellCycleArrest ZFP36_inh 
+
+time cost  = 0.02
+
+------------------------------------------
+source and target: 6 -> 4
+
+	PATH 1 -  #perturbations: 1
+	Sequence of the attractors: 6 -> 4
+	STEP 1
+		driver nodes: ZFP36_inh 
+
+time cost  = 0.006
+
+------------------------------------------
+source and target: 6 -> 5
+
+	PATH 1 -  #perturbations: 1
+	Sequence of the attractors: 6 -> 5
+	STEP 1
+		driver nodes: CellCycleArrest 
+
+time cost  = 0.007
+
+------------------------------------------
+source and target: 6 -> 7
+
+	PATH 1 -  #perturbations: 1
+	Sequence of the attractors: 6 -> 7
+	STEP 1
+		driver nodes: NGF 
+
+time cost  = 0.019
+
+------------------------------------------
+source and target: 7 -> 1
+
+	PATH 1 -  #perturbations: 3
+	Sequence of the attractors: 7 -> 1
+	STEP 1
+		driver nodes: NGF PI3K CellCycleArrest 
+
+	PATH 2 -  #perturbations: 2
+	Sequence of the attractors: 7 -> 2 -> 1
+	STEP 1
+		driver nodes: NGF 
+	STEP 2
+		driver nodes: CellCycleArrest 
+
+time cost  = 0.015
+
+------------------------------------------
+source and target: 7 -> 2
+
+	PATH 1 -  #perturbations: 1
+	Sequence of the attractors: 7 -> 2
+	STEP 1
+		driver nodes: NGF 
+
+time cost  = 0.007
+
+------------------------------------------
+source and target: 7 -> 3
+
+	PATH 1 -  #perturbations: 9
+	Sequence of the attractors: 7 -> 3
+	STEP 1
+		driver nodes: RAS NGF TRKA JNK AP1 UPAR MMP10 ITGA1 FAK 
+
+	PATH 2 -  #perturbations: 8
+	Sequence of the attractors: 7 -> 2 -> 3
+	STEP 1
+		driver nodes: NGF 
+	STEP 2
+		driver nodes: RAS JNK AP1 UPAR MMP10 ITGA1 FAK 
+
+time cost  = 0.089
+
+------------------------------------------
+source and target: 7 -> 4
+
+	PATH 1 -  #perturbations: 10
+	Sequence of the attractors: 7 -> 4
+	STEP 1
+		driver nodes: RAS NGF TRKA JNK AP1 CellCycleArrest UPAR MMP10 ITGA1 FAK 
+
+	PATH 2 -  #perturbations: 9
+	Sequence of the attractors: 7 -> 2 -> 4
+	STEP 1
+		driver nodes: NGF 
+	STEP 2
+		driver nodes: RAS JNK AP1 CellCycleArrest UPAR MMP10 ITGA1 FAK 
+
+	PATH 3 -  #perturbations: 9
+	Sequence of the attractors: 7 -> 2 -> 1 -> 4
+	STEP 1
+		driver nodes: NGF 
+	STEP 2
+		driver nodes: CellCycleArrest 
+	STEP 3
+		driver nodes: RAS JNK AP1 UPAR MMP10 ITGA1 FAK 
+
+	PATH 4 -  #perturbations: 9
+	Sequence of the attractors: 7 -> 2 -> 3 -> 4
+	STEP 1
+		driver nodes: NGF 
+	STEP 2
+		driver nodes: RAS JNK AP1 UPAR MMP10 ITGA1 FAK 
+	STEP 3
+		driver nodes: CellCycleArrest 
+
+time cost  = 0.096
+
+------------------------------------------
+source and target: 7 -> 5
+
+	PATH 1 -  #perturbations: 10
+	Sequence of the attractors: 7 -> 5
+	STEP 1
+		driver nodes: RAS NGF TRKA JNK AP1 ZFP36_inh UPAR MMP10 ITGA1 FAK 
+
+	PATH 2 -  #perturbations: 9
+	Sequence of the attractors: 7 -> 2 -> 5
+	STEP 1
+		driver nodes: NGF 
+	STEP 2
+		driver nodes: RAS JNK AP1 ZFP36_inh UPAR MMP10 ITGA1 FAK 
+
+	PATH 3 -  #perturbations: 9
+	Sequence of the attractors: 7 -> 2 -> 3 -> 5
+	STEP 1
+		driver nodes: NGF 
+	STEP 2
+		driver nodes: RAS JNK AP1 UPAR MMP10 ITGA1 FAK 
+	STEP 3
+		driver nodes: ZFP36_inh 
+
+time cost  = 0.094
+
+------------------------------------------
+source and target: 7 -> 6
+
+	PATH 1 -  #perturbations: 11
+	Sequence of the attractors: 7 -> 6
+	STEP 1
+		driver nodes: RAS NGF TRKA JNK AP1 CellCycleArrest ZFP36_inh UPAR MMP10 ITGA1 FAK 
+
+	PATH 2 -  #perturbations: 10
+	Sequence of the attractors: 7 -> 2 -> 6
+	STEP 1
+		driver nodes: NGF 
+	STEP 2
+		driver nodes: RAS JNK AP1 CellCycleArrest ZFP36_inh UPAR MMP10 ITGA1 FAK 
+
+	PATH 3 -  #perturbations: 10
+	Sequence of the attractors: 7 -> 2 -> 1 -> 6
+	STEP 1
+		driver nodes: NGF 
+	STEP 2
+		driver nodes: CellCycleArrest 
+	STEP 3
+		driver nodes: RAS JNK AP1 ZFP36_inh UPAR MMP10 ITGA1 FAK 
+
+	PATH 4 -  #perturbations: 10
+	Sequence of the attractors: 7 -> 2 -> 3 -> 6
+	STEP 1
+		driver nodes: NGF 
+	STEP 2
+		driver nodes: RAS JNK AP1 UPAR MMP10 ITGA1 FAK 
+	STEP 3
+		driver nodes: CellCycleArrest ZFP36_inh 
+
+	PATH 5 -  #perturbations: 10
+	Sequence of the attractors: 7 -> 2 -> 4 -> 6
+	STEP 1
+		driver nodes: NGF 
+	STEP 2
+		driver nodes: RAS JNK AP1 CellCycleArrest UPAR MMP10 ITGA1 FAK 
+	STEP 3
+		driver nodes: ZFP36_inh 
+
+	PATH 6 -  #perturbations: 10
+	Sequence of the attractors: 7 -> 2 -> 5 -> 6
+	STEP 1
+		driver nodes: NGF 
+	STEP 2
+		driver nodes: RAS JNK AP1 ZFP36_inh UPAR MMP10 ITGA1 FAK 
+	STEP 3
+		driver nodes: CellCycleArrest 
+
+	PATH 7 -  #perturbations: 10
+	Sequence of the attractors: 7 -> 2 -> 1 -> 4 -> 6
+	STEP 1
+		driver nodes: NGF 
+	STEP 2
+		driver nodes: CellCycleArrest 
+	STEP 3
+		driver nodes: RAS JNK AP1 UPAR MMP10 ITGA1 FAK 
+	STEP 4
+		driver nodes: ZFP36_inh 
+
+	PATH 8 -  #perturbations: 10
+	Sequence of the attractors: 7 -> 2 -> 3 -> 4 -> 6
+	STEP 1
+		driver nodes: NGF 
+	STEP 2
+		driver nodes: RAS JNK AP1 UPAR MMP10 ITGA1 FAK 
+	STEP 3
+		driver nodes: CellCycleArrest 
+	STEP 4
+		driver nodes: ZFP36_inh 
+
+	PATH 9 -  #perturbations: 10
+	Sequence of the attractors: 7 -> 2 -> 3 -> 5 -> 6
+	STEP 1
+		driver nodes: NGF 
+	STEP 2
+		driver nodes: RAS JNK AP1 UPAR MMP10 ITGA1 FAK 
+	STEP 3
+		driver nodes: ZFP36_inh 
+	STEP 4
+		driver nodes: CellCycleArrest 
+
+time cost  = 0.115
+*****************************************************************************
+
+print all the time costs:
+
+0	0.01	0.081	0.071	0.082	0.07	0.113	
+0.011	0	0.074	0.073	0.074	0.08	0.022	
+0.198	0.195	0	0.009	0.006	0.017	0.016	
+0.186	0.213	0.007	0	0.016	0.005	0.016	
+0.249	0.298	0.01	0.028	0	0.01	0.029	
+0.258	0.212	0.02	0.006	0.007	0	0.019	
+0.015	0.007	0.089	0.096	0.094	0.115	0	
+
+print the number of driver nodes:
+
+0	1	8	7	9	8	1	
+1	0	7	8	8	9	1	
+3,4,5,6,7,8,9,11	2,3,4,5,6,7,8,9,10	0	1	1	2	1	
+3,4,5,6,7,8,9,10	2,3,4,5,6,7,8,9,10,11	1	0	2	1	1	
+3,4,5,6,7,8,9,11	2,3,4,5,6,7,8,9,10	1	2	0	1	1	
+3,4,5,6,7,8,9,10	2,3,4,5,6,7,8,9,10,11	2	1	1	0	1	
+2,3	1	8,9	9,10	9,10	10,11	0	
+
+
+total time costs=3.207
+
+Command line: ./mcmas -steadystates -asynbn -newpred -newtarjan -control 3 -compositional 2 ../model/hematopoietic.ispl
+======================== find attractor #1 : 1 states ========================
+: 34 nodes 1 leaves 1 minterms
+0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-0-  1
+
+======================== find attractor #2 : 1 states ========================
+: 34 nodes 1 leaves 1 minterms
+1-1-1-1-0-0-1-1-0-1-0-0-1-1-1-1-1-1-0-0-1-0-1-1-1-0-1-1-1-1-1-0-0-  1
+
+======================== find attractor #3 : 1 states ========================
+: 34 nodes 1 leaves 1 minterms
+0-0-0-1-0-1-1-0-1-0-0-1-1-0-1-1-0-1-0-0-0-1-1-1-0-0-0-0-0-0-0-0-0-  1
+
+======================== find attractor #4 : 1 states ========================
+: 34 nodes 1 leaves 1 minterms
+0-1-1-1-0-1-1-1-0-0-0-0-1-1-1-1-1-1-0-0-1-0-1-1-1-0-1-1-1-1-1-0-0-  1
+
+======================== find attractor #5 : 1 states ========================
+: 34 nodes 1 leaves 1 minterms
+0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-  1
+
+number of attractors = 5
+time for attractor detection=0.555
+
+========= REMOVE UNDIRED ATTRACTORS =========
+
+attractors for the sequential control (5)
+attractor #1 : 1 states
+: 34 nodes 1 leaves 1 minterms
+0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-0-  1
+
+(CD19_gene=false and Cd19=false and Cebpa=true and Cebpa_gene=false and Cebpb=false and Csf1=false and Csf1r=false and Csf1r_activated=false and E2A=false and E2A_gene=false and E2A_protein_active=false and Ebf1=false and Ebf1_gene=false and Egr1=false and Ets1=false and Flt3=false and Foxo1=false and Foxo1_gene=false and Gfi1=true and IL7=false and IL7r=false and IL7r_activated=false and Id2=false and Ikzf1=false and Mac1=false and Mac1_gene=false and Mef2c=false and Pax5=false and Pax5_gene=false and Pax5_protein_active=false and Runx1=false and Spi1=false and Spi1_2=false)
+
+attractor #2 : 1 states
+: 34 nodes 1 leaves 1 minterms
+1-1-1-1-0-0-1-1-0-1-0-0-1-1-1-1-1-1-0-0-1-0-1-1-1-0-1-1-1-1-1-0-0-  1
+
+(CD19_gene=true and Cd19=true and Cebpa=false and Cebpa_gene=false and Cebpb=false and Csf1=false and Csf1r=false and Csf1r_activated=false and E2A=true and E2A_gene=true and E2A_protein_active=true and Ebf1=true and Ebf1_gene=true and Egr1=true and Ets1=true and Flt3=false and Foxo1=true and Foxo1_gene=true and Gfi1=true and IL7=false and IL7r=true and IL7r_activated=false and Id2=false and Ikzf1=true and Mac1=true and Mac1_gene=true and Mef2c=true and Pax5=true and Pax5_gene=true and Pax5_protein_active=true and Runx1=true and Spi1=true and Spi1_2=false)
+
+attractor #3 : 1 states
+: 34 nodes 1 leaves 1 minterms
+0-0-0-1-0-1-1-0-1-0-0-1-1-0-1-1-0-1-0-0-0-1-1-1-0-0-0-0-0-0-0-0-0-  1
+
+(CD19_gene=false and Cd19=false and Cebpa=true and Cebpa_gene=true and Cebpb=false and Csf1=false and Csf1r=true and Csf1r_activated=false and E2A=false and E2A_gene=false and E2A_protein_active=false and Ebf1=false and Ebf1_gene=false and Egr1=false and Ets1=false and Flt3=true and Foxo1=false and Foxo1_gene=false and Gfi1=true and IL7=false and IL7r=true and IL7r_activated=false and Id2=false and Ikzf1=true and Mac1=true and Mac1_gene=true and Mef2c=true and Pax5=false and Pax5_gene=false and Pax5_protein_active=false and Runx1=true and Spi1=true and Spi1_2=false)
+
+attractor #4 : 1 states
+: 34 nodes 1 leaves 1 minterms
+0-1-1-1-0-1-1-1-0-0-0-0-1-1-1-1-1-1-0-0-1-0-1-1-1-0-1-1-1-1-1-0-0-  1
+
+(CD19_gene=false and Cd19=false and Cebpa=true and Cebpa_gene=false and Cebpb=false and Csf1=false and Csf1r=false and Csf1r_activated=false and E2A=true and E2A_gene=true and E2A_protein_active=true and Ebf1=true and Ebf1_gene=true and Egr1=true and Ets1=true and Flt3=false and Foxo1=true and Foxo1_gene=true and Gfi1=true and IL7=false and IL7r=true and IL7r_activated=false and Id2=false and Ikzf1=true and Mac1=true and Mac1_gene=true and Mef2c=true and Pax5=true and Pax5_gene=true and Pax5_protein_active=true and Runx1=true and Spi1=true and Spi1_2=false)
+
+attractor #5 : 1 states
+: 34 nodes 1 leaves 1 minterms
+0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-  1
+
+(CD19_gene=false and Cd19=false and Cebpa=false and Cebpa_gene=false and Cebpb=false and Csf1=false and Csf1r=false and Csf1r_activated=false and E2A=false and E2A_gene=false and E2A_protein_active=false and Ebf1=false and Ebf1_gene=false and Egr1=false and Ets1=false and Flt3=false and Foxo1=false and Foxo1_gene=false and Gfi1=false and IL7=false and IL7r=false and IL7r_activated=false and Id2=false and Ikzf1=false and Mac1=false and Mac1_gene=false and Mef2c=false and Pax5=false and Pax5_gene=false and Pax5_protein_active=false and Runx1=false and Spi1=false and Spi1_2=false)
+
+
+========= START HYBRID CONTROL (ASY+DECOMP) =========
+
+
+------------------------------------------
+source and target: 1 -> 2
+
+	PATH 1 -  #perturbations: 12
+	Sequence of the attractors: 1 -> 2
+	STEP 1
+		driver nodes: Ebf1_gene Cebpa Ikzf1 Ebf1 Ets1 E2A Pax5 Foxo1 E2A_gene Pax5_gene Pax5_protein_active E2A_protein_active 
+
+time cost  = 0.259
+
+------------------------------------------
+source and target: 1 -> 3
+
+	PATH 1 -  #perturbations: 4
+	Sequence of the attractors: 1 -> 3
+	STEP 1
+		driver nodes: Ikzf1 Runx1 Spi1 Mef2c 
+
+time cost  = 0.146
+
+------------------------------------------
+source and target: 1 -> 4
+
+	PATH 1 -  #perturbations: 11
+	Sequence of the attractors: 1 -> 4
+	STEP 1
+		driver nodes: Ebf1_gene Ikzf1 Ebf1 Ets1 E2A Pax5 Foxo1 E2A_gene Pax5_gene Pax5_protein_active E2A_protein_active 
+
+time cost  = 0.182
+
+------------------------------------------
+source and target: 1 -> 5
+
+	PATH 1 -  #perturbations: 1
+	Sequence of the attractors: 1 -> 5
+	STEP 1
+		driver nodes: Cebpa 
+
+time cost  = 0.041
+
+------------------------------------------
+source and target: 2 -> 1
+
+	PATH 1 -  #perturbations: 4
+	Sequence of the attractors: 2 -> 1
+	STEP 1
+		driver nodes: Ebf1_gene Cebpa Ebf1 Spi1 
+
+time cost  = 0.421
+
+------------------------------------------
+source and target: 2 -> 3
+
+	PATH 1 -  #perturbations: 6
+	Sequence of the attractors: 2 -> 3
+	STEP 1
+		driver nodes: Ebf1_gene Ebf1 Pax5 Egr1 Pax5_gene Pax5_protein_active 
+
+time cost  = 0.416
+
+------------------------------------------
+source and target: 2 -> 4
+
+	PATH 1 -  #perturbations: 1
+	Sequence of the attractors: 2 -> 4
+	STEP 1
+		driver nodes: Cebpa 
+
+time cost  = 0.035
+
+------------------------------------------
+source and target: 2 -> 5
+
+	PATH 1 -  #perturbations: 3
+	Sequence of the attractors: 2 -> 5
+	STEP 1
+		driver nodes: Ebf1_gene Ebf1 Spi1 
+
+time cost  = 0.354
+
+------------------------------------------
+source and target: 3 -> 1
+
+	PATH 1 -  #perturbations: 1
+	Sequence of the attractors: 3 -> 1
+	STEP 1
+		driver nodes: Spi1 
+
+time cost  = 0.211
+
+------------------------------------------
+source and target: 3 -> 2
+
+	PATH 1 -  #perturbations: 12
+	Sequence of the attractors: 3 -> 2
+	STEP 1
+		driver nodes: Ebf1_gene Cebpa Ebf1 Ets1 E2A Pax5 Cebpa_gene Foxo1 E2A_gene Pax5_gene Pax5_protein_active E2A_protein_active 
+
+	PATH 2 -  #perturbations: 11
+	Sequence of the attractors: 3 -> 4 -> 2
+	STEP 1
+		driver nodes: Ebf1_gene Ebf1 Ets1 E2A Pax5 Foxo1 E2A_gene Pax5_gene Pax5_protein_active E2A_protein_active 
+	STEP 2
+		driver nodes: Cebpa 
+
+time cost  = 0.086
+
+------------------------------------------
+source and target: 3 -> 4
+
+	PATH 1 -  #perturbations: 10
+	Sequence of the attractors: 3 -> 4
+	STEP 1
+		driver nodes: Ebf1_gene Ebf1 Ets1 E2A Pax5 Foxo1 E2A_gene Pax5_gene Pax5_protein_active E2A_protein_active 
+
+time cost  = 0.024
+
+------------------------------------------
+source and target: 3 -> 5
+
+	PATH 1 -  #perturbations: 3
+	Sequence of the attractors: 3 -> 5
+	STEP 1
+		driver nodes: Cebpa Spi1 Cebpa_gene 
+
+	PATH 2 -  #perturbations: 2
+	Sequence of the attractors: 3 -> 1 -> 5
+	STEP 1
+		driver nodes: Spi1 
+	STEP 2
+		driver nodes: Cebpa 
+
+time cost  = 0.244
+
+------------------------------------------
+source and target: 4 -> 1
+
+	PATH 1 -  #perturbations: 3
+	Sequence of the attractors: 4 -> 1
+	STEP 1
+		driver nodes: Ebf1_gene Ebf1 Spi1 
+
+time cost  = 0.511
+
+------------------------------------------
+source and target: 4 -> 2
+
+	PATH 1 -  #perturbations: 1
+	Sequence of the attractors: 4 -> 2
+	STEP 1
+		driver nodes: Cebpa 
+
+time cost  = 0.012
+
+------------------------------------------
+source and target: 4 -> 3
+
+	PATH 1 -  #perturbations: 6
+	Sequence of the attractors: 4 -> 3
+	STEP 1
+		driver nodes: Ebf1_gene Ebf1 Pax5 Egr1 Pax5_gene Pax5_protein_active 
+
+time cost  = 0.393
+
+------------------------------------------
+source and target: 4 -> 5
+
+	PATH 1 -  #perturbations: 4
+	Sequence of the attractors: 4 -> 5
+	STEP 1
+		driver nodes: Ebf1_gene Cebpa Ebf1 Spi1 
+
+time cost  = 0.479
+
+------------------------------------------
+source and target: 5 -> 1
+
+	PATH 1 -  #perturbations: 1
+	Sequence of the attractors: 5 -> 1
+	STEP 1
+		driver nodes: Cebpa 
+
+time cost  = 0.2
+
+------------------------------------------
+source and target: 5 -> 2
+
+	PATH 1 -  #perturbations: 11
+	Sequence of the attractors: 5 -> 2
+	STEP 1
+		driver nodes: Ebf1_gene Ikzf1 Ebf1 Ets1 E2A Pax5 Foxo1 E2A_gene Pax5_gene Pax5_protein_active E2A_protein_active 
+
+time cost  = 0.05
+
+------------------------------------------
+source and target: 5 -> 3
+
+	PATH 1 -  #perturbations: 5
+	Sequence of the attractors: 5 -> 3
+	STEP 1
+		driver nodes: Ikzf1 Runx1 Spi1 Gfi1 Mef2c 
+
+time cost  = 0.333
+
+------------------------------------------
+source and target: 5 -> 4
+
+	PATH 1 -  #perturbations: 13
+	Sequence of the attractors: 5 -> 4
+	STEP 1
+		driver nodes: Ebf1_gene Cebpa Ikzf1 Ebf1 Ets1 E2A Pax5 Gfi1 Foxo1 E2A_gene Pax5_gene Pax5_protein_active E2A_protein_active 
+
+	PATH 2 -  #perturbations: 12
+	Sequence of the attractors: 5 -> 1 -> 4
+	STEP 1
+		driver nodes: Cebpa 
+	STEP 2
+		driver nodes: Ebf1_gene Ikzf1 Ebf1 Ets1 E2A Pax5 Foxo1 E2A_gene Pax5_gene Pax5_protein_active E2A_protein_active 
+
+	PATH 3 -  #perturbations: 12
+	Sequence of the attractors: 5 -> 2 -> 4
+	STEP 1
+		driver nodes: Ebf1_gene Ikzf1 Ebf1 Ets1 E2A Pax5 Foxo1 E2A_gene Pax5_gene Pax5_protein_active E2A_protein_active 
+	STEP 2
+		driver nodes: Cebpa 
+
+time cost  = 0.469
+*****************************************************************************
+
+print all the time costs:
+
+0	0.259	0.146	0.182	0.041	
+0.421	0	0.416	0.035	0.354	
+0.211	0.086	0	0.024	0.244	
+0.511	0.012	0.393	0	0.479	
+0.2	0.05	0.333	0.469	0	
+
+print the number of driver nodes:
+
+0	12	4	11	1	
+4	0	6	1	3	
+1	11,12	0	10	2,3	
+3	1	6	0	4	
+1	11	5	12,13	0	
+
+
+total time costs=4.867
+
+Command line: ./mcmas -steadystates -asynbn -newpred -newtarjan -control 3 -compositional 2 ../model/bortezomib.ispl
+======================== find attractor #1 : 1 states ========================
+: 68 nodes 1 leaves 1 minterms
+0-0-0-0-0-0-1-0-1-0-0-0-1-0-0-0-1-0-1-1-0-1-0-0-0-1-1-1-0-0-0-0-0-0-0-0-0-1-1-0-1-1-0-0-1-0-1-1-0-0-1-1-1-1-1-1-0-1-0-1-1-0-0-0-0-0-0-  1
+
+======================== find attractor #2 : 1 states ========================
+: 68 nodes 1 leaves 1 minterms
+1-0-0-1-1-1-0-1-0-0-1-1-0-1-0-1-0-0-0-0-1-0-1-0-1-0-0-1-0-1-1-1-1-1-1-0-1-0-0-0-0-0-1-1-1-0-0-0-0-1-0-1-0-0-0-0-1-0-1-0-0-0-0-0-0-0-0-  1
+
+======================== find attractor #3 : 1 states ========================
+: 68 nodes 1 leaves 1 minterms
+0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-1-0-1-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-  1
+
+======================== find attractor #4 : 1 states ========================
+: 68 nodes 1 leaves 1 minterms
+1-0-1-1-1-1-0-1-0-0-1-1-1-1-1-1-0-0-0-0-1-0-1-1-1-0-0-1-1-1-1-1-1-1-1-0-1-0-0-0-0-0-1-1-0-1-0-0-1-1-0-1-0-1-0-0-1-0-1-0-0-1-0-0-0-0-0-  1
+
+======================== find attractor #5 : 1 states ========================
+: 68 nodes 1 leaves 1 minterms
+1-0-1-1-1-1-0-1-0-0-1-1-0-1-1-1-0-0-0-0-1-0-1-1-1-0-0-1-1-1-1-1-1-1-1-0-1-0-0-0-0-0-1-1-0-1-0-0-1-1-0-1-0-0-0-0-1-0-1-0-0-1-0-0-0-0-0-  1
+
+number of attractors = 5
+time for attractor detection=4.769
+
+========= REMOVE UNDIRED ATTRACTORS =========
+
+attractors for the sequential control (5)
+attractor #1 : 1 states
+: 68 nodes 1 leaves 1 minterms
+0-0-0-0-0-0-1-0-1-0-0-0-1-0-0-0-1-0-1-1-0-1-0-0-0-1-1-1-0-0-0-0-0-0-0-0-0-1-1-0-1-1-0-0-1-0-1-1-0-0-1-1-1-1-1-1-0-1-0-1-1-0-0-0-0-0-0-  1
+
+(AKT=false and ATM=true and Apo=true and BAD=true and BAX=true and BCL2=false and BID=true and Bclxl=false and Bort=false and CDK2=false and CDK4=false and CDK6=false and CIAP=false and CYCD=false and CYCE=false and Cas3=true and Cas8=true and Cas9=true and Cl_PARP=true and Cytc=true and DNAPK=true and DNAdam=true and ERK=false and FLIP=false and Fas=true and FasL=true and GROWTH=false and IKK=false and IL6=false and JAK1=false and JAK2=false and JNK=false and MAPK=false and MDM=false and MEK1=false and MEKK=false and MEKK2=true and MITO=true and MKK4=true and MYC=false and NIK=false and PI3K=false and PIP3=false and PTEN=true and Prot=true and RAC=true and RAF=false and RAS=false and RIP=false and SHP1=false and STAT3=false and STRESS=true and Smac=true and TNFA=false and TNFAR=false and TRAF3=true and XIAP=false and XX=false and cJun=false and gp130=false and p21=true and p27=true and p53=true and pIKB=false and pNFKB=false and pRB=false and pSTAT3=false)
+
+attractor #2 : 1 states
+: 68 nodes 1 leaves 1 minterms
+1-0-0-1-1-1-0-1-0-0-1-1-0-1-0-1-0-0-0-0-1-0-1-0-1-0-0-1-0-1-1-1-1-1-1-0-1-0-0-0-0-0-1-1-1-0-0-0-0-1-0-1-0-0-0-0-1-0-1-0-0-0-0-0-0-0-0-  1
+
+(AKT=false and ATM=false and Apo=false and BAD=true and BAX=false and BCL2=false and BID=false and Bclxl=false and Bort=false and CDK2=true and CDK4=true and CDK6=true and CIAP=false and CYCD=true and CYCE=true and Cas3=false and Cas8=false and Cas9=false and Cl_PARP=false and Cytc=false and DNAPK=false and DNAdam=false and ERK=true and FLIP=true and Fas=false and FasL=false and GROWTH=true and IKK=false and IL6=true and JAK1=true and JAK2=true and JNK=false and MAPK=true and MDM=false and MEK1=true and MEKK=true and MEKK2=false and MITO=false and MKK4=false and MYC=true and NIK=false and PI3K=true and PIP3=false and PTEN=false and Prot=true and RAC=false and RAF=true and RAS=true and RIP=false and SHP1=false and STAT3=true and STRESS=false and Smac=false and TNFA=false and TNFAR=false and TRAF3=true and XIAP=true and XX=false and cJun=false and gp130=true and p21=false and p27=false and p53=false and pIKB=false and pNFKB=true and pRB=true and pSTAT3=true)
+
+attractor #3 : 1 states
+: 68 nodes 1 leaves 1 minterms
+0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-0-1-0-0-0-0-0-0-0-0-0-0-1-0-0-0-0-1-0-1-0-0-0-0-0-0-0-0-0-0-0-0-0-0-0-  1
+
+(AKT=false and ATM=false and Apo=false and BAD=true and BAX=false and BCL2=false and BID=false and Bclxl=false and Bort=false and CDK2=false and CDK4=false and CDK6=false and CIAP=false and CYCD=false and CYCE=false and Cas3=false and Cas8=false and Cas9=false and Cl_PARP=false and Cytc=false and DNAPK=false and DNAdam=false and ERK=false and FLIP=false and Fas=false and FasL=false and GROWTH=false and IKK=false and IL6=false and JAK1=false and JAK2=false and JNK=false and MAPK=false and MDM=false and MEK1=false and MEKK=false and MEKK2=false and MITO=false and MKK4=false and MYC=false and NIK=false and PI3K=false and PIP3=false and PTEN=false and Prot=true and RAC=false and RAF=false and RAS=false and RIP=false and SHP1=false and STAT3=true and STRESS=false and Smac=false and TNFA=false and TNFAR=false and TRAF3=true and XIAP=false and XX=false and cJun=false and gp130=true and p21=false and p27=false and p53=false and pIKB=false and pNFKB=false and pRB=false and pSTAT3=false)
+
+attractor #4 : 1 states
+: 68 nodes 1 leaves 1 minterms
+1-0-1-1-1-1-0-1-0-0-1-1-1-1-1-1-0-0-0-0-1-0-1-1-1-0-0-1-1-1-1-1-1-1-1-0-1-0-0-0-0-0-1-1-0-1-0-0-1-1-0-1-0-1-0-0-1-0-1-0-0-1-0-0-0-0-0-  1
+
+(AKT=true and ATM=false and Apo=false and BAD=false and BAX=false and BCL2=true and BID=false and Bclxl=true and Bort=false and CDK2=true and CDK4=true and CDK6=true and CIAP=false and CYCD=true and CYCE=true and Cas3=false and Cas8=false and Cas9=false and Cl_PARP=false and Cytc=false and DNAPK=false and DNAdam=false and ERK=true and FLIP=true and Fas=true and FasL=true and GROWTH=true and IKK=true and IL6=true and JAK1=true and JAK2=true and JNK=false and MAPK=true and MDM=true and MEK1=true and MEKK=true and MEKK2=false and MITO=false and MKK4=false and MYC=true and NIK=false and PI3K=true and PIP3=true and PTEN=false and Prot=true and RAC=false and RAF=true and RAS=true and RIP=false and SHP1=false and STAT3=true and STRESS=false and Smac=false and TNFA=false and TNFAR=false and TRAF3=true and XIAP=true and XX=false and cJun=false and gp130=true and p21=false and p27=false and p53=false and pIKB=true and pNFKB=true and pRB=true and pSTAT3=true)
+
+attractor #5 : 1 states
+: 68 nodes 1 leaves 1 minterms
+1-0-1-1-1-1-0-1-0-0-1-1-0-1-1-1-0-0-0-0-1-0-1-1-1-0-0-1-1-1-1-1-1-1-1-0-1-0-0-0-0-0-1-1-0-1-0-0-1-1-0-1-0-0-0-0-1-0-1-0-0-1-0-0-0-0-0-  1
+
+(AKT=true and ATM=false and Apo=false and BAD=false and BAX=false and BCL2=true and BID=false and Bclxl=true and Bort=false and CDK2=true and CDK4=true and CDK6=true and CIAP=false and CYCD=true and CYCE=true and Cas3=false and Cas8=false and Cas9=false and Cl_PARP=false and Cytc=false and DNAPK=false and DNAdam=false and ERK=true and FLIP=true and Fas=false and FasL=false and GROWTH=true and IKK=true and IL6=true and JAK1=true and JAK2=true and JNK=false and MAPK=true and MDM=true and MEK1=true and MEKK=true and MEKK2=false and MITO=false and MKK4=false and MYC=true and NIK=false and PI3K=true and PIP3=true and PTEN=false and Prot=true and RAC=false and RAF=true and RAS=true and RIP=false and SHP1=false and STAT3=true and STRESS=false and Smac=false and TNFA=false and TNFAR=false and TRAF3=true and XIAP=true and XX=false and cJun=false and gp130=true and p21=false and p27=false and p53=false and pIKB=true and pNFKB=true and pRB=true and pSTAT3=true)
+
+
+========= START HYBRID CONTROL (ASY+DECOMP) =========
+
+
+------------------------------------------
+source and target: 1 -> 2
+
+	PATH 1 -  #perturbations: 21
+	Sequence of the attractors: 1 -> 2
+	STEP 1
+		driver nodes: Cas3 JAK1 Fas pNFKB STAT3 JAK2 MITO Smac BAX pSTAT3 XIAP DNAPK DNAdam IL6 gp130 p53 FasL BID ATM Cas8 STRESS 
+
+	PATH 2 -  #perturbations: 19
+	Sequence of the attractors: 1 -> 3 -> 2
+	STEP 1
+		driver nodes: Cas9 Cas3 Fas MITO BAX DNAPK DNAdam Cytc p53 FasL BID ATM Cas8 STRESS 
+	STEP 2
+		driver nodes: JAK1 pNFKB JAK2 pSTAT3 IL6 
+
+	PATH 3 -  #perturbations: 18
+	Sequence of the attractors: 1 -> 4 -> 2
+	STEP 1
+		driver nodes: PIP3 Cas9 Cas3 IKK pNFKB pIKB DNAPK DNAdam PTEN p53 FLIP ATM Cas8 STRESS AKT 
+	STEP 2
+		driver nodes: PIP3 Fas FasL 
+
+	PATH 4 -  #perturbations: 14
+	Sequence of the attractors: 1 -> 5 -> 2
+	STEP 1
+		driver nodes: PIP3 Cas9 Cas3 Fas DNAPK DNAdam PTEN p53 FasL ATM Cas8 STRESS AKT 
+	STEP 2
+		driver nodes: PIP3 
+
+	PATH 5 -  #perturbations: 18
+	Sequence of the attractors: 1 -> 5 -> 4 -> 2
+	STEP 1
+		driver nodes: PIP3 Cas9 Cas3 Fas DNAPK DNAdam PTEN p53 FasL ATM Cas8 STRESS AKT 
+	STEP 2
+		driver nodes: Fas FasL 
+	STEP 3
+		driver nodes: PIP3 Fas FasL 
+
+	PATH 6 -  #perturbations: 18
+	Sequence of the attractors: 1 -> 4 -> 5 -> 2
+	STEP 1
+		driver nodes: PIP3 Cas9 Cas3 IKK pNFKB pIKB DNAPK DNAdam PTEN p53 FLIP ATM Cas8 STRESS AKT 
+	STEP 2
+		driver nodes: Fas FasL 
+	STEP 3
+		driver nodes: PIP3 
+
+	PATH 7 -  #perturbations: 16
+	Sequence of the attractors: 1 -> 3 -> 5 -> 2
+	STEP 1
+		driver nodes: Cas9 Cas3 Fas MITO BAX DNAPK DNAdam Cytc p53 FasL BID ATM Cas8 STRESS 
+	STEP 2
+		driver nodes: PIP3 
+	STEP 3
+		driver nodes: PIP3 
+
+	PATH 8 -  #perturbations: 20
+	Sequence of the attractors: 1 -> 3 -> 5 -> 4 -> 2
+	STEP 1
+		driver nodes: Cas9 Cas3 Fas MITO BAX DNAPK DNAdam Cytc p53 FasL BID ATM Cas8 STRESS 
+	STEP 2
+		driver nodes: PIP3 
+	STEP 3
+		driver nodes: Fas FasL 
+	STEP 4
+		driver nodes: PIP3 Fas FasL 
+
+time cost  = 14.85
+
+------------------------------------------
+source and target: 1 -> 3
+
+	PATH 1 -  #perturbations: 14
+	Sequence of the attractors: 1 -> 3
+	STEP 1
+		driver nodes: Cas9 Cas3 Fas MITO BAX DNAPK DNAdam Cytc p53 FasL BID ATM Cas8 STRESS 
+
+time cost  = 7.619
+
+------------------------------------------
+source and target: 1 -> 4
+
+	PATH 1 -  #perturbations: 15
+	Sequence of the attractors: 1 -> 4
+	STEP 1
+		driver nodes: PIP3 Cas9 Cas3 IKK pNFKB pIKB DNAPK DNAdam PTEN p53 FLIP ATM Cas8 STRESS AKT 
+
+time cost  = 9.281
+
+------------------------------------------
+source and target: 1 -> 5
+
+	PATH 1 -  #perturbations: 13
+	Sequence of the attractors: 1 -> 5
+	STEP 1
+		driver nodes: PIP3 Cas9 Cas3 Fas DNAPK DNAdam PTEN p53 FasL ATM Cas8 STRESS AKT 
+
+time cost  = 9.851
+
+------------------------------------------
+source and target: 2 -> 1
+
+	PATH 1 -  #perturbations: 2
+	Sequence of the attractors: 2 -> 1
+	STEP 1
+		driver nodes: DNAdam STRESS 
+
+time cost  = 17.35
+
+------------------------------------------
+source and target: 2 -> 3
+
+	PATH 1 -  #perturbations: 4
+	Sequence of the attractors: 2 -> 3
+	STEP 1
+		driver nodes: JAK1 pNFKB pSTAT3 IL6 
+
+time cost  = 0.935
+
+------------------------------------------
+source and target: 2 -> 4
+
+	PATH 1 -  #perturbations: 4
+	Sequence of the attractors: 2 -> 4
+	STEP 1
+		driver nodes: PIP3 Fas FasL AKT 
+
+	PATH 2 -  #perturbations: 3
+	Sequence of the attractors: 2 -> 5 -> 4
+	STEP 1
+		driver nodes: PIP3 
+	STEP 2
+		driver nodes: Fas FasL 
+
+time cost  = 2.39
+
+------------------------------------------
+source and target: 2 -> 5
+
+	PATH 1 -  #perturbations: 1
+	Sequence of the attractors: 2 -> 5
+	STEP 1
+		driver nodes: PIP3 
+
+time cost  = 0.451
+
+------------------------------------------
+source and target: 3 -> 1
+
+	PATH 1 -  #perturbations: 2
+	Sequence of the attractors: 3 -> 1
+	STEP 1
+		driver nodes: DNAdam STRESS 
+
+time cost  = 6.16
+
+------------------------------------------
+source and target: 3 -> 2
+
+	PATH 1 -  #perturbations: 5
+	Sequence of the attractors: 3 -> 2
+	STEP 1
+		driver nodes: JAK1 pNFKB JAK2 pSTAT3 IL6 
+
+	PATH 2 -  #perturbations: 2
+	Sequence of the attractors: 3 -> 5 -> 2
+	STEP 1
+		driver nodes: PIP3 
+	STEP 2
+		driver nodes: PIP3 
+
+time cost  = 3.771
+
+------------------------------------------
+source and target: 3 -> 4
+
+	PATH 1 -  #perturbations: 8
+	Sequence of the attractors: 3 -> 4
+	STEP 1
+		driver nodes: PIP3 Fas IKK pNFKB pIKB FasL FLIP AKT 
+
+	PATH 2 -  #perturbations: 3
+	Sequence of the attractors: 3 -> 5 -> 4
+	STEP 1
+		driver nodes: PIP3 
+	STEP 2
+		driver nodes: Fas FasL 
+
+	PATH 3 -  #perturbations: 6
+	Sequence of the attractors: 3 -> 5 -> 2 -> 4
+	STEP 1
+		driver nodes: PIP3 
+	STEP 2
+		driver nodes: PIP3 
+	STEP 3
+		driver nodes: PIP3 Fas FasL AKT 
+
+time cost  = 4.806
+
+------------------------------------------
+source and target: 3 -> 5
+
+	PATH 1 -  #perturbations: 1
+	Sequence of the attractors: 3 -> 5
+	STEP 1
+		driver nodes: PIP3 
+
+time cost  = 0.519
+
+------------------------------------------
+source and target: 4 -> 1
+
+	PATH 1 -  #perturbations: 1
+	Sequence of the attractors: 4 -> 1
+	STEP 1
+		driver nodes: PIP3 
+
+time cost  = 5.182
+
+------------------------------------------
+source and target: 4 -> 2
+
+	PATH 1 -  #perturbations: 3
+	Sequence of the attractors: 4 -> 2
+	STEP 1
+		driver nodes: PIP3 Fas FasL 
+
+time cost  = 2.621
+
+------------------------------------------
+source and target: 4 -> 3
+
+	PATH 1 -  #perturbations: 10
+	Sequence of the attractors: 4 -> 3
+	STEP 1
+		driver nodes: PIP3 JAK1 Fas IKK pNFKB pSTAT3 pIKB IL6 FasL AKT 
+
+	PATH 2 -  #perturbations: 7
+	Sequence of the attractors: 4 -> 2 -> 3
+	STEP 1
+		driver nodes: PIP3 Fas FasL 
+	STEP 2
+		driver nodes: JAK1 pNFKB pSTAT3 IL6 
+
+	PATH 3 -  #perturbations: 7
+	Sequence of the attractors: 4 -> 5 -> 2 -> 3
+	STEP 1
+		driver nodes: Fas FasL 
+	STEP 2
+		driver nodes: PIP3 
+	STEP 3
+		driver nodes: JAK1 pNFKB pSTAT3 IL6 
+
+time cost  = 4.922
+
+------------------------------------------
+source and target: 4 -> 5
+
+	PATH 1 -  #perturbations: 2
+	Sequence of the attractors: 4 -> 5
+	STEP 1
+		driver nodes: Fas FasL 
+
+time cost  = 2.683
+
+------------------------------------------
+source and target: 5 -> 1
+
+	PATH 1 -  #perturbations: 2
+	Sequence of the attractors: 5 -> 1
+	STEP 1
+		driver nodes: DNAdam STRESS 
+
+time cost  = 6.652
+
+------------------------------------------
+source and target: 5 -> 2
+
+	PATH 1 -  #perturbations: 1
+	Sequence of the attractors: 5 -> 2
+	STEP 1
+		driver nodes: PIP3 
+
+time cost  = 1.464
+
+------------------------------------------
+source and target: 5 -> 3
+
+	PATH 1 -  #perturbations: 8
+	Sequence of the attractors: 5 -> 3
+	STEP 1
+		driver nodes: PIP3 JAK1 IKK pNFKB pSTAT3 pIKB IL6 AKT 
+
+	PATH 2 -  #perturbations: 5
+	Sequence of the attractors: 5 -> 2 -> 3
+	STEP 1
+		driver nodes: PIP3 
+	STEP 2
+		driver nodes: JAK1 pNFKB pSTAT3 IL6 
+
+time cost  = 4.336
+
+------------------------------------------
+source and target: 5 -> 4
+
+	PATH 1 -  #perturbations: 2
+	Sequence of the attractors: 5 -> 4
+	STEP 1
+		driver nodes: Fas FasL 
+
+time cost  = 1.068
+*****************************************************************************
+
+print all the time costs:
+
+0	14.85	7.619	9.281	9.851	
+17.35	0	0.935	2.39	0.451	
+6.16	3.771	0	4.806	0.519	
+5.182	2.621	4.922	0	2.683	
+6.652	1.464	4.336	1.068	0	
+
+print the number of driver nodes:
+
+0	14,16,18,19,20,21	14	15	13	
+2	0	4	3,4	1	
+2	2,5	0	3,6,8	1	
+1	3	7,10	0	2	
+2	1	5,8	2	0	
+
+
+total time costs=106.911

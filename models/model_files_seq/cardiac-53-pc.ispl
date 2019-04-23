@@ -1,0 +1,95 @@
+Agent M
+	Vars:
+		BMP2: boolean;
+		canWnt: boolean;
+		Dkk1: boolean;
+		Fgf8: boolean;
+		Foxc12: boolean;
+		GATAs: boolean;
+		Isl1: boolean;
+		Mesp1: boolean;
+		Nkx25: boolean;
+		Tbx1: boolean;
+		Tbx5: boolean;
+		exogenBMP2I: boolean;
+		exogenBMP2II: boolean;
+		exogenCanWntI: boolean;
+		exogenCanWntII: boolean;
+		pc: 0..10;
+	end Vars
+	RedStates:
+		BMP2=true and Dkk1=false and Fgf8=false and Foxc12=false and GATAs=false and Isl1=false and Mesp1=false and Nkx25=false and Tbx1=false and Tbx5=false and canWnt=false and exogenBMP2I=true and exogenBMP2II=true and exogenCanWntI=false and exogenCanWntII=false;
+	end RedStates
+	Actions = {none};
+	Protocol:
+		Other: {none};
+	end Protocol
+	Evolution:
+		BMP2=true if  (~canWnt)&exogenBMP2II=true;
+		BMP2=false if  (~canWnt)&exogenBMP2II=false;
+		canWnt=true if  exogenCanWntII=true;
+		canWnt=false if  exogenCanWntII=false;
+		Dkk1=true if  Mesp1|(canWnt&(~exogenBMP2II))=true;
+		Dkk1=false if  Mesp1|(canWnt&(~exogenBMP2II))=false;
+		Fgf8=true if  (~Mesp1)&(Foxc12|Tbx1)=true;
+		Fgf8=false if  (~Mesp1)&(Foxc12|Tbx1)=false;
+		Foxc12=true if  canWnt&exogenCanWntII=true;
+		Foxc12=false if  canWnt&exogenCanWntII=false;
+		GATAs=true if  Nkx25|Mesp1|Tbx5=true;
+		GATAs=false if  Nkx25|Mesp1|Tbx5=false;
+		Isl1=true if  Tbx1|Mesp1|Fgf8|(canWnt&exogenCanWntII)=true;
+		Isl1=false if  Tbx1|Mesp1|Fgf8|(canWnt&exogenCanWntII)=false;
+		Mesp1=true if  canWnt&(~exogenBMP2II)=true;
+		Mesp1=false if  canWnt&(~exogenBMP2II)=false;
+		Nkx25=true if  (Isl1&GATAs)|Tbx1|(Mesp1&Dkk1)|(BMP2&GATAs)|Tbx5=true;
+		Nkx25=false if  (Isl1&GATAs)|Tbx1|(Mesp1&Dkk1)|(BMP2&GATAs)|Tbx5=false;
+		Tbx1=true if  Foxc12=true;
+		Tbx1=false if  Foxc12=false;
+		Tbx5=true if  (~(Tbx1|canWnt))&(Nkx25|Tbx5|Mesp1)&(~(Dkk1&(~(Mesp1|Tbx5))))=true;
+		Tbx5=false if  (~(Tbx1|canWnt))&(Nkx25|Tbx5|Mesp1)&(~(Dkk1&(~(Mesp1|Tbx5))))=false;
+		exogenBMP2I=true if  exogenBMP2I=true;
+		exogenBMP2I=false if  exogenBMP2I=false;
+		exogenBMP2II=true if  exogenBMP2I=true;
+		exogenBMP2II=false if  exogenBMP2I=false;
+		exogenCanWntI=true if  exogenCanWntI=true;
+		exogenCanWntI=false if  exogenCanWntI=false;
+		exogenCanWntII=true if  exogenCanWntI=true;
+		exogenCanWntII=false if  exogenCanWntI=false;
+
+
+		BMP2=true and pc=pc+1 if pc<10 and BMP2=false;
+		BMP2=false and pc=pc+1 if pc<10  and BMP2=true;
+		canWnt=true and pc=pc+1 if pc<10 and canWnt=false;
+		canWnt=false and pc=pc+1 if pc<10  and canWnt=true;
+		Dkk1=true and pc=pc+1 if pc<10 and Dkk1=false;
+		Dkk1=false and pc=pc+1 if pc<10  and Dkk1=true;
+		Fgf8=true and pc=pc+1 if pc<10 and Fgf8=false;
+		Fgf8=false and pc=pc+1 if pc<10  and Fgf8=true;
+		Foxc12=true and pc=pc+1 if pc<10 and Foxc12=false;
+		Foxc12=false and pc=pc+1 if pc<10  and Foxc12=true;
+		GATAs=true and pc=pc+1 if pc<10 and GATAs=false;
+		GATAs=false and pc=pc+1 if pc<10  and GATAs=true;
+		Isl1=true and pc=pc+1 if pc<10 and Isl1=false;
+		Isl1=false and pc=pc+1 if pc<10  and Isl1=true;
+		Mesp1=true and pc=pc+1 if pc<10 and Mesp1=false;
+		Mesp1=false and pc=pc+1 if pc<10  and Mesp1=true;
+		Nkx25=true and pc=pc+1 if pc<10 and Nkx25=false;
+		Nkx25=false and pc=pc+1 if pc<10  and Nkx25=true;
+		Tbx1=true and pc=pc+1 if pc<10 and Tbx1=false;
+		Tbx1=false and pc=pc+1 if pc<10  and Tbx1=true;
+		Tbx5=true and pc=pc+1 if pc<10 and Tbx5=false;
+		Tbx5=false and pc=pc+1 if pc<10  and Tbx5=true;
+		exogenBMP2I=true and pc=pc+1 if pc<10 and exogenBMP2I=false;
+		exogenBMP2I=false and pc=pc+1 if pc<10  and exogenBMP2I=true;
+		exogenBMP2II=true and pc=pc+1 if pc<10 and exogenBMP2II=false;
+		exogenBMP2II=false and pc=pc+1 if pc<10  and exogenBMP2II=true;
+		exogenCanWntI=true and pc=pc+1 if pc<10 and exogenCanWntI=false;
+		exogenCanWntI=false and pc=pc+1 if pc<10  and exogenCanWntI=true;
+		exogenCanWntII=true and pc=pc+1 if pc<10 and exogenCanWntII=false;
+		exogenCanWntII=false and pc=pc+1 if pc<10  and exogenCanWntII=true;
+end Evolution
+end Agent
+
+InitStates
+		M.BMP2=false and M.Dkk1=true and M.Fgf8=false and M.Foxc12=true and M.GATAs=true and M.Isl1=true and M.Mesp1=true and M.Nkx25=true and M.Tbx1=true and M.Tbx5=false and M.canWnt=true and M.exogenBMP2I=false and M.exogenBMP2II=false and M.exogenCanWntI=true and M.exogenCanWntII=true;
+end InitStates

@@ -1,0 +1,113 @@
+Agent M
+	Vars:
+		NGF : boolean;
+		TRKA : boolean;
+		RAS : boolean;
+		RAF : boolean;
+		JNK : boolean;
+		MEK : boolean;
+		ERK : boolean;
+		PI3K : boolean;
+		AKT : boolean;
+		PLC : boolean;
+		NPY : boolean;
+		JUNB : boolean;
+		P53 : boolean;
+		AP1 : boolean;
+		KLF2 : boolean;
+		KLF4 : boolean;
+		KLF5 : boolean;
+		KLF6 : boolean;
+		KLF10 : boolean;
+		MAFF : boolean;
+		DUSP6 : boolean;
+		FOSL1 : boolean;
+		CITED2 : boolean;
+		BTG2 : boolean;
+		ZFP36 : boolean;
+		ZFP36_inh : boolean;
+		MYC : boolean;
+		UPAR : boolean;
+		MMP10 : boolean;
+		ITGA1 : boolean;
+		FAK : boolean;
+		CellDifferentiation : boolean;
+		CellCycleArrest : boolean;
+	end Vars
+	Actions = {none};
+	Protocol:
+		Other: {none};
+	end Protocol
+	Evolution:
+		NGF=true if NGF=true;
+		NGF=false if NGF=false;
+		TRKA=true if NGF=true;
+		TRKA=false if NGF=false;
+		RAS=true if TRKA|FAK=true;
+		RAS=false if TRKA|FAK=false;
+		RAF=true if (PLC|JNK|RAS)=true;
+		RAF=false if (PLC|JNK|RAS)=false;
+		JNK=true if RAS=true;
+		JNK=false if RAS=false;
+		MEK=true if RAF=true;
+		MEK=false if RAF=false;
+		ERK=true if MEK=true;
+		ERK=false if MEK=false;
+		PI3K=true if NGF=true;
+		PI3K=false if NGF=false;
+		AKT=true if PI3K=true;
+		AKT=false if PI3K=false;
+		PLC=true if NGF|NPY=true;
+		PLC=false if NGF|NPY=false;
+		NPY=true if AP1=true;
+		NPY=false if AP1=false;
+		JUNB=true if JNK=true;
+		JUNB=false if JNK=false;
+		P53=true if ERK|JNK=true;
+		P53=false if ERK|JNK=false;
+		AP1=true if JNK&ERK=true;
+		AP1=false if JNK&ERK=false;
+		KLF2=true if PI3K&JNK=true;
+		KLF2=false if PI3K&JNK=false;
+		KLF4=true if JNK&(~CellCycleArrest)=true;
+		KLF4=false if JNK&(~CellCycleArrest)=false;
+		KLF5=true if P53&ERK=true;
+		KLF5=false if P53&ERK=false;
+		KLF6=true if JNK=true;
+		KLF6=false if JNK=false;
+		KLF10=true if PI3K&JNK=true;
+		KLF10=false if PI3K&JNK=false;
+		MAFF=true if JNK=true;
+		MAFF=false if JNK=false;
+		DUSP6=true if JNK=true;
+		DUSP6=false if JNK=false;
+		FOSL1=true if JNK=true;
+		FOSL1=false if JNK=false;
+		CITED2=true if ERK&JNK=true;
+		CITED2=false if ERK&JNK=false;
+		BTG2=true if PI3K&JNK&(~CellCycleArrest)=true;
+		BTG2=false if PI3K&JNK&(~CellCycleArrest)=false;
+		ZFP36=true if JNK&ERK&(~ZFP36_inh)=true;
+		ZFP36=false if JNK&ERK&(~ZFP36_inh)=false;
+		ZFP36_inh=true if ZFP36|ZFP36_inh=true;
+		ZFP36_inh=false if ZFP36|ZFP36_inh=false;
+		MYC=true if JNK&ERK&AKT=true;
+		MYC=false if JNK&ERK&AKT=false;
+		UPAR=true if AP1=true;
+		UPAR=false if AP1=false;
+		MMP10=true if UPAR=true;
+		MMP10=false if UPAR=false;
+		ITGA1=true if MMP10=true;
+		ITGA1=false if MMP10=false;
+		FAK=true if ITGA1=true;
+		FAK=false if ITGA1=false;
+		CellDifferentiation=true if UPAR&(DUSP6|FOSL1|CITED2|KLF5|KLF6|ZFP36|MYC|JUNB|MAFF)=true;
+		CellDifferentiation=false if UPAR&(DUSP6|FOSL1|CITED2|KLF5|KLF6|ZFP36|MYC|JUNB|MAFF)=false;
+		CellCycleArrest=true if CellCycleArrest|(KLF4&BTG2)=true;
+		CellCycleArrest=false if CellCycleArrest|(KLF4&BTG2)=false;
+	end Evolution
+end Agent
+
+InitStates
+		M.NGF=false or M.NGF=true;
+end InitStates
