@@ -1,4 +1,4 @@
-This repository provides experimental data for our paper titled "Sequential Reprogramming of Boolean NetworksMade Practical" by Hugues Mandon, Cui Su, Stefan Haar, Jun Pang and Loïc Paulevé. 
+This repository provides experimental data for our paper titled "Sequential Reprogramming of Boolean Networks Made Practical" by Hugues Mandon, Cui Su, Stefan Haar, Jun Pang and Loïc Paulevé. 
 
 Folders:
 (1) executable_files: executable files for macOS and Linux and a brief user mannual. 
